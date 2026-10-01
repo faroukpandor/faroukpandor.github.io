@@ -70,3 +70,39 @@ No repository should be promoted to a flagship public portfolio asset merely bec
 ## Current strategic sequence
 
 **Personal identity → evidence ledger → repository archaeology → canonical enterprise map → selected case studies → commercial proof.**
+
+
+## Repository archaeology update — October 2026
+
+Further review of previously unresolved repositories produced these working dispositions:
+
+| Repository | Observed role | Working disposition |
+|---|---|---|
+| AGRISAGE | Agricultural intelligence / AgTech; related to AgriSolutions, Master Farmer, AgriLink and AnimalSphere | **Developing / canonical AgriSage360 candidate** — avoid generic ERP expansion |
+| AGRINEXUS | README explicitly labels it legacy/consolidation reference | **Legacy / consolidate** — no new overlapping development |
+| smartfarm | Offline-first farm operating system; defined as operational system of record underneath AgriSage360 | **Developing / reusable core** — subject to implementation/evidence audit |
+| AnimalHealth | Animal-health research/technical component; private; default branch master | **Developing / specialist component** — retain under AnimalSphere/animal-health architecture |
+| THE-ENGINE | Generic AI Studio app shell | **Prototype / requires identification** |
+| NOVA-OS | Explicitly legacy/reference | **Legacy / consolidate** |
+| NEXUSFLOW-RPG | Generic AI Studio app shell | **Prototype / requires identification** |
+| AEXON | Windows administration/maintenance PWA with audit, repair, cleaning and security modules | **Developing / technical utility** — security-sensitive functions require careful testing |
+| AETHER-X-Global-AI-Ecosystem-Platform | Generic AI Studio app shell | **Prototype / requires identification** |
+| Aether-AI-Orchestrator | Minimal AI Studio shell | **Prototype / requires identification** |
+| EliteDir---Professional-Product-Service-Directory | Generic AI Studio app shell | **Prototype / requires identification; possible directory overlap** |
+| EcoOffset-Nexus | Minimal AI Studio shell | **Prototype / requires identification** |
+| PULA | Generic AI Studio app shell | **Prototype / requires identification** |
+| AI-Personal-Command-Center | Generic AI Studio app shell | **Prototype / requires identification; likely internal unless evidence says otherwise** |
+| AXON---Personal-Value-Engine | Generic AI Studio app shell | **Prototype / requires identification; do not duplicate personal-brand architecture** |
+| AGRISAGE360 | Could not be retrieved under the expected owner/path during this audit | **Requires repository-path/state reconciliation** — do not infer deletion from the 404 alone |
+
+### Key architecture findings
+
+1. The agricultural portfolio has a clearer separation: smartfarm can serve as an operational system-of-record concept, AgriSage360/AGRISAGE as intelligence/AgTech, and AgriSolutions as field execution. AGRINEXUS should not become another platform.
+2. AnimalHealth is confirmed as a private specialist component on master, not a public standalone commercial veterinary service.
+3. Several newer repositories remain identifiable only as AI Studio shells from their README. They should not be promoted into the public personal portfolio until source code, purpose, evidence and overlap are inspected.
+4. AEXON is materially different from the generic shells and merits a dedicated technical/security review before commercial positioning.
+5. The personal brand should show selected evidence, not every repository. Repository count is not a credibility metric.
+
+### Required next audit fields
+
+For unresolved prototypes, inspect source tree, package/dependencies, implemented screens/features, environment/API dependencies, deployment state, data handling, security, license, history and overlap before assigning a canonical enterprise or public status.
