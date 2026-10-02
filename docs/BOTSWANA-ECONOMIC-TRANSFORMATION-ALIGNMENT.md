@@ -105,6 +105,76 @@ Because national plans are implemented spatially as well as sectorally, future o
 
 This is particularly important for agriculture, logistics, tourism, facilities services, construction/maintenance, local manufacturing and rural digitalisation.
 
+## 2E. Historical NDP continuity — NDP 1 through NDP 12
+
+The enterprise alignment model should not start with NDP 12. Botswana's development-planning system has evolved continuously since independence. NPC states that national planning began with the Transitional Plan for Social and Economic Development and that successive NDPs guide strategies, programmes, projects, revenue, expenditure and human-resource projections. NDP preparation is preceded by District Development Plans and is consultative. [Historical source: NPC National Development Plans]
+
+### Planning sequence
+
+| Planning era | Plan | Approximate period | Strategic significance for this enterprise |
+|---|---|---:|---|
+| Independence transition | Transitional Plan for Social & Economic Development | 1966–1969 | Established the basic development-planning model; infrastructure, water, education, agriculture and state capacity were foundational. |
+| Early NDP era | NDP 1 | 1968–1973 | Expanded infrastructure and productive/social foundations from a very low base. |
+| Early NDP era | NDP 2 | 1970–1975 | Continued rural, infrastructure, education and productive-capacity development during rapid economic change. |
+| Early NDP era | NDP 3 | 1973–1978 | Continued rural development, infrastructure, productivity and diversification concerns. |
+| Consolidation era | NDP 4 | 1976–1981 | Strong rural-development, income/productivity, water, sanitation and social-service emphasis alongside economic growth. |
+| Resource-development era | NDP 5 | 1981–1985/86 | Continued infrastructure, human development, agriculture and productive-sector development as mineral revenues expanded. |
+| Resource-development era | NDP 6 | 1985/86–1990/91 | Macroeconomic stability, infrastructure, agriculture, manufacturing, transport/communications and diversification remained important. |
+| Diversification/competitiveness era | NDP 7 | 1991/92–1996/97 | Anticipated slower mineral-sector growth and placed greater emphasis on an enabling environment for domestic/foreign investment, employment and growth. |
+| Vision 2016 era | NDP 8 | 1997/98–2002/03 | Implemented within the Vision 2016 era; infrastructure, services, water, energy, private investment and diversification remained central. |
+| Vision 2016 era | NDP 9 | 2003/04–2008/09 | Explicitly framed around sustainable/diversified development and competitiveness in global markets. |
+| Vision 2016 final-plan era | NDP 10 | 2009/10–2015/16 | Accelerating achievement of Vision 2016; strengthened results-based management and continued focus on diversification, competitiveness and fiscal sustainability. |
+| Vision 2036 first-plan era | NDP 11 | 2017/18–2022/23 | First NDP designed to deliver Vision 2036, with Sustainable Economic Development, Human/Social Development, Sustainable Environment, and Governance/Peace/Security as the Vision pillars. |
+| Transition to new planning architecture | Second TNDP | 2023/24–2024/25, subsequently extended during transition | Bridged NDP 11 and NDP 12 and introduced reforms including stronger alignment with Vision 2036/NTS, political-cycle alignment, regional/international integration and spatial planning. |
+| Current | NDP 12 | 2025/26–2029/30 | First NDP explicitly used to implement the NTS; prioritised sector-based, private-sector-driven transformation with implementation, monitoring and evaluation. |
+
+**Historical-period control:** Some early plan dates overlap in secondary sources because Botswana's planning cycle evolved during the early post-independence period. Where an investment, policy-history or legal claim depends on an exact plan boundary, use the primary plan document rather than this summary.
+
+### What changed — and what persisted
+
+Across the plans, the terminology and institutional mechanisms changed substantially, but several persistent development problems recur:
+
+1. Build infrastructure and productive capacity.
+2. Develop water, energy, transport and communications.
+3. Raise agricultural productivity and rural incomes.
+4. Develop human capital and social services.
+5. Create employment and citizen participation.
+6. Reduce vulnerability to external shocks and resource dependence.
+7. Diversify production and exports.
+8. Improve private-sector competitiveness.
+9. Strengthen implementation and results management.
+10. Increase value from Botswana's resources and economic capabilities.
+
+The strategic lesson for this enterprise is therefore not to chase each plan as a separate opportunity list. It is to identify **persistent national problems whose current policy expression has changed over time**.
+
+### Historical-to-current opportunity logic
+
+**Persistent problem → historical intervention pattern → current bottleneck → current NDP12/BETP expression → private-sector opportunity → measurable customer outcome**
+
+Examples:
+
+- Water scarcity → water infrastructure/management → efficiency/reliability problem → current water/infrastructure priorities → water-efficiency services/products.
+- Low agricultural productivity → repeated agricultural programmes → modern value-chain bottlenecks → current agriculture/agro-processing priorities → farm, input, logistics, processing and market-access services.
+- Limited diversification → repeated diversification policies → concentrated economic exposure → current NTS/NDP12/BETP diversification → new products, services, manufacturing and exports.
+- Limited manufacturing/value addition → industrialisation/manufacturing efforts → import dependence/value-chain gaps → current manufacturing/value-add agenda → sourcing, production coordination and local manufacturing.
+- Employment/productivity → repeated human-capital/employment emphasis → MSE capability gaps → current private-sector-led model → business operations, digitalisation, sourcing and provider orchestration.
+- Market access → domestic market development and later competitiveness/export emphasis → fragmented suppliers/buyers → current export-led agenda → aggregation, standards, market intelligence and export coordination.
+- Infrastructure/service delivery → repeated public investment → maintenance and service gaps → current infrastructure/private-participation agenda → facilities, maintenance, logistics and specialist coordination.
+
+## 2F. Historical alignment rule
+
+Do not claim that a current enterprise is implementing an old NDP.
+
+Instead classify historical relevance as:
+
+- **CONTINUITY** — addresses a persistent development problem.
+- **EVOLUTION** — same problem, materially changed policy/technology solution.
+- **CURRENT** — explicitly relevant to NDP 12/current programmes.
+- **EMERGING** — current opportunity inferred from evidence but requiring validation.
+- **HISTORICAL ONLY** — useful context, not a current commercial opportunity.
+
+This allows the portfolio to learn from approximately six decades of national development planning without confusing historical policy with current Government commitments.
+
 ## 3. Strategic alignment
 
 | National direction | Farouk response | Commercial evidence to seek |
