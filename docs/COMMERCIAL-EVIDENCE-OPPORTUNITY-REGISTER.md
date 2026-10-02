@@ -49,6 +49,21 @@ Strong evidence generally progresses from:
 - Confidentiality classification
 - Ownership of customer relationship
 
+### Botswana transformation relevance
+
+- NTS/NDP12/BETP alignment tag(s):
+- Priority sector:
+- Local-value pathway:
+- Import-substitution relevance: YES / NO / UNKNOWN
+- Value-add pathway:
+- Export pathway:
+- MSE/provider participation:
+- Digitalisation/productivity pathway:
+- Evidence source:
+- Alignment confidence: DOCUMENTED / INTERPRETIVE / REQUIRES-REVIEW
+
+**Control:** alignment is a strategic filter and must never substitute for customer validation or commercial evidence.
+
 ### Problem
 - Problem statement
 - Who experiences it
