@@ -1,0 +1,7 @@
+metric_id,metric_name,definition,numerator,denominator,source_fields,refresh_frequency,owner,privacy_class,decision_use
+KPI-001,Active opportunities,Unique active Opportunity IDs,,,status,weekly,Portfolio,internal,workload
+KPI-002,Customer-validated,Opportunities with documented customer validation,,,status|commitment,weekly,Portfolio,internal,validation
+KPI-003,Paid conversion,Paid opportunities divided by qualified opportunities,,,status,monthly,Portfolio,internal,commercial validation
+KPI-004,Repeat rate,Repeat transactions divided by completed initial transactions,,,outcome,monthly,Portfolio,internal,recurrence
+KPI-005,Working-capital exposure,Cash committed or required before customer receipts,,,costs|payments,weekly,Portfolio,restricted,financial control
+KPI-006,Stale opportunity rate,Active opportunities past review date divided by active opportunities,,,status|review_due,weekly,Portfolio,internal,follow-up
