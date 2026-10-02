@@ -58,6 +58,21 @@ Potential bounded services: farm-record setup, field observation/data collection
 
 AgriSolutions is the physical-world layer; AgriSage/smartfarm support intelligence and digital workflows. Regulated animal-health diagnosis/treatment remains with appropriately qualified/registered professionals where required.
 
+
+## Supporting Offer G — Provider Referral & Facilities Coordination
+
+**Customer:** households, SMEs and organisations needing a suitable tradesperson, service provider or operational supplier identified and connected.
+
+**Lead source:** Facebook pages, website, WhatsApp, direct referral, existing customer or provider referral.
+
+**Delivery:** requirement capture → provider matching → verification check → customer introduction or coordinated referral → outcome follow-up → provider performance record.
+
+**Commercial models:** referral commission, sourcing fee, coordination fee, delivery fee, recurring facilities coordination, or no-fee referral where commercially appropriate.
+
+**Boundary:** referral/coordination is not a claim that Farouk personally performs the specialist trade. Regulated or specialist work remains the responsibility of appropriately qualified providers.
+
+**Evidence:** provider verification level, opportunity record, completion evidence, customer outcome and repeat/referral history.
+
 ## Universal opportunity intake
 
 Capture: customer/contact; organisation; problem; desired outcome; urgency; location; deadline; budget indication if volunteered; existing resources; specialist/regulatory requirements; confidentiality/data sensitivity; proposed offer; exclusions; next action; status.
