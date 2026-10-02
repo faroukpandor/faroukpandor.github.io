@@ -30,6 +30,81 @@ BETP is the execution-oriented transformation mechanism. Official 2026 material 
 
 September 2026 official reporting stated that BETP had moved into implementation and that 60% of the 186 identified projects were private-sector-led.
 
+## 2A. Current national development-plan stack
+
+The alignment model is expanded beyond NDP 12 alone.
+
+### Tier 1 — Vision and long-term direction
+
+**Vision 2036** is the long-term national destination: high-income, sustainable and diversified development. Its Sustainable Economic Development pillar includes knowledge-based economic activity, MSE development, agriculture, manufacturing, services, ICT, financial/business services, transport/logistics and creative industries.
+
+### Tier 2 — National Transformation Strategy
+
+The **NTS** is the transformation compass. NPC states that NDP 12 is the first NDP used to implement the NTS and is intended to catalyse private-sector-led economic growth.
+
+### Tier 3 — Current medium-term national plan
+
+**NDP 12 (April 2025–March 2030)** is the principal medium-term development-plan layer. Its design includes priority sectors, programmes/projects, implementation, monitoring and evaluation. NPC describes the plan as a shift toward a prioritised, sector-based and private-sector-driven model.
+
+### Tier 4 — Execution/transformation programme
+
+**BETP** is the execution-focused transformation layer. Its nine priority areas reported by NPC are Agriculture, Manufacturing, Infrastructure, Financial Services and Digitalisation, Tourism, Energy, Water and Mining, Education, Healthcare and Social Protection.
+
+### Tier 5 — Annual implementation and fiscal priorities
+
+The **2026/27 Budget** translates the national architecture into current-year priorities. Its structure includes export-led growth and a diversified economy, human capital/social development, integrated infrastructure, and innovation/digital transformation.
+
+### Tier 6 — Spatial and sector implementation
+
+National planning is preceded and complemented by **District Development Plans**, while sector ministries and agencies implement sector-specific programmes. Therefore, a commercially relevant opportunity should eventually be mapped to its relevant district, sector and national-plan context rather than relying only on a national headline.
+
+### Tier 7 — Regional/international alignment
+
+Where relevant, opportunities should also be tested against SADC/AfCFTA and relevant international development commitments, particularly where the opportunity involves regional trade, logistics, exports, climate resilience or sustainable development.
+
+## 2B. Plan-to-enterprise operating rule
+
+For each material opportunity, record:
+
+- Vision 2036 pillar/outcome:
+- NTS priority:
+- NDP 12 sector/priority:
+- BETP priority area/project relevance:
+- Current annual budget priority:
+- District/location relevance:
+- Sector-policy relevance:
+- Regional/export relevance:
+- Relevant official programme/project:
+- Evidence source:
+- Alignment status: DIRECT / SUPPORTING / INDIRECT / NONE / REQUIRES REVIEW
+
+**Control:** these fields describe alignment. They do not establish eligibility for Government funding, procurement, incentives, licensing, land, permits, tax treatment or partnership.
+
+## 2C. Current-plan commercial filter
+
+The enterprise should preferentially investigate opportunities where several current-plan layers intersect with an actual market problem.
+
+Example:
+
+**NDP 12 agriculture → BETP agriculture → rural/district opportunity → farmer bottleneck → sourcing/provider gap → commercial service/product → measurable farm outcome → repeat demand → value addition/export**
+
+This creates a route from policy to a customer problem without turning the business into a Government-policy consultancy.
+
+## 2D. New strategic requirement: district-aware opportunity discovery
+
+Because national plans are implemented spatially as well as sectorally, future opportunity research should capture:
+
+- district;
+- village/town;
+- local production base;
+- local market;
+- infrastructure/access constraint;
+- existing providers;
+- relevant district-development priority;
+- potential regional market.
+
+This is particularly important for agriculture, logistics, tourism, facilities services, construction/maintenance, local manufacturing and rural digitalisation.
+
 ## 3. Strategic alignment
 
 | National direction | Farouk response | Commercial evidence to seek |
