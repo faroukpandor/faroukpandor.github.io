@@ -1,0 +1,2 @@
+opportunity_id,date_received,source_channel,source_asset,customer_id,customer_type,location,problem,requirement,category,urgency,quantity_frequency,budget_signal,current_solution,desired_outcome,capability_route,enterprise_route,ownership_status,commercial_mode,provider_id,evidence_ids,quote_id,cost_id,compliance_id,commitment,status,next_action,owner,last_verified,review_due,outcome_id,learning
+OPP-YYYY-NNNN,,,,,,,,,,,,,,,,UNKNOWN,,,,,,,,,SIGNAL,,,,,,,
