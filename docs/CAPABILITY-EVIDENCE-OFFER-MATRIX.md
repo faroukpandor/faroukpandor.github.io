@@ -242,3 +242,59 @@ Before significant new product development:
 8. only then automate the repeated workflow.
 
 **Do not let the size of the portfolio become the measure of progress. Customer evidence and useful outcomes are the measure.**
+
+
+## V8 commercial front-door reconciliation — October 2026
+
+The repository audit strengthens the distinction between **capability**, **offer**, **delivery enterprise** and **prototype**. The personal brand should not advertise a repository merely because it exists.
+
+### Candidate commercial front doors
+
+| Front door | Customer problem | Delivery layer | Evidence base | Current status |
+|---|---|---|---|---|
+| Business Operations Desk | SME lacks reliable recurring administrative capacity, document control, follow-up and tender/proposal coordination | FAROUK PANDOR CONSULTANT, optionally automated by Mokoro | Existing service architecture and operating documentation | **Ready for controlled market test** |
+| Sourcing & Commercial Desk | Customer needs suppliers, quotations, product sourcing, market comparison or procurement coordination | FAROUK PANDOR CONSULTANT + relevant sourcing/commercial assets | Sourcing/procurement experience and portfolio evidence | **Ready for controlled market test** |
+| Digital Operations & Automation | Organisation has repetitive workflows, weak digital processes or manual administration | Mokoro | Substantial working digital asset and implementation history | **Ready for controlled market test** |
+| Production & Fulfilment Coordination | Customer needs production/branding/fulfilment coordinated across people, equipment and suppliers | Farouk orchestration + specialist/client production layer | Practical clothing production, computerised embroidery and branding-production experience | **Test as supporting offer; do not make industry identity headline** |
+| Research & Intelligence Desk | Customer needs structured research, monitoring, evidence synthesis or field intelligence | CurrentTrace / Pandor Enterprise Review + specialist repositories | CurrentTrace architecture and research portfolio | **Pilot selectively** |
+| Agricultural Field Support | Farmer/project needs field execution, records, audits, research collection or operational coordination | AgriSolutions + AgriSage/smartfarm where appropriate | BSc + agricultural assets + field-services architecture | **Pilot selectively; maintain regulatory boundaries** |
+| Specialist Coordination | Customer needs several qualified providers coordinated around one outcome | Farouk orchestration layer + qualified providers | Business-support architecture | **Developing; validate liability, contracts and regulatory boundaries first** |
+
+### Commercial sequencing rule
+
+The first public offers should be selected by **evidence + customer access + low startup cost + measurable delivery + repeatability**, not by which repository appears most technologically sophisticated.
+
+The current architecture therefore treats the first three front doors as the primary market-test candidates while keeping the remaining capabilities discoverable through the personal brand.
+
+### What the personal website should communicate
+
+**Primary:** what Farouk can help a customer accomplish.
+
+**Secondary:** evidence that he has coordinated, built, managed or studied relevant work.
+
+**Tertiary:** the enterprise/repository through which delivery occurs.
+
+**Archive:** the broader history of experiments, prototypes and ideas.
+
+This prevents the CV and GitHub portfolio from becoming a catalogue that makes the customer determine the offer themselves.
+
+### Proof requirement before calling an offer established
+
+For each front door, record:
+
+- customer/problem;
+- offer scope;
+- price or pricing hypothesis;
+- delivery hours;
+- direct costs;
+- turnaround time;
+- rework;
+- outcome;
+- customer feedback;
+- repeat/recurring intent;
+- referral;
+- evidence source;
+- confidentiality constraints;
+- regulatory/professional boundary.
+
+Until these are observed, use **offer hypothesis**, **pilot**, or **market test**, not “proven service”.
