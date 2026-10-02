@@ -31,6 +31,18 @@ The personal brand therefore does not need to claim that Farouk is the world's d
 | Facilities/services coordination | CV history describing facilities/community services | Coordinates practical service delivery and contractors | DOCUMENTED / HISTORICAL | Supporting capability |
 | Market/opportunity intelligence | EverythingCity, OpenEarn Global, CurrentTrace and sourcing work | Helps clients identify options before committing resources | DOCUMENTED / DEVELOPING | Primary where evidence is relevant |
 
+## 2A. Botswana transformation alignment
+
+The capability map should be read alongside the Botswana Economic Transformation Alignment working paper. The personal brand's cross-cutting commercial role aligns most directly with private-sector-led growth, diversification, value-chain development, digitalisation, MSE participation, manufacturing, agriculture, trade, logistics and business services.
+
+The transformation relevance of a capability must not be treated as proof of demand, Government endorsement or programme participation.
+
+A capability becomes commercially actionable only when:
+
+**real customer problem + feasible delivery + viable economics + acceptable risk + evidence pathway**
+
+are present.
+
 ## 3. Commercial offer hypotheses
 
 These are **testable offers**, not claims of established market demand.
