@@ -1,0 +1,5 @@
+{
+  "source": "https://gov.bw/doing-business/identified-possible-business-opportunities",
+  "status": "ERROR",
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>"
+}
