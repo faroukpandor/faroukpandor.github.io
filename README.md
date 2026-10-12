@@ -25,3 +25,10 @@ The homepage includes an evidence-led section for supplier channels, reseller/MS
 - Keep client/employer assets separate from Farouk-owned enterprises.
 - Treat the personal site as a routing and presentation layer; keep enterprise-specific operational records in their canonical repositories.
 - Re-check external programme terms before acting, since eligibility and commercial terms can change.
+
+
+## Cross-repository governance
+
+The current cross-repository inventory and relationship rules are maintained in [docs/REPOSITORY-RELATIONSHIP-REGISTRY.md](docs/REPOSITORY-RELATIONSHIP-REGISTRY.md). Every confirmed personal-owned active repository should link back to that registry and maintain a local `docs/PORTFOLIO-RELATIONSHIPS.md`. The register includes current account-listed repositories plus known control repositories, flags unknown classifications instead of guessing, and records client/upstream boundaries.
+
+Related personal surface: https://faroukpandor.vercel.app/ . Its connected Git repository still needs confirmation in Vercel Settings → Git; do not assume the legacy Hugo starter repository is its source.
