@@ -9,6 +9,14 @@
 
 > **Important:** This is a discovery and governance register, not proof that Farouk owns every enterprise, domain, codebase, dataset, brand, deployment or commercial relationship listed here. GitHub account visibility/access does not establish ownership. Unverified classifications must remain unverified until evidence is reviewed.
 
+## Ultimate competitor-app portfolio register
+
+- **Canonical app and competitor roadmap:** [docs/ULTIMATE-IDEAL-COMPETITOR-APPS.md](ULTIMATE-IDEAL-COMPETITOR-APPS.md)
+- **Master roadmap issue:** https://github.com/faroukpandor/faroukpandor.github.io/issues/114
+- **Stage 0 repository/deployment audit:** https://github.com/faroukpandor/faroukpandor.github.io/issues/115
+- **MOKORO EOS governance task:** https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/issues/53
+- The list includes current products to audit/upgrade, competitor benchmarks, long-term app hypotheses and conditional new-repository names. It is not proof of implementation, readiness or revenue. Reuse suitable assets and preserve client/third-party boundaries before creating anything new.
+
 ## Canonical architecture
 
 - **Personal identity and routing:** [faroukpandor.github.io](https://github.com/faroukpandor/faroukpandor.github.io) and the separately deployed [faroukpandor.vercel.app](https://faroukpandor.vercel.app/). Their source/deployment relationship must be verified independently; do not assume the Vercel site deploys from the legacy [faroukpandor](https://github.com/faroukpandor/faroukpandor) Hugo starter.
