@@ -320,3 +320,33 @@ Keep identifiable contact details separate from research notes, restrict access 
 - Better Stack pricing: https://betterstack.com/pricing
 - Printavo pricing: https://www.printavo.com/pricing/
 - RevenueCat State of Subscription Apps 2026: https://www.revenuecat.com/state-of-subscription-apps
+
+
+## 12. Public customer-review evidence — competitor pain and value signals
+
+**Important:** Reviews are self-selected, mostly international, and not representative of Botswana buyers. They provide leads for questions to test—not proof that local customers share the same needs. Counts and ratings are snapshots and can change.
+
+### Printavo (G2 and Capterra)
+- G2 lists 12 reviews and a 4.3/5 rating in its current listing. Review themes include easier quote/order organisation, reduced duplicate entry, order-stage visibility and automation. Some users mention limits in custom fields/workflow flexibility, slow feature improvements, and fit problems for production beyond screen printing. Source: https://www.g2.com/products/printavo/reviews
+- Capterra lists 15 reviews and a 4.5/5 rating in its current listing. Review themes include saving time, easier onboarding, order/invoice workflows and customer service. Reported fit gaps include third-party/outsourced production workflows and geographic limitations for certain store features. Source: https://www.capterra.com/p/154421/Printavo/reviews/
+
+**Research implication / HYPOTHESIS:** For Clothing & Embroidery OS, interview customers about rework from missing specifications, quote-to-production handoffs, spreadsheet/export flexibility, outsourced production and multi-process garment/embroidery jobs. Do not assume these gaps exist locally until interviews demonstrate them. A local product would need to win on workflow fit, not just cheaper pricing.
+
+### ManageWP (G2 and Capterra)
+- G2 lists 63 reviews and a 4.2/5 rating in its current listing. Positive themes include centralised multi-site updates, free core functionality and a consolidated view. Some negative reviews mention unstable site connections, updates that hang, support delays, dated UI or complex add-on pricing. These are individual reviewer claims, not verified universal defects. Source: https://www.g2.com/products/managewp/reviews
+- Capterra lists 23 reviews and a 4.7/5 rating in its current listing. One user describes the value of choosing per-site add-ons, which reinforces that price flexibility is a visible part of its positioning. Source: https://www.capterra.com/p/210350/ManageWP/reviews/
+
+**Research implication / HYPOTHESIS:** For Website Care + Local QA, ask customers whether they want to operate the tool themselves or outsource responsibility; whether false alerts, failed updates, reporting, backups or slow remediation have caused real pain; and whether they would pay for local human intervention. Do not build a local dashboard that duplicates free features without a service-level difference.
+
+### UptimeRobot (Capterra)
+- Capterra's current listing shows 77 reviews and a 4.8/5 rating. A review highlights the usefulness of historical uptime/response-time visibility and the generosity of the free tier. Source: https://www.capterra.com/p/234440/Uptimerobot/reviews/
+
+**Research implication / HYPOTHESIS:** Basic uptime checks alone are a weak paid proposition because customers can get them for free. Test willingness to pay for a combined service: agreed website checks, contact-form/booking-flow verification, clear monthly evidence, domain/SSL reminders, and optional remediation. Scope and response obligations must be explicit.
+
+### Review-analysis protocol for further work
+1. Collect 15–30 recent reviews per important direct competitor when available; include positive, neutral and negative.
+2. Code review statements into a fixed taxonomy: price, onboarding, usability, workflow fit, integrations, reliability, support, data/export, localisation, missing feature.
+3. Record publication date, reviewer role, company size, star rating and whether the review is incentivised if disclosed.
+4. Separate exact user statements from our paraphrase; avoid quoting more than necessary.
+5. Check whether themes recur across independent sources and whether newer product updates may have resolved the issue.
+6. Convert each recurring theme into a customer-interview question, not a feature commitment.
