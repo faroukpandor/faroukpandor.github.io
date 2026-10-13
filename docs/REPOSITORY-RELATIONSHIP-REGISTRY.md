@@ -17,6 +17,15 @@
 - **MOKORO EOS governance task:** https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/issues/53
 - The list includes current products to audit/upgrade, competitor benchmarks, long-term app hypotheses and conditional new-repository names. It is not proof of implementation, readiness or revenue. Reuse suitable assets and preserve client/third-party boundaries before creating anything new.
 
+## Client acquisition and opportunity research
+
+- **Canonical tool:** [MOKORO Client Acquisition Workspace](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/tree/main/src/app/tools/client-acquisition) — route `/tools/client-acquisition`; first local-first MVP, deployment verification pending.
+- **Portfolio integration map:** [Client Acquisition Engine — Portfolio Integration Map](./CLIENT-ACQUISITION-ENGINE-PORTFOLIO-MAP.md).
+- **Poultry pilot:** [Initial Botswana poultry prospect map](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/main/docs/CLIENT-ACQUISITION-POULTRY-PILOT-LEADS.md).
+- **AgriSage360 domain integration:** [Client Acquisition Integration](https://github.com/faroukpandor/AGRISAGE/blob/main/docs/CLIENT-ACQUISITION-INTEGRATION.md).
+- **BrandCraft use:** [Client Acquisition Workflow](https://github.com/faroukpandor/BRANDCRAFT-ALCHEMIST/blob/main/docs/CLIENT-ACQUISITION-WORKFLOW.md).
+- Do not duplicate the generic tool or prospect database across repositories. Keep sector checklists and client-specific data in their authorised workspace; preserve client/employer/third-party boundaries.
+
 ## Canonical architecture
 
 - **Personal identity and routing:** [faroukpandor.github.io](https://github.com/faroukpandor/faroukpandor.github.io) and the separately deployed [faroukpandor.vercel.app](https://faroukpandor.vercel.app/). Their source/deployment relationship must be verified independently; do not assume the Vercel site deploys from the legacy [faroukpandor](https://github.com/faroukpandor/faroukpandor) Hugo starter.
