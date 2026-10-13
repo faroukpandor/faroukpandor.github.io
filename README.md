@@ -14,6 +14,8 @@ Designed for GitHub Pages at https://faroukpandor.github.io/ using a static, pro
 - Do not imply professional licensure or regulated authority without current evidence.
 - Keep enterprise-specific functionality in its canonical repository.
 
+## Ultimate ideal competitor apps and earning portfolio
+The long-term competitor-benchmark and app-build roadmap is maintained in [docs/ULTIMATE-IDEAL-COMPETITOR-APPS.md](docs/ULTIMATE-IDEAL-COMPETITOR-APPS.md). It covers first-wave commercial products, competitor sets to benchmark, additional app opportunities, existing assets to audit, and conditional repository names. This is a research/roadmap register—not a claim that listed apps are built or earning revenue. Audit and validate demand before creating duplicate repositories.
 
 ## Commercial opportunity and partner-programme hub
 
@@ -25,7 +27,6 @@ The homepage includes an evidence-led section for supplier channels, reseller/MS
 - Keep client/employer assets separate from Farouk-owned enterprises.
 - Treat the personal site as a routing and presentation layer; keep enterprise-specific operational records in their canonical repositories.
 - Re-check external programme terms before acting, since eligibility and commercial terms can change.
-
 
 ## Cross-repository governance
 
