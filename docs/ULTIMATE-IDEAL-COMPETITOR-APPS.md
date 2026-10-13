@@ -131,3 +131,42 @@ For every candidate, record:
 ## Immediate next step
 
 Run the Stage 0 repository/deployment audit against the current account inventory. The first deliverable should be a **reuse / upgrade / new-repo matrix**, not 18 or 40 speculative codebases. Then interview prospective buyers and pick one commercial pilot.
+
+
+## G. Stage 0 preliminary audit — evidence checked 13 Oct 2026
+
+This is a **README-level reconnaissance**, not a complete source-code, security, deployment or production-readiness audit.
+
+| Asset inspected | Evidence from repository README | Preliminary disposition |
+|---|---|---|
+| [MOKORO Digital Growth Engine](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine) | README describes a Next.js/React/Tailwind/PWA growth engine and points to an expansion blueprint and in-repo tools. It explicitly warns that deployed readiness must be verified before promising features. | Reuse as the commercial digital-growth/SEO foundation; inspect specific tool paths, tests and deployment before adding website-care features. |
+| [MOKORO Enterprise OS](https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS) | README identifies it as group governance/operating layer, separate from MOKORO Digital's client-facing products. | Keep as portfolio governance, not the default codebase for every app. |
+| [AGRISAGE](https://github.com/faroukpandor/AGRISAGE) | README names AgriSage360 as the agricultural intelligence/AgTech specialist and outlines relationships with AgriSolutions, Master Farmer, AgriLink and AnimalSphere. | Existing candidate for AgriSage360; audit against SmartFarm and any deployed AgriSage360 repo to determine canonical product source. |
+| [smartfarm](https://github.com/faroukpandor/smartfarm) | README describes an offline-first farm operating system for Botswana and explicitly says it is intended as a reusable farm-management core for AgriSage360. | Treat as a potentially reusable farm core; reconcile architecture and ownership with AGRISAGE before writing duplicate farm workflows. |
+| [AnimalHealth](https://github.com/faroukpandor/AnimalHealth) | README says it is an animal-health domain/research component, not a general marketplace, and includes professional-boundary warnings. | Reuse only for suitable structured knowledge/referral components; no autonomous diagnosis/treatment or unregistered veterinary service claims. |
+| [EliteDir — Professional Product & Service Directory](https://github.com/faroukpandor/EliteDir---Professional-Product-Service-Directory) | README is a Google AI Studio starter with an app link and local run instructions; this alone does not establish production readiness. | Existing directory candidate; inspect actual code, AI Studio provenance, data source and deploy before deciding whether to upgrade or replace. |
+| [GlobalEstate](https://github.com/faroukpandor/GlobalEstate) | README is the standard React + TypeScript + Vite starter text. | Do not count as a proven property-management product; inspect source and deployment or mark as template/prototype. |
+| [Open Source Point of Sale](https://github.com/faroukpandor/opensourcepos) | README identifies the upstream Open Source Point of Sale project and its upstream branding. | Treat as an upstream/fork candidate, not proprietary original code. Check license, fork status, divergence and security before reuse or monetization. |
+| [Al-Mu-allim AI Madrassa Tutor](https://github.com/faroukpandor/Al-Mu-allim-AI-Madrassa-Tutor) | README identifies an AI Studio-generated application scaffold. | A specialised madrassa tutor concept, not proof of a complete generic offline learning platform; inspect actual implementation and distinguish the two scopes. |
+| [EcoOffset-Nexus](https://github.com/faroukpandor/EcoOffset-Nexus) | README is a generic AI Studio starter page. | Not sufficient evidence of a functional sustainability product; inspect source, data model and deployment before deciding to reuse. |
+| [FAROUKPANDORCONSULTANT](https://github.com/faroukpandor/FAROUKPANDORCONSULTANT) | README describes B2B consulting, administration/secretarial support, documentation, compliance coordination and specialist-provider coordination. | Use as a service-sales channel for validated B2B workflows; do not duplicate the consultant website inside product repos. |
+| [faroukpandor-nextjs-commerce](https://github.com/faroukpandor/faroukpandor-nextjs-commerce) | README identifies it as a Next.js Commerce template and links to the upstream Vercel Commerce repository. | Treat as template/upstream-derived until original modifications, license and deployment are audited. |
+| [skillswap](https://github.com/faroukpandor/skillswap) | README currently contains only the repository name. | Unknown maturity and purpose; inspect code and ownership before classifying as a reusable learning/talent product. |
+| [EVERYTHINGCITY](https://github.com/faroukpandor/EVERYTHINGCITY) | README describes a documented catalogue storefront with vendor-catalogue/product data and a Cloudflare Pages target. | Potential commerce/catalogue asset; map its scope against Everything City variants and MegaDealsMA (third-party/client boundary) before any consolidation. |
+| [NOVA-OS](https://github.com/faroukpandor/NOVA-OS) | README explicitly marks it as a legacy reference/prototype and says it is not the active foundation; it advises purpose-specific repositories. | Do not build new features here; extract useful patterns only after review. |
+
+### Initial repo decisions
+
+- **Reuse/upgrade candidates:** MOKORO Digital Growth Engine; MOKORO Enterprise OS for governance; AGRISAGE/SmartFarm after canonical-source reconciliation; AnimalHealth for bounded domain components; EverythingCity for catalogue/commerce if its commercial ownership and scope are confirmed.
+- **Audit before any new repo:** EliteDir, GlobalEstate, skillswap, EcoOffset-Nexus, Al-Mu-allim, the commerce templates, Local QA Reviewer prototype and healthcare-QA work.
+- **Do not treat as owned product code without proof:** upstream/forked repositories, generic AI Studio scaffolds, client/employer systems and any project whose rights or ownership are uncertain.
+- **No code edits or deployment changes were made as part of this preliminary audit.** Only the portfolio documentation and roadmap were updated.
+
+### Remaining Stage 0 work
+
+1. Inspect source trees, package manifests, licences, test/build scripts, recent meaningful commits and CI for each likely reusable repo.
+2. Confirm each live deployment's actual connected repository and environment, rather than inferring from domain names.
+3. Inspect the Local QA Reviewer Base44 prototype and related healthcare QA concept without creating another Base44 app.
+4. Reconcile AGRISAGE, smartfarm and any AgriSage360 deployment/repo before assigning farm features.
+5. Reconcile EverythingCity, EliteDir, GlobalEstate, all commerce templates, property/city variants and existing AI orchestration projects for duplicates.
+6. Only then turn conditional repo names in Section D into approved repository-creation tasks.
