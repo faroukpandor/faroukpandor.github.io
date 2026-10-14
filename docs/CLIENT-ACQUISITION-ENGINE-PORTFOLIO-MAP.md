@@ -59,3 +59,12 @@ As of 14 October 2026, the farm profile requested from Ishmael has not been supp
 - **BRANDCRAFT-ALCHEMIST:** creative-services customer profiles and outreach standards.
 - **faroukpandor.github.io:** portfolio map and inbound routing.
 - **Client/employer repositories:** no edits, shared customer data or asset reuse without documented authority.
+
+## Reusable Quick-fit questionnaire
+
+MOKORO Digital Growth Engine now has committed source for a reusable mobile-first quick-fit questionnaire at `src/app/forms/quick-fit/page.tsx`, intended route `/forms/quick-fit`. It supports poultry growers, prospective customers, suppliers/partners, and funding/tender/programme readiness. It uses optional details and a plain-language consent notice. In this first version, answers are not submitted to a server; the respondent chooses to open a prefilled WhatsApp draft, selects a recipient, reviews it and presses Send. Build/deployment and mobile testing are pending, so do not share it as a verified live link yet.
+
+- Canonical product brief: [Client Acquisition & Opportunity Engine](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/main/docs/CLIENT-ACQUISITION-OPPORTUNITY-ENGINE.md).
+- Questionnaire source: [Quick-fit page](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/main/src/app/forms/quick-fit/page.tsx).
+- Privacy boundary: no automatic transmission, no server storage in the initial version, no unnecessary personal identifiers; ask permission before third-party disclosure.
+
