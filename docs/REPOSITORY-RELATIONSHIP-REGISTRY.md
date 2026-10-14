@@ -178,6 +178,7 @@ This inventory covers repositories returned by the current GitHub account listin
 ## Client acquisition engine — canonical relationship
 
 - **Canonical implementation:** [MOKORO Digital Growth Engine](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/tree/main/src/app/tools/client-acquisition) — source committed; build/deployment verification pending.
+- **Quick-fit questionnaire:** [MOKORO source](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/main/src/app/forms/quick-fit/page.tsx), intended route `/forms/quick-fit`. Includes reusable templates and WhatsApp draft plus copy/download alternatives. Build/deployment and usability remain unverified; do not represent the public route as tested until verified.
 - **Product brief and complete implementation backlog:** [Client Acquisition & Opportunity Engine](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/main/docs/CLIENT-ACQUISITION-OPPORTUNITY-ENGINE.md).
 - **Poultry pilot research/status:** [Poultry prospect map](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/main/docs/CLIENT-ACQUISITION-POULTRY-PILOT-LEADS.md). As of 14 October 2026, Ishmael Koos has not supplied the farm profile; a brief acknowledgement does not qualify the opportunity or permit disclosure. Keep generic research anonymised and do not block other campaigns.
 - **Agriculture domain role:** [AGRISAGE integration note](https://github.com/faroukpandor/AGRISAGE/blob/main/docs/CLIENT-ACQUISITION-INTEGRATION.md).
