@@ -35,3 +35,27 @@ MOKORO Digital Growth Engine owns the reusable client-acquisition workflow: camp
 ## Pilot success measures
 
 Track verified prospects, source freshness, percentage meeting stated criteria, positive replies, meetings, proposals, wins/losses, time saved, and cost per qualified opportunity. Measure actual outcomes before making pricing or revenue claims.
+
+## Delivery backlog and current pilot handling
+
+**Reviewed 14 October 2026.** Build, tests and deployment remain unverified. Treat the workspace as committed source, not a verified production feature. MOKORO Digital Growth Engine must run the repository's actual lint/type-check/build and route smoke tests before the catalogue or portfolio presents the route as live.
+
+### Shared delivery stages
+1. **Integrity gate:** inspect existing code and deployment settings; run build/lint/type-check; record evidence and repair defects.
+2. **Portable MVP:** source provenance and freshness, confidence/unknowns, transparent fit explanations, duplicate review, validated import, Markdown/CSV/JSON export, backup/delete controls.
+3. **Safe discovery:** provider-neutral adapters, manual/public search first, current official-source preference, rate-limit/terms review, source-date and failure logging.
+4. **Monitoring:** optional scheduled public-source checks and user digest only; no automatic outreach.
+5. **Portfolio separation:** campaign/workspace isolation, explicit mandate/ownership field, consent, suppression list, audit trail and no cross-client data leakage.
+6. **Validation:** use MOKORO's own service pipeline and additional authorised campaigns; measure verified opportunities, positive replies, meetings, conversions, time and cost before commercialisation.
+
+### Ishmael Koos / Kanye pilot — status, not endorsement
+
+As of 14 October 2026, the farm profile requested from Ishmael has not been supplied. A brief acknowledgement to a follow-up is not qualification, commitment, or permission to disclose his identity or farm information. The pilot is **awaiting information / low-response risk**. Keep outreach generic and anonymised unless he authorises a farm-specific approach; do not let this pilot block work on other MOKORO campaigns.
+
+### Repository roles
+- **MOKORO Digital Growth Engine:** canonical application, general prospect pipeline and build/release evidence.
+- **MOKORO Enterprise OS:** governance, stage gates, ownership and commercialisation decision.
+- **AGRISAGE / AgriSage360:** agricultural qualification checklist and farm/contract risks.
+- **BRANDCRAFT-ALCHEMIST:** creative-services customer profiles and outreach standards.
+- **faroukpandor.github.io:** portfolio map and inbound routing.
+- **Client/employer repositories:** no edits, shared customer data or asset reuse without documented authority.
