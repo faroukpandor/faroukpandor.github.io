@@ -174,3 +174,14 @@ This inventory covers repositories returned by the current GitHub account listin
 - [MOKORO Digital Growth Engine](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine)
 - [Personal public portfolio](https://github.com/faroukpandor/faroukpandor.github.io)
 - [Legacy Hugo starter repository](https://github.com/faroukpandor/faroukpandor) — not confirmed as the Vercel site's source.
+
+## Client acquisition engine — canonical relationship
+
+- **Canonical implementation:** [MOKORO Digital Growth Engine](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/tree/main/src/app/tools/client-acquisition) — source committed; build/deployment verification pending.
+- **Product brief and complete implementation backlog:** [Client Acquisition & Opportunity Engine](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/main/docs/CLIENT-ACQUISITION-OPPORTUNITY-ENGINE.md).
+- **Poultry pilot research/status:** [Poultry prospect map](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/main/docs/CLIENT-ACQUISITION-POULTRY-PILOT-LEADS.md). As of 14 October 2026, Ishmael Koos has not supplied the farm profile; a brief acknowledgement does not qualify the opportunity or permit disclosure. Keep generic research anonymised and do not block other campaigns.
+- **Agriculture domain role:** [AGRISAGE integration note](https://github.com/faroukpandor/AGRISAGE/blob/main/docs/CLIENT-ACQUISITION-INTEGRATION.md).
+- **Creative-services domain role:** [BrandCraft workflow](https://github.com/faroukpandor/BRANDCRAFT-ALCHEMIST/blob/main/docs/CLIENT-ACQUISITION-WORKFLOW.md).
+- **Group governance:** [MOKORO Enterprise OS issue #55](https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/issues/55).
+
+Do not duplicate the general-purpose application across repositories. Share the role/roadmap links, not customer databases or client assets. Maintain separate authorised workspaces; client/employer repositories including YellowBlue and White City Discount remain out of scope without explicit written authority. Human approval is required for outreach, submissions and commitments.
