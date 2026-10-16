@@ -26,6 +26,14 @@
 - **BrandCraft use:** [Client Acquisition Workflow](https://github.com/faroukpandor/BRANDCRAFT-ALCHEMIST/blob/main/docs/CLIENT-ACQUISITION-WORKFLOW.md).
 - Do not duplicate the generic tool or prospect database across repositories. Keep sector checklists and client-specific data in their authorised workspace; preserve client/employer/third-party boundaries.
 
+## Free AI API and coding-tool opportunity research
+
+- **Canonical assessment and safe-adoption checklist:** [Free AI APIs and Coding Tools — Opportunity Review (2026-10-16)](./FREE-AI-API-AND-CODING-TOOLS-OPPORTUNITY-REVIEW-2026-10-16.md).
+- **Potential inventory/dashboard:** [AI-Powered-Personal-Command-Center](https://github.com/faroukpandor/AI-Powered-Personal-Command-Center) and [AI-Personal-Command-Center](https://github.com/faroukpandor/AI-Personal-Command-Center) require a comparison before selecting a canonical role. Record provider metadata and setup guidance only; never store raw API keys in Git or ordinary application data.
+- **Potential agency integration:** [MOKORO Digital Growth Engine](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine) only where a validated workflow requires it. Use server-side secrets and retain a non-AI fallback.
+- **Specialist app rule:** AgriSage360 and other products must demonstrate a concrete use case, free-tier fit, data governance and safe fallback before adopting a provider. No live integration is implied by this register entry.
+- **Evidence boundary:** Reddit recommendations are discovery leads, not proof of current pricing, quotas, unlimited usage, eligibility or terms. Respect provider rate limits; do not rotate keys to evade them or use session-cookie proxies.
+
 ## Canonical architecture
 
 - **Personal identity and routing:** [faroukpandor.github.io](https://github.com/faroukpandor/faroukpandor.github.io) and the separately deployed [faroukpandor.vercel.app](https://faroukpandor.vercel.app/). Their source/deployment relationship must be verified independently; do not assume the Vercel site deploys from the legacy [faroukpandor](https://github.com/faroukpandor/faroukpandor) Hugo starter.
