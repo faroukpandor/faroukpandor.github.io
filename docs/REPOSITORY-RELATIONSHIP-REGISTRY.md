@@ -206,3 +206,13 @@ This inventory covers repositories returned by the current GitHub account listin
 - **Group governance:** [MOKORO Enterprise OS issue #55](https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/issues/55).
 
 Do not duplicate the general-purpose application across repositories. Share the role/roadmap links, not customer databases or client assets. Maintain separate authorised workspaces; client/employer repositories including YellowBlue and White City Discount remain out of scope without explicit written authority. Human approval is required for outreach, submissions and commitments.
+
+
+## Custom chatbots — cross-portfolio service capability
+
+- **Portfolio service map:** [Collective Custom Chatbot Service Map](./COLLECTIVE-CUSTOM-CHATBOT-SERVICE-MAP-2026-10-16.md).
+- **Canonical technical/commercial delivery:** [MOKORO DGE chatbot specification](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/strategy/lead-response-service-validation-2026-10-16/docs/revenue/CUSTOM-CHATBOT-SERVICES-AND-DELIVERY-GATES-2026-10-16.md).
+- **Governance:** [MOKORO EOS routing and release gates](https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/blob/strategy/idea-portfolio-assimilation-2026-10-16/docs/CUSTOM-CHATBOT-CAPABILITY-AND-PORTFOLIO-ROUTING-2026-10-16.md).
+- **Content readiness:** [FAROUKPANDORCONSULTANT FAQ/SOP preparation](https://github.com/faroukpandor/FAROUKPANDORCONSULTANT/blob/strategy/business-support-service-catalogue-2026-10-16/docs/CUSTOMER-FAQ-KNOWLEDGE-PREPARATION-FOR-CHATBOTS-2026-10-16.md).
+
+The owner cites prior chatbot work associated with yellowblue.co.bw. YellowBlue remains a client; this does not authorise public case-study claims, reuse of private assets, or changes to the client site. All linked work remains proposed until reviewed and accepted.
