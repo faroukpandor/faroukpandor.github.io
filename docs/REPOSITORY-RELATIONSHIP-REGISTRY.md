@@ -28,6 +28,16 @@
 - **BrandCraft use:** [Client Acquisition Workflow](https://github.com/faroukpandor/BRANDCRAFT-ALCHEMIST/blob/main/docs/CLIENT-ACQUISITION-WORKFLOW.md).
 - Do not duplicate the generic tool or prospect database across repositories. Keep sector checklists and client-specific data in their authorised workspace; preserve client/employer/third-party boundaries.
 
+## 100-idea catalogue: canonical capability routing — 2026-10-16
+
+- **Collective decision framework:** [Idea Portfolio Assimilation & Repository Repurposing](https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/blob/main/docs/IDEA-PORTFOLIO-ASSIMILATION-AND-REPOSITORY-REPURPOSING-2026-10-16.md) — rank ideas by customer evidence, speed to first cash, current delivery capability, safety and reuse; do not create 100 products.
+- **Lead-response / workflow service:** [DGE pilot contract](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/main/docs/revenue/LEAD-RESPONSE-WORKFLOW-SERVICE-PILOT-2026-10-16.md). Start with the existing manual workflow review and client-acquisition workspace. No autonomous AI receptionist or CRM integration before a paid manual delivery and repeat buyer evidence.
+- **Business support and templates:** [FAROUKPANDORCONSULTANT service catalogue](https://github.com/faroukpandor/FAROUKPANDORCONSULTANT/blob/main/docs/BUSINESS-SUPPORT-PRODUCTISED-SERVICES-AND-TEMPLATES-2026-10-16.md). Keep administrative/tender readiness separate from regulated professional services and veterinary products.
+- **Marketplace, vendor discovery and sourcing:** [EverythingCity idea filter](https://github.com/faroukpandor/EVERYTHINGCITY/blob/main/docs/41-MARKETPLACE-AND-DIRECTORY-IDEA-FILTER-2026-10-16.md). No “vetted” or “verified” claims without documented checks and current evidence.
+- **Agriculture-specific workflows:** [AgriSage360 idea filter](https://github.com/faroukpandor/AGRISAGE/blob/main/docs/AGRISAGE360-AI-AND-WORKFLOW-IDEA-FILTER-2026-10-16.md). Preserve offline-first design and veterinary/professional boundaries.
+- **Implementation state:** the linked documents are draft PRs as of 2026-10-16, not merged policy or shipped features. The canonical links should be updated to their merged default-branch versions after review.
+- **Fork and repo reuse:** no repository is to be dissociated from a fork or repurposed in place solely to make the portfolio tidier. Use the governance decision record, verify upstream/licence/history/dependencies and preserve rollback first.
+
 ## Free AI API and coding-tool opportunity research
 
 - **Canonical assessment and safe-adoption checklist:** [Free AI APIs and Coding Tools — Opportunity Review (2026-10-16)](./FREE-AI-API-AND-CODING-TOOLS-OPPORTUNITY-REVIEW-2026-10-16.md).
