@@ -17,6 +17,8 @@
 - **MOKORO EOS governance task:** https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/issues/53
 - The list includes current products to audit/upgrade, competitor benchmarks, long-term app hypotheses and conditional new-repository names. It is not proof of implementation, readiness or revenue. Reuse suitable assets and preserve client/third-party boundaries before creating anything new.
 
+- **Free-first MCP server strategy:** [MCP Server Strategy (2026-10-16)](./FREE-FIRST-MCP-SERVER-STRATEGY-2026-10-16.md) — ranked research candidates, least-privilege rules, free-tier verification and a gate to inspect both Command Centre repositories before implementation.
+
 ## Client acquisition and opportunity research
 
 - **Canonical tool:** [MOKORO Client Acquisition Workspace](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/tree/main/src/app/tools/client-acquisition) — route `/tools/client-acquisition`; first local-first MVP, deployment verification pending.
