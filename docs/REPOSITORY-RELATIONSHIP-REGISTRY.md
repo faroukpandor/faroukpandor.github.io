@@ -36,6 +36,15 @@
 - **Specialist app rule:** AgriSage360 and other products must demonstrate a concrete use case, free-tier fit, data governance and safe fallback before adopting a provider. No live integration is implied by this register entry.
 - **Evidence boundary:** Reddit recommendations are discovery leads, not proof of current pricing, quotas, unlimited usage, eligibility or terms. Respect provider rate limits; do not rotate keys to evade them or use session-cookie proxies.
 
+## Controlled repository synchronisation — pilot
+
+- **Proposed protocol:** [Portfolio Repository Synchronisation Protocol](https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/blob/docs/portfolio-repository-sync-protocol-2026-10-17/docs/PORTFOLIO-REPOSITORY-SYNCHRONISATION-PROTOCOL.md) — currently in draft PR; do not treat as merged policy or deployed automation.
+- **MOKORO Enterprise OS manifest:** [docs/PORTFOLIO-RELATIONSHIPS.md](https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/blob/docs/portfolio-repository-sync-protocol-2026-10-17/docs/PORTFOLIO-RELATIONSHIPS.md) — draft PR.
+- **MOKORO Digital Growth Engine manifest:** [docs/PORTFOLIO-RELATIONSHIPS.md](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/docs/portfolio-relationship-manifest-2026-10-17/docs/PORTFOLIO-RELATIONSHIPS.md) — draft PR.
+- **Current state:** documentation pilot only. No portfolio-wide dispatch workflows, cross-repository write credentials, automatic code propagation, or cross-enterprise data sync have been enabled.
+- **Rollout gate:** merge/review the protocol and manifests, then validate the two pilot repositories with non-mutating checks before enabling any event-driven issue/PR automation.
+- **Safety rule:** first-party classification and GitHub access do not authorise changes to client, employer, third-party or upstream repositories. Keep those excluded unless scoped permission is recorded.
+
 ## Canonical architecture
 
 - **Personal identity and routing:** [faroukpandor.github.io](https://github.com/faroukpandor/faroukpandor.github.io) and the separately deployed [faroukpandor.vercel.app](https://faroukpandor.vercel.app/). Their source/deployment relationship must be verified independently; do not assume the Vercel site deploys from the legacy [faroukpandor](https://github.com/faroukpandor/faroukpandor) Hugo starter.
