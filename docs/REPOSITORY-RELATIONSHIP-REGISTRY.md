@@ -11,6 +11,8 @@
 
 ## Ultimate competitor-app portfolio register
 
+- **Self-reliance / practical living publishing opportunity:** [The Amish Ways Competitor Opportunity — Digital Asset Plan](./COMPETITOR-AMISH-WAYS-DIGITAL-ASSET-PLAN.md). Discovery-stage proposal only; complete the overlap and demand audits before creating a new repository, launching a brand or claiming revenue.
+
 - **Canonical app and competitor roadmap:** [docs/ULTIMATE-IDEAL-COMPETITOR-APPS.md](ULTIMATE-IDEAL-COMPETITOR-APPS.md)
 - **Master roadmap issue:** https://github.com/faroukpandor/faroukpandor.github.io/issues/114
 - **Stage 0 repository/deployment audit:** https://github.com/faroukpandor/faroukpandor.github.io/issues/115
