@@ -143,3 +143,75 @@ For each competitor, record: date checked; URL; target market; primary offer; fr
 ## Final decision
 
 **Proceed with discovery and a narrow prototype, not a ten-site build.** The advantage must come from trusted practical help, regional relevance, tools that work, transparent commerce and demonstrated customer value—not content volume or exaggerated claims.
+
+
+## Stage 0 audit findings — 18 October 2026
+
+This section records a preliminary read-only repository and public-web audit. It is evidence for architecture selection, not proof of market demand or production readiness.
+
+### Existing portfolio candidates
+
+| Candidate | Observed role/state | Decision for this opportunity |
+|---|---|---|
+| `faroukpandor/OMNINEWS` (product direction: CurrentTrace) | Existing React/Vite/Gemini briefing prototype with detailed plans for source provenance, development memory, multi-format publishing and corrections. The repository's own implementation-gap audit says persistent ingestion, canonical story/evidence records, correction workflows, publishing automation, tests and a secure server-side AI boundary remain gaps. | **Reuse candidate for shared publishing/intelligence infrastructure only after remediation.** Do not treat it as a ready-made consumer homesteading website or place the entire new product inside its existing news UI. |
+| `faroukpandor/EverythingCity` | Existing commerce/catalogue and supplier-discovery product with a documented vendor catalogue pipeline and digital-product strategy. | Keep its canonical commerce/sourcing scope. Consider a later, explicit catalogue/listing integration only if there is a real overlap and permission/rights checks pass. Do not turn it into a generic editorial site. |
+| `faroukpandor/OpenEarn-Global` | Country-aware digital earning opportunity catalogue. | Not a fit for homesteading publishing; retain its earning-opportunity scope. |
+| `faroukpandor/PIPTICK` | Financial research and risk tooling. | Not a fit; retain financial scope. |
+| `faroukpandor/NexusStream---Open-Content-Directory` | Generic Google AI Studio starter README and API-key setup; inspected README alone does not establish a mature publishing product. | Do not select as canonical without a full code, licence, security and provenance audit. |
+| `faroukpandor/awesome-agriculture` | Curated open-source agriculture technology list. | Useful discovery reference for gardening tools; not a consumer publishing product. Check upstream licences and attribution before reuse. |
+| `faroukpandor/PIPTICK` | Separate financial product, not an editorial home. | No scope expansion. |
+
+**Preliminary architecture decision:** keep CurrentTrace as a possible shared evidence/publishing service and treat **Self-Reliance Field Guide** as a proposed downstream publication/product with its own audience, editorial taxonomy and commercial validation. Because CurrentTrace's present prototype is not yet a robust ingestion/evidence platform, start with a small static-first, human-reviewed content/tool MVP only after Gate 1. Do not create a new repository or change CurrentTrace production code as part of this audit.
+
+### Competitor observations
+
+Public pages inspected on 18 October 2026:
+
+1. **The Amish Ways** — https://www.theamishways.com/offer/ and https://www.theamishways.com/book/  
+   Observed model: direct-response book sales, bundles/bonuses, a prominent stated price, a money-back guarantee, testimonials and urgency/scarcity language. The page makes broad self-sufficiency, preservation and herbal-remedy claims. These are observed marketing tactics, not independently verified claims about product efficacy, inventory or business performance.
+2. **Amish Homesteading** — https://amishhomesteading.com/resources and https://amishhomesteading.com/programs  
+   Observed model: free educational-resource hub connected to practical, in-person workshops taught by people describing lived experience. Its public resource page names farming, food preservation, homemaking, building, sewing and simple living.
+3. **The Prairie Homestead** — https://www.theprairiehomestead.com/ and https://www.theprairiehomestead.com/courses  
+   Observed model: an ongoing editorial library, podcast, courses, downloadable planners/printables and a curated shop. Its homepage messaging emphasises practical skills and avoiding an idealised, burdensome lifestyle.
+4. **GrowVeg Garden Planner** — https://www.growveg.com/garden-planner-intro.aspx and https://www.growveg.com/subscribeinfo.aspx  
+   Observed model: interactive planning software, crop rotation, planting calendars, reminders, expert guides and paid subscriptions following a free trial. Its pricing page lists $35 for an automatically recurring annual plan, $50 for one year and $85 for two years at the time inspected; re-check before any future comparison or pricing decision.
+5. **National Center for Home Food Preservation** — https://nchfp.uga.edu/how/can/  
+   This is an authoritative safety reference rather than a direct commercial competitor. It demonstrates why preservation content must link to tested, method-specific procedures and must not repeat unverified claims about shelf life or unsafe canning methods.
+
+### Differentiation hypothesis to test
+
+Do not try to win by reproducing a large generic library of “secrets.” Test a more useful proposition:
+
+**Practical, evidence-linked self-reliance for real households in Botswana and Southern Africa — designed around local climate, water constraints, household budgets, available materials and safer decision-making.**
+
+Potential competitive edges to validate:
+- Localised, editable tools using BWP and metric units, with assumptions visible.
+- Free, useful HTML tools that work on mobile and can be used offline where practical.
+- Clear evidence grading, source dates, corrections and safety notes.
+- A calm, non-alarmist approach; no fabricated scarcity, medical promises or “works everywhere” claims.
+- Original downloadable workbooks that help users take action rather than merely consume articles.
+- Optional referral to verified local suppliers or appropriately qualified professionals, with commercial relationships disclosed.
+
+These are hypotheses. No audience research, customer interviews, willingness-to-pay test, conversion test or measured competitive benchmark has yet been completed.
+
+### Immediate sequence
+
+1. Complete a deeper CurrentTrace security and implementation audit before any integration work, especially client-side AI credential handling and the missing evidence/publishing data layer.
+2. Select a narrow first audience/problem through direct research (for example, budget-conscious households planning water use, home food growing or pantry inventory); do not build all five proposed tools simultaneously.
+3. Draft one free tool and one paid/downloadable workbook as a non-production prototype, with all assumptions and safety boundaries documented.
+4. Test usability and actual purchase intent with intended users before selecting a domain, new repository, payment provider or production deployment.
+5. Keep any implementation in a reviewable branch/PR; do not merge, deploy, incur costs or alter client/employer assets without a separate verified gate.
+
+### Source register
+
+- The Amish Ways offer: https://www.theamishways.com/offer/
+- The Amish Ways book page: https://www.theamishways.com/book/
+- Amish Homesteading resources: https://amishhomesteading.com/resources
+- Amish Homesteading programmes: https://amishhomesteading.com/programs
+- The Prairie Homestead: https://www.theprairiehomestead.com/
+- The Prairie Homestead courses: https://www.theprairiehomestead.com/courses
+- GrowVeg planner features: https://www.growveg.com/garden-planner-intro.aspx
+- GrowVeg pricing: https://www.growveg.com/subscribeinfo.aspx
+- National Center for Home Food Preservation: https://nchfp.uga.edu/how/can/
+- CurrentTrace implementation gap audit: https://github.com/faroukpandor/OMNINEWS/blob/main/docs/IMPLEMENTATION_GAP_AUDIT.md
+- CurrentTrace product specification: https://github.com/faroukpandor/OMNINEWS/blob/main/docs/CURRENTTRACE_PRODUCT_SPEC.md
