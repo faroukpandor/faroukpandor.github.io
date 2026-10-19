@@ -10,6 +10,8 @@ The detailed playbook is being developed in the MOKORO Digital Growth Engine PR 
 
 That playbook defines a status ladder, risk tiers, evidence-pack schema, claim-family proof requirements, a 30-day implementation sequence, register template, go/no-go gate and AI/staff workflow controls. The linked file is on an open draft PR branch and is not yet a merged or published service promise.
 
+The initial MOKORO claim-by-claim backlog is maintained here: [Initial Claims Register](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/research/botswana-licensed-hawker-value-pilot-2026-10-18/docs/INITIAL-CLAIMS-REGISTER.md). It lists the claim families, current evidence gaps, proof needed and safer interim wording; entries remain subject to owner assignment and review.
+
 ## Enterprise operating rule
 
 No material public claim is approved by copywriting alone. Each claim must have:
