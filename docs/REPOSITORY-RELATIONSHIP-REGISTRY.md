@@ -194,6 +194,7 @@ This inventory covers repositories returned by the current GitHub account listin
 - **Product brief and complete implementation backlog:** [Client Acquisition & Opportunity Engine](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/main/docs/CLIENT-ACQUISITION-OPPORTUNITY-ENGINE.md).
 - **Poultry pilot research/status:** [Poultry prospect map](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/main/docs/CLIENT-ACQUISITION-POULTRY-PILOT-LEADS.md). As of 14 October 2026, Ishmael Koos has not supplied the farm profile; a brief acknowledgement does not qualify the opportunity or permit disclosure. Keep generic research anonymised and do not block other campaigns.
 - **Agriculture domain role:** [AGRISAGE integration note](https://github.com/faroukpandor/AGRISAGE/blob/main/docs/CLIENT-ACQUISITION-INTEGRATION.md).
+- **Buyer-led grower aggregation and organic assurance opportunity:** [Botswana market and pilot brief (19 Oct 2026)](./BOTSWANA-BUYER-LED-GROWER-AGGREGATION-ORGANIC-ASSURANCE-BRIEF-2026-10-19.md). Desk research only; demand, buyer commitments, certification pathway and economics remain unverified. Start with confirmed buyer demand and a small controlled pilot; do not claim organic certification without an authorised scheme/certifier.
 - **Creative-services domain role:** [BrandCraft workflow](https://github.com/faroukpandor/BRANDCRAFT-ALCHEMIST/blob/main/docs/CLIENT-ACQUISITION-WORKFLOW.md).
 - **Group governance:** [MOKORO Enterprise OS issue #55](https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/issues/55).
 
