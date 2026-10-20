@@ -13,7 +13,7 @@ footer{background:#171c18;color:#d3d6cf;padding:28px 0 18px}.footer-inner,.foote
 
 /* Reduced-motion accessibility: suppress hover/focus movement as well as transitions. */
 @media(prefers-reduced-motion:reduce){.intent-card:hover,.intent-card:focus-visible,.portfolio-row:hover,.button:hover,.button:focus-visible{transform:none!important}}
-\n
+
 
 /* Visible keyboard focus for navigation, cards, links and form controls. */
 a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #8c642f;outline-offset:3px}
