@@ -4,3 +4,94 @@
 
 /* Commercial offer cards: scannable, responsive, and accessible. */
 .offer-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:30px 0}.offer-grid article{border:1px solid var(--line);background:var(--paper);padding:24px;display:flex;flex-direction:column;align-items:flex-start;min-height:220px}.offer-grid article>span{font-size:.68rem;font-weight:800;letter-spacing:.1em;color:#806437}.offer-grid h3{font-size:1.25rem;line-height:1.2;margin:12px 0 6px}.offer-grid p{color:var(--muted);margin:0 0 18px}.offer-grid a{margin-top:auto;color:inherit;font-weight:750}.offer-boundary{font-size:.88rem;color:var(--muted);max-width:900px;border-top:1px solid #aaa;padding-top:18px;margin-top:26px}@media(min-width:900px){.offer-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}@media(max-width:560px){.offer-grid{grid-template-columns:1fr}.offer-grid article{min-height:0}}
+
+
+/* 2026-10 portfolio UI refinement: calm hierarchy, intuitive cards, responsive mind-map cues */
+:root{--ink:#17191d;--muted:#626a74;--paper:#fbfaf7;--dark:#17191d;--accent:#b58a46;--line:#e5e2da;--card:#fff;--radius:18px;--soft:#f0eee8}
+html{scroll-padding-top:90px}
+body{line-height:1.62;-webkit-font-smoothing:antialiased}
+::selection{background:#e7d7b8;color:#17191d}
+a{transition:color .16s ease,border-color .16s ease,background-color .16s ease,transform .16s ease}
+a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,summary:focus-visible{outline:3px solid #b58a46;outline-offset:3px}
+.wrap{width:min(1120px,calc(100% - 44px))}
+header{background:rgba(251,250,247,.92);border-bottom-color:rgba(23,25,29,.09)}
+.nav{min-height:68px}
+.brand{letter-spacing:.08em}
+.brand span{border-radius:10px;background:#17191d}
+nav{gap:clamp(12px,2vw,24px)}
+nav a{padding:8px 0;color:#4e535b}
+nav a:hover,nav a:focus-visible{color:#8c642c}
+.hero{padding:clamp(76px,10vw,130px) 0 72px}
+.hero h1{max-width:900px;font-size:clamp(3rem,7.4vw,6.7rem);letter-spacing:-.075em;line-height:.98}
+.eyebrow,.kicker,.portfolio span{letter-spacing:.12em}
+.lead{max-width:690px;font-size:clamp(1.04rem,1.5vw,1.2rem);line-height:1.7}
+.actions{gap:10px;margin:26px 0}
+.button{border-radius:999px;padding:12px 19px;border-color:#d0cec7;background:rgba(255,255,255,.5)}
+.button:hover,.button:focus-visible{transform:translateY(-1px);border-color:#8c642c}
+.button.primary{background:#17191d;border-color:#17191d}
+.button.primary:hover,.button.primary:focus-visible{background:#34373d}
+.section{padding:clamp(66px,8vw,104px) 0}
+.section h2,.contact h2{max-width:760px;letter-spacing:-.055em;line-height:1.04}
+.intro{max-width:720px;line-height:1.75}
+.portfolio{grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin:28px 0}
+.portfolio article{position:relative;display:flex;flex-direction:column;align-items:flex-start;min-height:0;padding:clamp(22px,3vw,30px);border:1px solid var(--line);border-radius:var(--radius);background:var(--card);box-shadow:0 2px 7px rgba(20,22,25,.025);transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.portfolio article:hover{transform:translateY(-3px);border-color:#c8b58f;box-shadow:0 12px 28px rgba(20,22,25,.065)}
+.portfolio article>span{display:inline-flex;align-items:center;min-height:25px;padding:5px 9px;border-radius:999px;background:#f3eee4;color:#77582c;font-size:.64rem;letter-spacing:.09em}
+.portfolio h3{font-size:clamp(1.28rem,2.1vw,1.65rem);line-height:1.2;letter-spacing:-.035em;margin:18px 0 9px}
+.portfolio p{margin:0 0 12px;line-height:1.65}
+.portfolio p:last-child{margin-top:auto;padding-top:12px}
+.portfolio a{display:inline-flex;align-items:center;gap:6px;text-decoration:none;text-underline-offset:4px}
+.portfolio a:hover{text-decoration:underline;color:#77582c}
+.portfolio a:focus-visible{text-decoration:underline}
+.offer-boundary{font-size:.83rem;color:var(--muted);max-width:760px;border-left:2px solid #c3a36d;padding:5px 0 5px 14px;margin-top:25px}
+.pale{background:#f1efe9}
+.dark{background:#17191d}
+.cards{gap:12px;background:transparent}
+.cards article{border:1px solid #33363d;border-radius:var(--radius);padding:25px;min-height:0}
+.evidence{gap:14px}
+.evidence>div{border:1px solid var(--line);border-radius:var(--radius);padding:22px;background:#fff}
+.record{padding:24px 0}
+.visual-map{gap:10px;background:transparent}
+.visual-map div{border:1px solid var(--line);border-radius:14px;background:#fff}
+.flow-node{border-radius:14px}
+.flow-node.outcome{border-radius:14px}
+.ecosystem-grid{gap:12px}
+.eco-core,.eco-card{border-radius:var(--radius)}
+.eco-card{box-shadow:0 2px 7px rgba(20,22,25,.025)}
+.routing-grid{gap:10px;background:transparent}
+.routing-grid div{border-radius:14px}
+.opportunity-grid{gap:12px}
+.opportunity-grid details{border-radius:14px}
+.demand-cards a{border-radius:var(--radius);transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.demand-cards a:hover,.demand-cards a:focus-visible{transform:translateY(-3px);box-shadow:0 10px 24px rgba(20,22,25,.06)}
+.demand-flow div{border-radius:14px}
+.partner-grid article{border-radius:var(--radius);box-shadow:0 2px 7px rgba(20,22,25,.025)}
+.intake-form{border-radius:var(--radius);border-color:#e3dfd5;box-shadow:0 10px 30px rgba(20,22,25,.035)}
+.intake-form input,.intake-form select,.intake-form textarea{border-radius:10px;border-color:#d8d5cd}
+.intake-form input:focus,.intake-form select:focus,.intake-form textarea:focus{border-color:#a78043}
+.contact{background:#eee7d9}
+footer{padding:28px 0}
+.skip:focus{border-radius:8px}
+@media(max-width:800px){
+ .wrap{width:min(100% - 32px,680px)}
+ .nav{min-height:62px}
+ .hero{padding:76px 0 54px}
+ .portfolio{grid-template-columns:1fr;gap:12px}
+ .portfolio article{padding:23px}
+ .signals{margin-top:45px}
+ .section,.contact{padding:68px 0}
+ .cards,.evidence{grid-template-columns:1fr}
+ .simple-actions{gap:9px}
+}
+@media(max-width:520px){
+ .wrap{width:calc(100% - 28px)}
+ .hero h1{font-size:clamp(2.8rem,14vw,4.4rem)}
+ .actions{align-items:stretch}
+ .actions .button{display:flex;justify-content:center;align-items:center}
+ .portfolio article{border-radius:15px}
+ .section h2,.contact h2{font-size:clamp(2rem,10vw,3.1rem)}
+ footer .wrap{gap:6px}
+}
+@media(prefers-reduced-motion:reduce){
+ *,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}
+}
