@@ -94,4 +94,5 @@ footer{padding:28px 0}
 }
 @media(prefers-reduced-motion:reduce){
  *,*::before,*::after{scroll-behavior:auto!important;transition:none!important;animation:none!important}
+ .portfolio article:hover,.portfolio article:focus-within,.demand-cards a:hover,.demand-cards a:focus-visible,.demand-cards a:focus-within,.button:hover,.button:focus-visible{transform:none!important}
 }
