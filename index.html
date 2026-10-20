@@ -49,4 +49,23 @@
 <form class="intake-form" id="enquiry-form" action="mailto:faroukpandor@gmail.com" method="post" enctype="text/plain"><label>What are you looking for?<select name="need"><option>Something I want to buy or source</option><option>A business problem or workflow</option><option>Agricultural need or project</option><option>Research or information</option><option>A local specialist or service</option><option>An opportunity or partnership</option><option>Something else</option></select></label><label>Your name<input name="name" required autocomplete="name" placeholder="Your name"></label><label>How can I reach you?<input name="contact" required placeholder="WhatsApp, email or phone"></label><label>Tell me a little about it<textarea name="requirement" rows="4" placeholder="What do you need, where are you, and when do you need it?"></textarea></label><details class="optional-details"><summary>Add more details (optional)</summary><label>Location<input name="location" placeholder="Town / country"></label><label>Timing<input name="timing" placeholder="ASAP / this month / flexible"></label><label>Budget or quantity, if known<input name="budget_quantity" placeholder="Optional"></label></details><button class="button primary" type="submit">Start the conversation <span aria-hidden="true">↗</span></button><p class="form-note">Your email app should open with the details filled in. If it does not, email <a href="mailto:faroukpandor@gmail.com">faroukpandor@gmail.com</a> directly and include your requirement. This site does not store enquiries or send them to a server.</p></form></div></section>
 </main>
 <footer><div class="wrap footer-inner"><a class="brand footer-brand" href="./"><span class="brand-mark">FP</span><span>FAROUK PANDOR</span></a><span>Independent business support · Botswana</span><div><a href="professional-record.html">Professional record</a><a href="portfolio.html">Portfolio</a><a href="mailto:faroukpandor@gmail.com">Contact</a></div></div><div class="wrap footer-note"><span>© Farouk Pandor</span><span>Clear needs. Honest evidence. Practical action.</span></div></footer>
-\n<script>\n(() => {\n  const form = document.getElementById("enquiry-form");\n  if (!form) return;\n  form.addEventListener("submit", (event) => {\n    event.preventDefault();\n    if (!form.reportValidity()) return;\n    const values = new FormData(form);\n    const subject = `Enquiry: ${values.get("need") || "General enquiry"}`;\n    const labels = { need: "What they need", name: "Name", contact: "Preferred contact", requirement: "Requirement", location: "Location", timing: "Timing", budget_quantity: "Budget or quantity" };\n    const body = [...values.entries()]\n      .filter(([key, value]) => String(value).trim() && labels[key])\n      .map(([key, value]) => `${labels[key]}: ${String(value).trim()}`)\n      .join("\\n\\n");\n    window.location.href = `mailto:faroukpandor@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;\n  });\n})();\n</script>\n</body></html>
+
+<script>
+(() => {
+  const form = document.getElementById("enquiry-form");
+  if (!form) return;
+  form.addEventListener("submit", (event) => {
+    event.preventDefault();
+    if (!form.reportValidity()) return;
+    const values = new FormData(form);
+    const subject = "Enquiry: " + (values.get("need") || "General enquiry");
+    const labels = { need: "What they need", name: "Name", contact: "Preferred contact", requirement: "Requirement", location: "Location", timing: "Timing", budget_quantity: "Budget or quantity" };
+    const body = [...values.entries()]
+      .filter(([key, value]) => String(value).trim() && labels[key])
+      .map(([key, value]) => labels[key] + ": " + String(value).trim())
+      .join("\n\n");
+    window.location.href = "mailto:faroukpandor@gmail.com?subject=" + encodeURIComponent(subject) + "&body=" + encodeURIComponent(body);
+  });
+})();
+</script>
+</body></html>
