@@ -17,3 +17,46 @@ footer{background:#171c18;color:#d3d6cf;padding:28px 0 18px}.footer-inner,.foote
 
 /* Visible keyboard focus for navigation, cards, links and form controls. */
 a:focus-visible,button:focus-visible,summary:focus-visible{outline:3px solid #8c642f;outline-offset:3px}
+
+/* ---------- Secondary-page components (portfolio, professional record) ---------- */
+.hero.compact{display:block;padding-top:62px;padding-bottom:42px;min-height:0}
+.hero.compact .hero-copy{max-width:none}
+.hero.compact h1{font-size:clamp(2.3rem,4.6vw,4rem)}
+.hero.compact .lead{font-size:clamp(1rem,1.4vw,1.1rem);max-width:680px}
+.kicker{font-size:.66rem;letter-spacing:.15em;font-weight:800;color:#78603d;margin:0 0 14px}
+.record{border-top:1px solid var(--line);padding:22px 0}
+.record:first-of-type{border-top:0;padding-top:0}
+.record h3{font-size:1.05rem;letter-spacing:-.02em;margin:0 0 9px}
+.record p{margin:0 0 8px;color:#4c5248;font-size:.92rem;line-height:1.6}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;margin-top:20px}
+.cards article{background:#fff;border:1px solid var(--line);padding:22px}
+.cards article h3{font-size:.98rem;letter-spacing:-.015em;margin:0 0 8px}
+.cards article p{margin:0;font-size:.85rem;color:var(--muted);line-height:1.6}
+.course-grid{display:flex;flex-wrap:wrap;gap:8px;margin:18px 0}
+.course-grid span{font-size:.74rem;font-weight:700;color:#4a5143;background:#e7ebe4;border:1px solid #d3d9cf;padding:6px 11px;border-radius:2px}
+.section.pale{background:#eeece4}
+.section.dark{background:var(--forest);color:#fff}
+.section.dark .kicker{color:#d7bb8e}
+.section.dark h2{color:#fff}
+.section.dark p{color:#c1c9c1}
+.section.dark .record{border-color:#617167}
+.section.dark .record p{color:#c1c9c1}
+.section.dark .cards article{background:#fff;border-color:#617167}
+.section.dark .cards article p{color:#4c5248}
+
+/* ---------- Value / earning section (homepage) ---------- */
+.value-section{background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.value-formula{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:30px;padding:20px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.value-formula span{font-size:.64rem;letter-spacing:.14em;font-weight:800;color:#78603d}
+.value-formula p{margin:0;font:400 clamp(1.05rem,2vw,1.5rem)/1.4 Georgia,serif;max-width:840px}
+.value-grid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px;margin-top:28px}
+.value-card{border:1px solid var(--line);padding:20px;background:#fff;transition:transform .18s ease,border-color .18s ease,box-shadow .18s ease}
+.value-card:hover{transform:translateY(-3px);border-color:#b8a27d;box-shadow:0 12px 26px #25291c0b}
+.value-card .v-k{font-size:.62rem;font-weight:800;letter-spacing:.12em;color:#8b744e}
+.value-card h3{font-size:.95rem;letter-spacing:-.02em;margin:11px 0 8px;line-height:1.25}
+.value-card p{font-size:.8rem;color:var(--muted);margin:0;line-height:1.6}
+.value-note{font-size:.79rem;color:var(--muted);max-width:860px;margin:22px 0 0}
+.value-note strong{color:var(--ink)}
+
+@media(max-width:950px){.value-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:700px){.hero.compact{padding-top:52px;padding-bottom:30px}.value-grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr}.section-head{margin-bottom:27px}.value-formula{padding:18px 0}}
