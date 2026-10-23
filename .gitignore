@@ -90,3 +90,7 @@ Thumbs.db
 .vercel/
 .netlify/
 .wrangler/
+
+# Job-application documents — contain personal contact details; never publish
+applications/*
+!applications/.gitkeep
