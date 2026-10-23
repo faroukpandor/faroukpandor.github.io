@@ -94,3 +94,11 @@ Thumbs.db
 # Job-application documents — contain personal contact details; never publish
 applications/*
 !applications/.gitkeep
+
+# Personal documents must never be published — this repo serves GitHub Pages publicly
+# (applies to new files only; already-tracked files are unaffected)
+documents/personal/*.docx
+documents/personal/*.pdf
+documents/personal/*.txt
+documents/personal/*.jpg
+documents/personal/*.png
