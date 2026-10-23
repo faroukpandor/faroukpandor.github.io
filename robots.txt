@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
+Disallow: /documents/
 Sitemap: https://faroukpandor.github.io/sitemap.xml
