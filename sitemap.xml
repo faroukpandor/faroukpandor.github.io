@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://faroukpandor.github.io/</loc></url>
-  <url><loc>https://faroukpandor.github.io/professional-record.html</loc></url>
-  <url><loc>https://faroukpandor.github.io/portfolio.html</loc></url>
+  <url><loc>https://faroukpandor.github.io/</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://faroukpandor.github.io/professional-record.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://faroukpandor.github.io/portfolio.html</loc><lastmod>2026-10-27</lastmod></url>
+  <url><loc>https://faroukpandor.github.io/portfolio-map.html</loc><lastmod>2026-10-27</lastmod></url>
 </urlset>
