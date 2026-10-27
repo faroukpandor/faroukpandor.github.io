@@ -8,9 +8,14 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: market-signal-monitor
+  cancel-in-progress: false
+
 jobs:
   monitor:
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
       - name: Fetch official signal sources
@@ -21,18 +26,61 @@ jobs:
           python - <<'PY'
           import hashlib, json, pathlib, urllib.request
           from datetime import datetime, timezone
-          sources = [('npc-national-development-plans','https://www.npc.gov.bw/national-development-plans'),('government-business-opportunities','https://gov.bw/doing-business/identified-possible-business-opportunities'),('bitc-investment-areas','https://www.bitc.co.bw/invest/investment-areas/')]
-          out=pathlib.Path('data/market-signals')
-          for name,url in sources:
+          # Use canonical hostnames. The bare gov.bw host serves a certificate
+          # that does not match the hostname, which made one source fail silently
+          # while the job still reported success.
+          sources = [
+              ('npc-national-development-plans', 'https://www.npc.gov.bw/national-development-plans'),
+              ('government-business-opportunities', 'https://www.gov.bw/doing-business/identified-possible-business-opportunities'),
+              ('bitc-investment-areas', 'https://www.bitc.co.bw/invest/investment-areas/'),
+          ]
+          out = pathlib.Path('data/market-signals')
+          for name, url in sources:
               try:
-                  req=urllib.request.Request(url,headers={'User-Agent':'Farouk-Market-Signal-Monitor/1.0'})
-                  body=urllib.request.urlopen(req,timeout=30).read()
-                  digest=hashlib.sha256(body).hexdigest()
-                  (out/f'{name}.html').write_bytes(body)
-                  (out/f'{name}.json').write_text(json.dumps({'source':url,'retrieved_utc':datetime.now(timezone.utc).isoformat(),'sha256':digest,'status':'FETCHED'},indent=2))
+                  req = urllib.request.Request(url, headers={'User-Agent': 'Farouk-Market-Signal-Monitor/1.0'})
+                  body = urllib.request.urlopen(req, timeout=30).read()
+                  record = {
+                      'source': url,
+                      'status': 'FETCHED',
+                      'retrieved_utc': datetime.now(timezone.utc).isoformat(),
+                      'sha256': hashlib.sha256(body).hexdigest(),
+                  }
+                  (out / f'{name}.html').write_bytes(body)
               except Exception as e:
-                  (out/f'{name}.json').write_text(json.dumps({'source':url,'status':'ERROR','error':str(e)},indent=2))
+                  # Keep the last good HTML snapshot; only the status record changes.
+                  record = {
+                      'source': url,
+                      'status': 'ERROR',
+                      'attempted_utc': datetime.now(timezone.utc).isoformat(),
+                      'error': str(e),
+                  }
+              (out / f'{name}.json').write_text(json.dumps(record, indent=2))
           PY
+      - name: Report signal health
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          rows = []
+          for p in sorted(pathlib.Path('data/market-signals').glob('*.json')):
+              d = json.loads(p.read_text())
+              rows.append({
+                  'name': p.stem,
+                  'status': d.get('status', 'UNKNOWN'),
+                  'ts': d.get('retrieved_utc') or d.get('attempted_utc') or 'n/a',
+                  'note': d.get('error', '').replace('|', '/'),
+              })
+          lines = ['| Source | Status | Timestamp (UTC) | Note |', '|---|---|---|---|']
+          for r in rows:
+              lines.append(f"| {r['name']} | {r['status']} | {r['ts']} | {r['note']} |")
+              if r['status'] != 'FETCHED':
+                  print(f"::warning file=data/market-signals/{r['name']}.json::{r['name']} {r['status']}: {r['note']}")
+          healthy = sum(1 for r in rows if r['status'] == 'FETCHED')
+          print(f'{healthy}/{len(rows)} sources fetched')
+          pathlib.Path('signal-health.md').write_text('\n'.join(lines) + '\n')
+          PY
+          cat signal-health.md >> "$GITHUB_STEP_SUMMARY"
+          rm signal-health.md
       - name: Commit changed evidence snapshots
         run: |
           git config user.name 'github-actions[bot]'
