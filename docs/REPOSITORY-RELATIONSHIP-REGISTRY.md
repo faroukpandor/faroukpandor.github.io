@@ -57,6 +57,18 @@
 - **Rollout gate:** merge/review the protocol and manifests, then validate the two pilot repositories with non-mutating checks before enabling any event-driven issue/PR automation.
 - **Safety rule:** first-party classification and GitHub access do not authorise changes to client, employer, third-party or upstream repositories. Keep those excluded unless scoped permission is recorded.
 
+## Public customer-facing destinations (verified 2026-10-31)
+
+The lightweight, machine-readable source for **public routing only** is [`data/public-projects.json`](../data/public-projects.json). The portfolio homepage and directory are statically authored and must pass `node scripts/verify-public-portfolio.mjs` before GitHub Pages deployment. This is not a proof of legal ownership or customer ERP readiness.
+
+| Project | Public destination | Evidence boundary |
+| --- | --- | --- |
+| MOKORO Digital Growth Engine | https://mokoro-dge.pages.dev/ | Cloudflare production deployment succeeded; customer intake persistence and authentication are **not** validated |
+| AgriSage360 | https://agrisage.pages.dev/ | Cloudflare production deployment succeeded; farmer account/privacy workflow not validated |
+| EverythingCity | https://everythingcity.pages.dev/ | Cloudflare production deployment succeeded; customer/merchant tenancy and transaction flow not validated |
+
+The source repositories for these and other projects may be **private**. Do not put private GitHub repository URLs on public customer pages. Internal MOKORO EOS `/os/*` routes must not be linked as a customer portal without verified Cloudflare Access. Where public service evidence is absent (e.g. Consultant or AnimalHealth private research), show descriptive context, not a broken private repository link. See portfolio issue #148 and ERP access issue https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/issues/108.
+
 ## Canonical architecture
 
 - **Personal identity and routing:** [faroukpandor.github.io](https://github.com/faroukpandor/faroukpandor.github.io) and the separately deployed [faroukpandor.vercel.app](https://faroukpandor.vercel.app/). Their source/deployment relationship must be verified independently; do not assume the Vercel site deploys from the legacy [faroukpandor](https://github.com/faroukpandor/faroukpandor) Hugo starter.
