@@ -2,11 +2,17 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 
 const files = ['index.html', 'portfolio.html'];
-const publicDestinations = [
-  'https://mokoro-dge.pages.dev/',
-  'https://agrisage.pages.dev/',
-  'https://everythingcity.pages.dev/',
-];
+const manifest = JSON.parse(readFileSync(new URL('../data/public-projects.json', import.meta.url), 'utf8'));
+assert.equal(manifest.schema_version, 1, 'public project manifest version must be explicit');
+assert.equal(manifest.entries.length, 3, 'only separately verified public destinations are currently approved');
+const publicDestinations = manifest.entries.map(({public_url}) => public_url);
+assert.equal(new Set(publicDestinations).size, publicDestinations.length, 'public destinations must be unique');
+for (const entry of manifest.entries) {
+  assert.match(entry.public_url, /^https:\/\/[a-z0-9-]+\.pages\.dev\/$/, 'public destination must be an approved Cloudflare Pages hostname');
+  assert.equal(entry.deployment_status, 'production-succeeded', 'no preview-only URL should be presented as production');
+  assert.equal(entry.customer_erp_ready, false, 'do not imply customer ERP availability');
+  assert.equal(entry.identity_ready, false, 'do not imply customer identity is ready');
+}
 const prohibited = [
   'github.com/faroukpandor/FAROUKPANDORCONSULTANT',
   'github.com/faroukpandor/AnimalHealth',
