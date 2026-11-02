@@ -23,6 +23,8 @@ jobs:
           node-version: '24'
       - name: Check public portfolio destinations and markup
         run: node scripts/verify-public-portfolio.mjs
+      - name: Reconcile repository inventory catalogue
+        run: node scripts/repository-inventory.mjs reconcile
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
