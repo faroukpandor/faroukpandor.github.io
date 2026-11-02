@@ -2,6 +2,7 @@ import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 
 const files = ['index.html', 'portfolio.html'];
+const lightFiles = ['professional-record.html', 'portfolio-map.html'];
 const manifest = JSON.parse(readFileSync(new URL('../data/public-projects.json', import.meta.url), 'utf8'));
 assert.equal(manifest.schema_version, 1, 'public project manifest version must be explicit');
 assert.equal(manifest.entries.length, 3, 'only separately verified public destinations are currently approved');
@@ -37,6 +38,21 @@ for (const path of files) {
   assert.equal((html.match(/<div(?:\s|>)/g) || []).length, (html.match(/<\/div>/g) || []).length, path + ' div tags must balance');
   count++;
   assert.ok(!/href\s*=\s*["']javascript:/i.test(html), path + ' must not include javascript URL destinations');
+  count++;
+}
+for (const path of lightFiles) {
+  const html = readFileSync(new URL('../' + path, import.meta.url), 'utf8');
+  assert.equal((html.match(/<a(?:\s|>)/g) || []).length, (html.match(/<\/a>/g) || []).length, path + ' anchor tags must balance');
+  count++;
+  assert.equal((html.match(/<div(?:\s|>)/g) || []).length, (html.match(/<\/div>/g) || []).length, path + ' div tags must balance');
+  count++;
+  assert.ok(!/href\s*=\s*["']javascript:/i.test(html), path + ' must not include javascript URL destinations');
+  count++;
+  assert.ok(html.includes('rel="canonical"'), path + ' must declare a canonical URL');
+  count++;
+  assert.ok(html.includes('property="og:image"'), path + ' must declare a social preview image');
+  count++;
+  assert.ok(html.includes('name="viewport"'), path + ' must declare a mobile viewport');
   count++;
 }
 console.log(count + ' public portfolio routing checks passed (static HTML only)');
