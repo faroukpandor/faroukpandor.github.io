@@ -30,6 +30,16 @@
 - **BrandCraft use:** [Client Acquisition Workflow](https://github.com/faroukpandor/BRANDCRAFT-ALCHEMIST/blob/main/docs/CLIENT-ACQUISITION-WORKFLOW.md).
 - Do not duplicate the generic tool or prospect database across repositories. Keep sector checklists and client-specific data in their authorised workspace; preserve client/employer/third-party boundaries.
 
+## MOKORO AgriValue Network — produce sourcing and market access (2026-11-03)
+
+- **Commercial operation:** MOKORO AgriValue Network, based at Mopipi, Botshabelo Ward, Tlokweng.
+- **Agriculture-specific operating workspace:** [AgriSage360 AgriValueWorkspace](https://github.com/faroukpandor/AGRISAGE/tree/main/src/components/AgriValueWorkspace.tsx) and [sourcing/market-access specification](https://github.com/faroukpandor/AGRISAGE/blob/main/docs/AGRIVALUE-NETWORK-SOURCING-AND-MARKET-ACCESS.md).
+- **Buyer acquisition:** use the canonical MOKORO DGE [Client Acquisition Workspace](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/tree/main/src/app/tools/client-acquisition) with the [AgriValue buyer-acquisition campaign](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/main/docs/AGRIVALUE-BUYER-ACQUISITION-CAMPAIGN.md). Do not duplicate a general CRM.
+- **Boundary:** AgriSage360 is the agricultural domain workflow; MOKORO DGE is the prospecting/campaign system; AgriValue is the customer-facing trading and fulfilment operation. No live cross-repository data sync is enabled.
+- **Confidentiality:** upstream supplier identities, personal contacts, farm locations, buying prices and negotiation terms are private procurement information. Never publish or place live records in Git, customer collateral, public demos, analytics or the general prospect CRM.
+- **Implementation status:** local-first single-device MVP source is under review/merge; no cloud sync, multi-user production security, public catalogue, buyer commitments, stock confirmation or deployment is implied until independently verified.
+- **Customer-facing routing:** Mopipi, Botshabelo Ward, Tlokweng; Orange 72487174, beMobile 76823938, Mascom 71444427.
+
 ## 100-idea catalogue: canonical capability routing — 2026-10-16
 
 - **Collective decision framework:** [Idea Portfolio Assimilation & Repository Repurposing](https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/blob/main/docs/IDEA-PORTFOLIO-ASSIMILATION-AND-REPOSITORY-REPURPOSING-2026-10-16.md) — rank ideas by customer evidence, speed to first cash, current delivery capability, safety and reuse; do not create 100 products.

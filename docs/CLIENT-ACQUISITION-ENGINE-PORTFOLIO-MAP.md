@@ -16,11 +16,23 @@ MOKORO Digital Growth Engine owns the reusable client-acquisition workflow: camp
 |---|---|---|
 | **MOKORO Digital Growth Engine** | Canonical tool, general sales acquisition and opportunity workflows | Own implementation and roadmap |
 | **AgriSage360 / AGRISAGE** | Agricultural market research, grower/integrator/processor discovery, farm-service partner mapping | Agricultural domain criteria and interpretation belong here; link to canonical tool rather than copy it |
+| **MOKORO AgriValue Network** | Produce sourcing, confidential supplier offers, buyer demand, quotations and fulfilment | Commercial operation; AgriSage360 hosts the agriculture-specific private operating workspace; MOKORO DGE owns buyer acquisition. No supplier identities or buying prices in the general CRM |
 | **AgriSolutions / Master Farmer / AgriLink / AnimalSphere** | Field-service customers, farmer network engagement, agricultural commerce and partner discovery | Use only authorised contacts and consented information |
 | **BRANDCRAFT-ALCHEMIST** | Prospects for branding, design, embroidery/print collateral and creative services | Client brand assets remain client-owned; no cross-use without permission |
 | **Personal portfolio / FAROUKPANDORCONSULTANT** | Route inbound enquiries to the correct offer and track own consulting pipeline | Clearly distinguish personal services from client work and partner referrals |
 | **Procurement and sourcing projects** | Supplier qualification, buyer/distributor mapping, tender/EOI tracking and partner discovery | Do not imply tender eligibility or submit bids without explicit approval |
 | **Client / employer projects (including YellowBlue and WCD)** | Potential beneficiary only where a mandate and permission exist | No edits, shared databases, portfolio branding or data transfer without authorisation |
+
+## MOKORO AgriValue Network — produce sourcing and buyer acquisition
+
+- **Commercial operation:** MOKORO AgriValue Network, operating from Mopipi, Botshabelo Ward, Tlokweng, Botswana.
+- **Agricultural workflow:** [AgriSage360 private AgriValue workspace](https://github.com/faroukpandor/AGRISAGE/tree/main/src/components/AgriValueWorkspace.tsx) — local-device supplier register, produce offers/forecasts, buyer register, order enquiries and customer-safe order summaries. The source implementation stores records in browser local storage only; no cloud sync, multi-user access or public catalogue is claimed.
+- **Agricultural specification:** [Sourcing and Market Access](https://github.com/faroukpandor/AGRISAGE/blob/main/docs/AGRIVALUE-NETWORK-SOURCING-AND-MARKET-ACCESS.md).
+- **Buyer acquisition:** [MOKORO DGE campaign brief](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/main/docs/AGRIVALUE-BUYER-ACQUISITION-CAMPAIGN.md), using the canonical [Client Acquisition Workspace](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/tree/main/src/app/tools/client-acquisition).
+- **Customer-facing operating base:** Mopipi, Botshabelo Ward, Tlokweng. Customer order contacts: Orange 72487174; beMobile 76823938; Mascom 71444427.
+- **Confidentiality:** supplier names, direct contacts, farm locations, buying prices and negotiation records are internal-only. They must not enter public catalogue data, customer copy, the general prospect CRM, source code, public fixtures, screenshots or analytics.
+- **Commercial control:** demand-led procurement, stock/quality re-verification, explicit pack definitions, transparent delivery terms and contribution-after-costs. No speculative perishable inventory or automated customer/supplier commitments.
+- **Status boundary:** source changes are proposed in repository PRs; do not describe the feature as deployed or operational until the PRs merge, build/tests pass and the live route is verified. The workspace is a single-device MVP, not a production multi-user ERP.
 
 ## Evidence and automation rules
 
