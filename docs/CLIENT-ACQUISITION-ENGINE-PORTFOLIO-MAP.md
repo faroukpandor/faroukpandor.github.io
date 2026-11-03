@@ -26,13 +26,13 @@ MOKORO Digital Growth Engine owns the reusable client-acquisition workflow: camp
 ## MOKORO AgriValue Network — produce sourcing and buyer acquisition
 
 - **Commercial operation:** MOKORO AgriValue Network, operating from Mopipi, Botshabelo Ward, Tlokweng, Botswana.
-- **Agricultural workflow:** [AgriSage360 private AgriValue workspace](https://github.com/faroukpandor/AGRISAGE/tree/main/src/components/AgriValueWorkspace.tsx) — local-device supplier register, produce offers/forecasts, buyer register, order enquiries and customer-safe order summaries. The source implementation stores records in browser local storage only; no cloud sync, multi-user access or public catalogue is claimed.
+- **Agricultural workflow:** [AgriSage360 private AgriValue workspace](https://github.com/faroukpandor/AGRISAGE/blob/main/src/components/AgriValueWorkspace.tsx) — local-device supplier register, produce offers/forecasts, buyer register, order enquiries and customer-safe order summaries. The source implementation stores records in browser local storage only; no cloud sync, multi-user access or public catalogue is claimed.
 - **Agricultural specification:** [Sourcing and Market Access](https://github.com/faroukpandor/AGRISAGE/blob/main/docs/AGRIVALUE-NETWORK-SOURCING-AND-MARKET-ACCESS.md).
 - **Buyer acquisition:** [MOKORO DGE campaign brief](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/main/docs/AGRIVALUE-BUYER-ACQUISITION-CAMPAIGN.md), using the canonical [Client Acquisition Workspace](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/tree/main/src/app/tools/client-acquisition).
 - **Customer-facing operating base:** Mopipi, Botshabelo Ward, Tlokweng. Customer order contacts: Orange 72487174; beMobile 76823938; Mascom 71444427.
 - **Confidentiality:** supplier names, direct contacts, farm locations, buying prices and negotiation records are internal-only. They must not enter public catalogue data, customer copy, the general prospect CRM, source code, public fixtures, screenshots or analytics.
 - **Commercial control:** demand-led procurement, stock/quality re-verification, explicit pack definitions, transparent delivery terms and contribution-after-costs. No speculative perishable inventory or automated customer/supplier commitments.
-- **Status boundary:** source changes are proposed in repository PRs; do not describe the feature as deployed or operational until the PRs merge, build/tests pass and the live route is verified. The workspace is a single-device MVP, not a production multi-user ERP.
+- **Status boundary:** AgriSage360 source implementation is merged to `main` (PR #89); status documentation is merged (PR #90). GitHub Actions typecheck/build and Cloudflare Pages deployment checks were still in progress at last inspection. Do not describe the feature as deployed or production-ready until checks pass and the live route is verified. The workspace is a single-device MVP, not a production multi-user ERP.
 
 ## Evidence and automation rules
 
