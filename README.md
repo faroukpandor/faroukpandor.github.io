@@ -28,6 +28,10 @@ The homepage includes an evidence-led section for supplier channels, reseller/MS
 - Treat the personal site as a routing and presentation layer; keep enterprise-specific operational records in their canonical repositories.
 - Re-check external programme terms before acting, since eligibility and commercial terms can change.
 
+## Operating layer (internal governance)
+
+The [personal assistant / project manager mandate](docs/PA-PM-MANDATE.md) sets the working rules, evidence levels, risk tiers and approval boundaries. The canonical [next-action queue](data/next-actions/NEXT-ACTION-QUEUE.json) (also available as [CSV](data/next-actions/NEXT-ACTION-QUEUE.csv)) carries exactly one next action per active opportunity, with dated daily briefs in `docs/`. These are internal operating records; they are not claims of revenue, certification, readiness or compliance, and they must not contain customer, supplier or personal financial data.
+
 ## Cross-repository governance
 
 The current cross-repository inventory and relationship rules are maintained in [docs/REPOSITORY-RELATIONSHIP-REGISTRY.md](docs/REPOSITORY-RELATIONSHIP-REGISTRY.md). Every confirmed personal-owned active repository should link back to that registry and maintain a local `docs/PORTFOLIO-RELATIONSHIPS.md`. The register includes current account-listed repositories plus known control repositories, flags unknown classifications instead of guessing, and records client/upstream boundaries.
