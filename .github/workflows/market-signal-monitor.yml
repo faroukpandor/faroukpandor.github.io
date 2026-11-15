@@ -81,6 +81,12 @@ jobs:
           PY
           cat signal-health.md >> "$GITHUB_STEP_SUMMARY"
           rm signal-health.md
+      - name: Setup Node for signal digest
+        uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Normalise & deduplicate market signal digest
+        run: node scripts/market-signals.mjs process
       - name: Commit changed evidence snapshots
         run: |
           git config user.name 'github-actions[bot]'

@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Free offline-first Website and Digital Presence Health Check tool covering reachability, enquiry flows, trust, metadata, accessibility and technical signals. CC BY 4.0.">
+<meta name="author" content="Farouk Pandor">
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:">
+<meta name="theme-color" content="#f7f6f2">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='10'%20fill='%23263b31'/%3E%3Ctext%20x='32'%20y='45'%20font-family='Georgia,serif'%20font-size='32'%20fill='%23e9dfcc'%20text-anchor='middle'%3EFP%3C/text%3E%3C/svg%3E">
+<link rel="canonical" href="https://faroukpandor.github.io/website-health-check.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Farouk Pandor">
+<meta property="og:title" content="Free Website &amp; Digital Presence Health Check — Farouk Pandor">
+<meta property="og:description" content="Practical 6-part website review tool you can complete locally in your browser and export as Markdown, JSON or printable PDF without tracking or uploads.">
+<meta property="og:url" content="https://faroukpandor.github.io/website-health-check.html">
+<meta property="og:image" content="https://faroukpandor.github.io/assets/img/og-cover.jpg">
+<meta property="og:image:alt" content="Forest-green circle with gold orbit rings on a warm paper background">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://faroukpandor.github.io/assets/img/og-cover.jpg">
+<title>Free Website Health Check — Farouk Pandor</title>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="./" aria-label="Farouk Pandor home"><span class="brand-mark">FP</span><span>FAROUK PANDOR</span></a>
+    <nav aria-label="Main navigation">
+      <a href="./">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="portfolio-map.html">Portfolio Map</a>
+      <a href="professional-record.html">Professional Record</a>
+      <a href="website-health-check.html" aria-current="page">Health Check</a>
+      <a class="nav-cta" href="./#enquire">Enquire <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="hero compact wrap">
+    <div class="eyebrow">FREE PUBLIC SELF-CHECK TOOL · ZERO TRACKING · CC BY 4.0</div>
+    <h1>Website &amp; Digital Presence Health Check.</h1>
+    <p class="lead">Check up to 10 key pages of an authorised website across 6 practical areas. Everything stays in your browser (optional local draft only — zero uploads, zero trackers). Export Markdown, JSON or print cleanly to PDF.</p>
+    <div class="alert-banner">
+      <strong>Scope &amp; explicit exclusions:</strong> Only review websites you own or have permission to inspect, and never submit fake leads to live forms without approval. This checklist is a structured quality review — <strong>not</strong> a penetration test, legal compliance certification, full WCAG accessibility audit or search-ranking guarantee.
+    </div>
+  </section>
+
+  <section class="section wrap" id="setup">
+    <div class="kicker">REVIEW SCOPE &amp; METADATA</div>
+    <h2>Record what is being checked.</h2>
+    <div class="intake-form intake-narrow mt-20">
+      <label>Authorised website URL or project name<input id="hc-url" type="url" placeholder="https://example.com"></label>
+      <label>Pages / journeys in scope<input id="hc-scope" type="text" placeholder="e.g. Home -> Services -> WhatsApp/Enquiry path (desktop &amp; mobile)"></label>
+      <label>Reviewer / owner<input id="hc-reviewer" type="text" placeholder="Name or business owner"></label>
+      <label>Review date<input id="hc-date" type="date"></label>
+    </div>
+
+    <div class="kpi-grid" aria-live="polite" id="hc-scorecard">
+      <article class="kpi-card"><span class="kpi-id">PROGRESS</span><strong id="stat-checked">0 / 33</strong><h3>Checks assessed</h3><p>Items marked Pass, Needs fix, or N/A.</p></article>
+      <article class="kpi-card"><span class="kpi-id">ISSUES FLAGGED</span><strong id="stat-fixes">0</strong><h3>Needs fix</h3><p>Items requiring concrete remediation.</p></article>
+      <article class="kpi-card"><span class="kpi-id">HIGH / CRITICAL</span><strong id="stat-urgent">0</strong><h3>Urgent blockers</h3><p>Broken core journeys or serious exposure.</p></article>
+    </div>
+
+    <div class="action-row no-print">
+      <button class="button small" type="button" id="btn-export-md">Download Markdown Report</button>
+      <button class="button secondary small" type="button" id="btn-export-json">Download JSON Report</button>
+      <button class="button ghost small" type="button" id="btn-copy-summary">Copy Summary</button>
+      <button class="button ghost small" type="button" id="btn-print">Print / Save PDF</button>
+      <button class="button ghost small" type="button" id="btn-reset">Clear Local Draft</button>
+      <span id="hc-feedback" class="status-note" role="status" aria-live="polite"></span>
+    </div>
+  </section>
+
+  <section class="section pale" id="checklist">
+    <div class="wrap">
+      <div class="kicker">6-AREA REVIEW CHECKLIST</div>
+      <h2>Separate observed facts from unverified assumptions.</h2>
+      <div id="checklist-container">
+        <noscript><p>Enable JavaScript to use interactive controls and export buttons, or print this checklist directly.</p></noscript>
+      </div>
+    </div>
+  </section>
+
+  <section class="section wrap no-print" id="next-step">
+    <div class="kicker">NEED SUPPORT WITH REMEDIATION?</div>
+    <h2>Optional bounded follow-up — zero obligation.</h2>
+    <p>You may reuse, adapt and share this checklist freely under <strong>CC BY 4.0</strong> attribution (Farouk Pandor). If you prefer hands-on verification, a written prioritisation report or structured website care, send a short brief.</p>
+    <p><a class="button" href="./#enquire">Request a Website Health Review <span aria-hidden="true">→</span></a> <a class="button secondary" href="portfolio.html">View live portfolio projects</a></p>
+  </section>
+</main>
+<footer>
+  <div class="wrap footer-inner">
+    <a class="brand footer-brand" href="./"><span class="brand-mark">FP</span><span>FAROUK PANDOR</span></a>
+    <span>Independent business support · Botswana</span>
+    <div>
+      <a href="professional-record.html">Professional record</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="portfolio-map.html">Portfolio map</a>
+      <a href="website-health-check.html">Health checklist</a>
+      <a href="sourcing-economics.html">Sourcing &amp; routing</a>
+      <a href="portfolio-control.html">Control dashboard</a>
+      <a href="privacy.html">Privacy &amp; disclosures</a>
+      <a href="mailto:faroukpandor@gmail.com">Contact</a>
+    </div>
+  </div>
+  <div class="wrap footer-note">
+    <span>© Farouk Pandor · Checklist text licensed CC BY 4.0</span>
+    <span>Clear needs. Honest evidence. Practical action.</span>
+  </div>
+</footer>
+<script type="module" src="assets/js/health-check.mjs"></script>
+</body>
+</html>

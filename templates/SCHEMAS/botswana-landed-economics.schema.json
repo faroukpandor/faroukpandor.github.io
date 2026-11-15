@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://faroukpandor.github.io/templates/SCHEMAS/botswana-landed-economics.schema.json",
+  "title": "Botswana Landed Economics Calculation Output",
+  "type": "object",
+  "required": ["opportunity_id", "quantity", "fx_rate", "origin_scope", "breakdown", "totals", "working_capital", "quote_controls"],
+  "properties": {
+    "opportunity_id": { "type": "string" },
+    "quantity": { "type": "number", "exclusiveMinimum": 0 },
+    "fx_rate": { "type": "number", "exclusiveMinimum": 0 },
+    "origin_scope": { "enum": ["LOCAL", "SACU", "NON_SACU"] },
+    "breakdown": {
+      "type": "object",
+      "required": ["supplier_total_cost", "freight", "insurance", "packaging", "cif_value", "customs_duty", "excise_levies", "vat", "clearing_handling", "local_transport", "permits_certificates", "payment_transaction_costs", "coordination_cost", "contingency_allowance"]
+    },
+    "totals": {
+      "type": "object",
+      "required": ["total_landed_cost", "unit_landed_cost", "proposed_customer_price", "gross_contribution", "contribution_percentage"]
+    },
+    "working_capital": {
+      "type": "object",
+      "required": ["supplier_deposit_amount", "supplier_deferred_balance", "customer_deposit_amount", "customer_balance_due", "working_capital_required"]
+    },
+    "quote_controls": {
+      "type": "object",
+      "required": ["status", "lead_time", "validity_date", "evidence_refs"],
+      "properties": {
+        "status": { "enum": ["ESTIMATE", "VERIFIED-COST", "CUSTOMER-QUOTED", "CUSTOMER-COMMITTED", "PROCUREMENT", "DELIVERED", "RECONCILED"] }
+      }
+    }
+  }
+}

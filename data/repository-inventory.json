@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
-  "generated_on": "2026-11-02",
+  "generated_on": "2026-11-09",
   "generator": "scripts/repository-inventory.mjs generate",
   "sources": [
-    "GitHub REST GET /user/repos?type=owner&per_page=100 (authenticated listing, paginated), queried 2026-11-02",
+    "GitHub REST GET /user/repos?type=owner&per_page=100 (authenticated listing, paginated), queried 2026-11-09",
     "docs/REPOSITORY-RELATIONSHIP-REGISTRY.md repository inventory table (registry-declared rows)"
   ],
   "access_boundary": "The reconciliation token could read public repositories only; private repositories returned HTTP 403. Private rows keep their registry-declared classification with verification=registry-declared-unverified and null metadata. Safe failure: no ownership, deployment, customer or readiness claim is inferred for inaccessible repositories, and no deployment URLs are published in this catalogue (verified public destinations live in data/public-projects.json).",
@@ -17,19 +17,19 @@
     "UNKNOWN"
   ],
   "counts": {
-    "total": 114,
-    "public_verified": 41,
-    "declared_private_unverified": 73,
-    "in_registry": 114,
+    "total": 116,
+    "public_verified": 42,
+    "declared_private_unverified": 74,
+    "in_registry": 116,
     "unregistered": 0,
     "by_classification": {
       "CONTROL": 2,
-      "OWNED-ACCOUNT": 18,
+      "OWNED-ACCOUNT": 19,
       "CLIENT-EMPLOYER": 9,
       "UPSTREAM-FORK": 39,
       "ARCHIVED": 0,
       "EXPERIMENT": 0,
-      "UNKNOWN": 46
+      "UNKNOWN": 47
     }
   },
   "repositories": [
@@ -45,7 +45,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "AETHER-X-Global-AI-Ecosystem-Platform",
@@ -59,7 +59,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "AEXON",
@@ -73,7 +73,7 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "AGRINEXUS",
@@ -87,7 +87,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "AGRISAGE",
@@ -101,7 +101,7 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "agrisphere",
@@ -113,7 +113,7 @@
       "license": "GPL-3.0",
       "pushed_at": "2026-10-16T20:20:16Z",
       "classification": "UNKNOWN",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub owner listing, non-fork account repository; purpose and canonical role unverified"
     },
     {
@@ -128,7 +128,7 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "AI-Powered-Personal-Command-Center",
@@ -142,7 +142,7 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "Al-Mu-allim-AI-Madrassa-Tutor",
@@ -156,7 +156,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "AnimalHealth",
@@ -170,7 +170,7 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "assemble",
@@ -182,7 +182,7 @@
       "license": "MIT",
       "pushed_at": "2022-02-20T09:16:14Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -197,7 +197,7 @@
       "classification": "UPSTREAM-FORK",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry upstream/template declaration (fork and licence status unverified; verify before edits)",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "Aura-Native---Autonomous-Ad-Ecosystem",
@@ -211,7 +211,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "awesome-agriculture",
@@ -223,7 +223,7 @@
       "license": "NOASSERTION",
       "pushed_at": "2023-07-06T02:12:00Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -236,7 +236,7 @@
       "license": "CC0-1.0",
       "pushed_at": "2021-04-05T16:20:08Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -249,7 +249,7 @@
       "license": null,
       "pushed_at": "2025-08-10T09:51:34Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -264,7 +264,7 @@
       "classification": "UPSTREAM-FORK",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry upstream/template declaration (fork and licence status unverified; verify before edits)",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "AXON---Personal-Value-Engine",
@@ -278,7 +278,7 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "binance-trade-bot",
@@ -290,7 +290,7 @@
       "license": "GPL-3.0",
       "pushed_at": "2026-10-09T12:11:36Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -303,7 +303,7 @@
       "license": "NOASSERTION",
       "pushed_at": "2022-04-15T18:33:38Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -316,7 +316,7 @@
       "license": "MIT",
       "pushed_at": "2026-10-12T10:47:40Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -331,7 +331,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "bolt.diy",
@@ -343,7 +343,7 @@
       "license": "MIT",
       "pushed_at": "2025-01-18T23:17:13Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -358,7 +358,7 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "ClawWork",
@@ -370,7 +370,7 @@
       "license": "MIT",
       "pushed_at": "2026-03-03T15:32:37Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -383,7 +383,7 @@
       "license": "Apache-2.0",
       "pushed_at": "2026-09-26T12:24:08Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -396,7 +396,7 @@
       "license": null,
       "pushed_at": "2025-09-16T15:27:18Z",
       "classification": "UNKNOWN",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub owner listing, non-fork account repository; purpose and canonical role unverified"
     },
     {
@@ -411,7 +411,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "digital-botswana-hub",
@@ -425,7 +425,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "disease_diagnosis_with_Machine-Learning",
@@ -437,7 +437,7 @@
       "license": null,
       "pushed_at": "2026-10-12T10:47:10Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -452,7 +452,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "EcoOffset-Nexus",
@@ -466,7 +466,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "EliteDir---Professional-Product-Service-Directory",
@@ -480,7 +480,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "equifix-tina-cloud-starter",
@@ -492,7 +492,7 @@
       "license": "Apache-2.0",
       "pushed_at": "2025-01-21T16:24:57Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -507,7 +507,7 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "EVERYTHINGCITY",
@@ -521,7 +521,21 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
+    },
+    {
+      "name": "FAROUK-PANDOR",
+      "in_registry": true,
+      "registry_visibility": "private",
+      "visibility": "declared-private-unverified",
+      "fork": null,
+      "archived": null,
+      "license": null,
+      "pushed_at": null,
+      "classification": "OWNED-ACCOUNT",
+      "verification": "registry-declared-unverified",
+      "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "Farouk-s-Store-by-ZoroDesign",
@@ -533,7 +547,7 @@
       "license": null,
       "pushed_at": "2024-07-31T12:21:06Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -546,7 +560,7 @@
       "license": "MIT",
       "pushed_at": "2026-10-21T04:20:28Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -561,7 +575,7 @@
       "classification": "UPSTREAM-FORK",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry upstream/template declaration (fork and licence status unverified; verify before edits)",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "faroukpandor-nextjs-commerce",
@@ -575,7 +589,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "faroukpandor.github.io",
@@ -585,9 +599,9 @@
       "fork": false,
       "archived": false,
       "license": null,
-      "pushed_at": "2026-10-31T15:03:05Z",
+      "pushed_at": "2026-11-07T05:57:35Z",
       "classification": "CONTROL",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "registry control-plane declaration; GitHub access does not prove commercial ownership"
     },
     {
@@ -602,7 +616,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "FAROUKPANDORCONSULTANT",
@@ -616,7 +630,7 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "FOUNDRYFREE---MOCKUP-POD",
@@ -630,7 +644,7 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "ghost-farouk",
@@ -642,7 +656,7 @@
       "license": "MIT",
       "pushed_at": "2025-08-06T08:17:47Z",
       "classification": "UNKNOWN",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub owner listing, non-fork account repository; purpose and canonical role unverified"
     },
     {
@@ -657,7 +671,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "health-haven-medical-centre",
@@ -671,7 +685,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "health-haven-tcs",
@@ -685,7 +699,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "health-hive-spark",
@@ -699,7 +713,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "HEALTHHAVEN",
@@ -713,7 +727,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "HEALTHHAVEN1",
@@ -727,7 +741,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "hummingbot",
@@ -739,7 +753,7 @@
       "license": "Apache-2.0",
       "pushed_at": "2026-09-07T19:10:11Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -754,7 +768,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "innovatepwa",
@@ -768,7 +782,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "jenetics",
@@ -780,7 +794,7 @@
       "license": "Apache-2.0",
       "pushed_at": "2026-10-02T12:05:34Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -793,7 +807,7 @@
       "license": null,
       "pushed_at": "2025-02-04T06:51:41Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -806,7 +820,7 @@
       "license": null,
       "pushed_at": "2024-10-22T13:50:50Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -821,7 +835,7 @@
       "classification": "CLIENT-EMPLOYER",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry client/employer/third-party boundary declaration (relationship unverified)",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "MOKORO---Digital-Growth-Engine",
@@ -835,7 +849,7 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "MOKORO-ENTERPRISE-OS",
@@ -849,7 +863,7 @@
       "classification": "CONTROL",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry control-plane declaration; GitHub access does not prove commercial ownership",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "MORUA-JUNCTION---TEMPOLABS",
@@ -863,7 +877,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "MORUA_JUNCTION_1",
@@ -877,7 +891,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "moruajunction",
@@ -889,7 +903,7 @@
       "license": "CC0-1.0",
       "pushed_at": "2026-10-08T12:28:34Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -904,7 +918,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "MQL5",
@@ -918,7 +932,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "NeuroFlow-AI",
@@ -932,7 +946,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "next-on-pages",
@@ -944,7 +958,7 @@
       "license": "MIT",
       "pushed_at": "2025-01-03T20:21:07Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -959,7 +973,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "nextjs-commerce-cpm",
@@ -973,7 +987,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "NEXUS-ONEHEALTH",
@@ -987,7 +1001,7 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "NEXUSFLOW-RPG",
@@ -1001,7 +1015,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "nexusforge-vision",
@@ -1015,7 +1029,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "NexusStream---Open-Content-Directory",
@@ -1029,7 +1043,7 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "NOVA-OS",
@@ -1043,7 +1057,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "NRTC-PROPOSAL-TO-BOTSWANA-BY-FAROUK-PANDOR",
@@ -1057,7 +1071,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "odoo",
@@ -1069,7 +1083,7 @@
       "license": "NOASSERTION",
       "pushed_at": "2026-10-01T03:37:53Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -1084,7 +1098,20 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
+    },
+    {
+      "name": "OpenCast",
+      "in_registry": true,
+      "registry_visibility": "public",
+      "visibility": "public-verified",
+      "fork": false,
+      "archived": false,
+      "license": null,
+      "pushed_at": "2026-11-09T05:01:36Z",
+      "classification": "UNKNOWN",
+      "verification": "github-metadata-2026-11-09",
+      "classification_basis": "GitHub owner listing, non-fork account repository; purpose and canonical role unverified"
     },
     {
       "name": "openclaw",
@@ -1096,7 +1123,7 @@
       "license": "MIT",
       "pushed_at": "2026-03-18T08:08:46Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -1111,7 +1138,7 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "opensourcepos",
@@ -1123,7 +1150,7 @@
       "license": "NOASSERTION",
       "pushed_at": "2025-02-07T09:51:46Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -1138,7 +1165,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "pages-cms",
@@ -1150,7 +1177,7 @@
       "license": null,
       "pushed_at": "2024-12-16T14:42:10Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -1163,7 +1190,7 @@
       "license": "MIT",
       "pushed_at": "2026-09-10T05:45:01Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -1176,7 +1203,7 @@
       "license": "MIT",
       "pushed_at": "2026-03-25T17:17:25Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -1191,7 +1218,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "Publii",
@@ -1205,7 +1232,7 @@
       "classification": "UPSTREAM-FORK",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry upstream/template declaration (fork and licence status unverified; verify before edits)",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "PULA",
@@ -1219,7 +1246,7 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "pwa-starter",
@@ -1231,7 +1258,7 @@
       "license": "NOASSERTION",
       "pushed_at": "2026-10-08T12:15:09Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -1244,7 +1271,7 @@
       "license": "MIT",
       "pushed_at": "2026-06-08T11:48:57Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -1259,7 +1286,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "rea",
@@ -1271,7 +1298,7 @@
       "license": "MIT",
       "pushed_at": "2026-10-14T06:39:47Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -1284,7 +1311,7 @@
       "license": "MIT",
       "pushed_at": "2024-10-08T20:32:45Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -1297,7 +1324,7 @@
       "license": "MIT",
       "pushed_at": "2026-02-28T18:26:54Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -1310,7 +1337,7 @@
       "license": null,
       "pushed_at": "2026-11-02T01:15:00Z",
       "classification": "UNKNOWN",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub owner listing, non-fork account repository; purpose and canonical role unverified"
     },
     {
@@ -1325,7 +1352,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "smart-life-blueprint",
@@ -1339,7 +1366,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "smartfarm",
@@ -1351,7 +1378,7 @@
       "license": null,
       "pushed_at": "2026-10-23T06:45:49Z",
       "classification": "UNKNOWN",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub owner listing, non-fork account repository; purpose and canonical role unverified"
     },
     {
@@ -1366,7 +1393,7 @@
       "classification": "OWNED-ACCOUNT",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry personal-project declaration; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "tiny-unicorn-hum",
@@ -1380,7 +1407,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "tradingview-mcp",
@@ -1392,7 +1419,7 @@
       "license": "MIT",
       "pushed_at": "2026-10-12T10:47:38Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -1405,7 +1432,7 @@
       "license": null,
       "pushed_at": "2026-10-12T10:47:31Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -1420,7 +1447,7 @@
       "classification": "CLIENT-EMPLOYER",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry client/employer/third-party boundary declaration (relationship unverified)",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "ultimate-crypto-trading-bot",
@@ -1432,7 +1459,7 @@
       "license": "MPL-2.0",
       "pushed_at": "2025-07-18T09:50:37Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -1447,7 +1474,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "WealthFlow-AI",
@@ -1461,7 +1488,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "wifite2",
@@ -1473,7 +1500,7 @@
       "license": "GPL-2.0",
       "pushed_at": "2024-08-20T12:34:38Z",
       "classification": "UPSTREAM-FORK",
-      "verification": "github-metadata-2026-11-02",
+      "verification": "github-metadata-2026-11-09",
       "classification_basis": "GitHub fork flag (third-party upstream software)"
     },
     {
@@ -1488,7 +1515,7 @@
       "classification": "CLIENT-EMPLOYER",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry client/employer/third-party boundary declaration (relationship unverified)",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "YELLOW-BLUE-CARGO",
@@ -1502,7 +1529,7 @@
       "classification": "CLIENT-EMPLOYER",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry client/employer/third-party boundary declaration (relationship unverified)",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "YELLOW-BLUE-LOGISTICS",
@@ -1516,7 +1543,7 @@
       "classification": "CLIENT-EMPLOYER",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry client/employer/third-party boundary declaration (relationship unverified)",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "YELLOW-BLUE-PROGRESSIVE-WEB-APPLICATION-3",
@@ -1530,7 +1557,7 @@
       "classification": "CLIENT-EMPLOYER",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry client/employer/third-party boundary declaration (relationship unverified)",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "yellow-blue-pwa",
@@ -1544,7 +1571,7 @@
       "classification": "CLIENT-EMPLOYER",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry client/employer/third-party boundary declaration (relationship unverified)",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "yellowblue-pwa",
@@ -1558,7 +1585,7 @@
       "classification": "CLIENT-EMPLOYER",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry client/employer/third-party boundary declaration (relationship unverified)",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "YELLOWBLUEPWA",
@@ -1572,7 +1599,7 @@
       "classification": "CLIENT-EMPLOYER",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry client/employer/third-party boundary declaration (relationship unverified)",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     },
     {
       "name": "ZENTRA",
@@ -1586,7 +1613,7 @@
       "classification": "UNKNOWN",
       "verification": "registry-declared-unverified",
       "classification_basis": "registry row without verified classification; API inaccessible in this pass",
-      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference"
+      "note": "private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-09); registry declaration retained without inference"
     }
   ],
   "reconciliation_gaps": {
