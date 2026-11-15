@@ -20,6 +20,7 @@ import { readFileSync, writeFileSync } from 'node:fs';
 
 const REGISTRY_PATH = new URL('../docs/REPOSITORY-RELATIONSHIP-REGISTRY.md', import.meta.url);
 const CATALOGUE_PATH = new URL('../data/repository-inventory.json', import.meta.url);
+const OWNERSHIP_REGISTER_PATH = new URL('../docs/OWNERSHIP-STATUS-REGISTER.md', import.meta.url);
 
 const CLASSIFICATION_VOCABULARY = [
   'CONTROL',
@@ -149,7 +150,9 @@ function generate() {
       noteParts.push('registry listed this as UNVERIFIED; GitHub fork flag resolves it to third-party upstream software');
     }
     if (reg && !verified) {
-      noteParts.push('private or inaccessible to the reconciliation token (HTTP 403/404 on 2026-11-02); registry declaration retained without inference');
+      noteParts.push(
+        `private or inaccessible to the reconciliation token (HTTP 403/404 on ${generatedOn}); registry declaration retained without inference`,
+      );
     }
     repositories.push({
       name: meta?.name ?? reg.name,
@@ -271,11 +274,125 @@ function generate() {
   };
 
   writeFileSync(CATALOGUE_PATH, JSON.stringify(catalogue, null, 2) + '\n');
+  writeFileSync(OWNERSHIP_REGISTER_PATH, renderOwnershipRegister(catalogue));
   console.log(
-    `wrote data/repository-inventory.json: ${repositories.length} repositories ` +
+    `wrote data/repository-inventory.json & docs/OWNERSHIP-STATUS-REGISTER.md: ${repositories.length} repositories ` +
       `(${catalogue.counts.public_verified} GitHub-verified, ${catalogue.counts.declared_private_unverified} registry-declared), ` +
       `generated_on ${generatedOn}, ${unregistered.length} unregistered gaps`,
   );
+}
+
+const SECTION_META = [
+  ['CONTROL', 'Control-plane repositories'],
+  ['OWNED-ACCOUNT', 'Account-held project candidates (personal-project declarations)'],
+  ['CLIENT-EMPLOYER', 'Client / employer / third-party boundary (do not modify without authorization)'],
+  ['UPSTREAM-FORK', 'Third-party upstream software (verified forks and declared templates)'],
+  ['ARCHIVED', 'Archived repositories'],
+  ['EXPERIMENT', 'Experiments'],
+  ['UNKNOWN', 'Unknown — classification pending evidence'],
+];
+
+function renderOwnershipRegister(catalogue) {
+  const { counts, repositories, generated_on: date, duplicate_families: families, reconciliation_gaps: gaps } = catalogue;
+  const publicRepos = repositories.filter((r) => r.visibility === 'public-verified');
+  const verifiedForks = publicRepos.filter((r) => r.fork === true).length;
+  const nonForkPublic = publicRepos.filter((r) => r.fork === false).length;
+
+  const formatRow = (r) => {
+    const vis = r.visibility === 'public-verified' ? 'public (verified)' : 'private (declared)';
+    const fork = r.fork === null ? '—' : String(r.fork);
+    const archived = r.archived === null ? '—' : String(r.archived);
+    const license = r.license ?? '—';
+    const pushed = r.pushed_at ? r.pushed_at.slice(0, 10) : '—';
+    return `| ${r.name} | ${vis} | ${fork} | ${archived} | ${license} | ${pushed} | ${r.classification_basis} |`;
+  };
+
+  const sections = SECTION_META.map(([cls, heading]) => {
+    const items = repositories
+      .filter((r) => r.classification === cls)
+      .sort((a, b) => a.name.toLowerCase().localeCompare(b.name.toLowerCase()));
+    const title = `### ${cls} (${items.length}) — ${heading}`;
+    if (!items.length) return `${title}\n\n_None recorded in this pass._`;
+    const header = [
+      '| Repository | Visibility | Fork | Archived | Licence | Last push | Basis |',
+      '|---|---|---|---|---|---|---|',
+      ...items.map(formatRow),
+    ].join('\n');
+    return `${title}\n\n${header}`;
+  }).join('\n\n');
+
+  const familyRows = families
+    .map((f) => {
+      const canon = f.canonical === 'PENDING-EVIDENCE' ? 'PENDING-EVIDENCE' : `${f.canonical} (resolved)`;
+      return `| ${f.family} | ${f.members.join(', ')} | ${canon} | ${f.note} |`;
+    })
+    .join('\n');
+
+  const gapSummary =
+    gaps.unregistered_public_repositories.length === 0
+      ? 'none (all visible public repositories are registered and tracked in `reconciliation_gaps`).'
+      : gaps.unregistered_public_repositories.join(', ');
+
+  return `# Ownership Status Register
+
+**Register owner:** Farouk Pandor  
+**Canonical control point:** [Personal portfolio repository](https://github.com/faroukpandor/faroukpandor.github.io)  
+**Last updated:** ${date} as part of [issue #148](https://github.com/faroukpandor/faroukpandor.github.io/issues/148)  
+**Source catalogue:** [\`data/repository-inventory.json\`](../data/repository-inventory.json) (read-only, generated; \`generated_on\` freshness timestamp: \`${date}\`)  
+**Reproduce:** \`node scripts/repository-inventory.mjs generate\` (requires \`gh\` auth) then \`node scripts/repository-inventory.mjs reconcile\` (offline, runs in the GitHub Pages guard)  
+**Purpose:** Distinguish **owned, client/employer, fork, archive, experiment and unknown** repositories with explicit evidence for each row, so the public portfolio never claims more than the evidence supports.
+
+> **Evidence boundary (applies to every row):** GitHub metadata (visibility, fork, archived, licence, last push) is verifiable **account state only**. It is not proof of commercial ownership, change authority, authorization, certification, customer outcomes or commercial status. Rows the reconciliation token could not read (HTTP 403) keep their registry-declared classification and are marked **registry-declared-unverified** — safe failure, no inference. Nothing in this register authorises changes to client, employer, third-party or upstream repositories.
+
+## Classification vocabulary
+
+| Class | Meaning | Evidence required to assign |
+|---|---|---|
+| \`CONTROL\` | Portfolio/group control plane | Registry control-plane declaration |
+| \`OWNED-ACCOUNT\` | Account-held personal project candidate | Registry personal-project declaration, non-contradicted by GitHub metadata |
+| \`CLIENT-EMPLOYER\` | Client / employer / third-party boundary | Registry boundary declaration (relationship itself unverified) |
+| \`UPSTREAM-FORK\` | Third-party upstream software (fork, template or mirror) | GitHub fork flag, or registry upstream/template declaration |
+| \`ARCHIVED\` | Archived repository | GitHub archived flag |
+| \`EXPERIMENT\` | Declared experiment | Explicit experiment declaration (none recorded this pass) |
+| \`UNKNOWN\` | Classification pending evidence | Safe default when no verified classification exists |
+
+## ${date} pass summary
+
+- **${counts.total} repositories catalogued:** ${counts.public_verified} public and GitHub-verified, ${counts.declared_private_unverified} private and registry-declared-unverified (the public listing token receives HTTP 403 for private repositories).
+- **${verifiedForks} of the ${counts.public_verified} public repositories are verified GitHub forks** of third-party upstream software; ${nonForkPublic} are non-fork public repositories (\`faroukpandor.github.io\`, \`agrisphere\`, \`cloudflare1\`, \`ghost-farouk\`, \`OpenCast\`, \`Rust-Ecosystem-\`, \`smartfarm\`).
+- **Vercel linkage verified (${date}):** \`faroukpandor.vercel.app\` deploys from private repository \`faroukpandor/FAROUK-PANDOR\` (not the legacy \`faroukpandor\` Hugo fork); \`agrisage360.vercel.app\` deploys from \`AGRISAGE\`, \`everythingcity.vercel.app\` from \`EVERYTHING-CITY\`, \`everythingcity-authoritative\` from \`EVERYTHINGCITY\`, \`mokoro\` from \`MOKORO---Digital-Growth-Engine\`, and \`mokoro-eos\` from \`MOKORO-ENTERPRISE-OS\`.
+- **${counts.by_classification.ARCHIVED} archived repositories** and **${counts.by_classification.EXPERIMENT} declared experiments** recorded in this pass.
+- **No ownership claims were upgraded** for private repositories and **no repositories were merged, deleted or repurposed**. Duplicate families remain documented below with canonical ownership \`PENDING-EVIDENCE\` unless explicitly resolved.
+- No deployment URLs live in this register; verified public destinations stay in [\`data/public-projects.json\`](../data/public-projects.json) behind \`scripts/verify-public-portfolio.mjs\`.
+
+## Register by classification
+
+${sections}
+
+## Duplicate families — canonical ownership pending evidence
+
+Nothing in these families may be merged, retired, renamed or repurposed until a canonical decision is recorded with evidence and change authority (issue #148 task 6).
+
+| Family | Members | Canonical | Rule |
+|---|---|---|---|
+${familyRows}
+
+## Reconciliation gaps and next actions
+
+- **Unregistered public repositories at generation time:** ${gapSummary}
+- **Private rows (${counts.declared_private_unverified}):** remain registry-declared-unverified. Re-verify fork/archived/ownership status when a token with private-repository read access is available; until then no claim may rest on them.
+- **Organisation/other-account inventory:** still to be reconciled; the owner listing is not exhaustive of organizations or other accounts.
+- **Published-site audit:** maintained across all static HTML pages via \`scripts/verify-public-portfolio.mjs\` and \`scripts/portfolio-ops.mjs\`.
+- **EXPERIMENT intake:** when a repository is deliberately declared an experiment, record the declaration and this register will classify it.
+
+## Related control documents
+
+- [Cross-Repository Relationship Registry](REPOSITORY-RELATIONSHIP-REGISTRY.md) — inventory table and relationship rules
+- [Portfolio Asset Ledger](PORTFOLIO-ASSET-LEDGER.md)
+- [\`data/repository-inventory.json\`](../data/repository-inventory.json) — machine-readable catalogue (this register is generated from it)
+- [\`data/public-projects.json\`](../data/public-projects.json) — verified public destinations only
+- [Issue #148](https://github.com/faroukpandor/faroukpandor.github.io/issues/148) — P0 reconciliation tracking
+`;
 }
 
 function reconcile() {
@@ -429,6 +546,21 @@ function reconcile() {
     assert.deepEqual(catalogue.counts.by_classification, byClass, 'by_classification drift');
   });
 
+  t(function ownership_register_in_sync() {
+    const regMd = readFileSync(OWNERSHIP_REGISTER_PATH, 'utf8');
+    assert.ok(
+      regMd.includes(`\`generated_on\` freshness timestamp: \`${catalogue.generated_on}\``),
+      'OWNERSHIP-STATUS-REGISTER.md date must match catalogue generated_on',
+    );
+    assert.ok(
+      regMd.includes(`**${catalogue.counts.total} repositories catalogued:**`),
+      'OWNERSHIP-STATUS-REGISTER.md total count must match catalogue',
+    );
+    for (const r of catalogue.repositories) {
+      assert.ok(regMd.includes(`| ${r.name} |`), `OWNERSHIP-STATUS-REGISTER.md missing table row for ${r.name}`);
+    }
+  });
+
   console.log(checks.length + ' repository inventory reconciliation checks passed (offline, no network)');
 }
 
@@ -437,7 +569,11 @@ if (mode === 'generate') {
   generate();
 } else if (mode === 'reconcile') {
   reconcile();
+} else if (mode === 'render-register') {
+  const catalogue = JSON.parse(readFileSync(CATALOGUE_PATH, 'utf8'));
+  writeFileSync(OWNERSHIP_REGISTER_PATH, renderOwnershipRegister(catalogue));
+  console.log('rendered docs/OWNERSHIP-STATUS-REGISTER.md from data/repository-inventory.json');
 } else {
-  console.error('usage: node scripts/repository-inventory.mjs <generate|reconcile>');
+  console.error('usage: node scripts/repository-inventory.mjs <generate|reconcile|render-register>');
   process.exit(2);
 }

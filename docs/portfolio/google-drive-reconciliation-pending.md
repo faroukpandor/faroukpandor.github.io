@@ -1,31 +1,21 @@
-# Google Drive / Google Docs Reconciliation — Pending
+# Google Drive, Docs, Sheets & Slides Reconciliation
 
-## Current state
-Direct Google Drive/Docs connector access is unavailable in the current environment.
+**Last checked:** 2026-11-09 (via connected Google Drive, Google Docs, Google Sheets, Google Slides, Linear, Vercel, and Gmail APIs on `faroukpandor@gmail.com`)
 
-## Required future process
-When access becomes available:
-- inventory folders/files;
-- classify business, research, technical, financial, client and personal documents;
-- identify duplicates;
-- link documents to repositories/products;
-- identify canonical specifications;
-- preserve historical evidence;
-- flag sensitive material;
-- document migration/backup requirements.
+> Note: An earlier page-capped (`page_size=30`) listing noted only `Medicinal Plants` (`2022-03-19`). Full search and connector queries on 2026-11-09 confirmed **100+ accessible files across Drive, Docs, Sheets, and Slides** (0 Shared Drives).
 
-## Important
-Do not infer Drive contents from filenames remembered elsewhere. Pending means pending.
+## Verified Drive / Docs / Sheets / Slides Inventory Snapshot (Private — Not Promoted Publicly)
 
-## Suggested structure
-00_CONTROL
-01_IDENTITY
-02_ENTERPRISES
-03_PRODUCTS
-04_RESEARCH
-05_CLIENTS
-06_FINANCE
-07_LEGAL_COMPLIANCE
-08_MARKETING
-09_TECHNICAL
-10_ARCHIVE
+| Category | Verified Artifact(s) & IDs | Current State / Classification | Boundary / Next Action |
+|---|---|---|---|
+| **Control & Prioritised Execution** | `FPCC — Prioritised tasks (2026-11-09)` Sheet (`1vZoH6Np9XvPoUfT_vh72vAZv7zpj8cvlP6dONNx0Hoc`, 6 tabs: `Summary`, `Actionable (score ≥ 20)`, `Triage queue`, `Parked`, `Rest of register`, `Sync check`) + Strategy Google Doc (`1B0tlHU1mZvHuPDfbDQV7KQNshUgthuzIR1C9e72OdOU`) | `455` total records, `268` ranked, `101` score ≥ 20, `165` Inbox awaiting triage, `15` past-due items sharing `08 Sep`. **Rank 1 (Score 47):** `THE CONSTRAINT` (`cash / deadlines / client commitments / backlog`). **P1 Ranks 6–7:** `30-DAY REVENUE SPRINT` (pick ONE business-to-cash). **Rank 8:** Windows PCs + USB drives malware scan. | Reconcile top operational priorities without leaking private financials or personal records into `faroukpandor.github.io`; clear the `08 Sep` overdue block as one batch decision. |
+| **Strategy & Send Queue Governance** | `Universal Strategy Document v6.0` (Doc), `DRAFTS-AND-SEND-QUEUE-REGISTER-2026-11-03.md` (`1spwhXiz8in73qCQDx9TaKqk6aDOtSaPX`), `BUSINESS-CASE-AND-INVESTOR-PROPOSAL-BRIEF` | Documents active send queue, entity governance (`Ozone`, `ImNow`, `TBE`), and commercial rules. Five follow-up unsent Gmail drafts prepared on 2026-11-09 (`ssramabu@buan.ac.bw`, `incuhive@buan.ac.bw`, `freedomn@rdc.bw`, `mohamed@motopi.co.bw`, `whitecitydiscount@yahoo.co.uk`). Existing `Setlhare Farm` draft (`r8591299751182614868`) has 16-page PDF attached; `Cleaners Warehouse` draft (`r253679932583241780`, referencing Thu 12 Nov 15:00 slot) still holds `[PASTE SITE LINK BEFORE SENDING]` and `[your phone]` (not deployed on Vercel/public GitHub). | Owner reviews and sends approved drafts from Gmail; supply verified live URL + phone before sending `Cleaners Warehouse`, and confirm legal-entity route before `Ozone`/`ImNow`/`TBE`. |
+| **Agriculture & Graduate / Grant Research** | `Graduate opportunity tracker — agriculture, Botswana (2026-27)` (Doc), `Setlhare Farms` feasibility report PDF & 16-page deck, `Medicinal Plants` (`2022-03-19`), poultry/animal-science dossiers | Active career, AgriSage360, and Setlhare Farm feasibility materials. | Keep personal graduate applications and client feasibility financials strictly private; use prepared BUAN referee/IncuHive follow-up drafts once approved. |
+| **Employer / Client Segregated Files** | `White City Discount` (`WCD` archive under `dev.whitecity@gmail.com` / Linear `WEB-14..20` + `WEB-5..13` Yiwu/Yellow Blue incl. P1 compliance hold `WEB-13` Primark stock lot), `MELL LIN TAX.pdf`, `JOSHUA GAOPALELWE MAFIKA`, `YellowBlue` / `Redline` docs | Employer/client-segregated records. Note `WEB-14` public `freeBusyReader` calendar check & `WEB-20` Amrod `brandingMethod` taxonomy notes. | Maintain strict employer/client segregation; never publish employer customer statements, banking, pricing/quotes, or staff records on `faroukpandor.github.io`. |
+| **Presentations (`43` Google Slides decks)** | `MOTSAMAI — Production Status — 2026-10-27` (`11zgtTfe6r5aUp5OyXCqFsdQ7_O28a3yMWzuruVwrpvk`), `Setlhare` decks, investor/case pitch decks | `MOTSAMAI` slide deck confirms launch **`BLOCKED`** pending Linear `PRE-60..62` (outside `WEB` workspace). | Verify `PRE-60..62` workspace/team access before scheduling any launch comms. |
+| **Personal / Tax / Identity Records & Security Alerts** | Tax, academic transcripts, referee docs (`MELL LIN TAX.pdf`, etc.), plus live Gmail security alerts (`11 Nov 2026 06:07–06:15 GMT`: `RaiDrive` OAuth on `faroukpandor@gmail.com`; Windows sign-in + `Mailsuite` OAuth on `pandorserenity.faroukpandor@gmail.com`) | Private/sensitive personal records and active OAuth/login alerts. | **Never** commit or upload to `faroukpandor.github.io`; owner must confirm or revoke `RaiDrive`, `Mailsuite`, and the `06:08 GMT` Windows sign-in on `myaccount.google.com/permissions`. |
+
+## Classification Rules
+- Keep `faroukpandor.github.io` restricted to verified public capabilities, public-safe governance metadata, and offline self-service tools.
+- Never publish Drive financial figures, customer names, employer POS/tax filings, or unverified slide metrics onto GitHub Pages.
+- Suggested canonical Drive folder taxonomy: `00_CONTROL`, `01_IDENTITY`, `02_ENTERPRISES`, `03_PRODUCTS`, `04_RESEARCH`, `05_CLIENTS`, `06_FINANCE`, `07_LEGAL_COMPLIANCE`, `08_MARKETING`, `09_TECHNICAL`, `10_ARCHIVE`.

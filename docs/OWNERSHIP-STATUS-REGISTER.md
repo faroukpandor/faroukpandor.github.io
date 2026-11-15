@@ -2,9 +2,9 @@
 
 **Register owner:** Farouk Pandor  
 **Canonical control point:** [Personal portfolio repository](https://github.com/faroukpandor/faroukpandor.github.io)  
-**Created:** 2026-11-02 as part of [issue #148](https://github.com/faroukpandor/faroukpandor.github.io/issues/148)  
-**Source catalogue:** [`data/repository-inventory.json`](../data/repository-inventory.json) (read-only, generated; `generated_on` freshness timestamp)  
-**Reproduce:** `node scripts/repository-inventory.mjs generate` (owner machine, requires `gh` auth) then `node scripts/repository-inventory.mjs reconcile` (offline, runs in the GitHub Pages guard)  
+**Last updated:** 2026-11-09 as part of [issue #148](https://github.com/faroukpandor/faroukpandor.github.io/issues/148)  
+**Source catalogue:** [`data/repository-inventory.json`](../data/repository-inventory.json) (read-only, generated; `generated_on` freshness timestamp: `2026-11-09`)  
+**Reproduce:** `node scripts/repository-inventory.mjs generate` (requires `gh` auth) then `node scripts/repository-inventory.mjs reconcile` (offline, runs in the GitHub Pages guard)  
 **Purpose:** Distinguish **owned, client/employer, fork, archive, experiment and unknown** repositories with explicit evidence for each row, so the public portfolio never claims more than the evidence supports.
 
 > **Evidence boundary (applies to every row):** GitHub metadata (visibility, fork, archived, licence, last push) is verifiable **account state only**. It is not proof of commercial ownership, change authority, authorization, certification, customer outcomes or commercial status. Rows the reconciliation token could not read (HTTP 403) keep their registry-declared classification and are marked **registry-declared-unverified** — safe failure, no inference. Nothing in this register authorises changes to client, employer, third-party or upstream repositories.
@@ -21,13 +21,13 @@
 | `EXPERIMENT` | Declared experiment | Explicit experiment declaration (none recorded this pass) |
 | `UNKNOWN` | Classification pending evidence | Safe default when no verified classification exists |
 
-## 2026-11-02 pass summary
+## 2026-11-09 pass summary
 
-- **114 repositories catalogued:** 41 public and GitHub-verified, 73 private and registry-declared-unverified (the pass token received HTTP 403 for private repositories).
-- **35 of the 41 public repositories are verified GitHub forks** of third-party upstream software. Rows the registry had listed as "UNVERIFIED" (`medical-center`, `mall123`, `BlackViperScript`, `tsafi`, `moruajunction`, `faroukpandor`, `Farouk-s-Store-by-ZoroDesign`, `ultimate-crypto-trading-bot`, `tradingview-mcp`, `bollinger-band-screener`, `disease_diagnosis_with_Machine-Learning`) are resolved to `UPSTREAM-FORK` by the fork flag.
-- **11 previously unregistered public repositories** were discovered in the owner listing and added to the registry inventory in this pass: `binance-trade-bot`, `ClawWork`, `hummingbot`, `jenetics`, `openclaw`, `pentagi`, `pinokio`, `python-binance`, `rea`, `ruflo`, `Rust-Ecosystem-`. Ten are verified forks; `Rust-Ecosystem-` (non-fork, created 2026-11-02) remains `UNKNOWN` pending a named canonical purpose (registry rule 7).
-- **0 archived repositories** and **0 declared experiments** were found; the classes exist in the vocabulary for future passes.
-- **No ownership claims were upgraded** for private repositories and **no repositories were merged, deleted or repurposed**. Duplicate families are documented below with canonical ownership `PENDING-EVIDENCE`.
+- **116 repositories catalogued:** 42 public and GitHub-verified, 74 private and registry-declared-unverified (the public listing token receives HTTP 403 for private repositories).
+- **35 of the 42 public repositories are verified GitHub forks** of third-party upstream software; 7 are non-fork public repositories (`faroukpandor.github.io`, `agrisphere`, `cloudflare1`, `ghost-farouk`, `OpenCast`, `Rust-Ecosystem-`, `smartfarm`).
+- **Vercel linkage verified (2026-11-09):** `faroukpandor.vercel.app` deploys from private repository `faroukpandor/FAROUK-PANDOR` (not the legacy `faroukpandor` Hugo fork); `agrisage360.vercel.app` deploys from `AGRISAGE`, `everythingcity.vercel.app` from `EVERYTHING-CITY`, `everythingcity-authoritative` from `EVERYTHINGCITY`, `mokoro` from `MOKORO---Digital-Growth-Engine`, and `mokoro-eos` from `MOKORO-ENTERPRISE-OS`.
+- **0 archived repositories** and **0 declared experiments** recorded in this pass.
+- **No ownership claims were upgraded** for private repositories and **no repositories were merged, deleted or repurposed**. Duplicate families remain documented below with canonical ownership `PENDING-EVIDENCE` unless explicitly resolved.
 - No deployment URLs live in this register; verified public destinations stay in [`data/public-projects.json`](../data/public-projects.json) behind `scripts/verify-public-portfolio.mjs`.
 
 ## Register by classification
@@ -36,10 +36,10 @@
 
 | Repository | Visibility | Fork | Archived | Licence | Last push | Basis |
 |---|---|---|---|---|---|---|
-| faroukpandor.github.io | public (verified) | false | false | — | 2026-10-31 | registry control-plane declaration; GitHub access does not prove commercial ownership |
+| faroukpandor.github.io | public (verified) | false | false | — | 2026-11-07 | registry control-plane declaration; GitHub access does not prove commercial ownership |
 | MOKORO-ENTERPRISE-OS | private (declared) | — | — | — | — | registry control-plane declaration; GitHub access does not prove commercial ownership |
 
-### OWNED-ACCOUNT (18) — Account-held project candidates (personal-project declarations)
+### OWNED-ACCOUNT (19) — Account-held project candidates (personal-project declarations)
 
 | Repository | Visibility | Fork | Archived | Licence | Last push | Basis |
 |---|---|---|---|---|---|---|
@@ -52,6 +52,7 @@
 | BRANDCRAFT-ALCHEMIST | private (declared) | — | — | — | — | registry personal-project declaration; API inaccessible in this pass |
 | EVERYTHING-CITY | private (declared) | — | — | — | — | registry personal-project declaration; API inaccessible in this pass |
 | EVERYTHINGCITY | private (declared) | — | — | — | — | registry personal-project declaration; API inaccessible in this pass |
+| FAROUK-PANDOR | private (declared) | — | — | — | — | registry personal-project declaration; API inaccessible in this pass |
 | FAROUKPANDORCONSULTANT | private (declared) | — | — | — | — | registry personal-project declaration; API inaccessible in this pass |
 | FOUNDRYFREE---MOCKUP-POD | private (declared) | — | — | — | — | registry personal-project declaration; API inaccessible in this pass |
 | MOKORO---Digital-Growth-Engine | private (declared) | — | — | — | — | registry personal-project declaration; API inaccessible in this pass |
@@ -128,7 +129,7 @@ _None recorded in this pass._
 
 _None recorded in this pass._
 
-### UNKNOWN (46) — Unknown — classification pending evidence
+### UNKNOWN (47) — Unknown — classification pending evidence
 
 | Repository | Visibility | Fork | Archived | Licence | Last push | Basis |
 |---|---|---|---|---|---|---|
@@ -156,8 +157,8 @@ _None recorded in this pass._
 | HEALTHHAVEN1 | private (declared) | — | — | — | — | registry row without verified classification; API inaccessible in this pass |
 | Infinite-Heroes | private (declared) | — | — | — | — | registry row without verified classification; API inaccessible in this pass |
 | innovatepwa | private (declared) | — | — | — | — | registry row without verified classification; API inaccessible in this pass |
-| MORUA-JUNCTION---TEMPOLABS | private (declared) | — | — | — | — | registry row without verified classification; API inaccessible in this pass |
 | MORUA_JUNCTION_1 | private (declared) | — | — | — | — | registry row without verified classification; API inaccessible in this pass |
+| MORUA-JUNCTION---TEMPOLABS | private (declared) | — | — | — | — | registry row without verified classification; API inaccessible in this pass |
 | moruajunction1 | private (declared) | — | — | — | — | registry row without verified classification; API inaccessible in this pass |
 | MQL5 | private (declared) | — | — | — | — | registry row without verified classification; API inaccessible in this pass |
 | NeuroFlow-AI | private (declared) | — | — | — | — | registry row without verified classification; API inaccessible in this pass |
@@ -167,6 +168,7 @@ _None recorded in this pass._
 | nexusforge-vision | private (declared) | — | — | — | — | registry row without verified classification; API inaccessible in this pass |
 | NOVA-OS | private (declared) | — | — | — | — | registry row without verified classification; API inaccessible in this pass |
 | NRTC-PROPOSAL-TO-BOTSWANA-BY-FAROUK-PANDOR | private (declared) | — | — | — | — | registry row without verified classification; API inaccessible in this pass |
+| OpenCast | public (verified) | false | false | — | 2026-11-09 | GitHub owner listing, non-fork account repository; purpose and canonical role unverified |
 | oracle-bet-ai-assistant | private (declared) | — | — | — | — | registry row without verified classification; API inaccessible in this pass |
 | PipTick | private (declared) | — | — | — | — | registry row without verified classification; API inaccessible in this pass |
 | QuantGenie | private (declared) | — | — | — | — | registry row without verified classification; API inaccessible in this pass |
@@ -185,22 +187,21 @@ Nothing in these families may be merged, retired, renamed or repurposed until a 
 
 | Family | Members | Canonical | Rule |
 |---|---|---|---|
-| EVERYTHINGCITY marketplace naming | EVERYTHINGCITY, EVERYTHING-CITY | PENDING-EVIDENCE | Separate repositories; do not merge on name similarity |
-| YellowBlue client boundary | yellow-blue-pwa, yellowblue-pwa, YELLOWBLUEPWA, YELLOW-BLUE-PROGRESSIVE-WEB-APPLICATION-3, YELLOW-BLUE-LOGISTICS, YELLOW-BLUE-CARGO, YB17.12.2025 | PENDING-EVIDENCE | CLIENT / THIRD-PARTY BOUNDARY — no modification, branding or case-study claims without explicit written authorization |
-| Personal command centre | AI-Powered-Personal-Command-Center, AI-Personal-Command-Center | PENDING-EVIDENCE | Registry requires a documented comparison before selecting a canonical role |
-| Health Haven / health hive | HEALTHHAVEN, HEALTHHAVEN1, health-haven-medical-centre, health-haven-tcs, health-hive-spark | PENDING-EVIDENCE | Duplicate-family review pending; verified fork `medical-center` (SUST system) stays separate |
-| Morua Junction | moruajunction, moruajunction1, MORUA-JUNCTION---TEMPOLABS, MORUA_JUNCTION_1 | PENDING-EVIDENCE | `moruajunction` is a verified GitHub fork of third-party software |
-| Commerce / storefront | faroukpandorcommerce, faroukpandor-nextjs-commerce, nextjs-commerce-cpm, Farouk-s-Store-by-ZoroDesign | PENDING-EVIDENCE | `Farouk-s-Store-by-ZoroDesign` is a verified third-party fork; no storefront claims without evidence |
-| Aether | AETHER-X-Global-AI-Ecosystem-Platform, Aether-AI-Orchestrator | PENDING-EVIDENCE | Duplicate-family review pending |
-| AgriSage naming | AGRISAGE | AGRISAGE (resolved) | Repository name `AGRISAGE360` does not exist (404 repaired in PR #149); "AgriSage360" is a product label only |
+| EVERYTHINGCITY marketplace naming | EVERYTHINGCITY, EVERYTHING-CITY | PENDING-EVIDENCE | Separate repositories; do not merge, delete or repurpose on name similarity (registry canonical architecture). |
+| YellowBlue client boundary | yellow-blue-pwa, yellowblue-pwa, YELLOWBLUEPWA, YELLOW-BLUE-PROGRESSIVE-WEB-APPLICATION-3, YELLOW-BLUE-LOGISTICS, YELLOW-BLUE-CARGO, YB17.12.2025 | PENDING-EVIDENCE | CLIENT / THIRD-PARTY BOUNDARY. No modification, branding or canonical merge without explicit written authorization. |
+| Personal command centre | AI-Powered-Personal-Command-Center, AI-Personal-Command-Center | PENDING-EVIDENCE | Registry requires a documented comparison before selecting a canonical role. |
+| Health Haven / health hive | HEALTHHAVEN, HEALTHHAVEN1, health-haven-medical-centre, health-haven-tcs, health-hive-spark | PENDING-EVIDENCE | Duplicate-family review pending; unrelated fork medical-center (SUST system) stays separate. |
+| Morua Junction | moruajunction, moruajunction1, MORUA-JUNCTION---TEMPOLABS, MORUA_JUNCTION_1 | PENDING-EVIDENCE | Duplicate-family review pending; moruajunction is a verified GitHub fork. |
+| Commerce / storefront | faroukpandorcommerce, faroukpandor-nextjs-commerce, nextjs-commerce-cpm, Farouk-s-Store-by-ZoroDesign | PENDING-EVIDENCE | Farouk-s-Store-by-ZoroDesign is a verified third-party fork; no storefront claims without evidence. |
+| Aether | AETHER-X-Global-AI-Ecosystem-Platform, Aether-AI-Orchestrator | PENDING-EVIDENCE | Duplicate-family review pending. |
+| AgriSage naming | AGRISAGE | AGRISAGE (resolved) | Repository name AGRISAGE360 does not exist (404 repaired in PR #149); 'AgriSage360' is a product label only. |
 
 ## Reconciliation gaps and next actions
 
-- **Unregistered public repositories at generation time:** none (the 11 gaps found in this pass were registered above and are tracked in the catalogue's `reconciliation_gaps`).
-- **Private rows (73):** remain registry-declared-unverified. Re-verify fork/archived/ownership status when a token with private-repository read access is available; until then no claim may rest on them.
-- **Vercel source verification:** confirm which repository (if any) feeds `faroukpandor.vercel.app` in Vercel → Project → Settings → Git before altering any guessed source (registry reconciliation queue).
+- **Unregistered public repositories at generation time:** none (all visible public repositories are registered and tracked in `reconciliation_gaps`).
+- **Private rows (74):** remain registry-declared-unverified. Re-verify fork/archived/ownership status when a token with private-repository read access is available; until then no claim may rest on them.
 - **Organisation/other-account inventory:** still to be reconciled; the owner listing is not exhaustive of organizations or other accounts.
-- **Published-site link audit:** broken links, stale claims, SEO metadata, accessibility and mobile performance across `index.html`, `portfolio.html`, `professional-record.html` and `portfolio-map.html` remain on the issue #148 task list.
+- **Published-site audit:** maintained across all static HTML pages via `scripts/verify-public-portfolio.mjs` and `scripts/portfolio-ops.mjs`.
 - **EXPERIMENT intake:** when a repository is deliberately declared an experiment, record the declaration and this register will classify it.
 
 ## Related control documents

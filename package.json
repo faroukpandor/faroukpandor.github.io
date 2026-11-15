@@ -1,0 +1,11 @@
+{
+  "name": "faroukpandor-github-io",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static public routing hub, offline-first tools and portfolio governance guards for faroukpandor.github.io.",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "generate": "node scripts/market-signals.mjs process && node scripts/portfolio-ops.mjs generate",
+    "verify": "node scripts/security-audit.mjs && node scripts/verify-public-portfolio.mjs && node scripts/repository-inventory.mjs reconcile && node scripts/market-signals.mjs verify && node scripts/portfolio-ops.mjs verify && node scripts/opportunity-cli.mjs validate-schemas"
+  }
+}

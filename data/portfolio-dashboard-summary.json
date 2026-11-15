@@ -1,0 +1,310 @@
+{
+  "schema_version": 1,
+  "generated_on": "2026-11-09",
+  "generated_utc": "2026-11-09T10:30:00Z",
+  "privacy_boundary": "Public aggregate index only. Customer identities, supplier pricing, quotes, payments and private working-capital figures are excluded per docs/PORTFOLIO-DASHBOARD-SPECIFICATION.md Section 12.",
+  "kpis": [
+    {
+      "metric_id": "KPI-001",
+      "metric_name": "Active opportunities",
+      "definition": "Unique active Opportunity IDs",
+      "privacy_class": "internal",
+      "decision_use": "workload",
+      "value": "10",
+      "note": "17 indexed total; 7 HOLD/DELIVERED"
+    },
+    {
+      "metric_id": "KPI-002",
+      "metric_name": "Customer-validated",
+      "definition": "Opportunities with documented customer validation",
+      "privacy_class": "internal",
+      "decision_use": "validation",
+      "value": "1",
+      "note": "Honest baseline — no customer-validated commercial sale recorded yet"
+    },
+    {
+      "metric_id": "KPI-003",
+      "metric_name": "Paid conversion",
+      "definition": "Paid opportunities divided by qualified opportunities",
+      "privacy_class": "internal",
+      "decision_use": "commercial validation",
+      "value": "0 / 7",
+      "note": "0% paid conversion across currently qualified internal/pilot records"
+    },
+    {
+      "metric_id": "KPI-004",
+      "metric_name": "Repeat rate",
+      "definition": "Repeat transactions divided by completed initial transactions",
+      "privacy_class": "internal",
+      "decision_use": "recurrence",
+      "value": "0 / 0",
+      "note": "No completed commercial transactions yet"
+    },
+    {
+      "metric_id": "KPI-005",
+      "metric_name": "Working-capital exposure",
+      "definition": "Cash committed or required before customer receipts",
+      "privacy_class": "restricted",
+      "decision_use": "financial control",
+      "value": "Private",
+      "note": "Restricted metric — working-capital amounts stay outside this public repo"
+    },
+    {
+      "metric_id": "KPI-006",
+      "metric_name": "Stale opportunity rate",
+      "definition": "Active opportunities past review date divided by active opportunities",
+      "privacy_class": "internal",
+      "decision_use": "follow-up",
+      "value": "14 / 17",
+      "note": "82% past due or review date vs 2026-11-09"
+    }
+  ],
+  "counts": {
+    "indexed_opportunities": 17,
+    "active_opportunities": 10,
+    "by_action_state": {
+      "DUE": 6,
+      "TODAY": 3,
+      "STALE": 1,
+      "WAITING": 3,
+      "HOLD": 4
+    },
+    "by_ageing": {
+      "OVERDUE": 12,
+      "DUE": 1,
+      "HOLD": 2,
+      "STALE": 2
+    },
+    "by_pipeline_status": {
+      "DELIVERED": 1,
+      "REQUIREMENT-VERIFIED": 4,
+      "PROBLEM-VERIFIED": 2,
+      "SIGNAL": 4,
+      "HOLD": 6
+    },
+    "by_source_channel": {
+      "Institutional signal": 3,
+      "Existing relationship": 3,
+      "Website": 3,
+      "WhatsApp": 1,
+      "Other": 4,
+      "Research": 3
+    },
+    "by_enterprise_destination": {
+      "faroukpandor.github.io (N/A) -> Khaie OS (#79)": 1,
+      "Khaie OS (repo unconfirmed)": 1,
+      "MOKORO / faroukpandor.github.io": 2,
+      "Research & Intelligence": 2,
+      "faroukpandor.github.io": 3,
+      "AgriSolutions / AgriSage360": 1,
+      "Employer / client segregated track": 1,
+      "AgriSage360": 1,
+      "AgriSage360 / Specialist network": 1,
+      "Farouk Pandor Consultant": 1,
+      "MOKORO": 1,
+      "MOKORO-ENTERPRISE-OS / faroukpandor.github.io": 1,
+      "Personal (non-enterprise)": 1
+    },
+    "by_ownership_status": {
+      "FAROUK-OWNED": 15,
+      "UNKNOWN": 1,
+      "EMPLOYER-OWNED": 1
+    }
+  },
+  "repositories": {
+    "generated_on": "2026-11-09",
+    "counts": {
+      "total": 116,
+      "public_verified": 42,
+      "declared_private_unverified": 74,
+      "in_registry": 116,
+      "unregistered": 0,
+      "by_classification": {
+        "CONTROL": 2,
+        "OWNED-ACCOUNT": 19,
+        "CLIENT-EMPLOYER": 9,
+        "UPSTREAM-FORK": 39,
+        "ARCHIVED": 0,
+        "EXPERIMENT": 0,
+        "UNKNOWN": 47
+      }
+    },
+    "duplicate_families": [
+      {
+        "family": "EVERYTHINGCITY marketplace naming",
+        "members": [
+          "EVERYTHINGCITY",
+          "EVERYTHING-CITY"
+        ],
+        "canonical": "PENDING-EVIDENCE",
+        "note": "Separate repositories; do not merge, delete or repurpose on name similarity (registry canonical architecture)."
+      },
+      {
+        "family": "YellowBlue client boundary",
+        "members": [
+          "yellow-blue-pwa",
+          "yellowblue-pwa",
+          "YELLOWBLUEPWA",
+          "YELLOW-BLUE-PROGRESSIVE-WEB-APPLICATION-3",
+          "YELLOW-BLUE-LOGISTICS",
+          "YELLOW-BLUE-CARGO",
+          "YB17.12.2025"
+        ],
+        "canonical": "PENDING-EVIDENCE",
+        "note": "CLIENT / THIRD-PARTY BOUNDARY. No modification, branding or canonical merge without explicit written authorization."
+      },
+      {
+        "family": "Personal command centre",
+        "members": [
+          "AI-Powered-Personal-Command-Center",
+          "AI-Personal-Command-Center"
+        ],
+        "canonical": "PENDING-EVIDENCE",
+        "note": "Registry requires a documented comparison before selecting a canonical role."
+      },
+      {
+        "family": "Health Haven / health hive",
+        "members": [
+          "HEALTHHAVEN",
+          "HEALTHHAVEN1",
+          "health-haven-medical-centre",
+          "health-haven-tcs",
+          "health-hive-spark"
+        ],
+        "canonical": "PENDING-EVIDENCE",
+        "note": "Duplicate-family review pending; unrelated fork medical-center (SUST system) stays separate."
+      },
+      {
+        "family": "Morua Junction",
+        "members": [
+          "moruajunction",
+          "moruajunction1",
+          "MORUA-JUNCTION---TEMPOLABS",
+          "MORUA_JUNCTION_1"
+        ],
+        "canonical": "PENDING-EVIDENCE",
+        "note": "Duplicate-family review pending; moruajunction is a verified GitHub fork."
+      },
+      {
+        "family": "Commerce / storefront",
+        "members": [
+          "faroukpandorcommerce",
+          "faroukpandor-nextjs-commerce",
+          "nextjs-commerce-cpm",
+          "Farouk-s-Store-by-ZoroDesign"
+        ],
+        "canonical": "PENDING-EVIDENCE",
+        "note": "Farouk-s-Store-by-ZoroDesign is a verified third-party fork; no storefront claims without evidence."
+      },
+      {
+        "family": "Aether",
+        "members": [
+          "AETHER-X-Global-AI-Ecosystem-Platform",
+          "Aether-AI-Orchestrator"
+        ],
+        "canonical": "PENDING-EVIDENCE",
+        "note": "Duplicate-family review pending."
+      },
+      {
+        "family": "AgriSage naming",
+        "members": [
+          "AGRISAGE"
+        ],
+        "canonical": "AGRISAGE",
+        "note": "Repository name AGRISAGE360 does not exist (404 repaired in PR #149); 'AgriSage360' is a product label only."
+      }
+    ]
+  },
+  "public_destinations": [
+    {
+      "id": "mokoro-dge",
+      "label": "MOKORO Digital Growth Engine",
+      "public_url": "https://mokoro-dge.pages.dev/",
+      "hosting": "Cloudflare Pages",
+      "deployment_status": "production-succeeded",
+      "customer_erp_ready": false,
+      "identity_ready": false,
+      "source_privacy": "private"
+    },
+    {
+      "id": "agrisage",
+      "label": "AgriSage360",
+      "public_url": "https://agrisage.pages.dev/",
+      "hosting": "Cloudflare Pages",
+      "deployment_status": "production-succeeded",
+      "customer_erp_ready": false,
+      "identity_ready": false,
+      "source_privacy": "private"
+    },
+    {
+      "id": "everythingcity",
+      "label": "EverythingCity",
+      "public_url": "https://everythingcity.pages.dev/",
+      "hosting": "Cloudflare Pages",
+      "deployment_status": "production-succeeded",
+      "customer_erp_ready": false,
+      "identity_ready": false,
+      "source_privacy": "private"
+    }
+  ],
+  "market_signals": [
+    {
+      "id": "bitc-investment-areas",
+      "source": "https://www.bitc.co.bw/invest/investment-areas/",
+      "status": "FETCHED",
+      "classification": "FETCHED",
+      "timestamp_utc": "2026-11-09T13:58:46.375657+00:00",
+      "age_days": 0,
+      "has_html_snapshot": true,
+      "sha256_expected": "90e49de90a10c8e649e6bbef2c6bc8215e3edce39363288cdfaa95c06231987c",
+      "sha256_actual": "90e49de90a10c8e649e6bbef2c6bc8215e3edce39363288cdfaa95c06231987c",
+      "sha256_verified": true,
+      "error": null,
+      "page_title": "Invest - investment-areas",
+      "heading_count": 0,
+      "link_count": 18,
+      "sample_headings": []
+    },
+    {
+      "id": "government-business-opportunities",
+      "source": "https://www.gov.bw/doing-business/identified-possible-business-opportunities",
+      "status": "ERROR",
+      "classification": "ERROR",
+      "timestamp_utc": "2026-11-09T13:58:45.051546+00:00",
+      "age_days": 0,
+      "has_html_snapshot": false,
+      "sha256_expected": null,
+      "sha256_actual": null,
+      "sha256_verified": false,
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>",
+      "page_title": null,
+      "heading_count": 0,
+      "link_count": 0,
+      "sample_headings": []
+    },
+    {
+      "id": "npc-national-development-plans",
+      "source": "https://www.npc.gov.bw/national-development-plans",
+      "status": "FETCHED",
+      "classification": "FETCHED",
+      "timestamp_utc": "2026-11-09T13:58:42.879695+00:00",
+      "age_days": 0,
+      "has_html_snapshot": true,
+      "sha256_expected": "9c7ed4f63f3ad05e7fe892b32f63597a7d80fc6b730c84b00242a0e20aacbcbd",
+      "sha256_actual": "9c7ed4f63f3ad05e7fe892b32f63597a7d80fc6b730c84b00242a0e20aacbcbd",
+      "sha256_verified": true,
+      "error": null,
+      "page_title": "National Development Plans | National Planning Commission Botswana",
+      "heading_count": 6,
+      "link_count": 33,
+      "sample_headings": [
+        "National Development Plans",
+        "Transitional National Development Plan (TNDP)",
+        "National Development Plan 12 (NDP 12)",
+        "About Us",
+        "Resources",
+        "Contact Details"
+      ]
+    }
+  ]
+}

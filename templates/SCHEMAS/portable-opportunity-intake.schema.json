@@ -1,0 +1,32 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://faroukpandor.github.io/templates/SCHEMAS/portable-opportunity-intake.schema.json",
+  "title": "Portable Opportunity Intake v1",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "captured_utc", "source_channel", "source_asset", "consent_acknowledged", "need", "name", "contact"],
+  "properties": {
+    "schema": { "const": "portable-opportunity-intake/v1" },
+    "captured_utc": { "type": "string", "minLength": 10 },
+    "source_channel": { "type": "string", "minLength": 1 },
+    "source_asset": { "type": "string", "minLength": 1 },
+    "attribution": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "utm_source": { "type": "string" },
+        "utm_medium": { "type": "string" },
+        "utm_campaign": { "type": "string" },
+        "source_page": { "type": "string" }
+      }
+    },
+    "consent_acknowledged": { "type": "boolean" },
+    "need": { "type": "string", "minLength": 1 },
+    "name": { "type": "string", "minLength": 1 },
+    "contact": { "type": "string", "minLength": 1 },
+    "requirement": { "type": "string" },
+    "location": { "type": "string" },
+    "timing": { "type": "string" },
+    "budget_quantity": { "type": "string" }
+  }
+}

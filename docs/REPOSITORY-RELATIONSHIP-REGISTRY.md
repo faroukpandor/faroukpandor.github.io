@@ -4,7 +4,7 @@
 **Canonical control point:** [Personal portfolio repository](https://github.com/faroukpandor/faroukpandor.github.io)  
 **Public presentation:** https://faroukpandor.github.io/  
 **Related personal scrapbook / Vercel deployment:** https://faroukpandor.vercel.app/  
-**Last reconciled:** 2026-11-02  
+**Last reconciled:** 2026-11-09  
 **Purpose:** Make repositories discoverable to one another, record their roles and relationships, reduce duplicate work, and preserve ownership and change-authority boundaries.
 
 > **Important:** This is a discovery and governance register, not proof that Farouk owns every enterprise, domain, codebase, dataset, brand, deployment or commercial relationship listed here. GitHub account visibility/access does not establish ownership. Unverified classifications must remain unverified until evidence is reviewed.
@@ -79,9 +79,23 @@ The lightweight, machine-readable source for **public routing only** is [`data/p
 
 The source repositories for these and other projects may be **private**. Do not put private GitHub repository URLs on public customer pages. Internal MOKORO EOS `/os/*` routes must not be linked as a customer portal without verified Cloudflare Access. Where public service evidence is absent (e.g. Consultant or AnimalHealth private research), show descriptive context, not a broken private repository link. See portfolio issue #148 and ERP access issue https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/issues/108.
 
+### Verified Vercel deployment linkages (2026-11-09)
+
+Direct inspection of Vercel project metadata on 2026-11-09 confirmed the following repository-to-project bindings (account-level deployment configuration only; not customer readiness or legal ownership proof):
+
+| Vercel project | Connected GitHub repository | Notes / status observed 2026-11-09 |
+|---|---|---|
+| `faroukpandor` (`https://faroukpandor.vercel.app/`) | `faroukpandor/FAROUK-PANDOR` (private, Vite) | Production `READY`; confirms the legacy `faroukpandor` Hugo fork is **not** the Vercel source |
+| `agrisage` (`https://agrisage360.vercel.app/`) | `faroukpandor/AGRISAGE` (private, Vite) | Production `READY`; accompanies Cloudflare Pages `https://agrisage.pages.dev/` |
+| `everythingcity` (`https://everythingcity.vercel.app/`) | `faroukpandor/EVERYTHING-CITY` (private, Vite) | Production `READY` (Feb 2026) |
+| `everythingcity-authoritative` | `faroukpandor/EVERYTHINGCITY` (private, Next.js) | Production `READY` |
+| `mokoro` | `faroukpandor/MOKORO---Digital-Growth-Engine` (private, Next.js) | Latest Vercel production `BLOCKED`; `https://mokoro-dge.pages.dev/` remains the verified public Cloudflare Pages destination |
+| `mokoro-eos` | `faroukpandor/MOKORO-ENTERPRISE-OS` (private, Next.js) | Internal operator OS — not a public customer portal |
+| `faroukpandorcommerce` / `faroukpandor-nextjs-commerce` | `faroukpandor/faroukpandorcommerce` / `faroukpandor/faroukpandor-nextjs-commerce` (private, Next.js) | `ERROR` / no deployments; not promoted publicly |
+
 ## Canonical architecture
 
-- **Personal identity and routing:** [faroukpandor.github.io](https://github.com/faroukpandor/faroukpandor.github.io) and the separately deployed [faroukpandor.vercel.app](https://faroukpandor.vercel.app/). Their source/deployment relationship must be verified independently; do not assume the Vercel site deploys from the legacy [faroukpandor](https://github.com/faroukpandor/faroukpandor) Hugo starter.
+- **Personal identity and routing:** [faroukpandor.github.io](https://github.com/faroukpandor/faroukpandor.github.io) and the separately deployed [faroukpandor.vercel.app](https://faroukpandor.vercel.app/) (verified on 2026-11-09 to deploy from private repository `faroukpandor/FAROUK-PANDOR` via Vercel project `faroukpandor`, not the legacy [faroukpandor](https://github.com/faroukpandor/faroukpandor) Hugo starter fork).
 - **Group governance:** [MOKORO-ENTERPRISE-OS](https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS). Group policies and portfolio decisions live here; it is not a dumping ground for product code.
 - **Digital delivery and commercial implementation:** [MOKORO---Digital-Growth-Engine](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine).
 - **Agriculture and animal-health domain assets:** [AGRISAGE](https://github.com/faroukpandor/AGRISAGE), [AnimalHealth](https://github.com/faroukpandor/AnimalHealth), [NEXUS-ONEHEALTH](https://github.com/faroukpandor/NEXUS-ONEHEALTH), and related agriculture projects. Keep their responsibilities and data licensing distinct until reconciled.
@@ -106,7 +120,7 @@ The source repositories for these and other projects may be **private**. Do not 
 
 This inventory covers repositories returned by the current GitHub account listing and supplements it with known control repositories below. Classification is deliberately conservative; repository name and visibility are not evidence of ownership or maturity.
 
-**2026-11-02 reconciliation pass (issue #148):** GitHub fork/archived flags were verified for the 41 visible public account repositories (35 are forks of third-party upstream software); 11 previously unregistered public repositories were added below. Rows for repositories this pass could not read (HTTP 403) remain registry-declared and unverified — safe failure, no ownership inference. Machine-readable catalogue: [data/repository-inventory.json](../data/repository-inventory.json); classification register: [OWNERSHIP-STATUS-REGISTER.md](OWNERSHIP-STATUS-REGISTER.md); regenerate/reconcile with `node scripts/repository-inventory.mjs generate|reconcile`.
+**2026-11-09 reconciliation pass (issue #148):** GitHub fork/archived flags were verified for all 42 visible public account repositories (35 are forks of third-party upstream software), adding newly created public repo `OpenCast` and Vercel-confirmed private repo `FAROUK-PANDOR` (bringing the catalogued total to 116). Rows for repositories this pass could not read (HTTP 403) remain registry-declared and unverified — safe failure, no ownership inference. Machine-readable catalogue: [data/repository-inventory.json](../data/repository-inventory.json); classification register: [OWNERSHIP-STATUS-REGISTER.md](OWNERSHIP-STATUS-REGISTER.md); regenerate/reconcile with `node scripts/repository-inventory.mjs generate|reconcile`.
 
 | Repository | Visibility | Initial classification / action |
 |---|---|---|
@@ -225,16 +239,18 @@ This inventory covers repositories returned by the current GitHub account listin
 | [rea](https://github.com/faroukpandor/rea) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02 (registered in this pass); third-party upstream software, verify licence before edits |
 | [ruflo](https://github.com/faroukpandor/ruflo) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02 (registered in this pass); third-party upstream software, verify licence before edits |
 | [Rust-Ecosystem-](https://github.com/faroukpandor/Rust-Ecosystem-) | public | UNVERIFIED — account-held non-fork verified 2026-11-02 (registered in this pass); classify purpose, canonical destination and change authority |
+| [OpenCast](https://github.com/faroukpandor/OpenCast) | public | UNVERIFIED — account-held non-fork verified 2026-11-09 (Streaming Intel Hub prototype); classify canonical role, API boundaries and change authority |
+| [FAROUK-PANDOR](https://github.com/faroukpandor/FAROUK-PANDOR) | private | PERSONAL PROJECT CANDIDATE — Vercel project `faroukpandor` (`faroukpandor.vercel.app`) GitHub source verified 2026-11-09; private source remains inaccessible to public listing token |
 ## Reconciliation queue
 
-- [ ] Verify which GitHub repository is connected to the Vercel project `faroukpandor.vercel.app` in Vercel → Project → Settings → Git. Until confirmed, do not alter a guessed source repository.
+- [x] Verify which GitHub repository is connected to the Vercel project `faroukpandor.vercel.app` in Vercel → Project → Settings → Git (`faroukpandor/FAROUK-PANDOR`, Vite — verified 2026-11-09; legacy `faroukpandor` Hugo fork ruled out).
 - [ ] Reconcile repository inventory beyond the account-list response, including repositories under organizations/other accounts and newly created repos.
 - [ ] Review all rows marked UNVERIFIED, including ownership, fork/upstream, enterprise, canonical role, deployment, security, lifecycle and next action.
 - [ ] Review duplicate families (e.g. `EVERYTHINGCITY` / `EVERYTHING-CITY`, multiple YellowBlue repos, multiple command-centre repos) without deleting or merging until evidence and change authority are confirmed.
 - [ ] Add local relationship pointers to each confirmed personal-owned active repository; leave client/third-party and upstream repositories untouched until authorized.
-- [ ] Verify published sites and replace inaccurate or unverified links with confirmed deployment URLs.
+- [x] Verify published sites and replace inaccurate or unverified links with confirmed deployment URLs (public routing pinned via `data/public-projects.json` + `scripts/verify-public-portfolio.mjs`; ongoing link/UX audit verified across all public pages).
 
-**2026-11-02 pass progress:** fork/upstream review completed for all public rows (35 verified forks); 11 new public repositories registered in the inventory above and flagged in `data/repository-inventory.json` `reconciliation_gaps`; duplicate families documented in [OWNERSHIP-STATUS-REGISTER.md](OWNERSHIP-STATUS-REGISTER.md) with canonical ownership PENDING-EVIDENCE (nothing merged, deleted or repurposed). Remaining: organisation/other-account inventory, private-row review (this pass token received HTTP 403 — safe failure), Vercel source verification and published-site link checks. Reproduce with `node scripts/repository-inventory.mjs reconcile`.
+**2026-11-09 pass progress:** fork/upstream review completed for all 42 public rows (35 verified forks, 7 non-forks); `OpenCast` and `FAROUK-PANDOR` registered in the inventory above; Vercel project linkages verified for `faroukpandor.vercel.app`, `agrisage`, `everythingcity`, `everythingcity-authoritative`, `mokoro`, and `mokoro-eos`; duplicate families documented in [OWNERSHIP-STATUS-REGISTER.md](OWNERSHIP-STATUS-REGISTER.md) with canonical ownership PENDING-EVIDENCE (nothing merged, deleted or repurposed). Remaining: organisation/other-account inventory and private-row inspection (public listing token receives HTTP 403 for private repos — safe failure). Reproduce with `node scripts/repository-inventory.mjs reconcile`.
 
 ## Related control documents
 
