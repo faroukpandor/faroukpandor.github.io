@@ -10,6 +10,12 @@ Use a **free-first, provider-direct, least-privilege** approach. Start with free
 
 The thread is useful for discovery, not as reliable evidence of today's pricing, quotas, model availability, terms, or security. Claims such as “unlimited,” “not rate limited,” “$300 credit,” and “nearly unlimited” are anecdotal and time-sensitive. Check the official provider dashboard and terms immediately before adoption.
 
+## Sovereign AI architecture extension (2026-11-16)
+
+The free-provider review is extended by the [Sovereign AI Stack for Botswana and SADC Enterprises](SOVEREIGN-AI-STACK-SADC.md). Its core distinction is between local inference, approved enterprise/private cloud, public/free cloud and human-only specialist review. Local inference reduces some external data transmission but does not by itself establish compliance, security or accuracy. A provider-neutral application adapter, explicit data classification, fail-closed routing for restricted data, and human review are required.
+
+**Current Botswana legal reference:** the Data Protection Act, 2024 (Act No. 18 of 2024) commenced on 14 January 2025 and repealed/re-enacted the earlier 2018 Act. Cross-border transfers are addressed in Part XIV, sections 74–78. The 2018 Act's sections 48–49 must not be cited as the current provisions. See the [current Act text and section index](https://www.botswanalaws.com/principal-legislation/data-protection/) and the [2025 commencement order](https://itlawco.com/wp-content/uploads/2025/01/1736836435941.pdf). This is an issue-spotting note, not a legal opinion; confirm current regulations, Commission decisions and applicable requirements with qualified counsel.
+
 ## Opportunity assessment
 
 | Candidate | Best potential use | Free-resource fit | Decision |
