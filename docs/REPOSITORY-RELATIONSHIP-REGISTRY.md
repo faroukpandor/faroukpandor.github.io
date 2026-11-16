@@ -54,7 +54,7 @@
 
 - **Public research asset:** [The Sovereign AI Stack for Botswana and SADC Enterprises](./SOVEREIGN-AI-STACK-SADC.md) — local inference, hybrid data routing, model/provider independence, governance, security and realistic commercialisation. Research content only; no product deployment, customer demand or compliance certification is claimed.
 - **Enterprise governance:** MOKORO Enterprise OS owns shared AI-provider governance, data-routing contracts and common security controls; sector products retain their domain rules.
-- **Forensic workflow:** [Sovereign Forensic OS / SCPA](https://github.com/faroukpandor/Sovereign-Forensic-OS-tool-The-Supply-Chain-Provenance-Audit-SCPA-) remains the specialist evidence/provenance field companion. Its local-AI SOP is an optional future integration proposal, not a current AI feature.
+- **Forensic workflow:** Sovereign Forensic OS / SCPA remains the specialist evidence/provenance field companion (private source repository; intentionally not linked from this public register). Its local-AI SOP is an optional future integration proposal, not a current AI feature.
 - **Commercial delivery:** MOKORO DGE may deliver scoped customer-facing implementation and maintenance only after customer discovery, hardware assessment, written scope and pilot validation. Do not market a preconfigured appliance or fixed fee as available until supply, support and unit economics are verified.
 - **U-DEOS:** no distinct repository with this name was identified in the connected GitHub account during this pass. Do not create a duplicate repository; resolve the canonical repo/initiative mapping before direct integration.
 
