@@ -28,6 +28,10 @@ The long-term competitor-benchmark and app-build roadmap is maintained in [docs/
 - `privacy.html` — Privacy notice, zero-tracking status, ownership boundaries and disclosure rules.
 - `404.html` — Branded not-found page (`noindex,follow`, intentionally excluded from `sitemap.xml`) that routes visitors back to a working page instead of the default GitHub Pages error screen.
 
+## Research and publishing assets
+
+- [The Sovereign AI Stack for Botswana and SADC Enterprises](docs/SOVEREIGN-AI-STACK-SADC.md) — public competitive research article covering local inference, hybrid routing, data governance, security assurance and service commercialisation. It is an educational asset, not a claim of a live service or legal certification.
+
 ## Verification, schemas and operator CLI
 
 Run the offline test suite and CI verification checks locally:
