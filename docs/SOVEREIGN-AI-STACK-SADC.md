@@ -73,7 +73,15 @@ A practical architecture has four workload routes:
 
 Routing should be enforced by application policy, not left to an employee’s memory. A prompt containing a customer name, identity number, financial record, case file or unpublished commercial information should not silently fall through to a public endpoint. If a provider is unavailable, the system should fail closed for restricted data rather than automatically retrying through an unapproved service.
 
-### 4. Treat Botswana's legal framework precisely
+### 4. Read free-tier limits as live, model-specific terms
+
+The phrase “free API” is not a stable technical specification. Limits differ by provider, model, account state and billing status. At the review date, OpenRouter's official free-model documentation describes limits of 20 requests per minute and 50 requests per day for free variants, with a higher daily allowance after an account has purchased credits. Its pricing page also makes clear that free-plan features differ from paid plans. These limits can change, so the correct operational practice is to check the selected model's page and current account dashboard rather than hard-code a historic quota into a product.
+
+Groq's official documentation publishes limits by model and by dimensions such as requests per minute/day and tokens per minute/day. There is no safe basis for advertising one universal “1,000 requests per day” allowance across every model or account. The application should handle HTTP 429 responses, respect retry information, apply bounded backoff and expose a useful degraded state. It should never rotate keys or accounts to evade a provider's limits.
+
+The commercial lesson is broader than the two examples: a free allowance is a trial or constrained resource, not a production guarantee. Record the date checked, model identifier, region eligibility, applicable quota, data terms, support and contractual commitments for every approved provider.
+
+### 5. Treat Botswana's legal framework precisely
 
 Botswana's current principal legislation is the Data Protection Act, 2024 (Act No. 18 of 2024), which commenced on 14 January 2025 and repealed and re-enacted the earlier 2018 Act with amendments. The current Act addresses transfers to third countries or international organisations in Part XIV, sections 74–78: the general principle, adequacy decisions, appropriate safeguards, binding corporate rules and derogations. Organisations should examine the complete current Act, commencement instruments, applicable regulations, Commission decisions and current regulator guidance before selecting a processing route.
 
@@ -81,7 +89,7 @@ It would be inaccurate to turn this into a broad claim that every cloud service 
 
 For SADC operations, do not assume one uniform regional data-protection rule. Map each relevant jurisdiction and customer contract separately. Obtain advice from a qualified practitioner where personal data or regulated records are involved.
 
-### 5. Build provider independence into the application
+### 6. Build provider independence into the application
 
 The enterprise should own its workflow and data structures even when it rents compute. Keep model configuration outside business logic. Use a provider adapter with explicit model identifiers, endpoint configuration, timeouts, retry limits and usage logging. Record the model and version used for each material output where appropriate. Preserve source documents separately from generated summaries.
 
@@ -96,7 +104,7 @@ A sensible adapter should support:
 
 Do not store API keys in a public repository, browser bundle or client-side application. This follows a broader secure-by-design principle: security controls should be built into the product and its defaults, not left entirely to the customer after installation (CISA, 2023). Do not expose a local inference port to the public internet. Bind it to loopback by default; if network access is required, place it behind authenticated, encrypted and monitored controls.
 
-### 6. Measure total cost rather than API price
+### 7. Measure total cost rather than API price
 
 A local deployment is not cost-free. Its total cost includes hardware depreciation, power, connectivity for initial downloads and updates, maintenance time, backup media, security controls and user support. A cloud endpoint has usage charges or quotas, provider risk, data-transfer considerations and potentially contract costs. A hybrid system may be cheaper overall if local models handle routine work and cloud models are reserved for approved workloads that genuinely need them.
 
@@ -120,7 +128,7 @@ The customer’s exit rights are part of the product. Provide exportable configu
 
 The wider market opportunity is a network of small, specialised deployments rather than one giant platform. A clinic, farm cooperative, law practice and local authority do not share the same data risks or acceptance criteria. A reusable technical core can support different sector configurations, but each requires its own review. This is where an enterprise can build recurring value: the customer pays for a maintained and accountable workflow, not merely for access to a model that can be downloaded elsewhere.
 
-### 7. Security and assurance must be tested, not asserted
+### 8. Security and assurance must be tested, not asserted
 
 A credible deployment should maintain a small threat model. Identify the information assets, likely adversaries, trust boundaries, entry points, privileges and plausible failure modes. For a local AI workstation, the threat model should include a malicious document, prompt injection in retrieved content, a compromised browser extension, theft of the device, an exposed API port, an untrusted model download, a poisoned dependency, an over-privileged tool and a backup copied to an uncontrolled location. The response is not a generic disclaimer. It is a set of controls matched to the risk: verified sources, least privilege, network restrictions, output validation, human approval for tool actions, encrypted backups, patching and recovery exercises.
 
@@ -130,7 +138,7 @@ Evaluation should use a representative, versioned test set containing normal cas
 
 The NIST Cybersecurity Framework 2.0 offers a useful organisational structure for cybersecurity governance, while ISO/IEC 27001 provides a formal information-security management-system framework. Neither standard is automatically achieved by installing Ollama or following this SOP. The NIST Secure Software Development Framework also offers practices for reducing vulnerabilities throughout software development. These are reference frameworks; an organisation must define scope, implement controls, retain evidence and obtain any required independent assessment before making conformity claims.
 
-### 8. Commercial validation before selling the service
+### 9. Commercial validation before selling the service
 
 Before publishing a price list, interview prospective customers about one concrete task rather than asking whether they “want AI”. Ask how the task is performed now, how often it occurs, what errors cost, what information is involved, who approves the result and what a successful pilot would look like. A customer who likes a demonstration is not necessarily a buyer. Record a problem statement, current workaround, decision-maker, budget owner, procurement route and acceptance test.
 
