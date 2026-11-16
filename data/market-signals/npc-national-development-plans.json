@@ -1,6 +1,6 @@
 {
   "source": "https://www.npc.gov.bw/national-development-plans",
-  "status": "FETCHED",
-  "retrieved_utc": "2026-11-09T13:58:42.879695+00:00",
-  "sha256": "9c7ed4f63f3ad05e7fe892b32f63597a7d80fc6b730c84b00242a0e20aacbcbd"
+  "status": "ERROR",
+  "attempted_utc": "2026-11-16T13:44:28.014704+00:00",
+  "error": "HTTP Error 503: Service Unavailable"
 }

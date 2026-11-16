@@ -1,16 +1,16 @@
 # Botswana Market Signal Digest
 
 - **Reference date:** 2026-11-09
-- **Sources:** 2/3 fetched, 1 error, 0 stale (> 7 days)
+- **Sources:** 1/3 fetched, 2 error, 0 stale (> 7 days)
 - **Extracted unique headings:** 6 (0 duplicates filtered)
 
 ## Source Health & Integrity
 
 | Feed ID | Source URL | Status | Classification | Age (days) | SHA-256 Verified | Notes |
 |---|---|---|---|---:|---|---|
-| bitc-investment-areas | https://www.bitc.co.bw/invest/investment-areas/ | FETCHED | FETCHED | 0 | Yes | Invest - investment-areas |
-| government-business-opportunities | https://www.gov.bw/doing-business/identified-possible-business-opportunities | ERROR | ERROR | 0 | No | <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)> |
-| npc-national-development-plans | https://www.npc.gov.bw/national-development-plans | FETCHED | FETCHED | 0 | Yes | National Development Plans | National Planning Commission Botswana |
+| bitc-investment-areas | https://www.bitc.co.bw/invest/investment-areas/ | FETCHED | FETCHED | -7 | Yes | Invest - investment-areas |
+| government-business-opportunities | https://www.gov.bw/doing-business/identified-possible-business-opportunities | ERROR | ERROR | -7 | No | <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)> |
+| npc-national-development-plans | https://www.npc.gov.bw/national-development-plans | ERROR | ERROR | -7 | No | HTTP Error 503: Service Unavailable |
 
 ## Extracted Headings (Normalised, Deduplicated)
 

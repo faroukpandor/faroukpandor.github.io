@@ -4,8 +4,8 @@
   "stale_threshold_days": 7,
   "summary": {
     "total_sources": 3,
-    "fetched_count": 2,
-    "error_count": 1,
+    "fetched_count": 1,
+    "error_count": 2,
     "stale_count": 0,
     "unique_signal_headings": 6,
     "duplicates_dropped": 0
@@ -16,8 +16,8 @@
       "source": "https://www.bitc.co.bw/invest/investment-areas/",
       "status": "FETCHED",
       "classification": "FETCHED",
-      "timestamp_utc": "2026-11-09T13:58:46.375657+00:00",
-      "age_days": 0,
+      "timestamp_utc": "2026-11-16T13:44:30.130968+00:00",
+      "age_days": -7,
       "has_html_snapshot": true,
       "sha256_expected": "90e49de90a10c8e649e6bbef2c6bc8215e3edce39363288cdfaa95c06231987c",
       "sha256_actual": "90e49de90a10c8e649e6bbef2c6bc8215e3edce39363288cdfaa95c06231987c",
@@ -33,8 +33,8 @@
       "source": "https://www.gov.bw/doing-business/identified-possible-business-opportunities",
       "status": "ERROR",
       "classification": "ERROR",
-      "timestamp_utc": "2026-11-09T13:58:45.051546+00:00",
-      "age_days": 0,
+      "timestamp_utc": "2026-11-16T13:44:28.925787+00:00",
+      "age_days": -7,
       "has_html_snapshot": false,
       "sha256_expected": null,
       "sha256_actual": null,
@@ -48,15 +48,15 @@
     {
       "id": "npc-national-development-plans",
       "source": "https://www.npc.gov.bw/national-development-plans",
-      "status": "FETCHED",
-      "classification": "FETCHED",
-      "timestamp_utc": "2026-11-09T13:58:42.879695+00:00",
-      "age_days": 0,
+      "status": "ERROR",
+      "classification": "ERROR",
+      "timestamp_utc": "2026-11-16T13:44:28.014704+00:00",
+      "age_days": -7,
       "has_html_snapshot": true,
-      "sha256_expected": "9c7ed4f63f3ad05e7fe892b32f63597a7d80fc6b730c84b00242a0e20aacbcbd",
+      "sha256_expected": null,
       "sha256_actual": "9c7ed4f63f3ad05e7fe892b32f63597a7d80fc6b730c84b00242a0e20aacbcbd",
-      "sha256_verified": true,
-      "error": null,
+      "sha256_verified": false,
+      "error": "HTTP Error 503: Service Unavailable",
       "page_title": "National Development Plans | National Planning Commission Botswana",
       "heading_count": 6,
       "link_count": 33,
@@ -76,42 +76,42 @@
       "kind": "heading",
       "text": "National Development Plans",
       "url": "https://www.npc.gov.bw/national-development-plans",
-      "classification": "FETCHED"
+      "classification": "ERROR"
     },
     {
       "source_id": "npc-national-development-plans",
       "kind": "heading",
       "text": "Transitional National Development Plan (TNDP)",
       "url": "https://www.npc.gov.bw/national-development-plans",
-      "classification": "FETCHED"
+      "classification": "ERROR"
     },
     {
       "source_id": "npc-national-development-plans",
       "kind": "heading",
       "text": "National Development Plan 12 (NDP 12)",
       "url": "https://www.npc.gov.bw/national-development-plans",
-      "classification": "FETCHED"
+      "classification": "ERROR"
     },
     {
       "source_id": "npc-national-development-plans",
       "kind": "heading",
       "text": "About Us",
       "url": "https://www.npc.gov.bw/national-development-plans",
-      "classification": "FETCHED"
+      "classification": "ERROR"
     },
     {
       "source_id": "npc-national-development-plans",
       "kind": "heading",
       "text": "Resources",
       "url": "https://www.npc.gov.bw/national-development-plans",
-      "classification": "FETCHED"
+      "classification": "ERROR"
     },
     {
       "source_id": "npc-national-development-plans",
       "kind": "heading",
       "text": "Contact Details",
       "url": "https://www.npc.gov.bw/national-development-plans",
-      "classification": "FETCHED"
+      "classification": "ERROR"
     }
   ]
 }
