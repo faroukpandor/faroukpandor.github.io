@@ -1,0 +1,78 @@
+Farouk Pandor — faroukpandor.github.io
+======================================
+
+Copyright (c) 2026 Farouk Pandor. All rights reserved except where stated below.
+
+
+Scope of this notice
+--------------------
+
+This repository is a mixed work. Different parts carry different terms. Read the
+section that applies before reusing anything.
+
+1. The "Website & Digital Presence Health Check" method, its six review areas,
+   its checklist wording and the reports it generates
+   -----------------------------------------------------------------------------
+   Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0).
+   Full licence: https://creativecommons.org/licenses/by/4.0/legalcode
+   Human-readable summary: https://creativecommons.org/licenses/by/4.0/
+
+   You may share and adapt this material for any purpose, including
+   commercially, provided you give appropriate credit:
+
+       "Website & Digital Presence Health Check by Farouk Pandor,
+        faroukpandor.github.io, licensed CC BY 4.0."
+
+   In practice this covers `website-health-check.html`, the checklist content in
+   `assets/js/health-check.mjs`, and the exported Markdown/JSON report text.
+
+2. Everything else authored for this site — all rights reserved
+   -------------------------------------------------------------
+   The remaining original content is NOT licensed for reuse without written
+   permission. This includes, without limitation:
+
+   - all other HTML pages, their layout, copy and design;
+   - `assets/css/site.css` and the visual identity / brand marks ("FP");
+   - `assets/js/*.mjs` other than the health-check method above;
+   - `scripts/`, `tests/`, `templates/` and the JSON Schemas;
+   - `data/` registers, dashboards and generated digests;
+   - the documentation set under `docs/`.
+
+   No licence is granted by publishing this repository. Public availability on
+   GitHub does not place the work in the public domain.
+
+3. Third-party material — not licensed here
+   -----------------------------------------
+   Third-party names, marks, product descriptions, price lists, catalogues and
+   imagery (including supplier and vendor material referenced or cached under
+   `data/market-signals/` and `documents/`) belong to their respective owners.
+   They appear here for internal research and reference only. This notice grants
+   no rights over any of it, and no endorsement, partnership or agency is implied.
+
+4. Personal and client data — excluded
+   ------------------------------------
+   Nothing in this notice grants any right to personal, client, employer or
+   third-party data that may appear in private repositories or internal review
+   records. Such material is confidential and is not licensed for any use.
+
+
+No warranty
+-----------
+
+The material is provided "as is", without warranty of any kind, express or
+implied, including but not limited to warranties of merchantability, fitness for
+a particular purpose and non-infringement. Assessments, calculators, cost
+estimates and market signals produced by this site are illustrative working
+tools. They are not financial, legal, tax, engineering, veterinary or medical
+advice, and they do not replace a qualified professional or an official source.
+Verify every figure against the responsible authority before relying on it.
+
+To the maximum extent permitted by law, Farouk Pandor accepts no liability for
+any loss or damage arising from use of, or reliance on, this material.
+
+
+Contact
+-------
+
+Permissions, corrections and data-deletion requests:
+faroukpandor@gmail.com

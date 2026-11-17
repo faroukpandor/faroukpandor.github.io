@@ -78,7 +78,14 @@ function norm(s) {
 export function normalizeCategoryFromNeed(rawNeed) {
   const t = norm(rawNeed);
   if (!t) return 'Something else';
-  if (t.includes('buy') || t.includes('source') || t.includes('product') || t.includes('equipment') || t.includes('import')) {
+  // Supplier/procurement vocabulary is matched explicitly: "supplier" does not
+  // contain "supply" or "source", so the single most common sourcing phrase
+  // ("I need a supplier for …") used to fall through to 'Something else'.
+  const sourcing = [
+    'buy', 'source', 'product', 'equipment', 'import', 'supplier', 'supply',
+    'procure', 'vendor', 'quotation', 'quote', 'rfq', 'purchase', 'goods', 'materials',
+  ];
+  if (sourcing.some((w) => t.includes(w))) {
     return 'Buy or source something';
   }
   if (t.includes('specialist') || t.includes('service') || t.includes('trade') || t.includes('plumber') || t.includes('electric')) {
@@ -119,16 +126,24 @@ export function buildCanonicalIds(dateIso = '2026-11-09', seq = 1) {
  * 3. Regulated/licensed work routed to qualified Provider Network with clear boundary note
  */
 export function qualifyAndRouteDemand(input = {}) {
+  const rawNeed = String(input.need ?? '').trim();
   const requirement = String(input.requirement ?? '').trim();
+  // A free-text need ("supplier for cleaning chemicals in Gaborone") carries the same
+  // substance as a formal requirement. Falling back to it means one-line CLI/WhatsApp
+  // input is routed on its merits instead of being forced to CLARIFY. TAXONOMY labels
+  // (the homepage intent cards) are keywords, not descriptions, so they never count.
+  const needAsDescription =
+    rawNeed && !TAXONOMY_CATEGORIES.includes(rawNeed) ? rawNeed : '';
+  const effectiveRequirement = requirement || needAsDescription;
   const location = String(input.location ?? '').trim();
   const timing = String(input.timing ?? '').trim();
   const category = input.category && TAXONOMY_CATEGORIES.includes(input.category)
     ? input.category
-    : normalizeCategoryFromNeed(input.need || requirement);
+    : normalizeCategoryFromNeed(rawNeed || requirement);
 
-  const combinedText = norm([input.need, requirement, input.desired_outcome, input.notes].join(' '));
+  const combinedText = norm([rawNeed, requirement, input.desired_outcome, input.notes].join(' '));
   const missingFields = [];
-  if (requirement.length < 12) missingFields.push('specific requirement / problem description');
+  if (effectiveRequirement.length < 12) missingFields.push('specific requirement / problem description');
   if (!location) missingFields.push('location / geography');
   if (!timing) missingFields.push('timing / urgency');
 
@@ -153,7 +168,7 @@ export function qualifyAndRouteDemand(input = {}) {
     commercialMode = 'COORDINATED-REFERRAL';
     complianceQuestions.push('Regulated or licensed execution must be performed by an appropriately qualified provider.');
     nextActions.push('Clarify coordination-only scope and verify provider licence/registration before introduction.');
-  } else if (requirement.length < 12) {
+  } else if (effectiveRequirement.length < 12) {
     routeKey = 'CLARIFY';
     commercialMode = 'CLARIFY';
     nextActions.push('Send short clarification message to establish exact requirement, quantity, location and timing.');

@@ -1,0 +1,95 @@
+name: Validate
+
+# Nothing ran on pull requests before this workflow existed. `pages.yml` only runs
+# on push to main, so a broken test or a CSP regression could be reviewed, merged
+# and deployed before any check executed — which is exactly how a failing
+# market-signals test reached main. This gate runs the same suite on every PR.
+
+on:
+  pull_request:
+  push:
+    branches-ignore: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: validate-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Tests and offline verification
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      # No `npm install` step by design: the repository has zero dependencies, so
+      # the suite must pass with nothing but Node. If a dependency is ever added,
+      # this job fails loudly rather than silently pulling from the network.
+      - name: Assert zero runtime dependencies
+        run: |
+          node -e '
+            const p = require("./package.json");
+            const deps = Object.keys(p.dependencies || {}).length;
+            const dev = Object.keys(p.devDependencies || {}).length;
+            if (deps || dev) {
+              console.error("Unexpected dependencies declared - " + deps + " runtime, " + dev + " dev");
+              process.exit(1);
+            }
+            console.log("No dependencies declared - offline suite is trustworthy.");
+          '
+
+      - name: Unit, integration and contract tests
+        run: npm test
+
+      - name: Offline verification (security, routing, inventory, signals, schemas)
+        run: npm run verify
+
+      # Regeneration must be idempotent. If `npm run generate` produces a diff,
+      # committed generated files have drifted from their source data.
+      - name: Assert generated artifacts are in sync
+        run: |
+          npm run generate
+          if [ -n "$(git status --porcelain)" ]; then
+            echo '::error::Generated artifacts are out of date. Run `npm run generate` and commit the result.'
+            git --no-pager diff --stat
+            exit 1
+          fi
+
+      - name: Assert the public deploy artifact builds and stays allowlisted
+        env:
+          FORBIDDEN_PATHS: docs documents scripts tests templates
+        run: |
+          rm -rf _site
+          mkdir -p _site/data/next-actions _site/data/market-signals
+          cp *.html robots.txt sitemap.xml _site/
+          cp -R assets _site/
+          cp data/public-projects.json \
+             data/repository-inventory.json \
+             data/portfolio-opportunity-register.json \
+             data/portfolio-opportunity-register.csv \
+             data/portfolio-dashboard-summary.json \
+             _site/data/
+          cp data/next-actions/NEXT-ACTION-QUEUE.json data/next-actions/NEXT-ACTION-QUEUE.csv _site/data/next-actions/
+          cp data/market-signals/SIGNAL-DIGEST.json data/market-signals/SIGNAL-DIGEST.md _site/data/market-signals/
+          echo "Staged $(find _site -type f | wc -l) files"
+          # Private and internal material must never reach the public artifact.
+          for forbidden in $FORBIDDEN_PATHS; do
+            if [ -e "_site/$forbidden" ]; then
+              echo "::error::Private path leaked into _site: $forbidden"
+              exit 1
+            fi
+          done
+          if compgen -G "_site/data/market-signals/*.html" > /dev/null; then
+            echo "::error::Raw scraped signal HTML leaked into _site"
+            exit 1
+          fi
+          test -f _site/404.html
+          test -f _site/privacy.html
+          echo "Artifact allowlist verified."

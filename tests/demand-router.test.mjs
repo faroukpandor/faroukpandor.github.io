@@ -1,6 +1,10 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import { qualifyAndRouteDemand } from '../assets/js/demand-router.mjs';
+import {
+  TAXONOMY_CATEGORIES,
+  normalizeCategoryFromNeed,
+  qualifyAndRouteDemand,
+} from '../assets/js/demand-router.mjs';
 import { intakeToCanonicalRecord } from '../scripts/opportunity-cli.mjs';
 
 test('routes digital website health work to Mokoro without claiming client ownership', () => {
@@ -69,4 +73,29 @@ test('converts portable-opportunity-intake/v1 JSON to canonical opportunity reco
   assert.equal(record.customer_id, 'CUS-2026-0004');
   assert.equal(routing.destination.id, 'AGRISAGE360');
   assert.equal(record.status, 'PROBLEM-VERIFIED');
+});
+
+// Regression: single-line CLI/WhatsApp input used to route to CLARIFY because the
+// free-text `need` was ignored whenever `requirement` was absent.
+test('routes a free-text need with no formal requirement field', () => {
+  const res = qualifyAndRouteDemand({ need: 'I need a supplier for cleaning chemicals in Gaborone' });
+  assert.equal(res.category, 'Buy or source something');
+  assert.equal(res.destination.id, 'GENERAL_DEALER');
+  assert.equal(res.missing_fields.includes('specific requirement / problem description'), false);
+});
+
+test('supplier and procurement vocabulary maps to sourcing, not "Something else"', () => {
+  assert.equal(normalizeCategoryFromNeed('need a supplier'), 'Buy or source something');
+  assert.equal(normalizeCategoryFromNeed('requesting quotations from vendors'), 'Buy or source something');
+  assert.equal(normalizeCategoryFromNeed('procure 500 units'), 'Buy or source something');
+  assert.equal(normalizeCategoryFromNeed('raise an RFQ'), 'Buy or source something');
+});
+
+test('homepage intent-card labels remain keyword-only and are never treated as descriptions', () => {
+  for (const label of TAXONOMY_CATEGORIES) {
+    assert.equal(normalizeCategoryFromNeed(label), label);
+  }
+  // A bare taxonomy label must not unlock an actionable route on its own.
+  const res = qualifyAndRouteDemand({ need: 'Buy or source something' });
+  assert.equal(res.destination.id, 'CLARIFY');
 });
