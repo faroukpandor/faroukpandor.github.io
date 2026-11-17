@@ -9,8 +9,10 @@ import {
   SOURCES,
   SCHEMA_VERSION,
   buildSourceRecord,
+  detectSoftFailure,
   fetchSource,
   fetchSourceWithBody,
+  fetchSourceWithFallback,
   persistSourceRecord,
   readSourceRecords,
   renderHealthTable,
@@ -192,5 +194,88 @@ describe('market signal fetcher — snapshots and health', () => {
       assert.ok(s.id && s.label, `${s.url} needs an id and label`);
     }
     assert.equal(new Set(SOURCES.map((s) => s.id)).size, SOURCES.length, 'source ids must be unique');
+  });
+});
+
+describe('market signal fetcher — soft failures and fallbacks', () => {
+  const MAINTENANCE_PAGE =
+    '<!DOCTYPE html><html><head><title>Site under maintenance | Government of Botswana</title></head>' +
+    '<body><h1>Site under maintenance</h1><p>Government of Botswana is currently under scheduled ' +
+    'maintenance for updates. We should be back shortly.</p></body></html>';
+
+  it('13. treats a maintenance page served with HTTP 200 as ERROR, not FETCHED', async () => {
+    const record = await fetchSource(source, {
+      fetchImpl: async () => htmlResponse(MAINTENANCE_PAGE),
+    });
+    assert.equal(record.status, 'ERROR', 'a 200 maintenance page must never count as fetched');
+    assert.match(record.error, /maintenance\/unavailable page served with HTTP 200/);
+  });
+
+  it('14. detects the outage signatures the live sites actually returned', () => {
+    assert.ok(detectSoftFailure(MAINTENANCE_PAGE));
+    assert.ok(detectSoftFailure('<h1>503 Service Unavailable</h1>'));
+    assert.ok(detectSoftFailure('<title>503 Service Unavailable</title>'));
+    assert.ok(detectSoftFailure('   '), 'an empty body is not usable evidence');
+    assert.equal(detectSoftFailure('<html><body><h1>Investment areas</h1></body></html>'), null);
+  });
+
+  it('15. falls back to the documented alternative and records that it did', async () => {
+    const withFallback = { ...source, fallback: 'https://www.gov.bw/taxonomy/term/153' };
+    const calls = [];
+    const { record, body } = await fetchSourceWithFallback(withFallback, {
+      fetchImpl: async (url) => {
+        calls.push(url);
+        if (url === withFallback.url) return htmlResponse(MAINTENANCE_PAGE);
+        return htmlResponse('<html><body><h1>Identified Possible Business Opportunities</h1></body></html>');
+      },
+    });
+
+    assert.deepEqual(calls, [withFallback.url, withFallback.fallback], 'primary must be tried first');
+    assert.equal(record.status, 'FETCHED');
+    assert.equal(record.fallback_used, true);
+    assert.equal(record.source, withFallback.fallback, 'record must show the URL that actually worked');
+    assert.equal(record.primary_source, withFallback.url);
+    assert.match(record.primary_error, /maintenance/);
+    assert.match(body.toString('utf8'), /Identified Possible Business Opportunities/);
+  });
+
+  it('16. reports both errors when the fallback also fails', async () => {
+    const withFallback = { ...source, fallback: 'https://www.gov.bw/taxonomy/term/153' };
+    const { record, body } = await fetchSourceWithFallback(withFallback, {
+      fetchImpl: async () => {
+        throw new Error('HTTP 503 Service Unavailable');
+      },
+    });
+    assert.equal(record.status, 'ERROR');
+    assert.equal(body, null);
+    assert.match(record.error, /HTTP 503 .*fallback .*also failed.*HTTP 503/);
+  });
+
+  it('17. does not invent a fallback for a source with no reachable mirror', () => {
+    for (const s of SOURCES) {
+      if (s.fallbackStatus === 'no-mirror') {
+        assert.equal(s.fallback, null, `${s.id} must not carry a fabricated fallback`);
+      }
+      if (s.fallback) {
+        assert.match(s.fallback, /^https:\/\/www\./, `${s.id} fallback must be an official https host`);
+      }
+      assert.ok(['standby', 'no-mirror'].includes(s.fallbackStatus), `${s.id} needs a documented fallbackStatus`);
+    }
+  });
+
+  it('18. health table surfaces a fallback instead of reporting a clean success', () => {
+    const table = renderHealthTable([
+      {
+        id: 'government-business-opportunities',
+        status: 'FETCHED',
+        retrieved_utc: '2026-11-09T05:17:00.000Z',
+        fallback_used: true,
+        source: 'https://www.gov.bw/taxonomy/term/153',
+        primary_source: 'https://www.gov.bw/doing-business/identified-possible-business-opportunities',
+        primary_error: 'maintenance page served with HTTP 200',
+      },
+    ]);
+    assert.match(table, /FALLBACK/);
+    assert.match(table, /primary .* failed/);
   });
 });
