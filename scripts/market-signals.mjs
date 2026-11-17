@@ -73,18 +73,27 @@ export function extractHtmlSignals(html, sourceUrl) {
   return { title, headings, links };
 }
 
+/**
+ * Whole days from `tsA` to `dateIsoB`.
+ *
+ * Clamped at 0: a snapshot timestamped later than the reference date (clock skew
+ * on the runner, or a digest rebuilt for an earlier reference date — which is the
+ * normal case after a weekly fetch) used to produce a negative age such as
+ * `age_days: -7`. A negative age is meaningless and would defeat staleness
+ * checks, so "not yet aged" is reported as 0.
+ */
 function daysBetweenIso(tsA, dateIsoB) {
   if (!tsA) return null;
   const msA = Date.parse(String(tsA).slice(0, 10) + 'T00:00:00Z');
   const msB = Date.parse(dateIsoB + 'T00:00:00Z');
   if (Number.isNaN(msA) || Number.isNaN(msB)) return null;
-  return Math.round((msB - msA) / 86400000);
+  return Math.max(0, Math.round((msB - msA) / 86400000));
 }
 
-export function buildSignalDigest(referenceDateOverride) {
+export function buildSignalDigest(referenceDateOverride, signalsDir = SIGNALS_DIR) {
   const queue = JSON.parse(readFileSync(QUEUE_JSON_PATH, 'utf8'));
   const referenceDate = referenceDateOverride || queue.generated_utc.slice(0, 10);
-  const jsonFiles = readdirSync(SIGNALS_DIR.pathname)
+  const jsonFiles = readdirSync(signalsDir.pathname)
     .filter((f) => f.endsWith('.json') && f !== 'SIGNAL-DIGEST.json')
     .sort();
 
@@ -95,8 +104,8 @@ export function buildSignalDigest(referenceDateOverride) {
 
   for (const file of jsonFiles) {
     const id = file.replace(/\.json$/, '');
-    const meta = JSON.parse(readFileSync(join(SIGNALS_DIR.pathname, file), 'utf8'));
-    const htmlPath = join(SIGNALS_DIR.pathname, `${id}.html`);
+    const meta = JSON.parse(readFileSync(join(signalsDir.pathname, file), 'utf8'));
+    const htmlPath = join(signalsDir.pathname, `${id}.html`);
     const hasHtml = existsSync(htmlPath);
     let actualSha = null;
     let hashVerified = false;

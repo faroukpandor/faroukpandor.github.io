@@ -145,8 +145,12 @@ if (import.meta.url === `file://${process.argv[1]}`) {
   const { positional, flags } = parseArgs(rest);
 
   if (cmd === 'route') {
+    // Accept the need as a positional argument (`route "supplier for X"`) as well as
+    // via --need. Positional text was previously discarded silently, which made the
+    // documented invocation look like it worked while routing an empty need.
+    const positionalNeed = positional.join(' ').trim();
     const result = qualifyAndRouteDemand({
-      need: flags.need || '',
+      need: flags.need || positionalNeed || '',
       requirement: flags.requirement || '',
       location: flags.location || '',
       timing: flags.timing || '',
@@ -185,11 +189,91 @@ if (import.meta.url === `file://${process.argv[1]}`) {
     console.log(flags.markdown ? formatLandedQuoteMarkdown(res) : JSON.stringify(res, null, 2));
   } else if (cmd === 'validate-schemas') {
     const summary = validateSchemasOffline();
+    const contracts = validateRecordContracts();
     console.log(
       `${summary.schemasChecked} JSON schemas & ${summary.queueItems}/${summary.registerItems} records validated cleanly (offline)`,
+    );
+    console.log(
+      `record contract: ${contracts.recordFieldsChecked} required fields, intake contract: ${contracts.intakeFieldsChecked} required fields (offline)`,
     );
   } else {
     console.error('usage: node scripts/opportunity-cli.mjs <route|intake-to-record|landed|validate-schemas>');
     process.exit(2);
   }
+}
+
+/**
+ * Contract checks that were previously missing.
+ *
+ * `validateSchemasOffline` asserted that each schema file *had* metadata, and
+ * checked the queue and register records against their `required` lists — but the
+ * `opportunity-record` and `portable-opportunity-intake` contracts were never
+ * exercised against real data, so a field could silently disappear from the
+ * intake → record pipeline without any test noticing.
+ *
+ * These are deliberately hand-rolled rather than a JSON-Schema dependency: the
+ * repo stays dependency-free so the whole suite runs offline with zero installs.
+ */
+export function validateRecordContracts() {
+  const recordSchema = JSON.parse(
+    readFileSync(pathFor('templates/SCHEMAS/opportunity-record.schema.json'), 'utf8'),
+  );
+  const intakeSchema = JSON.parse(
+    readFileSync(pathFor('templates/SCHEMAS/portable-opportunity-intake.schema.json'), 'utf8'),
+  );
+  const templateRecord = JSON.parse(readFileSync(pathFor('templates/OPPORTUNITY-RECORD-TEMPLATE.json'), 'utf8'));
+
+  // 1. The published template must satisfy every field the schema requires.
+  for (const field of recordSchema.required) {
+    assert.ok(
+      Object.hasOwn(templateRecord, field),
+      `OPPORTUNITY-RECORD-TEMPLATE.json missing schema-required field: ${field}`,
+    );
+  }
+  assert.deepEqual(
+    Object.keys(templateRecord),
+    recordSchema.required,
+    'template keys must match the schema required list exactly',
+  );
+
+  // 2. Enum-constrained fields must reuse the schema vocabulary, never free text.
+  const allowedOwnership = new Set(recordSchema.properties.ownership_status.enum);
+  assert.ok(
+    allowedOwnership.has(templateRecord.ownership_status),
+    `template ownership_status "${templateRecord.ownership_status}" is outside the schema enum`,
+  );
+
+  // 3. A minimal valid intake must survive the whole pipeline into a record that
+  //    still satisfies the record contract.
+  const syntheticIntake = {
+    schema: intakeSchema.properties.schema.const,
+    captured_utc: '2026-11-09T10:00:00.000Z',
+    source_channel: 'website',
+    source_asset: 'index.html',
+    consent_acknowledged: true,
+    need: 'Something I want to buy or source',
+    name: 'Synthetic Tester',
+    contact: 'test@example.org',
+    requirement: 'Sourcing cleaning chemicals for an office in Gaborone',
+    location: 'Gaborone',
+    timing: 'This month',
+  };
+  for (const field of intakeSchema.required) {
+    assert.ok(Object.hasOwn(syntheticIntake, field), `synthetic intake missing required field: ${field}`);
+  }
+  assert.equal(typeof syntheticIntake.consent_acknowledged, 'boolean');
+  assert.ok(syntheticIntake.contact.length >= intakeSchema.properties.contact.minLength);
+
+  const { record } = intakeToCanonicalRecord(syntheticIntake, 99);
+  for (const field of recordSchema.required) {
+    assert.ok(Object.hasOwn(record, field), `intake→record pipeline dropped schema-required field: ${field}`);
+  }
+  assert.ok(allowedOwnership.has(record.ownership_status), `pipeline produced invalid ownership_status: ${record.ownership_status}`);
+  assert.equal(record.opportunity_id, 'OPP-2026-0099');
+  assert.equal(record.customer_id, 'CUS-2026-0099');
+
+  return {
+    recordFieldsChecked: recordSchema.required.length,
+    intakeFieldsChecked: intakeSchema.required.length,
+  };
 }
