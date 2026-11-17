@@ -50,6 +50,30 @@ export const MAINTENANCE_PATTERNS = [
 ];
 
 /** Returns a reason string when the body looks like an outage/maintenance page. */
+/**
+ * Turn a fetch failure into a diagnosable message.
+ *
+ * Undici reports every network-layer failure as the bare string "fetch failed" and
+ * puts the real reason on `.cause`. That produced an unhelpful digest entry during
+ * the 2026-11-17 run: gov.bw showed "fetch failed" with no indication whether the
+ * cause was DNS, TLS or a refused connection. The cause chain is now flattened.
+ */
+export function describeFetchError(error, timeoutMs = DEFAULT_TIMEOUT_MS) {
+  if (error?.name === 'AbortError') return `timed out after ${timeoutMs}ms`;
+  const parts = [];
+  let current = error;
+  const seen = new Set();
+  while (current && !seen.has(current)) {
+    seen.add(current);
+    const code = current.code || current.errno;
+    const text = current.message ? String(current.message) : String(current);
+    // Skip the uninformative undici wrapper when a more specific cause follows.
+    if (!(text === 'fetch failed' && current.cause)) parts.push(code ? `${text} [${code}]` : text);
+    current = current.cause;
+  }
+  return parts.length ? parts.join(' <- ') : 'unknown fetch error';
+}
+
 export function detectSoftFailure(bodyText) {
   const text = String(bodyText ?? '');
   if (text.trim().length === 0) return 'empty response body';
@@ -198,8 +222,10 @@ export async function fetchSourceWithBody(source, { fetchImpl = globalThis.fetch
       body,
     };
   } catch (error) {
-    const message = error?.name === 'AbortError' ? `timed out after ${timeoutMs}ms` : error;
-    return { record: buildSourceRecord({ id: source.id, url: source.url, error: message }), body: null };
+    return {
+      record: buildSourceRecord({ id: source.id, url: source.url, error: describeFetchError(error, timeoutMs) }),
+      body: null,
+    };
   } finally {
     clearTimeout(timer);
   }

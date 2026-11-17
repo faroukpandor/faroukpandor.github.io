@@ -9,6 +9,7 @@ import {
   SOURCES,
   SCHEMA_VERSION,
   buildSourceRecord,
+  describeFetchError,
   detectSoftFailure,
   fetchSource,
   fetchSourceWithBody,
@@ -277,5 +278,26 @@ describe('market signal fetcher — soft failures and fallbacks', () => {
     ]);
     assert.match(table, /FALLBACK/);
     assert.match(table, /primary .* failed/);
+  });
+});
+
+describe('market signal fetcher — diagnosable errors', () => {
+  it('19. flattens the undici cause chain instead of reporting bare "fetch failed"', async () => {
+    const wrappers = new Error('fetch failed');
+    wrappers.cause = Object.assign(new Error('getaddrinfo EAI_AGAIN www.gov.bw'), { code: 'EAI_AGAIN' });
+    const record = await fetchSource(source, {
+      fetchImpl: async () => {
+        throw wrappers;
+      },
+    });
+    assert.equal(record.status, 'ERROR');
+    assert.match(record.error, /EAI_AGAIN/);
+    assert.match(record.error, /www\.gov\.bw/);
+    assert.doesNotMatch(record.error, /^fetch failed$/, 'the bare wrapper alone is not acceptable');
+  });
+
+  it('20. keeps the useful message when there is no cause chain', () => {
+    assert.equal(describeFetchError(new Error('HTTP 503 Service Unavailable')), 'HTTP 503 Service Unavailable');
+    assert.match(describeFetchError(Object.assign(new Error('timed out'), { name: 'AbortError' }), 5000), /5000ms/);
   });
 });
