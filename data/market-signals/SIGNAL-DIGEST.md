@@ -9,8 +9,8 @@
 | Feed ID | Source URL | Status | Classification | Age (days) | SHA-256 Verified | Notes |
 |---|---|---|---|---:|---|---|
 | bitc-investment-areas | https://www.bitc.co.bw/invest/investment-areas/ | FETCHED | FETCHED | 0 | Yes | Invest - investment-areas |
-| government-business-opportunities | https://www.gov.bw/doing-business/identified-possible-business-opportunities | ERROR | ERROR | 0 | No | <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)> |
-| npc-national-development-plans | https://www.npc.gov.bw/national-development-plans | ERROR | ERROR | 0 | No | HTTP Error 503: Service Unavailable |
+| government-business-opportunities | https://www.gov.bw/doing-business/identified-possible-business-opportunities | ERROR | ERROR | 0 | No | fetch failed; fallback https://www.gov.bw/taxonomy/term/153 also failed: fetch failed |
+| npc-national-development-plans | https://www.npc.gov.bw/national-development-plans | ERROR | ERROR | 0 | No | HTTP 503 Service Unavailable |
 
 ## Extracted Headings (Normalised, Deduplicated)
 

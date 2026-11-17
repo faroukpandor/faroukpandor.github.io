@@ -1,6 +1,7 @@
 {
+  "schema": "africa-market-signal-source/v1",
   "source": "https://www.npc.gov.bw/national-development-plans",
   "status": "ERROR",
-  "attempted_utc": "2026-11-16T13:44:28.014704+00:00",
-  "error": "HTTP Error 503: Service Unavailable"
+  "attempted_utc": "2026-11-17T04:48:58.093Z",
+  "error": "HTTP 503 Service Unavailable"
 }
