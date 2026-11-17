@@ -33,13 +33,17 @@ jobs:
       # the suite must pass with nothing but Node. If a dependency is ever added,
       # this job fails loudly rather than silently pulling from the network.
       - name: Assert zero runtime dependencies
-        run: node -e "
-          const p = require('./package.json');
-          const deps = Object.keys(p.dependencies || {}).length;
-          const dev = Object.keys(p.devDependencies || {}).length;
-          if (deps || dev) { console.error('Unexpected dependencies: ' + deps + ' runtime, ' + dev + ' dev'); process.exit(1); }
-          console.log('No dependencies declared — offline suite is trustworthy.');
-        "
+        run: |
+          node -e '
+            const p = require("./package.json");
+            const deps = Object.keys(p.dependencies || {}).length;
+            const dev = Object.keys(p.devDependencies || {}).length;
+            if (deps || dev) {
+              console.error("Unexpected dependencies declared - " + deps + " runtime, " + dev + " dev");
+              process.exit(1);
+            }
+            console.log("No dependencies declared - offline suite is trustworthy.");
+          '
 
       - name: Unit, integration and contract tests
         run: npm test
@@ -59,6 +63,8 @@ jobs:
           fi
 
       - name: Assert the public deploy artifact builds and stays allowlisted
+        env:
+          FORBIDDEN_PATHS: docs documents scripts tests templates
         run: |
           rm -rf _site
           mkdir -p _site/data/next-actions _site/data/market-signals
@@ -74,12 +80,16 @@ jobs:
           cp data/market-signals/SIGNAL-DIGEST.json data/market-signals/SIGNAL-DIGEST.md _site/data/market-signals/
           echo "Staged $(find _site -type f | wc -l) files"
           # Private and internal material must never reach the public artifact.
-          for forbidden in docs documents scripts tests templates data/market-signals/*.html; do
+          for forbidden in $FORBIDDEN_PATHS; do
             if [ -e "_site/$forbidden" ]; then
               echo "::error::Private path leaked into _site: $forbidden"
               exit 1
             fi
           done
+          if compgen -G "_site/data/market-signals/*.html" > /dev/null; then
+            echo "::error::Raw scraped signal HTML leaked into _site"
+            exit 1
+          fi
           test -f _site/404.html
           test -f _site/privacy.html
           echo "Artifact allowlist verified."
