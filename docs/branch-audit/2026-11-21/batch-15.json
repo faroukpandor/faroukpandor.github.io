@@ -1,0 +1,392 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 15,
+  "range": [
+    235,
+    251
+  ],
+  "repositories": [
+    {
+      "name": "MORUA-JUNCTION---TEMPOLABS",
+      "full": "faroukpandor/MORUA-JUNCTION---TEMPOLABS",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 3,
+      "branches": [
+        {
+          "name": "feat/rust-only-morua-foundation",
+          "sha": "ea47df8c0e134e2abb1b21f595ab241c76a109bf",
+          "protected": false
+        },
+        {
+          "name": "fix/fail-closed-build-validation",
+          "sha": "9777f18c67ac4e3fe4fd440fb07fa41ce1f28f74",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "6000595d53c61e7638806ef3a0b301a6de346661",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "BW-Mats",
+      "full": "faroukpandor/BW-Mats",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "fcf26e5664be01fa4206ae738134bd16d3f459de",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "AEGIS",
+      "full": "faroukpandor/AEGIS",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "feature/phoneguard-android",
+          "sha": "2732e5fa228dfd7cccf3a4a2dfe4cd7a16ed8dd8",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "3090feaf4c8b9c1ca87548552dad96f772769ca7",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "parasitology",
+      "full": "faroukpandor/parasitology",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "11330aed128c2e7ecea6b643e6dab622c27c933e",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "GHOST-CORE",
+      "full": "faroukpandor/GHOST-CORE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "2d985649d7afde739953bb3f5ae9161e656a843a",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "oracle-bet-ai-assistant",
+      "full": "faroukpandor/oracle-bet-ai-assistant",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "728c98c29969ab01d1a464bfa3c870fa40a84435",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "CyberSentinel",
+      "full": "faroukpandor/CyberSentinel",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "591c8e8da2d02094a109a8bb1e2014e216ddbffd",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "AuraStitch",
+      "full": "faroukpandor/AuraStitch",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a01dc7-aurastitch",
+          "sha": "e0f6f80b8a9c63832d1fcf38b337288d3d240f0e",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "c3f5a6bdeb504337a69a34dfcb6a808d50c92f86",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "sarscypridopsis-harundineti",
+      "full": "faroukpandor/sarscypridopsis-harundineti",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "f1e7d6cf8a9fa95e2dc33081b81c4d2a3e23e481",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "nexusforge-vision",
+      "full": "faroukpandor/nexusforge-vision",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "e74b8b9d819af6c48c5b278bedbf14ad68549d80",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "AETHER-X-Global-AI-Ecosystem-Platform",
+      "full": "faroukpandor/AETHER-X-Global-AI-Ecosystem-Platform",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "01459f46c4299a56c91878fcc8501673e30c4683",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "opensourcepos",
+      "full": "faroukpandor/opensourcepos",
+      "default": "master",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 15,
+      "branches": [
+        {
+          "name": "Keyboard-Shortcuts",
+          "sha": "b93c2505c30950be4c2252573edf0bdd17bdf602",
+          "protected": false
+        },
+        {
+          "name": "apply-validation-before-submit",
+          "sha": "64c121566a3107d13552695be7e5760ebd9eeb81",
+          "protected": false
+        },
+        {
+          "name": "bootstrap-5",
+          "sha": "a018a07ccfa798003efdb12509bf7489ec1f8329",
+          "protected": false
+        },
+        {
+          "name": "customer-due-tracking",
+          "sha": "46ef36ced9981cf756eeee6b689c1d6630de4831",
+          "protected": false
+        },
+        {
+          "name": "feature-php-cs-fixer",
+          "sha": "59a1c1bebd81027f971ad8fc8e14aca0af0977c6",
+          "protected": false
+        },
+        {
+          "name": "fix-quote-number-generation",
+          "sha": "d2a2ead20ad2cb2060fe2928d370091ec5d7adb8",
+          "protected": false
+        },
+        {
+          "name": "fix-requisitions",
+          "sha": "b64a93e483021b1b49651eee3510ab13ca1e496b",
+          "protected": false
+        },
+        {
+          "name": "fix-send-email-receipt",
+          "sha": "477ef7503a785bc6044a89d63fc00ad8be5c4671",
+          "protected": false
+        },
+        {
+          "name": "gh-pages",
+          "sha": "5b0de3a019998228a7ffd949390d284d5a88ace4",
+          "protected": false
+        },
+        {
+          "name": "master",
+          "sha": "534f7361d6f35fd3edb690bc3b8b460c9eb3606e",
+          "protected": false
+        },
+        {
+          "name": "migration-success-message",
+          "sha": "b92a134238e92d4fcd59b9c017652e736e0eb2cb",
+          "protected": false
+        },
+        {
+          "name": "no-negative-stock",
+          "sha": "b62478a39fb0b2b7328304890cb7487c77f194ed",
+          "protected": false
+        },
+        {
+          "name": "refactor-tabs-to-spaces",
+          "sha": "e5a216370a5b9280b24aae3d8a18197552c9910d",
+          "protected": false
+        },
+        {
+          "name": "revert-input-filtering",
+          "sha": "d0992a92e78d90ae9c09aeb1467631da2d8d33a7",
+          "protected": false
+        },
+        {
+          "name": "validation-fixes",
+          "sha": "84304cad047957c59fe6170216188722df6feda2",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Sartorial",
+      "full": "faroukpandor/Sartorial",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 3,
+      "branches": [
+        {
+          "name": "feat/t-junction-storefront-20261031",
+          "sha": "acd21204a9045869911c1dbf0e7152eb16b7ec86",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "ad8f3edf9f5f455735717ae4b2bbfd43e4ab0fed",
+          "protected": false
+        },
+        {
+          "name": "profit-driven-apparel-platform-8c2a3",
+          "sha": "1ec53f7502a52bbf262735880222dab1027e7b8a",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "BOT",
+      "full": "faroukpandor/BOT",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a03991-bot",
+          "sha": "b729b27480d717c46090d3522b5535ccc65fd74f",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "eb8f271b52529c6e55076a8e2d9a4f88190734da",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Sycamore-Corporate-Mobility",
+      "full": "faroukpandor/Sycamore-Corporate-Mobility",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "4c485909f35f1d02f3c2a86981c1cd0188559a7f",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "smart-life-blueprint",
+      "full": "faroukpandor/smart-life-blueprint",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "7fd261789ec0b44afc974a8b3dc260e619edbf1b",
+          "protected": false
+        },
+        {
+          "name": "vercel/dependencies-for-react-flight-n19kz9",
+          "sha": "ddeed866e7258abd58fb58b886ba86718b33425b",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "ESTATEIQ",
+      "full": "faroukpandor/ESTATEIQ",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "89e248686ed3550284bc29fafedf11728e9e4f9d",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}
