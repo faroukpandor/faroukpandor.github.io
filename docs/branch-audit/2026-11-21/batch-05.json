@@ -1,0 +1,407 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 5,
+  "range": [
+    65,
+    81
+  ],
+  "repositories": [
+    {
+      "name": "skillswap",
+      "full": "faroukpandor/skillswap",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "f79302fd2480e039f899028cd908411aeae8b38e",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "faroukpandor-nextjs-commerce",
+      "full": "faroukpandor/faroukpandor-nextjs-commerce",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "d67cb3ae16c59f53e9209cc6226007e58081ece7",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "TSHUPO",
+      "full": "faroukpandor/TSHUPO",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a03892-tshupo",
+          "sha": "b486b36e641773034818a556890273819cb66a5f",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "a8c547a1a8d9859b2a96cfd345e6100b09ecf7e3",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "fbstories",
+      "full": "faroukpandor/fbstories",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "6056e789c0bb1313c8bafd6b3c75f2449cc699a6",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "SUNCYCLE",
+      "full": "faroukpandor/SUNCYCLE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "cb5cf0f18789d1f385b5e7f97ebd3e5f5ef59841",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "skillloop",
+      "full": "faroukpandor/skillloop",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a067df-skillloop",
+          "sha": "24a9b2a34cf9115c16ebd7904dfda0b2fbe6003e",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "b793510c9cf7fabb43ab7fb51e523319b4781066",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "MMVE-OS-Execution-Workbench",
+      "full": "faroukpandor/MMVE-OS-Execution-Workbench",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/afc92147-mmve-os-execution-workbench",
+          "sha": "de4307553f1c7a21f669575f98714a667a2b9e7f",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "380b452d28d9ab81b9520347a51f0300676a5cf2",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Rclone-Hub-Pro",
+      "full": "faroukpandor/Rclone-Hub-Pro",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "ebeb0ce9fd365a9ad631ba7109dc83cec62cfdd7",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "IAS",
+      "full": "faroukpandor/IAS",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 4,
+      "branches": [
+        {
+          "name": "arena/01a04c88-ias",
+          "sha": "4f1ded18a79f4fdfca210661672ac0b040f19a1f",
+          "protected": false
+        },
+        {
+          "name": "content/botswana-editorial-2026-11",
+          "sha": "bb655fb231230f9c1af91777093bb1fde458d37a",
+          "protected": false
+        },
+        {
+          "name": "content/botswana-science-november-2026",
+          "sha": "ffd8dc74a764d9e404d5006152aae17c8c489391",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "b1d10c2e9ee085d464f03ea73b80b876121ac12e",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "mowana",
+      "full": "faroukpandor/mowana",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 11,
+      "branches": [
+        {
+          "name": "arena/a7ddd078-mowana",
+          "sha": "1224c4274623f79ff1c984eb9a21fcb6a862a961",
+          "protected": false
+        },
+        {
+          "name": "arena/ca2f6a10-mowana",
+          "sha": "6dc7601ecb9e2af41b613c6dcc6b557460af4f56",
+          "protected": false
+        },
+        {
+          "name": "arena/e9026aa2-mowana",
+          "sha": "c700baf0652b2d144960c52cce34cf06d92ba908",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0f6aa-mowana",
+          "sha": "444a49aced835a4cc90edc6662171c7b96885c5b",
+          "protected": false
+        },
+        {
+          "name": "arena/01a06a55-mowana",
+          "sha": "f220b2dbc817f8b4606393eb7f1fab9739f8475d",
+          "protected": false
+        },
+        {
+          "name": "arena/01a06aa2-mowana",
+          "sha": "2beeb5acedce36b84c6fbd22501856ec3113bdb6",
+          "protected": false
+        },
+        {
+          "name": "arena/01a037be-mowana",
+          "sha": "be2c992410398b597ef4ace6f0c3c53edd0a61ac",
+          "protected": false
+        },
+        {
+          "name": "arena/1d39e9c6-mowana",
+          "sha": "f0a2ed3642e121762960edcc9ee14bd83141d2a0",
+          "protected": false
+        },
+        {
+          "name": "arena/3e78cbc2-mowana",
+          "sha": "60ebbb7bff2c1e3e8ba45316dce3522579613f7a",
+          "protected": false
+        },
+        {
+          "name": "arena/8bb89555-mowana",
+          "sha": "fcca1b94d97933ff1b6d181b124e015529eed00a",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "0c7af1387115aaf12f3a258eed218a959190d60f",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "OpenEarn-Global",
+      "full": "faroukpandor/OpenEarn-Global",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 8,
+      "branches": [
+        {
+          "name": "arena/a1853958-openearn-global",
+          "sha": "e0ccad4e11eb4d6f55985c44ea15ff2396e4f0e0",
+          "protected": false
+        },
+        {
+          "name": "arena/0632208f-openearn-global",
+          "sha": "400074eb5e0ec652c768ed8348db490c1104ea81",
+          "protected": false
+        },
+        {
+          "name": "feat/global-country-aware-ai-work-hub",
+          "sha": "0150d98ee8364e52194dfd6dc1c51348fa287746",
+          "protected": false
+        },
+        {
+          "name": "free-first-compliance-deployment",
+          "sha": "d1f7da1309e3fef3a474769df9c63f55dd2b3b64",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "25f2fb695f37bc03a08c5b2701d922adade433b1",
+          "protected": false
+        },
+        {
+          "name": "stage-0-rewards-intelligence-foundation",
+          "sha": "a6eeb6fe6c9dba77a391c69b8b7cc36529309283",
+          "protected": false
+        },
+        {
+          "name": "stage-1-opportunity-intelligence-mvp",
+          "sha": "31ea4ebb5bdad1a5aab57b0ff8c4a586bb9d3163",
+          "protected": false
+        },
+        {
+          "name": "stage-2-evidence-data-engine",
+          "sha": "53945e0763becf15a9335854252554390d533e49",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "LIFEOS",
+      "full": "faroukpandor/LIFEOS",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "ec24622873a9f87b6a3ad5707bfeb16225cf19b6",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "SENTINEL-SHIELD",
+      "full": "faroukpandor/SENTINEL-SHIELD",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "01cce9de30ef63cd750242c763b08c98ac2e94b4",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "WorksPlace",
+      "full": "faroukpandor/WorksPlace",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a076a7-worksplace",
+          "sha": "621b239219abca34cdf62396299de7312d889632",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "8e1d5d2eec98de915fbd8e7c4563c2d549d001b1",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "ECHOWEAVE",
+      "full": "faroukpandor/ECHOWEAVE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "14a4da8675f5caf65c1cbdbf57bebc8b827700c4",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "health-hive-spark",
+      "full": "faroukpandor/health-hive-spark",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "2c8c02b649a16f2c8ddb48e6eb097fd5f2c0beb5",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Protein-Intelligence-and-Sustainable-Food-Systems",
+      "full": "faroukpandor/Protein-Intelligence-and-Sustainable-Food-Systems",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "e1b4c56e9e70a5e36b953210b7acc9e3e133a849",
+          "protected": false
+        },
+        {
+          "name": "research/portfolio-integration-opportunity-framework",
+          "sha": "a9d8d2b3dfe44faec898c4a560964ac1a201f53e",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}
