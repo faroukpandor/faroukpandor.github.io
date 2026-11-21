@@ -1,0 +1,442 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 17,
+  "range": [
+    269,
+    285
+  ],
+  "repositories": [
+    {
+      "name": "COVE",
+      "full": "faroukpandor/COVE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "dd55c479ccba177ef94dd3c36b674c33b482a8df",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "PipTick-Ethos",
+      "full": "faroukpandor/PipTick-Ethos",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "docs/xauusd-research-core-integration",
+          "sha": "0063d188fb41fb7f617ac971f6a1d604af44e5af",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "ae31d43fe88c74ff62180ce6190df44e51eb1526",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "pentagi",
+      "full": "faroukpandor/pentagi",
+      "default": "main",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "ea665308baaff015b226f308438a68d929d0f29b",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "health-haven-medical-centre",
+      "full": "faroukpandor/health-haven-medical-centre",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 11,
+      "branches": [
+        {
+          "name": "arena/01a0a9fd-health-haven-medical-centre",
+          "sha": "25ae139abbdd230ffcd474f86add91b4031e3176",
+          "protected": false
+        },
+        {
+          "name": "chore/remove-tracked-rust-build-output-2026-10-23",
+          "sha": "d1a756e7fdf578c1efbd9214f0af4043c0ada439",
+          "protected": false
+        },
+        {
+          "name": "consolidation/health-haven-strategy-on-secure-main-2026-10-24",
+          "sha": "b66a283ecb322fc6ab987e9aacc6534bbe3abfc1",
+          "protected": false
+        },
+        {
+          "name": "faroukpandor-patch-1",
+          "sha": "9b7b9c4bde7138d6c669b4e0994d93c2e9fc4adf",
+          "protected": false
+        },
+        {
+          "name": "fix/rust-workflow-working-directory-2026-10-23",
+          "sha": "f590855f443ae206375f5fd937fec54ef4a16ff2",
+          "protected": false
+        },
+        {
+          "name": "governance/international-standards-human-centred-2026-10-23",
+          "sha": "f4ced413716dda816dc49ccf5ce66a18fea7e03c",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "c62d8150ca7fba7ab53b09b57fecdef18daa7be1",
+          "protected": false
+        },
+        {
+          "name": "security/fail-closed-jwt-secret-2026-10-23",
+          "sha": "c2307313752d20bc20b78f4d46f482fc0e11d5ae",
+          "protected": false
+        },
+        {
+          "name": "security/remove-unused-dependencies-2026-11-16",
+          "sha": "819565045831a72b71df408f1a40e82019e311d7",
+          "protected": false
+        },
+        {
+          "name": "strategy/all-in-one-health-erp-vision-2026-10-23",
+          "sha": "88c542f4eb2911ecb9e0bd815d01718becadd113",
+          "protected": false
+        },
+        {
+          "name": "strategy/universal-biological-health-telehealth-2026-11-02",
+          "sha": "d5f685ec69a3aeb9dc3516a8ffab008c99a9db58",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "IRONMIKE",
+      "full": "faroukpandor/IRONMIKE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "fix/cloudflare-pages-wrangler-build-20261024",
+          "sha": "139026b2b44701a43282e0240caaae227d0dcf03",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "1167025c1fbea9c3e7b6e8be815e6099f8b9b5ea",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "OpenCast",
+      "full": "faroukpandor/OpenCast",
+      "default": "main",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/4ab2ec11-opencast",
+          "sha": "3ef8d7093d3902464c920cba4d7d9474f2e46f3a",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "2961d8256fd87f1ee3da21c7f7e52a763dbe8c7c",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "NRTC-PROPOSAL-TO-BOTSWANA-BY-FAROUK-PANDOR",
+      "full": "faroukpandor/NRTC-PROPOSAL-TO-BOTSWANA-BY-FAROUK-PANDOR",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "f39e01140c4f26b0e869b2ec3753dc977626d88c",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "PLANFORGE",
+      "full": "faroukpandor/PLANFORGE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/cacb20b9-planforge",
+          "sha": "07e15b3c97a0cef234f0a81304716625bb656459",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "5d6f4b7a07d7658bb41e737b7436ddb46fcd1796",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Farouk-Pandor-Brand",
+      "full": "faroukpandor/Farouk-Pandor-Brand",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 4,
+      "branches": [
+        {
+          "name": "arena/f4dc2f60-farouk-pandor-brand",
+          "sha": "2d195613f011f549723b88606c0bb806051e5fd1",
+          "protected": false
+        },
+        {
+          "name": "arena/f911e1ac-farouk-pandor-brand",
+          "sha": "0b0c9d15ff5105cee4d250177353885d1ef86382",
+          "protected": false
+        },
+        {
+          "name": "arena/668d281c-farouk-pandor-brand",
+          "sha": "1411cb6dbb58e61e4acaf6bfe64b5869ea58600a",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "f2d6e4f443367c65db6e6ec7152c7f6b049eeabf",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "MQL5",
+      "full": "faroukpandor/MQL5",
+      "default": "master",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a03e83-mql5",
+          "sha": "fa7aa7f446689131bf0203e48880467fd212a582",
+          "protected": false
+        },
+        {
+          "name": "master",
+          "sha": "daeeefed41b85c87674c8e746ff119267ad5a2e2",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "AXON---Personal-Value-Engine",
+      "full": "faroukpandor/AXON---Personal-Value-Engine",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "cd1d6ae93d14bb2eedcbf8b32e62d2247d1ca68e",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Lyria-Studio",
+      "full": "faroukpandor/Lyria-Studio",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "d8ea356cf0de7af83f2b37b8afd2e2e3e8966e52",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "openzero",
+      "full": "faroukpandor/openzero",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 4,
+      "branches": [
+        {
+          "name": "arena/01a052f4-openzero",
+          "sha": "f58ae515ad0152befdeda16bef84d220ae8afa47",
+          "protected": false
+        },
+        {
+          "name": "arena/019ff5b7-openzero",
+          "sha": "c5f9ce65f609ac8a72f0d002857b7970c52a2b0e",
+          "protected": false
+        },
+        {
+          "name": "codex/openzero-revival-2026-10-29",
+          "sha": "ceb77191e21e446e2d99bd47722e656af043cb23",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "9fc50de494c2eb8172ce5d115fed833538869c82",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "StoryVault-Pro",
+      "full": "faroukpandor/StoryVault-Pro",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "feat/visual-trust-foundation",
+          "sha": "5de08060a03057a5e0ca75c0d351d62473bbdb8b",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "0bb0575d43f9d7a9c5c841aed981e40ab7a4090b",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Sovereign-Forensic-OS-tool-The-Supply-Chain-Provenance-Audit-SCPA-",
+      "full": "faroukpandor/Sovereign-Forensic-OS-tool-The-Supply-Chain-Provenance-Audit-SCPA-",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 9,
+      "branches": [
+        {
+          "name": "audit/livestock-schema-gap-review-2026-11-04",
+          "sha": "5b9bb3ae427683060d06ebf53fefe898f3acb0f5",
+          "protected": false
+        },
+        {
+          "name": "codex/backup-inspection",
+          "sha": "a9c4415ffb396d7015ac1ef82207091c304c7eed",
+          "protected": false
+        },
+        {
+          "name": "codex/investigator-workflows",
+          "sha": "e35f4d90b5c5778ad9a97a4463309666d6d86e9b",
+          "protected": false
+        },
+        {
+          "name": "codex/offline-forensic-workspace",
+          "sha": "cd154bc954276728fef0e9b781c527f36c92a1e3",
+          "protected": false
+        },
+        {
+          "name": "codex/scoped-evidence-manifest",
+          "sha": "b624c14987e243c376dfaecb1a0be4cf4f481783",
+          "protected": false
+        },
+        {
+          "name": "feature/sovereign-ai-sadc-content",
+          "sha": "3deb6a40e96b41f883ad545fced1abc75f0b9936",
+          "protected": false
+        },
+        {
+          "name": "hardening/executive-neutrality-assurance",
+          "sha": "65b917c1a08ba04261542fff3a1fdb4e3bdc4c22",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "90195d343d6960689c9f7484181fa4f5c67b05e9",
+          "protected": false
+        },
+        {
+          "name": "strategy/agri-batch-provenance-adapter-2026-11-04",
+          "sha": "b0a7a2203d5293b27dd5df73a9d5a8a62c4ab22d",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "ClipVault",
+      "full": "faroukpandor/ClipVault",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "021f0b1d4850879ad930bab6d942d622f48c6da4",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "disease_diagnosis_with_Machine-Learning",
+      "full": "faroukpandor/disease_diagnosis_with_Machine-Learning",
+      "default": "diagnosis-api",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 3,
+      "branches": [
+        {
+          "name": "animal-disease-diagnosis",
+          "sha": "e4ce47d6efe5b2a1541d5a926f3accc4d7145cfd",
+          "protected": false
+        },
+        {
+          "name": "diagnosis-api",
+          "sha": "188eeb0aabb4ff8cf3b10adc581a794a894288dc",
+          "protected": false
+        },
+        {
+          "name": "test-diagnosis-api",
+          "sha": "50c7b41ae9c11b23656fa7e79b3e999df0e5a9bf",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}
