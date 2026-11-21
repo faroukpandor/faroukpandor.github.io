@@ -1,0 +1,152 @@
+{
+  "snapshot": "2026-11-21",
+  "fork_count": 36,
+  "branch_reference_count": 1124,
+  "classification": "GitHub search qualifier fork:only; these repositories are upstream forks and should not be treated as original founder-built products without a separate original-work audit.",
+  "repositories": [
+    {
+      "repo": "faroukpandor/openclaw",
+      "branch_count": 743
+    },
+    {
+      "repo": "faroukpandor/equifix-tina-cloud-starter",
+      "branch_count": 116
+    },
+    {
+      "repo": "faroukpandor/rea",
+      "branch_count": 104
+    },
+    {
+      "repo": "faroukpandor/hummingbot",
+      "branch_count": 48
+    },
+    {
+      "repo": "faroukpandor/pwa-starter",
+      "branch_count": 22
+    },
+    {
+      "repo": "faroukpandor/opensourcepos",
+      "branch_count": 15
+    },
+    {
+      "repo": "faroukpandor/faroukpandor",
+      "branch_count": 11
+    },
+    {
+      "repo": "faroukpandor/jenetics",
+      "branch_count": 9
+    },
+    {
+      "repo": "faroukpandor/next-on-pages",
+      "branch_count": 9
+    },
+    {
+      "repo": "faroukpandor/bolt.diy",
+      "branch_count": 7
+    },
+    {
+      "repo": "faroukpandor/odoo",
+      "branch_count": 5
+    },
+    {
+      "repo": "faroukpandor/wifite2",
+      "branch_count": 3
+    },
+    {
+      "repo": "faroukpandor/disease_diagnosis_with_Machine-Learning",
+      "branch_count": 3
+    },
+    {
+      "repo": "faroukpandor/Clean-Coder-AI",
+      "branch_count": 2
+    },
+    {
+      "repo": "faroukpandor/binance-trade-bot",
+      "branch_count": 2
+    },
+    {
+      "repo": "faroukpandor/tsafi",
+      "branch_count": 2
+    },
+    {
+      "repo": "faroukpandor/medical-center",
+      "branch_count": 2
+    },
+    {
+      "repo": "faroukpandor/ClawWork",
+      "branch_count": 2
+    },
+    {
+      "repo": "faroukpandor/health-haven-tcs",
+      "branch_count": 2
+    },
+    {
+      "repo": "faroukpandor/ruflo",
+      "branch_count": 1
+    },
+    {
+      "repo": "faroukpandor/python-binance",
+      "branch_count": 1
+    },
+    {
+      "repo": "faroukpandor/awesome-agriculture",
+      "branch_count": 1
+    },
+    {
+      "repo": "faroukpandor/awesome-n8n-templates",
+      "branch_count": 1
+    },
+    {
+      "repo": "faroukpandor/rocket-rust-hello-world",
+      "branch_count": 1
+    },
+    {
+      "repo": "faroukpandor/pages-cms",
+      "branch_count": 1
+    },
+    {
+      "repo": "faroukpandor/tradingview-mcp",
+      "branch_count": 1
+    },
+    {
+      "repo": "faroukpandor/ultimate-crypto-trading-bot",
+      "branch_count": 1
+    },
+    {
+      "repo": "faroukpandor/mall123",
+      "branch_count": 1
+    },
+    {
+      "repo": "faroukpandor/awesome-github-pages-portfolios",
+      "branch_count": 1
+    },
+    {
+      "repo": "faroukpandor/pinokio",
+      "branch_count": 1
+    },
+    {
+      "repo": "faroukpandor/bollinger-band-screener",
+      "branch_count": 1
+    },
+    {
+      "repo": "faroukpandor/moruajunction",
+      "branch_count": 1
+    },
+    {
+      "repo": "faroukpandor/assemble",
+      "branch_count": 1
+    },
+    {
+      "repo": "faroukpandor/Farouk-s-Store-by-ZoroDesign",
+      "branch_count": 1
+    },
+    {
+      "repo": "faroukpandor/BlackViperScript",
+      "branch_count": 1
+    },
+    {
+      "repo": "faroukpandor/pentagi",
+      "branch_count": 1
+    }
+  ]
+}
