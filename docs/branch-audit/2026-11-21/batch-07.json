@@ -1,0 +1,677 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 7,
+  "range": [
+    99,
+    115
+  ],
+  "repositories": [
+    {
+      "name": "awesome-quant",
+      "full": "faroukpandor/awesome-quant",
+      "default": "master",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 5,
+      "branches": [
+        {
+          "name": "adding",
+          "sha": "06e8a86c4136db8766373d5ede3d58e640e31422",
+          "protected": false
+        },
+        {
+          "name": "gh-pages",
+          "sha": "1a17b54e02b18c49182b862754b5c5b62c16c58f",
+          "protected": false
+        },
+        {
+          "name": "master",
+          "sha": "2ab6db153bec32873c94aecb58ade6e1fb71b2c4",
+          "protected": false
+        },
+        {
+          "name": "test",
+          "sha": "62b3380393e377aba3cf98d52ac8177c7fb23a7a",
+          "protected": false
+        },
+        {
+          "name": "wilsonfreitas-patch-1",
+          "sha": "3012f178a88b43f04b4d7324748783fa8e7c8583",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Accessibility-Performance-Checker---Managed-Agent",
+      "full": "faroukpandor/Accessibility-Performance-Checker---Managed-Agent",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "3f0c650752a5ed60727994bd5c5acdd2e3f5be79",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "LINKSTREAM",
+      "full": "faroukpandor/LINKSTREAM",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "2f741f71fd42f01cd1b9f3a6413377bf5a6578a3",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "PLANVAULTBW",
+      "full": "faroukpandor/PLANVAULTBW",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 4,
+      "branches": [
+        {
+          "name": "arena/71c2b646-planvaultbw",
+          "sha": "5e818f598f17dc821cbb31bf03d862c575a2baf2",
+          "protected": false
+        },
+        {
+          "name": "arena/93a16c21-planvaultbw",
+          "sha": "40a11b980991e4b9d72ccba25bc725d6581c208a",
+          "protected": false
+        },
+        {
+          "name": "arena/94f46844-planvaultbw",
+          "sha": "1690f5b854e93d6ae4ae4c8b60968d1840b94303",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "d199948af64dd104c3dc7a5d5c936914894e28a9",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "SovereignCore",
+      "full": "faroukpandor/SovereignCore",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "af285dfa25b19c79f7e38608da4531d7add11132",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "NexusStream---Open-Content-Directory",
+      "full": "faroukpandor/NexusStream---Open-Content-Directory",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "digital-asset-commercialisation-v1",
+          "sha": "1222479cf05f46727f5d739983029ea3f5af4a91",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "f10ee304780bd30b8ba4f5af904cbee187261090",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "faroukpandorcommerce",
+      "full": "faroukpandor/faroukpandorcommerce",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "82fec77ba7fc56660588dce7e10968a773cf3484",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "YELLOWBLUEPWA",
+      "full": "faroukpandor/YELLOWBLUEPWA",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "8dc867f100633dc4650b9cb4d55981a7c9d52808",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "SUNCYCLE-CRM",
+      "full": "faroukpandor/SUNCYCLE-CRM",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "dca0bc8e2b734266515249f07b8dee552425fd56",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "nanolpium-subgrande",
+      "full": "faroukpandor/nanolpium-subgrande",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "07636acc9b48202416df1bffd3660ddb6f1c578d",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "SME-WEBSITE-CARE-QA",
+      "full": "faroukpandor/SME-WEBSITE-CARE-QA",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "80fe25c0febfb26cc57ea844bb138cac4e5f6efc",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "PANDOR-ESTATES",
+      "full": "faroukpandor/PANDOR-ESTATES",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 56,
+      "branches": [
+        {
+          "name": "arena/4b02e5f5-pandor-estates",
+          "sha": "9ce0e73cf2c941aef38c9a0adcf83d189b0d198a",
+          "protected": false
+        },
+        {
+          "name": "artifacts/property-operations-discovery-2026-11-04-v2",
+          "sha": "2e2cd5ec26a06d40bd0a64fd81ff525aa41930ef",
+          "protected": false
+        },
+        {
+          "name": "botswana-operating-pack-v1",
+          "sha": "e8fa49d3250fcfa3d9dd8ec757c8567d3c0c0284",
+          "protected": false
+        },
+        {
+          "name": "chore/capture-generated-lockfile",
+          "sha": "12b3e536461f77d945212f4945185779109dd15d",
+          "protected": false
+        },
+        {
+          "name": "docs/africa-realty-application-audit",
+          "sha": "9ca18ab50cb9c2ce340611e52c45a720725ce23c",
+          "protected": false
+        },
+        {
+          "name": "docs/africa-realty-integrated-estate-management",
+          "sha": "d395063bb880bcd7fa9cf824452522122c8c23ba",
+          "protected": false
+        },
+        {
+          "name": "docs/botswana-agricultural-land-protocol",
+          "sha": "dadffa700aa2b0b9f47b12a1e4c73080642be89c",
+          "protected": false
+        },
+        {
+          "name": "docs/complete-estate-market-orchestration",
+          "sha": "8e4c29bfab77bbb25e4de6edbf1170a902de3acf",
+          "protected": false
+        },
+        {
+          "name": "docs/operating-constitution-readiness",
+          "sha": "d2e6e199742c5b005acba0f8e3fc646173507aa2",
+          "protected": false
+        },
+        {
+          "name": "docs/stakeholder-compliance-framework",
+          "sha": "9d271d55060ec770a692d9c8f62c17225d9ac392",
+          "protected": false
+        },
+        {
+          "name": "execution/agri-landowner-intake",
+          "sha": "b0c87081261f0f4f2ab39262b5f681edb68baac2",
+          "protected": false
+        },
+        {
+          "name": "feat/africa-bioorganism-guide",
+          "sha": "e7407d520c2743b3b88651b815e4f1c8b9e99c37",
+          "protected": false
+        },
+        {
+          "name": "feat/africa-realty-studios-20261028",
+          "sha": "217c5f08004c58487cdf442948ed2224872271b4",
+          "protected": false
+        },
+        {
+          "name": "feat/africa-territories-special-jurisdictions-v1",
+          "sha": "d3b89cc16998e8fa77b9e36f6140284faec5a569",
+          "protected": false
+        },
+        {
+          "name": "feat/automation-operating-model",
+          "sha": "f392a4e11b51310b8d0f981aa99fa45b96f069c3",
+          "protected": false
+        },
+        {
+          "name": "feat/completion-evidence-recurring-services",
+          "sha": "37c1c34947fc57551eeb3643b3f72b2d3c736b45",
+          "protected": false
+        },
+        {
+          "name": "feat/controlled-service-assignment-lifecycle",
+          "sha": "299d77addd28fea4b40dc18ca6d69ede1c82e74d",
+          "protected": false
+        },
+        {
+          "name": "feat/country-evidence-enforcement-v1",
+          "sha": "358554bf3c79de1c9fc7b08a82cfb7f95731b7ec",
+          "protected": false
+        },
+        {
+          "name": "feat/country-evidence-tranche-2-v1",
+          "sha": "2cdb783eae691dff51ffffc5ea5e8b2d7d489e7f",
+          "protected": false
+        },
+        {
+          "name": "feat/country-evidence-tranche-3-v1",
+          "sha": "118026a7073188bc6bb3e34870778d007d73ee1b",
+          "protected": false
+        },
+        {
+          "name": "feat/cross-platform-app-foundation",
+          "sha": "d1322b5e7dccd703522ba6fce09710de6183a112",
+          "protected": false
+        },
+        {
+          "name": "feat/lesedi-dynamic-bioatlas",
+          "sha": "e6fb06ecd5d002f5c4a68b098a3d76c2d8b6fdd3",
+          "protected": false
+        },
+        {
+          "name": "feat/offline-first-data-and-location",
+          "sha": "6582579fa870d22c20dd00210f520101f813dfda",
+          "protected": false
+        },
+        {
+          "name": "feat/offline-first-pwa",
+          "sha": "ad0c8dc8ce0d4609ae428deae726e73f37804019",
+          "protected": false
+        },
+        {
+          "name": "feat/operator-completion-recurring-workspace",
+          "sha": "bd9ec80bce51e17e622145c0c304e84488deaa8d",
+          "protected": false
+        },
+        {
+          "name": "feat/operator-professional-workspace",
+          "sha": "1aeeee58718314410a528c5330e237c28ec05872",
+          "protected": false
+        },
+        {
+          "name": "feat/production-deployment-config",
+          "sha": "10c144d350277afaa708b0d99bd0d8783d4e09ad",
+          "protected": false
+        },
+        {
+          "name": "feat/production-readiness-foundation",
+          "sha": "1aaccbc2808404947688463c66030a77440cfb8a",
+          "protected": false
+        },
+        {
+          "name": "feat/professional-provider-operations",
+          "sha": "0ce0cc32be61710c5f878869f8409f17f80e1cf3",
+          "protected": false
+        },
+        {
+          "name": "feat/professional-valuation-coordination",
+          "sha": "d33cc23eed9f14212f0b6d3b3eaab3f7015b95dc",
+          "protected": false
+        },
+        {
+          "name": "feat/property-evidence-architecture-v1",
+          "sha": "0ff9a8ffa62d60577ea5f3ce95af22b8639c2e68",
+          "protected": false
+        },
+        {
+          "name": "feat/property-evidence-intelligence-v1",
+          "sha": "30d82398497738df1ab71402936a3e022dde4194",
+          "protected": false
+        },
+        {
+          "name": "feat/property-evidence-lifecycle-v1",
+          "sha": "443b05a2d115449872d76489f22f18b0d1840180",
+          "protected": false
+        },
+        {
+          "name": "feat/property-evidence-objects-v1",
+          "sha": "2f7cc3f9b198287425eda512c6112ad6399f75e5",
+          "protected": false
+        },
+        {
+          "name": "feat/property-evidence-workspace-v1",
+          "sha": "83dbe01c43a4edb1d6e33b3251b99817444a8f23",
+          "protected": false
+        },
+        {
+          "name": "feat/recurring-service-due-engine",
+          "sha": "26a974dc6dde8c17148c94ba55f133904c910ce2",
+          "protected": false
+        },
+        {
+          "name": "feat/recurring-service-operator-automation",
+          "sha": "aa86069cdc8b46627a4e2b4c151be7775de88b13",
+          "protected": false
+        },
+        {
+          "name": "feat/recurring-service-scheduling-renewal-engine",
+          "sha": "b2500846eec602f9b8b69f8bb213aacdc162158b",
+          "protected": false
+        },
+        {
+          "name": "feat/runtime-error-boundary",
+          "sha": "d006288d6a1e2f8e1541c872216ecbe326107454",
+          "protected": false
+        },
+        {
+          "name": "feat/stage3-property-demand-intake",
+          "sha": "f5dd67a491ce0e115168dfbf0799a61f10d8d170",
+          "protected": false
+        },
+        {
+          "name": "feat/stage4-qualification-matching-provenance",
+          "sha": "a9458a8642c2e002f9b01684d745ebcf80f19bbf",
+          "protected": false
+        },
+        {
+          "name": "feature/digital-vault-opportunity-20261029",
+          "sha": "d5b3d83e278de0d612818088355b250911eeb70c",
+          "protected": false
+        },
+        {
+          "name": "fix/ci-lockfile-install",
+          "sha": "29128bbfd196f01a65efa107e69a0223b5f40e87",
+          "protected": false
+        },
+        {
+          "name": "fix/platform-builds-package-manager",
+          "sha": "201820b774913fa8538118db40ff9e0d789e136d",
+          "protected": false
+        },
+        {
+          "name": "fix/platform-foundation-quality",
+          "sha": "79a54b6655aaa34ae929fd63cb0ed5f83468e782",
+          "protected": false
+        },
+        {
+          "name": "fix/pwa-manifest-reference",
+          "sha": "ade71c37676d182e12191dd5f77c79f5bad31a25",
+          "protected": false
+        },
+        {
+          "name": "governance-controls-v1",
+          "sha": "04b75e4be5294f33601abf7b5dd5025c1aae7719",
+          "protected": false
+        },
+        {
+          "name": "governance-ethics-standards-v1",
+          "sha": "78babd95262674de1be5a915b92b7bf2ce0972cd",
+          "protected": false
+        },
+        {
+          "name": "identity/africa-realty-stage2",
+          "sha": "e0d0f2973953a89d108641c356fbaa4a60239c1b",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "592eade2a44ef92c35269e83dcb5b22347edba9b",
+          "protected": false
+        },
+        {
+          "name": "pan-africa-country-operating-packs-v1",
+          "sha": "5f7c139f9490407f1060b3de9ea4fe5e865094cf",
+          "protected": false
+        },
+        {
+          "name": "pan-africa-country-operating-registry-v1",
+          "sha": "e58377089047628a71a98fcba14f6d483fdbdb79",
+          "protected": false
+        },
+        {
+          "name": "professional-provider-controls-v1",
+          "sha": "3b3565f49790c669f6a77f3f167ae626daa69484",
+          "protected": false
+        },
+        {
+          "name": "security/africa-realty-stage1",
+          "sha": "d104feadf503e5faeb5debc7d8624e5af5578b1a",
+          "protected": false
+        },
+        {
+          "name": "strategy/property-operations-validation-2026-11-04",
+          "sha": "b84b4f3b78558ecf4a169016cd52bace5d7dadf9",
+          "protected": false
+        },
+        {
+          "name": "work/xhana-integrated-farm-pilot",
+          "sha": "864dd59e9056bbb4f2895bbac68404782ad55657",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "PeerFund",
+      "full": "faroukpandor/PeerFund",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "185b7fec0e9dec8e70ccff90d322fdcade356a35",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "YieldFlow",
+      "full": "faroukpandor/YieldFlow",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "f60cfa92710f7e4b7708cf0ad4b15943c87b6e59",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "dsab",
+      "full": "faroukpandor/dsab",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "a536c02332b70ec1f670f969dbe717ee5643be4d",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Timbuktu-Forensics",
+      "full": "faroukpandor/Timbuktu-Forensics",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 15,
+      "branches": [
+        {
+          "name": "arena/bc006fa7-timbuktu-forensics",
+          "sha": "b2f286a544e0f2a6d92f6c92be3ef89cd1a67864",
+          "protected": false
+        },
+        {
+          "name": "arena/3fa52c1c-timbuktu-forensics",
+          "sha": "11b9bf5f6d2f09bdad0cc0b3d25c5f224b39a861",
+          "protected": false
+        },
+        {
+          "name": "arena/7a0f2979-timbuktu-forensics",
+          "sha": "45da510119d6aa4bd2e300031db968100162a8d0",
+          "protected": false
+        },
+        {
+          "name": "arena/8f53f33e-timbuktu-forensics",
+          "sha": "380129d0327fdd7f896edcc14b43e5e2b60837c6",
+          "protected": false
+        },
+        {
+          "name": "arena/19f2cb05-timbuktu-forensics",
+          "sha": "d991b8537cd2ed112073784b74af9e82960813a2",
+          "protected": false
+        },
+        {
+          "name": "arena/83da3207-timbuktu-forensics",
+          "sha": "d9d2fd776ed1b26ae3f1c899d7fa835160c17a9f",
+          "protected": false
+        },
+        {
+          "name": "arena/557651a6-timbuktu-forensics",
+          "sha": "e952b202069cada15f17d17139eb95ff9413ef0d",
+          "protected": false
+        },
+        {
+          "name": "feature/assurance-clean-rebase",
+          "sha": "45ddf27360a31309bcd94e014eb8b6f2591de067",
+          "protected": false
+        },
+        {
+          "name": "feature/assurance-final-validation",
+          "sha": "4b1e4763c56904eb550f222226d7d4cd1c914641",
+          "protected": false
+        },
+        {
+          "name": "feature/assurance-final-verified",
+          "sha": "0001dde4e67715d1069663b1d8420f769534749b",
+          "protected": false
+        },
+        {
+          "name": "feature/assurance-release-candidate",
+          "sha": "0001dde4e67715d1069663b1d8420f769534749b",
+          "protected": false
+        },
+        {
+          "name": "feature/mahube-assurance-complete",
+          "sha": "01712ee26d531c7ef7f5bf4816310b4599cd923c",
+          "protected": false
+        },
+        {
+          "name": "feature/mahube-assurance-verified",
+          "sha": "3dfdc4306a74493b921468e361c2f761d4ce4383",
+          "protected": false
+        },
+        {
+          "name": "feature/mahube-timbuktu-complementarity",
+          "sha": "8286088ddff065a1bb51540d26a3f994b6f6d5ac",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "1521f537448e0d44777adf70175be122aac5b59e",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "wifite2",
+      "full": "faroukpandor/wifite2",
+      "default": "master",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 3,
+      "branches": [
+        {
+          "name": "eviltwin",
+          "sha": "77e0da3ce78406090b23b080e8ca5d4cfcd2caab",
+          "protected": false
+        },
+        {
+          "name": "master",
+          "sha": "e190794149f488f9c4a2801962e5165b29e71b5e",
+          "protected": false
+        },
+        {
+          "name": "refactor",
+          "sha": "7d4219808df97a5f74a3c1abb95697a0b3f34b70",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}
