@@ -1,0 +1,555 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 1,
+  "range": [
+    1,
+    15
+  ],
+  "repositories": [
+    {
+      "name": "odoo",
+      "full": "faroukpandor/odoo",
+      "default": "18.0",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 5,
+      "branches": [
+        {
+          "name": "18.0",
+          "sha": "b20f5d2dbf56f0e641230a63f3154c132b8f99f3",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0f514-odoo",
+          "sha": "b272e461fa55889366bf666cf247c9c92860302c",
+          "protected": false
+        },
+        {
+          "name": "arena/019fb218-odoo",
+          "sha": "0a21a077f01bbecd37fc05fdf044b430692a7f28",
+          "protected": false
+        },
+        {
+          "name": "v0/faroukpandor-6911-5774eae4",
+          "sha": "29dc0a7559cd1587a60dc0d3a25288dbdadd1276",
+          "protected": false
+        },
+        {
+          "name": "v0/faroukpandor-6911-f607359f",
+          "sha": "d83f5c0b3075e4e7516602ba24b73450d026a63f",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "LIFEFORGE",
+      "full": "faroukpandor/LIFEFORGE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "8641ce6ec218a96d8389794047e0fcc25948888e",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "FUTUREWISE",
+      "full": "faroukpandor/FUTUREWISE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "d98a1b4b045cbd84db19e58f36876a66e318b2c2",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "astro",
+      "full": "faroukpandor/astro",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a052cb-astro",
+          "sha": "2d342a77ce38cce97ae4ee4f3a63bc7ce60504ec",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "1c64ae304d3c008a776e98e48fd3ece8be7b1fb5",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "HelioLease-Enterprise",
+      "full": "faroukpandor/HelioLease-Enterprise",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "4ff50cda50d0839dac79616125bdea5ddf8ee841",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "RENTFORGE",
+      "full": "faroukpandor/RENTFORGE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "e188650d1e2e3ea83146d26b92641f7631e05181",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "piptick",
+      "full": "faroukpandor/piptick",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 8,
+      "branches": [
+        {
+          "name": "arena/01a0bf60-piptick",
+          "sha": "45705aa0b9b5b3962a1ac3a63d499af31ff9fd45",
+          "protected": false
+        },
+        {
+          "name": "docs/handover-cold-start-2026-11-06",
+          "sha": "f874a2c51c149b8a42350c024b0e8ff5135c5f4e",
+          "protected": false
+        },
+        {
+          "name": "feature/paper-risk-ledger",
+          "sha": "e31dc90885a3ab8918433633023133eed61a36ca",
+          "protected": false
+        },
+        {
+          "name": "feature/signal-accountability-adapters",
+          "sha": "eac5def302766464c231515b69f68f0b4ce19755",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "6ef0cf0e8fbb9f2015d595492654db19482ffe13",
+          "protected": false
+        },
+        {
+          "name": "research/xauusd-adaptive-sniper-program",
+          "sha": "e85dd68bf0fb0f52be8005c95163a9706018751a",
+          "protected": false
+        },
+        {
+          "name": "research/xauusd-orb-fvg-core",
+          "sha": "60f260c3dac2d8e09f46b4608100233ff6c5861c",
+          "protected": false
+        },
+        {
+          "name": "strategy/botswana-digital-asset-positioning",
+          "sha": "36ad8a2a3552c76e94e6a714d167bb5333eb8c2a",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "AGRISOLUTIONS",
+      "full": "faroukpandor/AGRISOLUTIONS",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 17,
+      "branches": [
+        {
+          "name": "ag-extension-field-services-2026-10-23",
+          "sha": "e7a395f107faa7e111df33e6318e430fa2fa5b7b",
+          "protected": false
+        },
+        {
+          "name": "arena/01a00ac7-agrisolutions",
+          "sha": "1971cf671d86034d685aabea866172437f9ab891",
+          "protected": false
+        },
+        {
+          "name": "artifacts/veterinary-partner-outreach-2026-11-04-v2",
+          "sha": "437c80d8fb149154c2e7111fe04ad65c76a76e0c",
+          "protected": false
+        },
+        {
+          "name": "audit/baits-regulatory-source-reconciliation-2026-11-04",
+          "sha": "f84c67dc53297cc879cabeca17365d968e7bf154",
+          "protected": false
+        },
+        {
+          "name": "content/broiler-management-library",
+          "sha": "62942bda7b58f4be2f6789ea9654e88d382aca84",
+          "protected": false
+        },
+        {
+          "name": "digital-asset-commercialisation-v1",
+          "sha": "0a311d9ab598f63e3adb0beaeff1220fffabde53",
+          "protected": false
+        },
+        {
+          "name": "docs/botswana-agricultural-contract-intelligence",
+          "sha": "ee1255f31986085280c9e061fca79bbe51cff05f",
+          "protected": false
+        },
+        {
+          "name": "docs/botswana-buyer-led-market-access-2026",
+          "sha": "013cb77b2dce8d3188f193e9a6276af9e341c7fb",
+          "protected": false
+        },
+        {
+          "name": "docs/handover-cold-start-2026-11-06",
+          "sha": "f33212c37fbcde9f37e9778310fc630023cb3fb5",
+          "protected": false
+        },
+        {
+          "name": "docs/remote-agri-project-opportunities",
+          "sha": "fee8dc96831bed2adf992e0204dc4c2afb669369",
+          "protected": false
+        },
+        {
+          "name": "feature/biotrade-field-playbook-2026",
+          "sha": "e75e8a615c65d6f16ff555b23edf687f1953372b",
+          "protected": false
+        },
+        {
+          "name": "feature/urban-green-waste-pilot-20261031",
+          "sha": "b42802eaac812ec7d2e5a729bada3f403260ad5a",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "557cec360b7af36431679903c168984f773ad667",
+          "protected": false
+        },
+        {
+          "name": "research/agriculture-contract-review-2026-10-17",
+          "sha": "8aaa1dddea00d29d924347aca667b21fa2ff854c",
+          "protected": false
+        },
+        {
+          "name": "research/competitive-intelligence-2026-10",
+          "sha": "5b514a88ceaef3a27c3ec7fe04a589b88725e9ca",
+          "protected": false
+        },
+        {
+          "name": "strategy/livestock-provenance-field-protocol-2026-11-04",
+          "sha": "246fa8b5ad98301b5488f719ee5fceaa4b4b4353",
+          "protected": false
+        },
+        {
+          "name": "strategy/organic-transition-grower-operations-2026-11",
+          "sha": "e77fc66a9a0561afc9861b1a9501ae2bbd6d33d9",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Afriscale-Mobility-OS",
+      "full": "faroukpandor/Afriscale-Mobility-OS",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "46ee85d79e239cc160a152166f1abbb4dd8e837b",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "BFLD",
+      "full": "faroukpandor/BFLD",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 21,
+      "branches": [
+        {
+          "name": "arena/01a0c05e-bfld",
+          "sha": "f50956ba4670f6214e8fd966abfa05ea88b399f4",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0c051-bfld",
+          "sha": "daf8c29043e56de9883ca188bb6176542da6ef4a",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0c116-bfld",
+          "sha": "7ab123176daf4474d79f8a5b9784765a6ad8b910",
+          "protected": false
+        },
+        {
+          "name": "arena/01a06a30-bfld",
+          "sha": "9975f7a1b23d89496ed043ae568cc6589b4e6a9d",
+          "protected": false
+        },
+        {
+          "name": "arena/01a08beb-bfld",
+          "sha": "a96dc973cdccecbe7592d16348d6461ad4a19e54",
+          "protected": false
+        },
+        {
+          "name": "arena/01a08eb7-bfld",
+          "sha": "c243853eceec89966c87d30f5c5a49c6ff7c30c1",
+          "protected": false
+        },
+        {
+          "name": "arena/01a069c7-bfld",
+          "sha": "356b446af633a097058cc916e4f0a05b42ccbd02",
+          "protected": false
+        },
+        {
+          "name": "arena/01a089b4-bfld",
+          "sha": "52b43109d08ecec4e4c3d4f0c99cef97de14f255",
+          "protected": false
+        },
+        {
+          "name": "arena/01a089d1-bfld",
+          "sha": "da896020b3d02ca26f7da9e831534d8f34db98bc",
+          "protected": false
+        },
+        {
+          "name": "arena/01a089df-bfld",
+          "sha": "fbf276704cd8852e3cb9439bebc2f449d38cf5ed",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0466d-bfld",
+          "sha": "1c9cb38024958fafc41e04ef9d7aea443359cc77",
+          "protected": false
+        },
+        {
+          "name": "arena/01a03453-bfld",
+          "sha": "a73669771fa50ea17007de5cf3df38fd9cf78b00",
+          "protected": false
+        },
+        {
+          "name": "arena/01a04710-bfld",
+          "sha": "fbbdaed9504d0cfc6f61fd01ece6f9146e586f82",
+          "protected": false
+        },
+        {
+          "name": "arena/019fcbf5-bfld",
+          "sha": "3843dd49da1590550166b1c9ad4bd6bb5ce335af",
+          "protected": false
+        },
+        {
+          "name": "arena/019fd24c-bfld",
+          "sha": "2a3b68ce07218084f609dbe48fddfe2d4c5835a0",
+          "protected": false
+        },
+        {
+          "name": "arena/019ff6ac-bfld",
+          "sha": "b801bd75d8c55d9e750d8b6db577ad00da6b90e0",
+          "protected": false
+        },
+        {
+          "name": "arena/019ff6be-bfld",
+          "sha": "568a9b0379178497e222188436441ffbf7022629",
+          "protected": false
+        },
+        {
+          "name": "arena/019ff67d-bfld",
+          "sha": "db91323487ca45571afea30c7a4170ff7eec2b90",
+          "protected": false
+        },
+        {
+          "name": "arena/019ffb4a-bfld",
+          "sha": "8008b7f4d7105e399a47a3762129a7072d83a5f9",
+          "protected": false
+        },
+        {
+          "name": "arena/019ffb19-bfld",
+          "sha": "01439b951c326cf59e8942e90fe0c01586e543db",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "67c2972e17b672f62500d55934b3c34bc3af1256",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "cryptops-legagus",
+      "full": "faroukpandor/cryptops-legagus",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "5b9755471726478a8ec575741685ae37412661cc",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "NAOMI",
+      "full": "faroukpandor/NAOMI",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "efa48301db4bdbecbb9465b47bc39b935523c47f",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "yellow-blue-pwa",
+      "full": "faroukpandor/yellow-blue-pwa",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "c58ee95f70da67688f80c107e53ff3a7265ef656",
+          "protected": false
+        },
+        {
+          "name": "vercel/react-flightnextjs-rce-vulnera-ru0sll",
+          "sha": "357cf5b6c239d10ab56bbdaed172dfd49abe29f6",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "BW-IMPORT-SHOP",
+      "full": "faroukpandor/BW-IMPORT-SHOP",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 9,
+      "branches": [
+        {
+          "name": "audit/import-workflow-readiness-2026-11-04",
+          "sha": "bc9a272d565651ba1ad6970be8cff32881e83b69",
+          "protected": false
+        },
+        {
+          "name": "catalogue/seedfarm-fruit-nursery-2026-11-16",
+          "sha": "6c005fa386b4a63f1d3387c8d1e7ab88828cd7bc",
+          "protected": false
+        },
+        {
+          "name": "codex/business-priorities-2026-10-20",
+          "sha": "0c04886119be84dc7061ff38bc0e15a9f55724e5",
+          "protected": false
+        },
+        {
+          "name": "digital-asset-commercialisation-v1",
+          "sha": "872ec6645d2d774fe42ce51d6a8bdcaf20a12714",
+          "protected": false
+        },
+        {
+          "name": "feat/container-modular-sourcing-category",
+          "sha": "ab5c9c74a57680088b0e8c31fb2544b50a14bd3a",
+          "protected": false
+        },
+        {
+          "name": "feat/supplier-opportunity-screening",
+          "sha": "805596f39062900019f8c0dec7f5c3a353374739",
+          "protected": false
+        },
+        {
+          "name": "fix/quote-form-no-fake-submission",
+          "sha": "0479cd5f607c3beb6b2aeb03b1c12d7dfdfde0f2",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "5134782a419ef2a7f7ebf7cfeec3450f85562ddd",
+          "protected": false
+        },
+        {
+          "name": "research/botswana-trade-and-supplier-programmes-2026-10-17",
+          "sha": "aebba0363778ab29c66f4e601aceb16b0d932347",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "PROMOQUOTE",
+      "full": "faroukpandor/PROMOQUOTE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 5,
+      "branches": [
+        {
+          "name": "arena/1cc99f09-promoquote",
+          "sha": "68729fe3cf6242a462914b4e8421c285b78a88f5",
+          "protected": false
+        },
+        {
+          "name": "docs/portfolio-handover-initial-20261101",
+          "sha": "e4e3487957e5be5e88391ce5b81f1258e91a8c93",
+          "protected": false
+        },
+        {
+          "name": "fix/dependency-hygiene-20261028",
+          "sha": "84d7e9c7f3d0f05462a4ed9d0a16d5ddb829da58",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "926ded5972338c81eae81c6c1241957b3b6cfba7",
+          "protected": false
+        },
+        {
+          "name": "security/remove-client-gemini-key-20261029",
+          "sha": "d93d3efda04cb0551b39a691f7feb78c9523f167",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}
