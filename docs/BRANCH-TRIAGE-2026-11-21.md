@@ -207,3 +207,34 @@ However, direct branch-protection endpoint requests for sampled first-party repo
 - `branch-audit/2026-11-21/overflow-page-2.json` and `openclaw-overflow-pages-03-08.json` — paginated branch records beyond the first 100 entries.
 
 **Change record:** 21 November 2026 — complete first-pass branch enumeration and open-PR mapping for all 289 account-owned repositories. Read-only audit only.
+
+
+## 12. Selected branch divergence checks — 21 November 2026
+
+Seven representative open PRs were compared directly with their target branches. This is a targeted sample, not all 182 PRs.
+
+| PR | Ahead | Behind | Changed files | Current reading |
+|---|---:|---:|---:|---|
+| AGRISAGE #99 | 84 | 0 | 21 | Fully ahead of main; 4/4 checks passed; large historical harvest needs diff review |
+| MOKORO DGE #138 | 7 | 8 | 5 | Diverged; two test jobs fail; do not merge |
+| FPCC #22 | 12 | 0 | 84 | Large Phase 2 change; only Pages check returned; explicit owner gate still applies |
+| Portfolio #160 | 7 | 0 | 19 | Ahead; tests/offline verification passed |
+| EverythingCity #48 | 19 | 0 | 25 | Ahead; Cloudflare and Vercel preview checks passed |
+| GK Designs #2 | 22 | 1 | 261 | Diverged slightly; large client/partner change; owner approval required |
+| WCD #38 | 24 | 16 | 254 | Materially diverged; Firestore Emulator rules test failed; client approval required |
+
+The comparison API reported `ahead_by` and `behind_by` relative to the PR target branch at the time of the check. A non-zero `behind_by` count is a revalidation/rebase decision, not permission to force-update a branch. No branch was updated.
+
+Machine-readable comparison snapshot: `branch-audit/2026-11-21/pr-compare-snapshot.json`.
+
+## 13. Remaining detailed branch audit
+
+The inventory and first-pass classifications cover all 2,251 refs. A full age/content/ancestry decision for the 692 unlinked non-default non-fork branches remains outstanding. The next technical pass should, in order:
+
+1. Capture last-commit timestamps and ahead/behind counts for unlinked branches in MOKORO DGE, MOKORO EOS and AGRISAGE.
+2. Identify branches already fully merged into their default branch and branches with no unique commits.
+3. Detect duplicate branch families by commit SHA and patch/file overlap, not by similar names alone.
+4. Check whether any branch is referenced by a deployment, Pages preview, environment, workflow or active collaborator.
+5. Present a proposed keep / consolidate / archive / delete list for owner review. Do not execute branch deletion or force updates during this analysis.
+
+This second pass is not represented as complete in the current inventory.
