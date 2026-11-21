@@ -1,0 +1,660 @@
+{
+  "snapshot": "2026-11-21",
+  "note": "Page 2 supplement for repositories whose first branch page returned 100 entries.",
+  "repositories": [
+    {
+      "repo": "faroukpandor.github.io",
+      "page2_count": 0,
+      "branches": []
+    },
+    {
+      "repo": "equifix-tina-cloud-starter",
+      "page2_count": 16,
+      "branches": [
+        {
+          "name": "update-tina-3",
+          "sha": "3285f8a78acd44e8d8c6be10f49e3ee2434d2ab9",
+          "protected": false
+        },
+        {
+          "name": "update-tina-to-latest",
+          "sha": "a295ffd59769714641d7486267d43f43dd9f6766",
+          "protected": false
+        },
+        {
+          "name": "update-tinacms-252",
+          "sha": "88dd82d79cba45a63f77d16e76f693d260d8ec9e",
+          "protected": false
+        },
+        {
+          "name": "update-to-mjs",
+          "sha": "2c698107931a43f735bb719409808de4a09c3de8",
+          "protected": false
+        },
+        {
+          "name": "upgrade-template-to-react-19-and-next-15",
+          "sha": "fc462f1a7e0d63e88cf37a5bc129dc545048e75c",
+          "protected": false
+        },
+        {
+          "name": "upgrade-tina",
+          "sha": "65d047a756ed442f87496227fdcb6f9c0760003c",
+          "protected": false
+        },
+        {
+          "name": "use-active-field",
+          "sha": "e5e4da11e279168921b0709b65399e0af09c0d2f",
+          "protected": false
+        },
+        {
+          "name": "use-dynamodb-store",
+          "sha": "da075db18f74d8fea59395cb15c7c79fe4eab368",
+          "protected": false
+        },
+        {
+          "name": "use-generated-fields",
+          "sha": "c77a37bcd8490b6e1b71f0c01d3903600771d3df",
+          "protected": false
+        },
+        {
+          "name": "use-tina-root",
+          "sha": "62abb4159d3536ac025bcb705cea90b46bddf8d3",
+          "protected": false
+        },
+        {
+          "name": "vercel-preview",
+          "sha": "3ce3ebadc49e43974452d3c79be66cddc810b022",
+          "protected": false
+        },
+        {
+          "name": "visual-block-picker",
+          "sha": "6a597b9ff6b6ea730acf0a9dc6c37bef61c11315",
+          "protected": false
+        },
+        {
+          "name": "visual-test-2",
+          "sha": "8a57ed292d57f3a5ff5b946945196944cf6e579c",
+          "protected": false
+        },
+        {
+          "name": "vite-example",
+          "sha": "33109289728325ef28a0ba7a974c1e2478178846",
+          "protected": false
+        },
+        {
+          "name": "with-branching",
+          "sha": "8ede3a359d095ab6a3ad0fc66f7ff1978ae77376",
+          "protected": false
+        },
+        {
+          "name": "with-branching-2",
+          "sha": "c7b8c94a7d17f6aa132c8f09e310849b3cda2d0d",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "repo": "openclaw",
+      "page2_count": 100,
+      "branches": [
+        {
+          "name": "dev/ci",
+          "sha": "f1041cf77338e783102038095b4cb864e9c22acc",
+          "protected": false
+        },
+        {
+          "name": "dev/ci-activate-pipeline",
+          "sha": "ade7f0a8a0a9044184758f6ea024491b149dc90f",
+          "protected": false
+        },
+        {
+          "name": "dev/ci-additive-workflows",
+          "sha": "b4aefa39376415dacdb3c6817a18e0a3217f3ccb",
+          "protected": false
+        },
+        {
+          "name": "develop",
+          "sha": "e78ae48e69f6d1937ee664ad16322f2bb5dff179",
+          "protected": false
+        },
+        {
+          "name": "docs/add-browserbase-section",
+          "sha": "55300ea850e82441ee1aab55d70685e78bc4637e",
+          "protected": false
+        },
+        {
+          "name": "docs/add-contributor-onur",
+          "sha": "f39627c98c742cdcc8973134410405071207b6bd",
+          "protected": false
+        },
+        {
+          "name": "docs/add-prebuilt-docker-image-instructions",
+          "sha": "71fa40a47b617494baa3e6da0163fa87862912b6",
+          "protected": false
+        },
+        {
+          "name": "docs/bird-skill-update",
+          "sha": "e62b388f8871e92676e150ba59ed4d95fe0fccdb",
+          "protected": false
+        },
+        {
+          "name": "docs/bws-secretref-resolver-v2",
+          "sha": "67bb95a7ce9c992a51ebbd4169ee40c2b16b1005",
+          "protected": false
+        },
+        {
+          "name": "docs/clarify-allowfrom-and-selfchat-mode",
+          "sha": "f1adf2224972d671dd5368f01a330ea9616f17e1",
+          "protected": false
+        },
+        {
+          "name": "docs/context-engine",
+          "sha": "716fbdad5d58c7cc28dce2ed7c944849dadf559e",
+          "protected": false
+        },
+        {
+          "name": "docs/cron-update-jobid-11365",
+          "sha": "04d3c9d20f98a465a8740c415ed33d22b1899a8d",
+          "protected": false
+        },
+        {
+          "name": "docs/ec2-iam-role-workaround",
+          "sha": "667bee0de0bd5dca8d25b7b41d11621543677c18",
+          "protected": false
+        },
+        {
+          "name": "docs/fix-gog-auth-services-example",
+          "sha": "e5f8215a9d36f2c05fc892a0542b9f9d16646316",
+          "protected": false
+        },
+        {
+          "name": "docs/fix-slack-scopes",
+          "sha": "3ad11051c3ae5693fac5ecc1bd1b82f9dc6ec6d8",
+          "protected": false
+        },
+        {
+          "name": "docs/fly-private-deployment",
+          "sha": "e05039b98f71c33b2917e60072e3457aa7eb7351",
+          "protected": false
+        },
+        {
+          "name": "docs/hetzner-followups",
+          "sha": "d3c53f4596162d60b950724296820b3b1510e4ac",
+          "protected": false
+        },
+        {
+          "name": "docs/imessage-tcc-troubleshooting",
+          "sha": "b21eb2cd289f01035faca8b452a2aaa51b6f8773",
+          "protected": false
+        },
+        {
+          "name": "docs/macos-vm-lume",
+          "sha": "4117b28325b4a87637c24b7fe57152d0618a1587",
+          "protected": false
+        },
+        {
+          "name": "docs/mintlify-language-nav",
+          "sha": "844f41c7df4759af59208e4a0e63a57b8160294a",
+          "protected": false
+        },
+        {
+          "name": "docs/northflank-deploy-guide",
+          "sha": "c2056b23befd3c84be3f974915b75c2272c6e9e2",
+          "protected": false
+        },
+        {
+          "name": "docs/remote-gateway-readme",
+          "sha": "16cd9a4189dd8a34845006a716bbf38879206e3b",
+          "protected": false
+        },
+        {
+          "name": "docs/system-prompt-memory-injection",
+          "sha": "6c63fa7cce77ebf13c3659d949bc23321e32f783",
+          "protected": false
+        },
+        {
+          "name": "docs/trusted-proxy-auth-nav",
+          "sha": "05c1e56da27285518ee63e65f542213b419fe137",
+          "protected": false
+        },
+        {
+          "name": "docs/zh-cn-i18n-guardrails",
+          "sha": "1733fdb293d2608b5b3f9c65c11f4ba7a5665f6b",
+          "protected": false
+        },
+        {
+          "name": "env-var-substitution",
+          "sha": "ad6f69f9afb10d9b5ea0f04d6822f41ce2e2264a",
+          "protected": false
+        },
+        {
+          "name": "feat/acp-resume-session",
+          "sha": "d7950d972fcf217d5f488157241af62bd917f7e4",
+          "protected": false
+        },
+        {
+          "name": "feat/agent-model-fallbacks",
+          "sha": "3368284b2a94b9bf621a5e51b5d1937791c947de",
+          "protected": false
+        },
+        {
+          "name": "feat/android-notification-tap",
+          "sha": "3094b72bea85b808403a3f8dd00345f56cfa93be",
+          "protected": false
+        },
+        {
+          "name": "feat/antigravity-integration",
+          "sha": "430d1d32fb4b0eb0d190681d8f57aaa3b3ced55b",
+          "protected": false
+        },
+        {
+          "name": "feat/auto-reply-model-fallback-observability",
+          "sha": "9c55dfcaa990ea38d621d908ce1a913fd825ebb4",
+          "protected": false
+        },
+        {
+          "name": "feat/bedrock-converse-stream-api",
+          "sha": "8df39f19c1bd0fb5139d1b2e0d38ac7afa05c128",
+          "protected": false
+        },
+        {
+          "name": "feat/boot-md",
+          "sha": "296275b53b3d1912900207411ecdc13a71fdca65",
+          "protected": false
+        },
+        {
+          "name": "feat/compaction-safeguard-improvements",
+          "sha": "2e089ec9a00bc63eb5bb5e5d74142633daf7711a",
+          "protected": false
+        },
+        {
+          "name": "feat/config-builder-web-ui-stack",
+          "sha": "178259e680837606baeeb247e1bdef0635d9ee3a",
+          "protected": false
+        },
+        {
+          "name": "feat/config-ui-sections",
+          "sha": "5a4258815bc07449908c2d692e643c8500cf9de3",
+          "protected": false
+        },
+        {
+          "name": "feat/cron-session-key-cli",
+          "sha": "9d3394b4590e5d40de833e0f52cd448faab30943",
+          "protected": false
+        },
+        {
+          "name": "feat/custom-tts-endpoint",
+          "sha": "d649710627a1382bd45a7cd1c4e22ad837e39a5e",
+          "protected": false
+        },
+        {
+          "name": "feat/discord-agent-components",
+          "sha": "e0a371f37d58cbfb53c3f1a5e21fc15cca0143c8",
+          "protected": false
+        },
+        {
+          "name": "feat/discord-exec-approvals-channel-target",
+          "sha": "32a91c947badab33862e1ba7fb5558113a422f24",
+          "protected": false
+        },
+        {
+          "name": "feat/discord-forum-tag-edit",
+          "sha": "e8d56007db72d36db8fb02dc40293c7b999ce1aa",
+          "protected": false
+        },
+        {
+          "name": "feat/feishu-docx-table-block",
+          "sha": "158ad850e92c4b1ef2c2fa92eaa628f7273d0335",
+          "protected": false
+        },
+        {
+          "name": "feat/feishu-extended-doc-ops",
+          "sha": "17996d366591326366c5c2609719e053bb3ee825",
+          "protected": false
+        },
+        {
+          "name": "feat/feishu-persistent-dedup",
+          "sha": "f37eacb14abccc5a6ca7918fcbb1beb6511fdf2b",
+          "protected": false
+        },
+        {
+          "name": "feat/gateway-config-patch",
+          "sha": "6e9ecd257e67489e8dabb7ee650e8ac46c03087b",
+          "protected": false
+        },
+        {
+          "name": "feat/gateway-talk-elevenlabs-config-surface",
+          "sha": "e1a75143599cac1b2e85468b46359b2e8fa755d4",
+          "protected": false
+        },
+        {
+          "name": "feat/gemini-embedding-2-preview",
+          "sha": "c57b1f8ba2ca65f4946afe94a9137ee8c05c8c64",
+          "protected": false
+        },
+        {
+          "name": "feat/heartbeat-session-target",
+          "sha": "39073d5196e15045c07d69fa05c31cc270c2394f",
+          "protected": false
+        },
+        {
+          "name": "feat/litellm-provider",
+          "sha": "5f1dbcae360ebdf9f05ce9043852be665539228a",
+          "protected": false
+        },
+        {
+          "name": "feat/llm-task-tool",
+          "sha": "aaf6a37385ddba1a6124b4bffa254e91388a79b0",
+          "protected": false
+        },
+        {
+          "name": "feat/lobster-plugin",
+          "sha": "d75aa6cc437c32c98ec30c34798e17e5724593e9",
+          "protected": false
+        },
+        {
+          "name": "feat/logger-support-log-level-validation0222",
+          "sha": "06aa7c0a5482d6b5dc2c63acf19d92dbc0c90657",
+          "protected": false
+        },
+        {
+          "name": "feat/matrix-multi-account",
+          "sha": "54147462c3aaeaf0ae1d975f8b511e0195582f18",
+          "protected": false
+        },
+        {
+          "name": "feat/mattermost-channel",
+          "sha": "620913b79b85ce3e54c013a37ceca7e05ff1bbc8",
+          "protected": false
+        },
+        {
+          "name": "feat/minimax_oauth",
+          "sha": "f15d1e866e882d9b0aed90acf108d237b72ddfc8",
+          "protected": false
+        },
+        {
+          "name": "feat/models-command",
+          "sha": "f4917c2cfa8af69cfb31ab7c0ee038900cb99667",
+          "protected": false
+        },
+        {
+          "name": "feat/multi-account-ui-clean",
+          "sha": "4c151760dfc423ad0f06eb961010704eb3aa3bb2",
+          "protected": false
+        },
+        {
+          "name": "feat/newline-chunk-mode",
+          "sha": "354d77b33f4f693647e1f485b12c9e34db36f0b1",
+          "protected": false
+        },
+        {
+          "name": "feat/nostr-nip17-nip65",
+          "sha": "32b175a424670c0303c80241c2a99e501a6ffcb5",
+          "protected": false
+        },
+        {
+          "name": "feat/per-channel-ack-reaction",
+          "sha": "c4dc44e83805cc1f08828d4c9447c06f6d7e8c68",
+          "protected": false
+        },
+        {
+          "name": "feat/per-channel-response-prefix",
+          "sha": "3369175954f8f93d6561e027e4828536eedf4a95",
+          "protected": false
+        },
+        {
+          "name": "feat/perplexity-search-provider",
+          "sha": "afefcdf8fbc46580d954465865390b40bdff0e91",
+          "protected": false
+        },
+        {
+          "name": "feat/plan-mode",
+          "sha": "d57c9ce9f1f76d95e0d0b5a445f9f5d0cb55cad7",
+          "protected": false
+        },
+        {
+          "name": "feat/plugin-command-api",
+          "sha": "185ffca2744780367bff163fa4462a2a7fe68bbb",
+          "protected": false
+        },
+        {
+          "name": "feat/plugin-tool-call-hooks",
+          "sha": "949c09f408e60b6c3ffbdb7409916d6c53883eeb",
+          "protected": false
+        },
+        {
+          "name": "feat/prek-precommit-hooks",
+          "sha": "ad5df9eb35467b303bc24b238f19a6aa3bf4a59b",
+          "protected": false
+        },
+        {
+          "name": "feat/reaction-improvements",
+          "sha": "47ba85f36a84527c494484f2b566ce6a34175c02",
+          "protected": false
+        },
+        {
+          "name": "feat/routing-debug-logging",
+          "sha": "cf7b789d853f230fe7989358f1d2b1588872cf28",
+          "protected": false
+        },
+        {
+          "name": "feat/secretref-models-persistence-hardening",
+          "sha": "a16606d379216949bbf281a3fd618965ee071d05",
+          "protected": false
+        },
+        {
+          "name": "feat/shell-helpers",
+          "sha": "b8cfceaa37303892807a7b6548f95c016b5dc471",
+          "protected": false
+        },
+        {
+          "name": "feat/slack-assistant-context",
+          "sha": "3bea4c103f9c9495227cac945488f2a447378157",
+          "protected": false
+        },
+        {
+          "name": "feat/slack-dm-reply-to-mode",
+          "sha": "540d85c316b2cda2c7acbb3b23a1b05bca0c48df",
+          "protected": false
+        },
+        {
+          "name": "feat/slash-bash-command",
+          "sha": "07cc8169697a8b95d0b8f6166466f4b1f41ac200",
+          "protected": false
+        },
+        {
+          "name": "feat/swift6-compatibility",
+          "sha": "990a778d005954c83b26e3ffbbdeab9550065671",
+          "protected": false
+        },
+        {
+          "name": "feat/system-prompt-subagents-guidance",
+          "sha": "060c6d669aeaad04582e8a37c001b2b2b6266432",
+          "protected": false
+        },
+        {
+          "name": "feat/table-to-bullets-telegram",
+          "sha": "862e89e68344ca73a1edfc4f95f65a9e14591614",
+          "protected": false
+        },
+        {
+          "name": "feat/talk-mode-latency-tracing",
+          "sha": "1d3f1fcaf4a8052b6c4b476c04a44c4b1754c15a",
+          "protected": false
+        },
+        {
+          "name": "feat/telegram-custom-commands",
+          "sha": "929666a8c8d585ee134f975ccf1429cf3bb9af1d",
+          "protected": false
+        },
+        {
+          "name": "feat/telegram-dm-threads",
+          "sha": "a7b13c4d0f375bc52f8b915ed3f4730f587ed8fb",
+          "protected": false
+        },
+        {
+          "name": "feat/telegram-link-preview-config",
+          "sha": "54aa0e67b9f327dd1c55e1cc582a48568a3b91e7",
+          "protected": false
+        },
+        {
+          "name": "feat/telegram-reactions",
+          "sha": "2b1c26f900d343be9f4c6d52ea5578a3d608e2af",
+          "protected": false
+        },
+        {
+          "name": "feat/telegram-topic-create",
+          "sha": "f1cd55a2112b9ab8f732530d29dd053ee221f0fe",
+          "protected": false
+        },
+        {
+          "name": "feat/tool-dispatch-skill-commands",
+          "sha": "984499197dd1a37efa442c286aa4a2a53c580a7e",
+          "protected": false
+        },
+        {
+          "name": "feat/tools-alsoAllow",
+          "sha": "e4e2756e871bde12d8f3191c5eed7089d75e9f2e",
+          "protected": false
+        },
+        {
+          "name": "feat/tui-syntax-highlighting",
+          "sha": "f4de123e6673079a9de7b123051c915698758576",
+          "protected": false
+        },
+        {
+          "name": "feat/update-tlon-plugin",
+          "sha": "748d4666647708c501d5790207eadfa8bc90ff9a",
+          "protected": false
+        },
+        {
+          "name": "feat/update-warning-banner",
+          "sha": "6954d941a2576a54332a06233dbd75e5f1334031",
+          "protected": false
+        },
+        {
+          "name": "feat/venice-provider",
+          "sha": "557db51b8a5effe8fd04f1540eea9ff2e7ae1238",
+          "protected": false
+        },
+        {
+          "name": "feat/voice-call-waiting-queue",
+          "sha": "a914fd7697058c98f2c376871dbcb627fedc3334",
+          "protected": false
+        },
+        {
+          "name": "feat/volcengine",
+          "sha": "3f2e2f7bab9b9e5d68b4c24c873dc1a32a8eaa5f",
+          "protected": false
+        },
+        {
+          "name": "feat/web-search-freshness",
+          "sha": "b89efef749f87225d7c3914877dad64a585fa08f",
+          "protected": false
+        },
+        {
+          "name": "feat/webchat-heartbeat-visibility",
+          "sha": "0eb0364819258c1dbcf82a0d7b5d9816ba4df4e8",
+          "protected": false
+        },
+        {
+          "name": "feat/whatsapp-send-read-receipts-option",
+          "sha": "728cd5e974b4539f200cfcc28af26e22e929d952",
+          "protected": false
+        },
+        {
+          "name": "feat/19809-slack-typing-reaction",
+          "sha": "74e07296313e627e42c5a06227f9dbeec96bcf78",
+          "protected": false
+        },
+        {
+          "name": "feat/39275-voicewake-fix-clean",
+          "sha": "9e4a7b54965869e6955e2ca667c5fcc89ecafe16",
+          "protected": false
+        },
+        {
+          "name": "feature/OPENCLAW_IMAGE",
+          "sha": "7b721ca85ed4a7c31b8903e2767cbef0f40ffaed",
+          "protected": false
+        },
+        {
+          "name": "feature/add-tlon-plugin",
+          "sha": "c69111a4e6058d6e622e25f528d402089b09bc00",
+          "protected": false
+        },
+        {
+          "name": "feature/android-sms-support",
+          "sha": "6b3f9a5934e5e2f3d4f82b409f6f7b9140345df2",
+          "protected": false
+        },
+        {
+          "name": "feature/bluebubbles-imsg-primary",
+          "sha": "79130efcb327413c04ae58adeae39665e405cea1",
+          "protected": false
+        },
+        {
+          "name": "feature/bluebubbles-voice-message",
+          "sha": "5c197c38c19231071d4a6ebec4fb4de22b380737",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "repo": "rea",
+      "page2_count": 4,
+      "branches": [
+        {
+          "name": "test/js-parameter-provenance-expectation",
+          "sha": "7f348657e60ad72c14bafd03c74fc49868b4ed5c",
+          "protected": false
+        },
+        {
+          "name": "test/maintenance-boundary-contracts-20261011",
+          "sha": "c2e2ed9aa2469b7ff8225018fddc8c6e071ebe5a",
+          "protected": false
+        },
+        {
+          "name": "test/release-preflight-reusable-jobs",
+          "sha": "c0cc77766ec8dcc4bbf6445760a7133d6fe901ea",
+          "protected": false
+        },
+        {
+          "name": "test/2419-ghidra-elf-probe-size",
+          "sha": "f620dbb14099327e07b99997e68d2cc931f3c47d",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "repo": "MOKORO---Digital-Growth-Engine",
+      "page2_count": 5,
+      "branches": [
+        {
+          "name": "strategy/conversational-commerce-pilot-free-first-20261101",
+          "sha": "f037661156b2ac684ed1610f490377162edbad2a",
+          "protected": false
+        },
+        {
+          "name": "strategy/lead-response-service-validation-2026-10-16",
+          "sha": "8d21cc079a1149786f1fd1ec311c36b22a3626fa",
+          "protected": false
+        },
+        {
+          "name": "strategy/vendor-readiness-commercial-pilot-2026-11-04",
+          "sha": "aadd3a969bb7663b24f886571e7a5ee74a49bc9d",
+          "protected": false
+        },
+        {
+          "name": "strategy/40-digital-infrastructure-offers-2026-10",
+          "sha": "6a3899b8d4fd6b8ed80af1cfeee299f8cdbef72a",
+          "protected": false
+        },
+        {
+          "name": "work/xhana-farm-buyer-acquisition",
+          "sha": "8d8b5fd58e4e613a59a1195378c1790344c02ec7",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}
