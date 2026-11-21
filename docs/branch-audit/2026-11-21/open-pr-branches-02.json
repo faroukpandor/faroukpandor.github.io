@@ -1,0 +1,758 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 2,
+  "repositories": [
+    {
+      "repo": "faroukpandor/BW-IMPORT-SHOP",
+      "pull_count": 2,
+      "pulls": [
+        {
+          "number": 12,
+          "title": "Add Seedfarm nursery supplier catalogue and provisional retail pricing",
+          "url": "https://github.com/faroukpandor/BW-IMPORT-SHOP/pull/12",
+          "draft": true,
+          "updated_at": "2026-11-16T01:53:30Z",
+          "head_ref": "catalogue/seedfarm-fruit-nursery-2026-11-16",
+          "head_sha": "6c005fa386b4a63f1d3387c8d1e7ab88828cd7bc",
+          "base_ref": "main",
+          "base_sha": "5134782a419ef2a7f7ebf7cfeec3450f85562ddd",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 10,
+          "title": "docs: digital asset commercialisation doctrine",
+          "url": "https://github.com/faroukpandor/BW-IMPORT-SHOP/pull/10",
+          "draft": true,
+          "updated_at": "2026-10-29T03:39:07Z",
+          "head_ref": "digital-asset-commercialisation-v1",
+          "head_sha": "872ec6645d2d774fe42ce51d6a8bdcaf20a12714",
+          "base_ref": "main",
+          "base_sha": "9663cc65d713bdfc63edc8db791ad93f7e657643",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/fpcc",
+      "pull_count": 4,
+      "pulls": [
+        {
+          "number": 22,
+          "title": "Phase 2 sync/auth + reporting layer + graphite-amber visual system",
+          "url": "https://github.com/faroukpandor/fpcc/pull/22",
+          "draft": false,
+          "updated_at": "2026-11-17T03:04:47Z",
+          "head_ref": "arena/a12246f7-fpcc",
+          "head_sha": "8c35f04fc763440b9b76b1058e6641b4ccff84d1",
+          "base_ref": "master",
+          "base_sha": "def682c5a022d3f5553d1d1fc916cb1b5bb5d1a6",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 18,
+          "title": "Add portfolio-wide ITC opportunity intelligence pipeline",
+          "url": "https://github.com/faroukpandor/fpcc/pull/18",
+          "draft": false,
+          "updated_at": "2026-11-02T11:11:03Z",
+          "head_ref": "feature/itc-opportunity-intelligence-pipeline",
+          "head_sha": "069dfb8c1dd5e8a0fb6ba24b144f0f36afa5a436",
+          "base_ref": "master",
+          "base_sha": "4cddcf27c62c9d3a5cd87e2cff7992558322e3b8",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 16,
+          "title": "Add pending tasks, Goodhope progress and prioritised research packs",
+          "url": "https://github.com/faroukpandor/fpcc/pull/16",
+          "draft": false,
+          "updated_at": "2026-11-02T03:23:38Z",
+          "head_ref": "arena/5e87c991-fpcc",
+          "head_sha": "e8f03ed709d0219c4447d301d40eef1b5232dc44",
+          "base_ref": "master",
+          "base_sha": "4cddcf27c62c9d3a5cd87e2cff7992558322e3b8",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 14,
+          "title": "Build local-first AI Editorial Studio MVP",
+          "url": "https://github.com/faroukpandor/fpcc/pull/14",
+          "draft": true,
+          "updated_at": "2026-11-01T04:33:01Z",
+          "head_ref": "feat/ai-editorial-studio-mvp",
+          "head_sha": "1c9a0e216aca22ade871db2916dee9cfdc51d45b",
+          "base_ref": "master",
+          "base_sha": "5f202c268923d1f2edf5d0b8693868ad250617aa",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/GlobalEstate",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 4,
+          "title": "feat: add private property GIS review workbench",
+          "url": "https://github.com/faroukpandor/GlobalEstate/pull/4",
+          "draft": true,
+          "updated_at": "2026-11-12T02:33:18Z",
+          "head_ref": "work/property-gis-review-workbench",
+          "head_sha": "88947203ce14699a4cf287b6d044ed4cb6ed4926",
+          "base_ref": "main",
+          "base_sha": "b05fcf29a33d266d659395f1c70ffc7e0476d9c8",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/PANDOR-ESTATES",
+      "pull_count": 3,
+      "pulls": [
+        {
+          "number": 56,
+          "title": "docs: add controlled Xhana integrated farm pilot brief",
+          "url": "https://github.com/faroukpandor/PANDOR-ESTATES/pull/56",
+          "draft": true,
+          "updated_at": "2026-11-12T02:33:16Z",
+          "head_ref": "work/xhana-integrated-farm-pilot",
+          "head_sha": "864dd59e9056bbb4f2895bbac68404782ad55657",
+          "base_ref": "main",
+          "base_sha": "592eade2a44ef92c35269e83dcb5b22347edba9b",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 53,
+          "title": "Digital Vault: scoped revenue opportunity and safe rollout",
+          "url": "https://github.com/faroukpandor/PANDOR-ESTATES/pull/53",
+          "draft": true,
+          "updated_at": "2026-10-29T03:38:30Z",
+          "head_ref": "feature/digital-vault-opportunity-20261029",
+          "head_sha": "d5b3d83e278de0d612818088355b250911eeb70c",
+          "base_ref": "main",
+          "base_sha": "22f848c0663fc3e35d4e3929ac82e80fae935b7e",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 50,
+          "title": "feat: unify Pandor Estates + Africa Realty, add source-led Studios pilot (draft)",
+          "url": "https://github.com/faroukpandor/PANDOR-ESTATES/pull/50",
+          "draft": true,
+          "updated_at": "2026-10-28T13:01:25Z",
+          "head_ref": "feat/africa-realty-studios-20261028",
+          "head_sha": "217c5f08004c58487cdf442948ed2224872271b4",
+          "base_ref": "main",
+          "base_sha": "22f848c0663fc3e35d4e3929ac82e80fae935b7e",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/WCD",
+      "pull_count": 12,
+      "pulls": [
+        {
+          "number": 41,
+          "title": "feat(clients): give the client portal a real write path",
+          "url": "https://github.com/faroukpandor/WCD/pull/41",
+          "draft": true,
+          "updated_at": "2026-11-11T05:41:36Z",
+          "head_ref": "arena/da54e159-wcd",
+          "head_sha": "fc1c48cdd10961075294254153cca20c144e0a24",
+          "base_ref": "main",
+          "base_sha": "c4013396d43d711b7885b4febd1e65b37c5a6555",
+          "state": "open",
+          "author": "WebServicesFaroukPandor"
+        },
+        {
+          "number": 40,
+          "title": "docs: record the PR #39 merge, its authorisation, and what it did not deploy",
+          "url": "https://github.com/faroukpandor/WCD/pull/40",
+          "draft": true,
+          "updated_at": "2026-11-06T18:24:05Z",
+          "head_ref": "arena/7b2bc1a2-wcd",
+          "head_sha": "ce4527fd1ef90e4af5b18573700ed6c6382db217",
+          "base_ref": "main",
+          "base_sha": "c4013396d43d711b7885b4febd1e65b37c5a6555",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 38,
+          "title": "Reorganise WCD source archive and add licensed-scope ERP data",
+          "url": "https://github.com/faroukpandor/WCD/pull/38",
+          "draft": false,
+          "updated_at": "2026-11-20T01:24:27Z",
+          "head_ref": "arena/bbfb6ad3-wcd",
+          "head_sha": "5e830a48cf3962ce7173395ac6b1f728cf5387ed",
+          "base_ref": "main",
+          "base_sha": "33fbf78cdacac649b4a21e1ec3faebd5dd4c02bc",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 33,
+          "title": "docs: WCD green manufacturing and sustainability ERP plan",
+          "url": "https://github.com/faroukpandor/WCD/pull/33",
+          "draft": true,
+          "updated_at": "2026-11-01T17:41:52Z",
+          "head_ref": "docs/wcd-green-manufacturing-clean-20261101",
+          "head_sha": "5111850ec0d5be9e9a7493d01541ff3f71e75c2c",
+          "base_ref": "main",
+          "base_sha": "5d872a8f7470850c05654b0998820b9bc0477e85",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 29,
+          "title": "Review: 2027 school-uniform and corporate apparel campaigns",
+          "url": "https://github.com/faroukpandor/WCD/pull/29",
+          "draft": true,
+          "updated_at": "2026-10-31T16:17:13Z",
+          "head_ref": "research/campaign-proposals-20261031",
+          "head_sha": "becd3601d974d0fb0b23fe219f3e12adf5a0db9f",
+          "base_ref": "main",
+          "base_sha": "7a55c71aebf446c6713a4035beeb88802759fc2a",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 27,
+          "title": "ci: prepare Cloudflare Workers Builds GitHub check gate",
+          "url": "https://github.com/faroukpandor/WCD/pull/27",
+          "draft": true,
+          "updated_at": "2026-10-29T09:52:14Z",
+          "head_ref": "ci/cloudflare-workers-builds-20261029",
+          "head_sha": "2fcca55e118a44568497b2f3484a7d58c809e73b",
+          "base_ref": "main",
+          "base_sha": "5d16704046a7e1fccebfa918dc0bff400970ff69",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 26,
+          "title": "fix(offline): stop retrying unsupported API responses",
+          "url": "https://github.com/faroukpandor/WCD/pull/26",
+          "draft": true,
+          "updated_at": "2026-10-29T09:25:54Z",
+          "head_ref": "fix/offline-queue-unsupported-api-20261029",
+          "head_sha": "c9c6aaa2526c51f2af93f3b7929550015dfcece9",
+          "base_ref": "main",
+          "base_sha": "5d16704046a7e1fccebfa918dc0bff400970ff69",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 25,
+          "title": "docs: ERP release readiness and CI evidence",
+          "url": "https://github.com/faroukpandor/WCD/pull/25",
+          "draft": true,
+          "updated_at": "2026-10-29T09:26:00Z",
+          "head_ref": "work/erp-readiness-ci-docs-20261029",
+          "head_sha": "26e2daab2eb5d438a5c0accf5edb683dd3b49eb3",
+          "base_ref": "main",
+          "base_sha": "5d16704046a7e1fccebfa918dc0bff400970ff69",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 23,
+          "title": "Document Cloudflare free CI rollout and preview verification",
+          "url": "https://github.com/faroukpandor/WCD/pull/23",
+          "draft": true,
+          "updated_at": "2026-10-29T09:26:15Z",
+          "head_ref": "verify/cloudflare-free-ci-20261029",
+          "head_sha": "9e33297878d878c14c7f18ace8b0207092e62dcb",
+          "base_ref": "main",
+          "base_sha": "5d16704046a7e1fccebfa918dc0bff400970ff69",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 14,
+          "title": "Document White City Discount agent line of trade and website expansion requirements",
+          "url": "https://github.com/faroukpandor/WCD/pull/14",
+          "draft": true,
+          "updated_at": "2026-10-26T13:38:55Z",
+          "head_ref": "docs/agent-line-of-trade-2026-10-26",
+          "head_sha": "25334ed92aafb14f38ae65e00d988837cd3c5743",
+          "base_ref": "main",
+          "base_sha": "73d86d1465c7ed3cdf6a38d4c254e9b8be52f49f",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 11,
+          "title": "feat: add Botswana/SADC Capital Markets Radar schema",
+          "url": "https://github.com/faroukpandor/WCD/pull/11",
+          "draft": false,
+          "updated_at": "2026-10-19T19:40:30Z",
+          "head_ref": "feat/sadc-capital-markets-radar",
+          "head_sha": "64fa97a41cd0488c923c7486a85343b03ebc5763",
+          "base_ref": "main",
+          "base_sha": "33cd6e4d866a9756bb3edbfa36af6fecd25331d2",
+          "state": "open",
+          "author": "appsfaroukpandor"
+        },
+        {
+          "number": 1,
+          "title": "Verified ERP core: IFRS accounting, uniform catalogue, PDF invoicing, and four correctness fixes",
+          "url": "https://github.com/faroukpandor/WCD/pull/1",
+          "draft": false,
+          "updated_at": "2026-10-24T05:55:44Z",
+          "head_ref": "arena/01a03244-wcd",
+          "head_sha": "2ad6a9fee34fe1b17664ecf986f40a12e2d2fe3a",
+          "base_ref": "main",
+          "base_sha": "86ec046d957a54977975a3a131bf111df4167cce",
+          "state": "open",
+          "author": "arena-ai-coding-agent[bot]"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/piptick",
+      "pull_count": 4,
+      "pulls": [
+        {
+          "number": 12,
+          "title": "docs: add PIPTICK cold-start handover",
+          "url": "https://github.com/faroukpandor/piptick/pull/12",
+          "draft": false,
+          "updated_at": "2026-11-06T05:54:48Z",
+          "head_ref": "docs/handover-cold-start-2026-11-06",
+          "head_sha": "f874a2c51c149b8a42350c024b0e8ff5135c5f4e",
+          "base_ref": "main",
+          "base_sha": "e85dd68bf0fb0f52be8005c95163a9706018751a",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 11,
+          "title": "Add reusable XAUUSD ORB/FVG research signal core",
+          "url": "https://github.com/faroukpandor/piptick/pull/11",
+          "draft": true,
+          "updated_at": "2026-11-02T17:47:52Z",
+          "head_ref": "research/xauusd-orb-fvg-core",
+          "head_sha": "60f260c3dac2d8e09f46b4608100233ff6c5861c",
+          "base_ref": "main",
+          "base_sha": "e85dd68bf0fb0f52be8005c95163a9706018751a",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 10,
+          "title": "PIPTICK: add paper risk ledger foundation",
+          "url": "https://github.com/faroukpandor/piptick/pull/10",
+          "draft": true,
+          "updated_at": "2026-11-01T15:55:24Z",
+          "head_ref": "feature/paper-risk-ledger",
+          "head_sha": "e31dc90885a3ab8918433633023133eed61a36ca",
+          "base_ref": "main",
+          "base_sha": "e85dd68bf0fb0f52be8005c95163a9706018751a",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 8,
+          "title": "docs: signal accountability and MQL/Pine/Deriv interoperability contract",
+          "url": "https://github.com/faroukpandor/piptick/pull/8",
+          "draft": true,
+          "updated_at": "2026-10-27T04:50:39Z",
+          "head_ref": "feature/signal-accountability-adapters",
+          "head_sha": "eac5def302766464c231515b69f68f0b4ce19755",
+          "base_ref": "main",
+          "base_sha": "aa7b6d2ec751cbb7df982d00821ca8eb0fa12b0f",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/identity-concept",
+      "pull_count": 4,
+      "pulls": [
+        {
+          "number": 7,
+          "title": "Build white-label ecommerce and private supplier procurement",
+          "url": "https://github.com/faroukpandor/identity-concept/pull/7",
+          "draft": true,
+          "updated_at": "2026-11-04T08:23:27Z",
+          "head_ref": "feature/white-label-commerce-private-procurement",
+          "head_sha": "1c2d29c6e80b401152706ac4824ed84784ac51c7",
+          "base_ref": "main",
+          "base_sha": "dc0fc7fe0b55ae78b8d850b267e66d870a6a003a",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 4,
+          "title": "Refresh supplier catalogue with current 2026 product listings",
+          "url": "https://github.com/faroukpandor/identity-concept/pull/4",
+          "draft": true,
+          "updated_at": "2026-11-04T04:46:58Z",
+          "head_ref": "chore/catalogue-refresh-20261104",
+          "head_sha": "24226232a84a74aa1a7d1a4847047a7696d62a51",
+          "base_ref": "main",
+          "base_sha": "c92a467d323a23e868ca407d1fae147efee9415c",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 2,
+          "title": "Review: promotional merchandise and tourism campaigns",
+          "url": "https://github.com/faroukpandor/identity-concept/pull/2",
+          "draft": true,
+          "updated_at": "2026-10-31T16:17:26Z",
+          "head_ref": "research/campaign-proposals-20261031",
+          "head_sha": "611acb1874058eaaf63687d0c9a6fba07e5516d4",
+          "base_ref": "main",
+          "base_sha": "b8090c8901ed0dde7e32325b9cc0d6069d9f8a04",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 1,
+          "title": "test: protect static client-review and RFQ prelaunch boundaries",
+          "url": "https://github.com/faroukpandor/identity-concept/pull/1",
+          "draft": true,
+          "updated_at": "2026-10-28T05:26:17Z",
+          "head_ref": "test/static-prelaunch-checks-20261028",
+          "head_sha": "d94102c2703e7aea707fee75b66ef2f05f8f83cb",
+          "base_ref": "main",
+          "base_sha": "b4277162f6d7c52ba549351870d14eb1694701c5",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/AGRISOLUTIONS",
+      "pull_count": 4,
+      "pulls": [
+        {
+          "number": 16,
+          "title": "Operations: Botswana organic transition and buyer-led grower programme",
+          "url": "https://github.com/faroukpandor/AGRISOLUTIONS/pull/16",
+          "draft": true,
+          "updated_at": "2026-11-03T10:21:16Z",
+          "head_ref": "strategy/organic-transition-grower-operations-2026-11",
+          "head_sha": "e77fc66a9a0561afc9861b1a9501ae2bbd6d33d9",
+          "base_ref": "main",
+          "base_sha": "f203dc6034ce08d7282e80550ed160e523f6e360",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 14,
+          "title": "docs: digital asset commercialisation doctrine",
+          "url": "https://github.com/faroukpandor/AGRISOLUTIONS/pull/14",
+          "draft": true,
+          "updated_at": "2026-10-29T03:38:59Z",
+          "head_ref": "digital-asset-commercialisation-v1",
+          "head_sha": "0a311d9ab598f63e3adb0beaeff1220fffabde53",
+          "base_ref": "main",
+          "base_sha": "add4ce6612f8879307ed00af07d730465d45467c",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 11,
+          "title": "Define BioTrade field sourcing and collection operating playbook",
+          "url": "https://github.com/faroukpandor/AGRISOLUTIONS/pull/11",
+          "draft": true,
+          "updated_at": "2026-10-27T09:11:01Z",
+          "head_ref": "feature/biotrade-field-playbook-2026",
+          "head_sha": "e75e8a615c65d6f16ff555b23edf687f1953372b",
+          "base_ref": "main",
+          "base_sha": "add4ce6612f8879307ed00af07d730465d45467c",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 10,
+          "title": "Document Botswana buyer-led market access and poultry grower terms",
+          "url": "https://github.com/faroukpandor/AGRISOLUTIONS/pull/10",
+          "draft": false,
+          "updated_at": "2026-10-26T13:19:28Z",
+          "head_ref": "docs/botswana-buyer-led-market-access-2026",
+          "head_sha": "013cb77b2dce8d3188f193e9a6276af9e341c7fb",
+          "base_ref": "main",
+          "base_sha": "add4ce6612f8879307ed00af07d730465d45467c",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/PlanForgeBW",
+      "pull_count": 2,
+      "pulls": [
+        {
+          "number": 7,
+          "title": "Add Botswana competitive strategy and validation roadmap",
+          "url": "https://github.com/faroukpandor/PlanForgeBW/pull/7",
+          "draft": true,
+          "updated_at": "2026-11-03T08:52:18Z",
+          "head_ref": "strategy/botswana-market-entry-2026-11-03",
+          "head_sha": "5cf9dca13198d659dd9bb83cccbc354286a7999a",
+          "base_ref": "main",
+          "base_sha": "1132273645b486f705b24f95194ad535a7e2762d",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 5,
+          "title": "Add Botswana-wide plan discovery and professional adaptation workflow",
+          "url": "https://github.com/faroukpandor/PlanForgeBW/pull/5",
+          "draft": true,
+          "updated_at": "2026-10-31T15:42:00Z",
+          "head_ref": "codex/ethical-commercial-launch-gates-20261030",
+          "head_sha": "223aaf85e1ed7342ac592d182e05562a8e9aae83",
+          "base_ref": "main",
+          "base_sha": "d8f78874e033158ac0e25fa863268fce62ffcb71",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/PipTick-Ethos",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 2,
+          "title": "Document canonical PIPTICK Gold research integration boundary",
+          "url": "https://github.com/faroukpandor/PipTick-Ethos/pull/2",
+          "draft": true,
+          "updated_at": "2026-11-02T17:47:30Z",
+          "head_ref": "docs/xauusd-research-core-integration",
+          "head_sha": "0063d188fb41fb7f617ac971f6a1d604af44e5af",
+          "base_ref": "main",
+          "base_sha": "ae31d43fe88c74ff62180ce6190df44e51eb1526",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/BRANDCRAFT-ALCHEMIST",
+      "pull_count": 4,
+      "pulls": [
+        {
+          "number": 5,
+          "title": "Research: cross-enterprise campaign-to-merchandise intelligence",
+          "url": "https://github.com/faroukpandor/BRANDCRAFT-ALCHEMIST/pull/5",
+          "draft": true,
+          "updated_at": "2026-10-31T16:18:14Z",
+          "head_ref": "feat/merchandise-supplier-intelligence-20261031",
+          "head_sha": "b93c6b758cd485615385438c786282c5eb021e39",
+          "base_ref": "main",
+          "base_sha": "ed034375996962d10a06d15f57d2421e27fbe274",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 4,
+          "title": "Add BrandCraft lettering comparison and digitising briefs",
+          "url": "https://github.com/faroukpandor/BRANDCRAFT-ALCHEMIST/pull/4",
+          "draft": true,
+          "updated_at": "2026-10-28T08:22:24Z",
+          "head_ref": "feature/font-workbench",
+          "head_sha": "654c4e0dfe2de75763c88571c27e5e29f55c5cbc",
+          "base_ref": "main",
+          "base_sha": "ed034375996962d10a06d15f57d2421e27fbe274",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 2,
+          "title": "Make BrandCraft truly AI-powered & deployable on free Vercel/Netlify/Cloudflare",
+          "url": "https://github.com/faroukpandor/BRANDCRAFT-ALCHEMIST/pull/2",
+          "draft": false,
+          "updated_at": "2026-10-24T05:55:19Z",
+          "head_ref": "arena/01a06ba2-brandcraft-alchemist",
+          "head_sha": "ffd6c4490df07b76eed3ba6a5b2f78d00f25d135",
+          "base_ref": "main",
+          "base_sha": "7f34c7fedb94b29e30939a4cbdac37e76c945e6d",
+          "state": "open",
+          "author": "arena-ai-coding-agent[bot]"
+        },
+        {
+          "number": 1,
+          "title": "BrandCraft: VTracer vectoriser, researched pricing, mockup studio, business accounts + Cloudflare deploy",
+          "url": "https://github.com/faroukpandor/BRANDCRAFT-ALCHEMIST/pull/1",
+          "draft": false,
+          "updated_at": "2026-10-24T05:55:15Z",
+          "head_ref": "arena/019fef51-brandcraft-alchemist",
+          "head_sha": "3189af749ea84e6e28de8a8ad86ddf5b2da4c202",
+          "base_ref": "main",
+          "base_sha": "7f34c7fedb94b29e30939a4cbdac37e76c945e6d",
+          "state": "open",
+          "author": "arena-ai-coding-agent[bot]"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/Sartorial",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 2,
+          "title": "feat: T-Junction original-art print-on-demand storefront (24 designs)",
+          "url": "https://github.com/faroukpandor/Sartorial/pull/2",
+          "draft": true,
+          "updated_at": "2026-10-31T16:06:05Z",
+          "head_ref": "feat/t-junction-storefront-20261031",
+          "head_sha": "acd21204a9045869911c1dbf0e7152eb16b7ec86",
+          "base_ref": "main",
+          "base_sha": "ad8f3edf9f5f455735717ae4b2bbfd43e4ab0fed",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/AEGIS",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 1,
+          "title": "Add AEGIS PhoneGuard Android thermal and battery diagnostics",
+          "url": "https://github.com/faroukpandor/AEGIS/pull/1",
+          "draft": true,
+          "updated_at": "2026-10-30T20:40:57Z",
+          "head_ref": "feature/phoneguard-android",
+          "head_sha": "2732e5fa228dfd7cccf3a4a2dfe4cd7a16ed8dd8",
+          "base_ref": "main",
+          "base_sha": "3090feaf4c8b9c1ca87548552dad96f772769ca7",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/FAROUKPANDOR-AXIOM",
+      "pull_count": 2,
+      "pulls": [
+        {
+          "number": 15,
+          "title": "docs: preserve Cloudflare Pages portfolio for agent-independent operation",
+          "url": "https://github.com/faroukpandor/FAROUKPANDOR-AXIOM/pull/15",
+          "draft": true,
+          "updated_at": "2026-10-30T19:05:39Z",
+          "head_ref": "docs/portable-cloudflare-handoff-20261030",
+          "head_sha": "f04f8ce17c863cbbf6ee983115402ded4702f132",
+          "base_ref": "main",
+          "base_sha": "dbb59266bfa2e736b1cd2ddc53ff50ea1e9ab489",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 14,
+          "title": "Plan portfolio-wide free CI migration without disrupting Vercel or client production",
+          "url": "https://github.com/faroukpandor/FAROUKPANDOR-AXIOM/pull/14",
+          "draft": true,
+          "updated_at": "2026-10-29T11:58:55Z",
+          "head_ref": "plan/cloudflare-verification-matrix-20261029",
+          "head_sha": "0707b961924b02e215d41f06c4f0690b636c0571",
+          "base_ref": "main",
+          "base_sha": "dbb59266bfa2e736b1cd2ddc53ff50ea1e9ab489",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/PROMOQUOTE",
+      "pull_count": 3,
+      "pulls": [
+        {
+          "number": 5,
+          "title": "Security: prevent Gemini API key injection into client bundle",
+          "url": "https://github.com/faroukpandor/PROMOQUOTE/pull/5",
+          "draft": true,
+          "updated_at": "2026-10-30T15:21:56Z",
+          "head_ref": "security/remove-client-gemini-key-20261029",
+          "head_sha": "d93d3efda04cb0551b39a691f7feb78c9523f167",
+          "base_ref": "main",
+          "base_sha": "22f68f4cbaae2426f03c283a25957dc4c3230501",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 2,
+          "title": "Clean up Vite dependency declaration and typecheck script",
+          "url": "https://github.com/faroukpandor/PROMOQUOTE/pull/2",
+          "draft": true,
+          "updated_at": "2026-10-28T03:13:52Z",
+          "head_ref": "fix/dependency-hygiene-20261028",
+          "head_sha": "84d7e9c7f3d0f05462a4ed9d0a16d5ddb829da58",
+          "base_ref": "main",
+          "base_sha": "22f68f4cbaae2426f03c283a25957dc4c3230501",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 1,
+          "title": "fix(P0): repair blank production page and remove browser-side API key injection",
+          "url": "https://github.com/faroukpandor/PROMOQUOTE/pull/1",
+          "draft": false,
+          "updated_at": "2026-10-28T03:40:05Z",
+          "head_ref": "arena/1cc99f09-promoquote",
+          "head_sha": "68729fe3cf6242a462914b4e8421c285b78a88f5",
+          "base_ref": "main",
+          "base_sha": "22f68f4cbaae2426f03c283a25957dc4c3230501",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/QuantGenie",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 1,
+          "title": "Research: temporal placebo calibration diagnostic",
+          "url": "https://github.com/faroukpandor/QuantGenie/pull/1",
+          "draft": true,
+          "updated_at": "2026-10-29T08:13:29Z",
+          "head_ref": "feature/decision-reliability-placebo-v1",
+          "head_sha": "b80eab9e97bcc2e4e387a6a6536d3e2dcfabd852",
+          "base_ref": "master",
+          "base_sha": "cb676f94e766d59f7f08e8e70109a4e681ebf9eb",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/NexusStream---Open-Content-Directory",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 1,
+          "title": "docs: digital asset commercialisation doctrine",
+          "url": "https://github.com/faroukpandor/NexusStream---Open-Content-Directory/pull/1",
+          "draft": true,
+          "updated_at": "2026-10-29T03:39:09Z",
+          "head_ref": "digital-asset-commercialisation-v1",
+          "head_sha": "1222479cf05f46727f5d739983029ea3f5af4a91",
+          "base_ref": "main",
+          "base_sha": "f10ee304780bd30b8ba4f5af904cbee187261090",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    }
+  ]
+}
