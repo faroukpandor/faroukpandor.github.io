@@ -1,0 +1,1532 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 14,
+  "range": [
+    218,
+    234
+  ],
+  "repositories": [
+    {
+      "name": "MOKORO-ENTERPRISE-OS",
+      "full": "faroukpandor/MOKORO-ENTERPRISE-OS",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 71,
+      "branches": [
+        {
+          "name": "ag-extension-portfolio-governance-2026-10-23",
+          "sha": "ce64a22fe2e527562042d185bcc588c77b51f401",
+          "protected": false
+        },
+        {
+          "name": "arena/a97a6c54-mokoro-enterprise-os",
+          "sha": "22063df3e79cd7b6d7b537497be05b3145bd7f78",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0e1a0-mokoro-enterprise-os",
+          "sha": "e5401e26b5735045ffecc5f3115c39673cacc64b",
+          "protected": false
+        },
+        {
+          "name": "arena/01a03dab-mokoro-enterprise-os",
+          "sha": "f15b96208785efa322bcef4417f66160f323cbe8",
+          "protected": false
+        },
+        {
+          "name": "arena/01a038a1-mokoro-enterprise-os",
+          "sha": "3070dcfa449dd75f87211358bac3e98a556072f0",
+          "protected": false
+        },
+        {
+          "name": "arena/2c3659b2-mokoro-enterprise-os",
+          "sha": "096881d2cd09f93b4a2f1b8bae7b296c4c833ef0",
+          "protected": false
+        },
+        {
+          "name": "arena/8e4be0a4-mokoro-enterprise-os",
+          "sha": "60faab69cca56cae08a488ede37e356c3b7e58cc",
+          "protected": false
+        },
+        {
+          "name": "arena/9fd32f5f-mokoro-enterprise-os",
+          "sha": "b8e5cb0aaceb038962a59b4f0327671843fe4acf",
+          "protected": false
+        },
+        {
+          "name": "arena/610bc761-mokoro-enterprise-os",
+          "sha": "46b4b8db9bd7819df9cff4da47353ab98f85bc5a",
+          "protected": false
+        },
+        {
+          "name": "arena/4997b58a-mokoro-enterprise-os",
+          "sha": "1f0e007d5163e18b280dee203afb7f1ee0445393",
+          "protected": false
+        },
+        {
+          "name": "audit/collective-priority-queue-2026-10-16",
+          "sha": "8a24a3cb24870e974368d3c3ced644ef6e204a75",
+          "protected": false
+        },
+        {
+          "name": "audit/connected-repository-inventory-2026-10-16",
+          "sha": "b9fb0dd2b4ad52476c58f81d3f08f1e5d1630a29",
+          "protected": false
+        },
+        {
+          "name": "chore/cloudflare-preview-ci-parity-20261029",
+          "sha": "830bb6de9442fb6f1eb248cc7dede39a076a0f3d",
+          "protected": false
+        },
+        {
+          "name": "chore/portfolio-ci-baseline-20261028",
+          "sha": "d5be7bb25821b07acaa64c72a2f1f40ba9d7641f",
+          "protected": false
+        },
+        {
+          "name": "cloudflare-portability-v1",
+          "sha": "9f93260eb1f4031fd846da6684b11f14bc45d115",
+          "protected": false
+        },
+        {
+          "name": "cloudflare-production-readiness",
+          "sha": "5845bfd8ed45ed998d88228235bd05469c9c8e4e",
+          "protected": false
+        },
+        {
+          "name": "codex/business-priorities-2026-10-20",
+          "sha": "35b0516a60be375416f7edeab0ca97c6e465fe8c",
+          "protected": false
+        },
+        {
+          "name": "collective/media-competition-governance",
+          "sha": "89f01041c1e8d91933d93260d3fed69fe64298fe",
+          "protected": false
+        },
+        {
+          "name": "commercial-frontdoor-v1",
+          "sha": "a8e901bdfd5a976fac5d2f4ac4aa41d6e64fb8bc",
+          "protected": false
+        },
+        {
+          "name": "commercial-validation-contract-v1",
+          "sha": "5543805170f173631c492d11c7f3b19853918f91",
+          "protected": false
+        },
+        {
+          "name": "commercialisation-v1",
+          "sha": "28998793c96dd153f8259603045f1c27f907d4b6",
+          "protected": false
+        },
+        {
+          "name": "demand-driven-front-door-v1",
+          "sha": "c8a8596ae56deaff4ccf9b26b7f501b050fadb9b",
+          "protected": false
+        },
+        {
+          "name": "dependabot/npm_and_yarn/development-dependencies-1bdb770f88",
+          "sha": "bcfb6536df9e79a222201574c9d7de6b59582e55",
+          "protected": false
+        },
+        {
+          "name": "dependabot/npm_and_yarn/development-dependencies-4e61775cb0",
+          "sha": "f5882d86b4bc221875f4e4626080b83b89af9f87",
+          "protected": false
+        },
+        {
+          "name": "dependabot/npm_and_yarn/production-dependencies-0dbd49569a",
+          "sha": "0999ccf310518976a2381df9a481953c2261a5e9",
+          "protected": false
+        },
+        {
+          "name": "dependabot/npm_and_yarn/production-dependencies-1ed472215b",
+          "sha": "8c76d35002c3f05e0e9661fc5c071ded749c3d85",
+          "protected": false
+        },
+        {
+          "name": "design/founder-customer-erp-contract-20261031",
+          "sha": "fa3cce4a897efc8cbce98466f8352a04777fe23e",
+          "protected": false
+        },
+        {
+          "name": "digital-asset-commercialisation-v1",
+          "sha": "30e3e4aa1741b6133ff22c11d5a04398f79f7fba",
+          "protected": false
+        },
+        {
+          "name": "docs/adopt-portfolio-operating-policies-20261026",
+          "sha": "54a014e01a40933643d7d3ad6599f6d65acccc1f",
+          "protected": false
+        },
+        {
+          "name": "docs/agricultural-contract-library-governance",
+          "sha": "a195f6ece2afdd187c46e6e1b9815fe170e59945",
+          "protected": false
+        },
+        {
+          "name": "docs/botswana-agricultural-economic-transformation-programme",
+          "sha": "e673395fa0f312a34b71b2f8ae8a12b8d84a81ce",
+          "protected": false
+        },
+        {
+          "name": "docs/botswana-opportunity-integration-v1",
+          "sha": "745f855359e8c7dfd1ea36953548ca816898dbb9",
+          "protected": false
+        },
+        {
+          "name": "docs/database-provider-inventory-resilience-2026-11-16",
+          "sha": "67041b2e12bc2465c9f657aeca63801bce8d74e4",
+          "protected": false
+        },
+        {
+          "name": "docs/dual-host-free-fallback-2026",
+          "sha": "e72a7b79991eb9900f78e1fff7bcda370b07ccc0",
+          "protected": false
+        },
+        {
+          "name": "docs/ethical-cold-marketing-system-2026-10-17",
+          "sha": "a444ac884914ba5a5c99287bee7266ec35cd0ff5",
+          "protected": false
+        },
+        {
+          "name": "docs/free-ai-provider-governance-2026-10-16",
+          "sha": "252a9cada87562ff92b8e93a923f7d44c7971148",
+          "protected": false
+        },
+        {
+          "name": "docs/portfolio-handover-learning-2026-11-06",
+          "sha": "7e6d941361ef53e319ca6c19e0fd6bfc96ffac6a",
+          "protected": false
+        },
+        {
+          "name": "docs/portfolio-handover-refresh-20261101",
+          "sha": "fd067002a490e62c2ed57e47e1506d6afc0d147c",
+          "protected": false
+        },
+        {
+          "name": "docs/portfolio-repository-sync-protocol-2026-10-17",
+          "sha": "30e3397a70b19fa6079beed9694b78592d56d2fb",
+          "protected": false
+        },
+        {
+          "name": "docs/sovereign-ai-routing-governance-20261116",
+          "sha": "e88034bff3dadf73f8c6746b14ae5c7ec51f1944",
+          "protected": false
+        },
+        {
+          "name": "execution/botswana-agri-pilot-90-day",
+          "sha": "62aece2e9adddc8f3cf258bfaa7d77f37f495bd3",
+          "protected": false
+        },
+        {
+          "name": "feat/affiliate-market-workspace-20261025",
+          "sha": "ac6a48313b5d44c5f2739ac86cffb6de96e542f4",
+          "protected": false
+        },
+        {
+          "name": "feat/erp-tenant-scoped-reads-20261031",
+          "sha": "06dfadd30cd987a95a029eb4597be8ae3a16cdb3",
+          "protected": false
+        },
+        {
+          "name": "feat/one-card-onboarding-ux-2026-10-17",
+          "sha": "39f56801142694b80c7bd57c13e44a2f362e6cf0",
+          "protected": false
+        },
+        {
+          "name": "feat/opportunity-intelligence-register",
+          "sha": "02ced0fba1f84d0ccfde450a19c5b2d7db4d4f75",
+          "protected": false
+        },
+        {
+          "name": "feat/procurement-intake-workbench-2026-10-09",
+          "sha": "2d75abc1146d8a2ac5a534856b06022aaf2473f0",
+          "protected": false
+        },
+        {
+          "name": "feat/procurement-register-templates-2026-10-09",
+          "sha": "a8f40ee3c40c06e0f4d8e597229679cc7ec6b76e",
+          "protected": false
+        },
+        {
+          "name": "feat/visual-portfolio-gamma-napkin",
+          "sha": "6eb41cdcae768b9b4913db39eeba4c53956d703d",
+          "protected": false
+        },
+        {
+          "name": "feature/digital-vault-opportunity-20261029",
+          "sha": "eea824ebf76ab4ba5a218982575f1cf5c80b4967",
+          "protected": false
+        },
+        {
+          "name": "feature/recurring-income-asset-engine",
+          "sha": "7048ba443cbb2d2e9b2909cd7941c7cc2430ee5b",
+          "protected": false
+        },
+        {
+          "name": "fix/dge-repository-evidence-2026-10-09",
+          "sha": "23484869bf8916c3911e7e6aa31357c099b4a394",
+          "protected": false
+        },
+        {
+          "name": "fix/mokoro-tailwind-jsx-clean-2026-10-16",
+          "sha": "33ea916ea7727c73b9ea3150348b6285ef5fc8fc",
+          "protected": false
+        },
+        {
+          "name": "fix/quality-gates-20261028",
+          "sha": "3cbdf10b5c7d7d022ebe2a242f9a65d895b3fb45",
+          "protected": false
+        },
+        {
+          "name": "fix/tailwind4-postcss-ci-2026-10-16",
+          "sha": "519ea92548374222ba09ca01f7a21f4ff8fd257a",
+          "protected": false
+        },
+        {
+          "name": "governance/portfolio-resilience-v1",
+          "sha": "30760a749287bd08881b81988300b525d9b88a49",
+          "protected": false
+        },
+        {
+          "name": "kernel-audit-and-consumer-map",
+          "sha": "4cb3af2c1255ef1d61aef147c3aa20ae28b67843",
+          "protected": false
+        },
+        {
+          "name": "kernel-contracts-v1",
+          "sha": "d18624118a1f14c57c924b48172c2814bd1e6cc7",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "4cb77d148fa74a0dbfa98ce9b129493e2be3dcda",
+          "protected": false
+        },
+        {
+          "name": "portfolio-foundation",
+          "sha": "77ad50c071a800205caff14a777cde7a30485f5b",
+          "protected": false
+        },
+        {
+          "name": "research/agri-competitive-execution-gate-2026-10-16",
+          "sha": "d3ae68c94955bcd538a7b1efc06dd37dd9006e53",
+          "protected": false
+        },
+        {
+          "name": "research/botswana-community-programmes-register-2026-10-17",
+          "sha": "6d33c3ff68389ec98c56eb95af108e1d75824262",
+          "protected": false
+        },
+        {
+          "name": "security/harden-gitignore-20261012",
+          "sha": "34ce7306b942a87e5a242c6d26b232e87b3567bf",
+          "protected": false
+        },
+        {
+          "name": "security-hardening-v1",
+          "sha": "63826a0eeafaee7a5045072cef48208c3a28932f",
+          "protected": false
+        },
+        {
+          "name": "strategy/agri-orchestration-organic-trade-2026-11",
+          "sha": "0cdecc9a979607d1a9b1809647c00f06387de595",
+          "protected": false
+        },
+        {
+          "name": "strategy/cloud-to-cash-portfolio-governance-2026-10",
+          "sha": "b169df0c9d9fd236355c8df5fdb8124ad57c3966",
+          "protected": false
+        },
+        {
+          "name": "strategy/consultancy-capability-governance-20261121",
+          "sha": "d69e91b4c03e705e84db6fc44e90e10d1504b05d",
+          "protected": false
+        },
+        {
+          "name": "strategy/conversational-business-os-free-first-20261101",
+          "sha": "d6b12c187dfff27b1cbe039c93e903294f0baa38",
+          "protected": false
+        },
+        {
+          "name": "strategy/conversational-market-landscape-20261116",
+          "sha": "5f42f7f3bbd7f29d91cf5a81c0549fa7d12bd91d",
+          "protected": false
+        },
+        {
+          "name": "strategy/idea-portfolio-assimilation-2026-10-16",
+          "sha": "1dba33f093c8bb2add7f0195154def4f0db87324",
+          "protected": false
+        },
+        {
+          "name": "strategy/40-offer-portfolio-governance-2026-10",
+          "sha": "76343c5dfeaaaf5301a46605e8aa77e23e2b7d0a",
+          "protected": false
+        },
+        {
+          "name": "work/procurement-intake-gap-2026-10-09",
+          "sha": "bafaa55a6b688babe52a33580a5613308f74cb13",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "ultimate-editor-studio",
+      "full": "faroukpandor/ultimate-editor-studio",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "1e0be5b141f930fad5f2cb406f3472000f14039e",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "YELLOW-BLUE-CARGO",
+      "full": "faroukpandor/YELLOW-BLUE-CARGO",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 63,
+      "branches": [
+        {
+          "name": "arena/bfb0ecce-yellow-blue-cargo",
+          "sha": "01ea03df741ecc184fa435f3863985f1a000cf84",
+          "protected": false
+        },
+        {
+          "name": "arena/dd0d086f-yellow-blue-cargo",
+          "sha": "fea580c6b29e1c9c201a9efde586cdb30c3a8f3e",
+          "protected": false
+        },
+        {
+          "name": "arena/e687d94e-yellow-blue-cargo",
+          "sha": "da026fdb6fd556279b400c3402c6e2d27d98a7d4",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0adbd-yellow-blue-cargo",
+          "sha": "206bcc98e7d0d82e029a943e85bdba30590c8332",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0b7c0-yellow-blue-cargo",
+          "sha": "749eea17bb72f19bbff24e07a0c1e852f4d2f176",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0b73d-yellow-blue-cargo",
+          "sha": "ceb10064190c35ae23f9d0b86d3cf5c88271e678",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0b301-yellow-blue-cargo",
+          "sha": "d4a4365cefd6c0b61b434cd035c1fc072d2d5672",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0b360-yellow-blue-cargo",
+          "sha": "5679c266aa6a8d6fa93e9d12cfb16268aef82525",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0b785-yellow-blue-cargo",
+          "sha": "ec0cc610cc9d0dda42f5d21a54deaa1076d637f9",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0c26b-yellow-blue-cargo",
+          "sha": "c8375bee1639fdfc4464dbe665f53b405f706430",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0e49c-yellow-blue-cargo",
+          "sha": "f3ece238d5d2dcdebb020bc26a1dfbdc51283f85",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0e88f-yellow-blue-cargo",
+          "sha": "e0a2cf92bb323de3d63dd9b17a50f864647b9e18",
+          "protected": false
+        },
+        {
+          "name": "arena/01a01a97-yellow-blue-cargo",
+          "sha": "eeed2126c74150408508218384cd65eba30d430d",
+          "protected": false
+        },
+        {
+          "name": "arena/01a05d90-yellow-blue-cargo",
+          "sha": "bd7f1e5e1070e80eb078d51b78585a483ca60074",
+          "protected": false
+        },
+        {
+          "name": "arena/01a05db1-yellow-blue-cargo",
+          "sha": "68482576f367cafcb571d2192eae300f8917a900",
+          "protected": false
+        },
+        {
+          "name": "arena/01a05e8c-yellow-blue-cargo",
+          "sha": "61d001f3c243d74b2a9f38b2cd8d4ccc7247efa5",
+          "protected": false
+        },
+        {
+          "name": "arena/01a032f0-yellow-blue-cargo",
+          "sha": "52f425adb150074c9d584fd982e7f3238bc32b07",
+          "protected": false
+        },
+        {
+          "name": "arena/01a071e9-yellow-blue-cargo",
+          "sha": "e316b5caba8d22d7423179572e1b15ed258a034d",
+          "protected": false
+        },
+        {
+          "name": "arena/01a081b5-yellow-blue-cargo",
+          "sha": "10aa6de56e0aae877b6116548510b2b06e983ba8",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0573f-yellow-blue-cargo",
+          "sha": "d75c4246e1f4bea9a4eba777c11c4c06e7958c02",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0603b-yellow-blue-cargo",
+          "sha": "8e83c25bf2e9d869485c437e53a8975a39c35398",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0726a-yellow-blue-cargo",
+          "sha": "96c627f31759db6b7501fa11d617ac546656160a",
+          "protected": false
+        },
+        {
+          "name": "arena/01a04216-yellow-blue-cargo",
+          "sha": "1abf90aa63a85ee591876038b97ed71cd4bf620f",
+          "protected": false
+        },
+        {
+          "name": "arena/01a05613-yellow-blue-cargo",
+          "sha": "746acb51c0b6458f7574c92d8a49ca8f909e633e",
+          "protected": false
+        },
+        {
+          "name": "arena/01a06089-yellow-blue-cargo",
+          "sha": "4b938aa934b3637e568b31bf803b5c49d4dba92e",
+          "protected": false
+        },
+        {
+          "name": "arena/01a07483-yellow-blue-cargo",
+          "sha": "344d008a3faa4cf4d0be5339cff556cfc5b3f726",
+          "protected": false
+        },
+        {
+          "name": "arena/01a07516-yellow-blue-cargo",
+          "sha": "c1f905965b0711a5e92e005234acc468a6e16e00",
+          "protected": false
+        },
+        {
+          "name": "arena/01a07531-yellow-blue-cargo",
+          "sha": "91fd8484e59054f870d0f42c2c7b2f22738f53cc",
+          "protected": false
+        },
+        {
+          "name": "arena/01a07567-yellow-blue-cargo",
+          "sha": "a855579e5f810a1e60d7bf4dc7856a494a811547",
+          "protected": false
+        },
+        {
+          "name": "arena/2e1cd626-yellow-blue-cargo",
+          "sha": "c6d84232369242fce51e86850d932f9d8829dde2",
+          "protected": false
+        },
+        {
+          "name": "arena/019fccf2-yellow-blue-cargo",
+          "sha": "3285ca3a094e19beb281c31ba2f20ec2936754b5",
+          "protected": false
+        },
+        {
+          "name": "arena/019ffbd3-yellow-blue-cargo",
+          "sha": "0b5bb4f929d510e9d33e41d91a40ca8a970dd264",
+          "protected": false
+        },
+        {
+          "name": "arena/236558c2-yellow-blue-cargo",
+          "sha": "2225fe5b0f30c2527e62b83f7aa4a7446527503e",
+          "protected": false
+        },
+        {
+          "name": "audit/admin-session-security-plan-20261024",
+          "sha": "858366c88496c582e9b6134cf6552e801a219b28",
+          "protected": false
+        },
+        {
+          "name": "audit/erp-d1-neon-synthetic-poc",
+          "sha": "c0bce593cb74e5766534406b876fb7c14714f907",
+          "protected": false
+        },
+        {
+          "name": "audit/live-website-chatbot-2026-11-07",
+          "sha": "016b1899a6db6b396487ed4e5a675df7db83032c",
+          "protected": false
+        },
+        {
+          "name": "chatbot/static-claude-artifact-upgrade-2026-11-15",
+          "sha": "5fd0c1f74ba12021ba3e2097793a871cf551c365",
+          "protected": false
+        },
+        {
+          "name": "dependabot/npm_and_yarn/fast-uri-3.1.9",
+          "sha": "936ada05fb4632a658c13b2cc0fe2646e5ea0eb9",
+          "protected": false
+        },
+        {
+          "name": "dependabot/npm_and_yarn/multi-8a69f2949d",
+          "sha": "d632d5f092fe03b498c92bd3daad4ca4c05ac953",
+          "protected": false
+        },
+        {
+          "name": "dependabot/npm_and_yarn/serialize-javascript-7.1.4",
+          "sha": "cdacd3dbf395ea8912a91543f148d9efc716e731",
+          "protected": false
+        },
+        {
+          "name": "dependabot/npm_and_yarn/zod-4.6.7",
+          "sha": "a8fba682d895e75754e99e57d8e24fafc04cd4ec",
+          "protected": false
+        },
+        {
+          "name": "docs/cloudflare-lockfile-incident-20261031",
+          "sha": "e0c8efab7924059d1ac91e8989a479a2735a20ea",
+          "protected": false
+        },
+        {
+          "name": "docs/dual-host-free-fallback-2026",
+          "sha": "7f6384f5ff724f4df5373d19c4461313f9aebc15",
+          "protected": false
+        },
+        {
+          "name": "docs/handover-entrypoint-2026-11-06",
+          "sha": "c81e2f43069428ce80dacea0704b8c4fb30c1dae",
+          "protected": false
+        },
+        {
+          "name": "docs/2026-11-06-client-handover",
+          "sha": "c5fd4ffdd0b561824adbceca604907ef4022f1d6",
+          "protected": false
+        },
+        {
+          "name": "docs/2026-11-07-engagement-resume",
+          "sha": "f7dd862b3cd660ba2020801b4d6b503f4f76cf03",
+          "protected": false
+        },
+        {
+          "name": "erp-reconciliation-foundation-2026-11-16",
+          "sha": "19ddac94e47c1db742c21f86de0c0d065e691e58",
+          "protected": false
+        },
+        {
+          "name": "fix/about-page-cohesion-client-feedback",
+          "sha": "62d889f476aec6ae9974826ee57a62c64c93ee09",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "5b827fd67652be7ec7b8bdd95f944b07c73cb565",
+          "protected": false
+        },
+        {
+          "name": "marketing/internal-toolkit-m1-2026-11-15",
+          "sha": "a9acbd64ea1b1cae574a55c83ae9a52e6b9f36f4",
+          "protected": false
+        },
+        {
+          "name": "recovery/yellow-blue-2026-11-15",
+          "sha": "65250f6f56b1018f75504a6673c6bfba8736de43",
+          "protected": false
+        },
+        {
+          "name": "security/admin-session-implementation-20261024",
+          "sha": "44b8f4a5fda8c2f9141f85c029e07451094e8900",
+          "protected": false
+        },
+        {
+          "name": "security/admin-session-implementation-20261025",
+          "sha": "4ccf6ef07d62466e2d974e943df619137bb86ba9",
+          "protected": false
+        },
+        {
+          "name": "security/admin-session-primitives-current-main-2026-11-17",
+          "sha": "460955967beba8db564ed58a77432416315cc348",
+          "protected": false
+        },
+        {
+          "name": "security/auth-session-reconciliation-2026-11-17",
+          "sha": "296b3aa0815af1768e624454bee037f13374a471",
+          "protected": false
+        },
+        {
+          "name": "security/cloudflare-preview-binding-isolation-2026-11-17",
+          "sha": "8d6c523cf056e198e86f49ab0ce2defe90871687",
+          "protected": false
+        },
+        {
+          "name": "security/grpc-remediation-current-main-2026-11-17",
+          "sha": "56d6c05f1ad582287c1f2e005dca0daa6137c84e",
+          "protected": false
+        },
+        {
+          "name": "security/isolate-preview-api-mutations-20261029",
+          "sha": "9283b4154f6c3b5d72a1f11e5a81da911f3ecc15",
+          "protected": false
+        },
+        {
+          "name": "security/preview-storage-isolation-plan-20261029",
+          "sha": "2ecb09f33b952811e6532b3b995ff0a7cadb78df",
+          "protected": false
+        },
+        {
+          "name": "security/reconciliation-2026-11-02",
+          "sha": "150340dc45f693e0975b8870752f96ade8a34b7b",
+          "protected": false
+        },
+        {
+          "name": "security/session-remediation-checklist-20261025",
+          "sha": "3d8ac3281b79118e9f63e432eeed95d1b9950dc8",
+          "protected": false
+        },
+        {
+          "name": "verify/admin-session-cloudflare-20261029",
+          "sha": "716ed4d3bc6e9ab4177b66d364aafeda8b88e7b6",
+          "protected": false
+        },
+        {
+          "name": "verify/cloudflare-free-ci-20261029",
+          "sha": "89de774fef62f4abef0ed1421149992532b8b462",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "VERBATIM",
+      "full": "faroukpandor/VERBATIM",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/019fc652-verbatim",
+          "sha": "431fc0299a2de7d566103527998289f5c93728c5",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "e25d553e8388372408db539c4d471afd9c46f617",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "VANTAGE",
+      "full": "faroukpandor/VANTAGE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "04b12a91d9902dc889bea8b6f3895c9e925f9a5b",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "AETHER-EYE",
+      "full": "faroukpandor/AETHER-EYE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "1d0b5cd36b1e709a3b9ef19dc7da0d90a9643603",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "moruajunction",
+      "full": "faroukpandor/moruajunction",
+      "default": "main",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "94599cf66bf4e00bf61002e5fc8e0d2de6376cc9",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Pulse",
+      "full": "faroukpandor/Pulse",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "b992f39b30f0f95f4fdac7b93d46849c90ff96cc",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "FandW",
+      "full": "faroukpandor/FandW",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "a4534b22900f582259524aa7752c2920d1a645d0",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "HealthTrip",
+      "full": "faroukpandor/HealthTrip",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "8e6031158611d61514aed02fb2bd9eeedc72d86f",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "MOKORO---Digital-Growth-Engine",
+      "full": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 100,
+      "branches": [
+        {
+          "name": "ag-extension-service-delivery-2026-10-23",
+          "sha": "d18e79fbecf2c91b1c69b8beaff6836c75e68cc1",
+          "protected": false
+        },
+        {
+          "name": "arena/b2526717-mokoro-digital-growth-engine",
+          "sha": "d2a07c2abf345056407f6f07cd658eb549aac9b6",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0c421-mokoro-digital-growth-engine",
+          "sha": "97c775429fb2edf54a097c1d695d52bc02dfbcd2",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0d295-mokoro-digital-growth-engine",
+          "sha": "c90c8d4f3a5ed8dd46da1eaacb6bc20026fb8f04",
+          "protected": false
+        },
+        {
+          "name": "arena/01a09c06-mokoro-digital-growth-engine",
+          "sha": "e311699fcd0d7c2e7042e845582ef04b2508e098",
+          "protected": false
+        },
+        {
+          "name": "arena/01a038ba-mokoro-digital-growth-engine",
+          "sha": "24c3c0a50bd67bea5cbd7df981bc059529fe4d4e",
+          "protected": false
+        },
+        {
+          "name": "arena/01a104d7-mokoro-digital-growth-engine",
+          "sha": "f9e9760037a1117b2ad0fc18036bc2240e539c3f",
+          "protected": false
+        },
+        {
+          "name": "arena/15cd23f0-mokoro-digital-growth-engine",
+          "sha": "a02be1f899f3ed627839a7cb8cfa5914a90e2084",
+          "protected": false
+        },
+        {
+          "name": "arena/44ebd128-mokoro-digital-growth-engine",
+          "sha": "272aec91269501413dd6e47e65940b3fc02f879a",
+          "protected": false
+        },
+        {
+          "name": "arena/837b7422-mokoro-digital-growth-engine",
+          "sha": "bf7f4a1f0fd336ee9a2eb73870a217d68b59c772",
+          "protected": false
+        },
+        {
+          "name": "arena/3215a1f0-mokoro-digital-growth-engine",
+          "sha": "c825aff851b63bc897774f9f6858ea6c0b4b38c3",
+          "protected": false
+        },
+        {
+          "name": "artifacts/vendor-readiness-handbook-2026-11-04-v2",
+          "sha": "dd884cba9a81aee39055121fed55ea1604945cfb",
+          "protected": false
+        },
+        {
+          "name": "artifacts/vendor-readiness-handbook-2026-11-04",
+          "sha": "dfa4bbec291fc809113ab9caf017aaea04cb620c",
+          "protected": false
+        },
+        {
+          "name": "audit/code-review-2026-10-02",
+          "sha": "3e7e1394adce94a3d8c0f30fb112c589ecd05f3f",
+          "protected": false
+        },
+        {
+          "name": "campaign/refuseless-affiliate-content-20261116",
+          "sha": "84d379a92ab02e1a0055078480d348742eda1242",
+          "protected": false
+        },
+        {
+          "name": "chore/cloudflare-preview-extra-gates-20261029",
+          "sha": "b7755e5db4d7f04d79ff74af33fd28753a79f9fc",
+          "protected": false
+        },
+        {
+          "name": "ci/cloudflare-free-contract-gate-20261025",
+          "sha": "7c066769cbe3d9e68077dcd0cd844a0fbe2bd615",
+          "protected": false
+        },
+        {
+          "name": "ci/general-pull-request-quality-gate",
+          "sha": "aa4d4fa8c608267cdb447765e95da2c02c5c7ca5",
+          "protected": false
+        },
+        {
+          "name": "ci/lead-storage-contract-20261025",
+          "sha": "7f228eaf9439463830e37af78f56bcfbe7619fe9",
+          "protected": false
+        },
+        {
+          "name": "codex/business-priorities-2026-10-20",
+          "sha": "53d2dd02e3cd97910a31851b9036c93d52af527d",
+          "protected": false
+        },
+        {
+          "name": "collective/dikgosi-competitive-research",
+          "sha": "638c24de21b49051d9cd000b276bc64036021ef7",
+          "protected": false
+        },
+        {
+          "name": "competitive-market-repositioning-v1",
+          "sha": "30b2734efbb09847514b2a94f34116c692de05ae",
+          "protected": false
+        },
+        {
+          "name": "content/refuseless-blog-publication-20261117",
+          "sha": "47b2625ffc77a2e528b079fe3e27b9eb59ea02db",
+          "protected": false
+        },
+        {
+          "name": "digital-asset-commercialisation-v1",
+          "sha": "449ce0b7131509b082dfd27cc750a5a9e42f8cd8",
+          "protected": false
+        },
+        {
+          "name": "docs/abe-chili-buyer-intel-20261116",
+          "sha": "026b3b22c0cdab2da1f21916596eff179e69cffd",
+          "protected": false
+        },
+        {
+          "name": "docs/agri-contracts-legal-review",
+          "sha": "fba74e1c0b9f6dc87613d1a81540c28ce54adb7d",
+          "protected": false
+        },
+        {
+          "name": "docs/armitage-global-trading-orchestration-research",
+          "sha": "50a6042a5781d0182335ea5d6ca05e25fe510e09",
+          "protected": false
+        },
+        {
+          "name": "docs/botswana-agricultural-investment-sourcing",
+          "sha": "3f9af750b2c17b1c862dbc3b24f40f62888a1551",
+          "protected": false
+        },
+        {
+          "name": "docs/botswana-bio-ingredients-opportunity-register-2026-11-08",
+          "sha": "2d1b1aef86520c8549cca31cac4756871e1f9022",
+          "protected": false
+        },
+        {
+          "name": "docs/botswana-produce-aggregation-campaign",
+          "sha": "2938e27c272e2e19d521390f5415eeea1a3ece39",
+          "protected": false
+        },
+        {
+          "name": "docs/continuity-handover-20261025",
+          "sha": "55309bebc4d3e093386ab1877a3a80f855a6bddb",
+          "protected": false
+        },
+        {
+          "name": "docs/controlled-sales-sprint-2026-10-18",
+          "sha": "d329fd2e9f72734f3395460c31018fd6f22ab67f",
+          "protected": false
+        },
+        {
+          "name": "docs/engineering-quality-gates-2026-11-08",
+          "sha": "3fcd09cd86fd1aaad7439942f8d6711ccc46e2a6",
+          "protected": false
+        },
+        {
+          "name": "docs/everythingcity-opportunity-exchange-plan-2026-11-08",
+          "sha": "c4b2be5148e95904f08bd3ce6adf3dc6eac455ef",
+          "protected": false
+        },
+        {
+          "name": "docs/handover-refresh-2026-11-06",
+          "sha": "e51dc3dd7e8a90b2dd0ad233358517549cb5f73d",
+          "protected": false
+        },
+        {
+          "name": "docs/https-offer-botswana-client-acquisition",
+          "sha": "8e082a2922cb28c0253f0fd8160bf72d65e57264",
+          "protected": false
+        },
+        {
+          "name": "docs/portfolio-handover-refresh-20261101",
+          "sha": "7d47e3faf72a74b0b0ade5a74dce3324dfd5ca15",
+          "protected": false
+        },
+        {
+          "name": "docs/portfolio-relationship-manifest-2026-10-17",
+          "sha": "2e52ef4e4555466ddc43e8ae78b94ded1407f1da",
+          "protected": false
+        },
+        {
+          "name": "docs/remote-client-and-contract-pipeline",
+          "sha": "7bb0b18c4c1a2b32ffac506725ec695197c9ecc1",
+          "protected": false
+        },
+        {
+          "name": "execution/agri-investor-pipeline",
+          "sha": "25f6e5cb9ac4fc7cc8a8b7cefe0c1c92385e4d7e",
+          "protected": false
+        },
+        {
+          "name": "feat/adgrowth-intelligence-foundation",
+          "sha": "906f3a8262216ffcf0afce2d8a9b95255a78a858",
+          "protected": false
+        },
+        {
+          "name": "feat/affiliate-link-vault",
+          "sha": "5c41da8dfc414ccdd1c182caea1f5983b15f3953",
+          "protected": false
+        },
+        {
+          "name": "feat/agrivalue-buyer-acquisition",
+          "sha": "ac412bad4ae3f20a8fe7e5c7e4a60a6cee064b0f",
+          "protected": false
+        },
+        {
+          "name": "feat/agrivalue-campaign-preset",
+          "sha": "293022aaebce552a2843a418968b78893579aa17",
+          "protected": false
+        },
+        {
+          "name": "feat/botswana-local-seo-outreach",
+          "sha": "d3ee2839e68c60eebc04f57b0637ca6d895622dc",
+          "protected": false
+        },
+        {
+          "name": "feat/botswana-local-seo-service",
+          "sha": "769da5aa5a821d9a16e3a35271b9ff551a7b66d8",
+          "protected": false
+        },
+        {
+          "name": "feat/buyer-requirement-register-2026-11",
+          "sha": "9bccef3173f6137bbfdc6433371549aace33ab08",
+          "protected": false
+        },
+        {
+          "name": "feat/buyer-requirements-register-mainline-2026-11",
+          "sha": "b2bcfcd57544acf1e55b17e02898c46781407503",
+          "protected": false
+        },
+        {
+          "name": "feat/jennifer-digital-marketing-ready",
+          "sha": "87b30f4a00927bda512f1cf36c844f3531b665c1",
+          "protected": false
+        },
+        {
+          "name": "feat/mokoro-cybersecurity-division",
+          "sha": "24b04bdf392529554efdf9868fda30d63cad45b7",
+          "protected": false
+        },
+        {
+          "name": "feat/opportunity-lead-routing",
+          "sha": "1c3ad1c3d8bf2f9cf8f654b4ec6c56b53f3d8056",
+          "protected": false
+        },
+        {
+          "name": "feat/participation-economy-v1",
+          "sha": "70d10a134761534cf651f55776fa9ad8386efd04",
+          "protected": false
+        },
+        {
+          "name": "feat/participation-secure-intake-v2",
+          "sha": "1d635cefa65a16fcf3be213a6f59a60eba8dd906",
+          "protected": false
+        },
+        {
+          "name": "feature/bala-curriculum-catalogue-20261030",
+          "sha": "0b3688e1498c4a4988a0211809167e2656f379fe",
+          "protected": false
+        },
+        {
+          "name": "feature/digital-vault-opportunity-20261029",
+          "sha": "cd444bd3ae353fc253417e9068a870bf1cde6097",
+          "protected": false
+        },
+        {
+          "name": "feature/local-business-profile-ai-chat",
+          "sha": "a2e09a141d4ec76aa6c7e236b75acaaf6d519e90",
+          "protected": false
+        },
+        {
+          "name": "feature/recurring-product-factory",
+          "sha": "a018e51f30ef2cf31dcb29fb61984f25f2338ec7",
+          "protected": false
+        },
+        {
+          "name": "fix/cloud-build-drift-diagnostics",
+          "sha": "b7472fda7d31f3070d1406089df1dcec8d7ef12c",
+          "protected": false
+        },
+        {
+          "name": "fix/cloudflare-binding-source-20261025",
+          "sha": "cea746dde728a875d8beffcbcaf0836f839d5628",
+          "protected": false
+        },
+        {
+          "name": "fix/cloudflare-functions-imports-main-20261024",
+          "sha": "e979c956722b6f3c1b11178b347dfc9aca45a13f",
+          "protected": false
+        },
+        {
+          "name": "fix/cloudflare-pages-function-imports",
+          "sha": "9ab8658db5717dbfdb4fc7883e2ede5173ec4d6d",
+          "protected": false
+        },
+        {
+          "name": "fix/cloudflare-pages-functions-imports-20261024",
+          "sha": "b0db0270afae06f854f38ea422648925defb8fc1",
+          "protected": false
+        },
+        {
+          "name": "fix/cloudflare-preview-verification-20261031",
+          "sha": "ce58c644c0ac2abfa950bc21a9a8fd329d6e75b6",
+          "protected": false
+        },
+        {
+          "name": "fix/complete-next16-and-bounded-lead-ingest-2026-11",
+          "sha": "16930b92d3a1650e4256cc1a3c8004b3b09632d6",
+          "protected": false
+        },
+        {
+          "name": "fix/contact-flow-and-privacy",
+          "sha": "6e4f3bc6c466bf9ecef1d325eaf250dd69daccdb",
+          "protected": false
+        },
+        {
+          "name": "fix/digital-marketing-card-contrast",
+          "sha": "786f40407cce21b8a5f26f72aa6aee399abef542",
+          "protected": false
+        },
+        {
+          "name": "fix/intake-storage-required-20261025",
+          "sha": "c271e9ee11922cd660e46cb33647b8cb98af6591",
+          "protected": false
+        },
+        {
+          "name": "fix/intake-store-or-reject-verified-20261025",
+          "sha": "2b57575b5b005c213ed09328dee8facccdc8dce1",
+          "protected": false
+        },
+        {
+          "name": "fix/lead-require-persistence-20261025",
+          "sha": "2a02e6a84efd81e5c0396d1c42d3ff8e185788d5",
+          "protected": false
+        },
+        {
+          "name": "fix/legacy-submit-lead-persistence-20261025",
+          "sha": "ef7c5dafaa5469dd511bc0d4a8d4b33e84c49102",
+          "protected": false
+        },
+        {
+          "name": "fix/legacy-submit-lead-verified-20261025",
+          "sha": "e175206abf63b0c24c884ba56e7e4622cc923307",
+          "protected": false
+        },
+        {
+          "name": "fix/next16-lint-20261028",
+          "sha": "37a181e581b550aff2fa68dc0243c99690b7bd91",
+          "protected": false
+        },
+        {
+          "name": "fix/next-intake-fail-closed-20261025",
+          "sha": "0c32df3c94bb8a1b7fee52f7b75985233aba1107",
+          "protected": false
+        },
+        {
+          "name": "fix/next-lead-fail-closed-20261025",
+          "sha": "4c2f21bbf7396095f7405ed75c0e8c43e5c8b8c9",
+          "protected": false
+        },
+        {
+          "name": "fix/node-enquiry-fail-closed-contracts-20261109",
+          "sha": "effc224d165a06ad7bc24c57ee29b2688477d36c",
+          "protected": false
+        },
+        {
+          "name": "fix/security-reliability-2026-10-02",
+          "sha": "160a6377e0f3ef3e53e61e163f7d30f268a5fdb0",
+          "protected": false
+        },
+        {
+          "name": "governance/portfolio-resilience-v1",
+          "sha": "92e9be6ddfba123b1094b7b2d3d605950a6f7355",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "36f551ba77f4c64637c445a5e545a5f2e00c2c40",
+          "protected": false
+        },
+        {
+          "name": "research/agri-competitive-positioning-2026-10",
+          "sha": "63555abb4549fd922031b0a5b180bef177d77fbb",
+          "protected": false
+        },
+        {
+          "name": "research/agriculture-contract-mandate-2026-10-17",
+          "sha": "7165bac28030c8b7f370c12358225e932610f8cb",
+          "protected": false
+        },
+        {
+          "name": "research/botswana-chatbot-prospects-20261114",
+          "sha": "dcb956c5026a0cdb8e958cb1f36749bb082ce321",
+          "protected": false
+        },
+        {
+          "name": "research/botswana-enterprise-programme-leads-2026-10-17",
+          "sha": "ab09694b63166bca0cad287a6bd0fd402d3b446a",
+          "protected": false
+        },
+        {
+          "name": "research/botswana-licensed-hawker-value-pilot-2026-10-18",
+          "sha": "54db392ee3b4aff98fa92ee7db7b2ae72b201d38",
+          "protected": false
+        },
+        {
+          "name": "research/evidence-ready-botswana-discovery-2026-11",
+          "sha": "f31f259d4cf3b7e877fb151bcf738f17efa09e68",
+          "protected": false
+        },
+        {
+          "name": "research/hamza-nrtc-agency-model",
+          "sha": "112dfa96319f1b8a0791c000e413e62df47fd263",
+          "protected": false
+        },
+        {
+          "name": "research/software-market-handover-2026-11",
+          "sha": "a9211c4511aed819f00fa0e77b34199625eada8e",
+          "protected": false
+        },
+        {
+          "name": "revenue/local-growth-wedge-v1",
+          "sha": "f0b8b9f0446d344eaa5286b29dbde529801a2e4b",
+          "protected": false
+        },
+        {
+          "name": "security/audit-fail-closed-20261026",
+          "sha": "8bdadb9fe2adc3cdd3a5d35c5e059fcd969fa1d5",
+          "protected": false
+        },
+        {
+          "name": "security/audit-fail-closed-main-20261031",
+          "sha": "afa30f047d2106184502531b56fce4b1a010391d",
+          "protected": false
+        },
+        {
+          "name": "security/baseline-refresh-2026-11",
+          "sha": "18eccbd63eaf1c2f2595e3e73d760eee45db9742",
+          "protected": false
+        },
+        {
+          "name": "security/disable-unsafe-audit-fetch-20261025",
+          "sha": "a83c5956b55414c3e53046b153e82033ed8ae453",
+          "protected": false
+        },
+        {
+          "name": "security/harden-gitignore-20261012",
+          "sha": "18ec77563dff776682beb5307d892925a7fa5602",
+          "protected": false
+        },
+        {
+          "name": "security/npm-audit-remediation-2026-11",
+          "sha": "a1d0607ee2fb7f9cbbda5f1ceffb0fe4facd85b4",
+          "protected": false
+        },
+        {
+          "name": "security/seo-audit-review-20261025",
+          "sha": "2698332162de54c94d8d657ace119c48476e8a41",
+          "protected": false
+        },
+        {
+          "name": "security/vibesec-baseline-2026-11",
+          "sha": "ca41dc242785250eb5da4717e8515a4ee7f7054b",
+          "protected": false
+        },
+        {
+          "name": "security/vibesec-informed-baseline-20261108",
+          "sha": "09602e5e7cdcd1bd223e0db5470c1fb35d121961",
+          "protected": false
+        },
+        {
+          "name": "seo/factual-structured-data-20261030",
+          "sha": "3dadf895fb51241057236c3598c0e1aa0cba5a66",
+          "protected": false
+        },
+        {
+          "name": "strategy/agri-enterprise-growth-trade-2026-11",
+          "sha": "e49ca9a18d25ed47cbd30c08dd2ee11b7846a676",
+          "protected": false
+        },
+        {
+          "name": "strategy/botswana-international-consultancy-competitive-intelligence-20261121",
+          "sha": "e1f007e5ae913cbf0b82aa2fc792e103db83b9c2",
+          "protected": false
+        },
+        {
+          "name": "strategy/cloud-to-cash-opportunity-2026-10",
+          "sha": "43999a3227c9836f91aeb20e58f9406df56e9d3e",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Nurture",
+      "full": "faroukpandor/Nurture",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 19,
+      "branches": [
+        {
+          "name": "arena/b16ed082-nurture",
+          "sha": "89bd69a778fe48e494096c480c40158455b5bb62",
+          "protected": false
+        },
+        {
+          "name": "arena/bb30c1d3-nurture",
+          "sha": "2ce3ac801c03840a2b6e5b2436a7f5f06bac08cf",
+          "protected": false
+        },
+        {
+          "name": "arena/eafb02d6-nurture",
+          "sha": "1e3dac4d4a38307b19f59886c0089950e8c5d962",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0d594-nurture",
+          "sha": "1faa98b717223b4b1063a97415fd114d7b183335",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0df4f-nurture",
+          "sha": "7471db6ffff6701d8aa019e21fe5c32c008d968e",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0e0c3-nurture",
+          "sha": "e376d175ea9eb2bf410839dea21238a4bba472c0",
+          "protected": false
+        },
+        {
+          "name": "arena/01a08ef1-nurture",
+          "sha": "7c887dc724af2bb47f9fe6a9e636f58a941c82c9",
+          "protected": false
+        },
+        {
+          "name": "arena/01a08f49-nurture",
+          "sha": "06dac57781ea2a37391f464cbe9dec7e0042bcdb",
+          "protected": false
+        },
+        {
+          "name": "arena/01a08f98-nurture",
+          "sha": "84d1d9bb8f0115e3e275b761a55ad750d3992ce1",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0806e-nurture",
+          "sha": "7b8d9a5aad6a7457209c6592ee75b53726fc82ab",
+          "protected": false
+        },
+        {
+          "name": "arena/01a09008-nurture",
+          "sha": "0defd825d1d9a5b062d5906b2d4cb9cb401b3280",
+          "protected": false
+        },
+        {
+          "name": "arena/7686d257-nurture",
+          "sha": "991b1e14f9c282949b6c1d8b001e4d7a4cca8ca3",
+          "protected": false
+        },
+        {
+          "name": "arena/32285941-nurture",
+          "sha": "72efd95b05781be103035fbcc7011de853d41aff",
+          "protected": false
+        },
+        {
+          "name": "dependabot/npm_and_yarn/jsdom-31.0.1",
+          "sha": "4aea819e5c473c24bfd905282edc7bb48f1d680f",
+          "protected": false
+        },
+        {
+          "name": "dependabot/npm_and_yarn/lucide-react-1.72.0",
+          "sha": "dc961beff0ce0a4dc0b9a6d7bb69942ab6718ed3",
+          "protected": false
+        },
+        {
+          "name": "dependabot/npm_and_yarn/oxlint-1.93.0",
+          "sha": "c03d21871002b18a069e84fcfc3e07b2d3f0a5e6",
+          "protected": false
+        },
+        {
+          "name": "dependabot/npm_and_yarn/vite-react-tooling-ef5dd1169f",
+          "sha": "054864f0a55560375fa6d71514f5c3c07db17846",
+          "protected": false
+        },
+        {
+          "name": "feat/journey-visual-map",
+          "sha": "460bd50a65687919506de1c334f37be3dc16567a",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "69f72a2c6e792115870ec9c1d89e29a9b5af9dee",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "cloudflare1",
+      "full": "faroukpandor/cloudflare1",
+      "default": "main",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "7a0153dafb5cc323ed3a10ac37b791a51c02a48f",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "assemble",
+      "full": "faroukpandor/assemble",
+      "default": "master",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "master",
+          "sha": "8f1f412175434f11ecba3893e72e375d1968acd0",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Farouk-s-Store-by-ZoroDesign",
+      "full": "faroukpandor/Farouk-s-Store-by-ZoroDesign",
+      "default": "main",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "8be4ee5ea687950752edd4c1c33546fafd82d145",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "BlackViperScript",
+      "full": "faroukpandor/BlackViperScript",
+      "default": "master",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "master",
+          "sha": "4c0374d091b3eba17ff687d860c5a86994aebe4b",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "lepidocyrtinus-botswanensis",
+      "full": "faroukpandor/lepidocyrtinus-botswanensis",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "5d38ad1fce4ab20c2ae3eedab69812a46d3134d3",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}
