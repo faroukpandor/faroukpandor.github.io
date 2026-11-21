@@ -1,0 +1,342 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 3,
+  "range": [
+    31,
+    47
+  ],
+  "repositories": [
+    {
+      "name": "BLUEPRINT",
+      "full": "faroukpandor/BLUEPRINT",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 4,
+      "branches": [
+        {
+          "name": "arena/d9ee8752-blueprint",
+          "sha": "e0b2f55b52d474e0080c661cfd633e6bf8756edb",
+          "protected": false
+        },
+        {
+          "name": "arena/01a02486-blueprint",
+          "sha": "f58e6b141e733695f0b577f9197426ca2663aada",
+          "protected": false
+        },
+        {
+          "name": "arena/01a03319-blueprint",
+          "sha": "80c566fd14de79857b6f6a95257a2e2964174247",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "186741ede08302deaba03f1f327ebce0c41c91ea",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Al-Mu-allim-AI-Madrassa-Tutor",
+      "full": "faroukpandor/Al-Mu-allim-AI-Madrassa-Tutor",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "d6c0484ef6c9f2fbcbac7b3b92c4b8b93b1f0f21",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "NEXUS-ONEHEALTH",
+      "full": "faroukpandor/NEXUS-ONEHEALTH",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "2166ab27427b776f681ae97862c80dbe10a96352",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "HEALTHHAVEN",
+      "full": "faroukpandor/HEALTHHAVEN",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "6e5af86a3fa2958828fb11be7d44193b32750f87",
+          "protected": false
+        },
+        {
+          "name": "safety/disable-unconnected-clinical-actions",
+          "sha": "93c714ad59e391a1a02331bccf918169405c691f",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "PANDOR-MARKETS",
+      "full": "faroukpandor/PANDOR-MARKETS",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/1cb6eec0-pandor-markets",
+          "sha": "3c62c08bd44fa90b8b872563689f3325f02e9b7d",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "3597dd3f219cf84689fd0ac83adda7e761ea4e15",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "python-binance",
+      "full": "faroukpandor/python-binance",
+      "default": "master",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "master",
+          "sha": "7d7b7fb029631db74852b2e84ed237911307495f",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "moruajunction1",
+      "full": "faroukpandor/moruajunction1",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "7bfda9060e663e589a053dd1e036d68f786f0063",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "TENDER-SUPPLIER-READINESS",
+      "full": "faroukpandor/TENDER-SUPPLIER-READINESS",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "c6eec0ff78b7acf936d99231a00b256c3ae7be47",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "SCRIPTFLOW",
+      "full": "faroukpandor/SCRIPTFLOW",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "9deb121ea56384e38bf914248c08b521fcbcca7f",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Clean-Coder-AI",
+      "full": "faroukpandor/Clean-Coder-AI",
+      "default": "master",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "dev",
+          "sha": "b29142351b0acb2dcadef7235f596e39a6a10245",
+          "protected": false
+        },
+        {
+          "name": "master",
+          "sha": "091b435e240e8168a0ebbf3472958766d83e3ef3",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "ERP-ULTIMATE",
+      "full": "faroukpandor/ERP-ULTIMATE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "7fe873bd5d813e048ea8104e309d3ac6b33f9297",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "botswanoncus-ellisi",
+      "full": "faroukpandor/botswanoncus-ellisi",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "ea0c8ed29cd172c061ba1d97883d123c825bfb02",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "SyncForge",
+      "full": "faroukpandor/SyncForge",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "0406c779b92c1fa9d2c8d9422ea1bfc0898ffd93",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "AFRICA-BUSIENSS-WEEKLY",
+      "full": "faroukpandor/AFRICA-BUSIENSS-WEEKLY",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 3,
+      "branches": [
+        {
+          "name": "african-business-weekly-profit-strategy-6e994",
+          "sha": "0d670dd4ec083e4d8bc5bca06675a096eb51cf0c",
+          "protected": false
+        },
+        {
+          "name": "elite-expert-collaboration-for-pwa-excellence-f9f38",
+          "sha": "da1838c831c8e92a5fde560329cf318a80ff5b52",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "a15853cf4c3c9c0488d0baabb3c450212c681995",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "lekanyane",
+      "full": "faroukpandor/lekanyane",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/e8d3ff5c-lekanyane",
+          "sha": "fa9f39ad07d1c1d4e7554eee5faa8cfd169e9949",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "57873017da92b858dd9455500d3c16d1a9efa954",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "SourceTrust",
+      "full": "faroukpandor/SourceTrust",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "89e2f6f7e04328857fbe14debe91da17a74b6ad6",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "EliteDir---Professional-Product-Service-Directory",
+      "full": "faroukpandor/EliteDir---Professional-Product-Service-Directory",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 4,
+      "branches": [
+        {
+          "name": "audit/supplier-directory-readiness-2026-11-04",
+          "sha": "e9127c13fe6a77f6ab5f1b95fd5d6f572bcac3eb",
+          "protected": false
+        },
+        {
+          "name": "codex/business-priorities-2026-10-20",
+          "sha": "92bbb25468e0c1a9eb0748b469a157551468d415",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "c2177f5af6246b468e87f6cc41b2225362250b73",
+          "protected": false
+        },
+        {
+          "name": "strategy/vendor-verification-data-model-2026-11-04",
+          "sha": "0c393e7389229e71a9eab703ae8a32ffcb0f0963",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}

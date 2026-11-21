@@ -1,0 +1,727 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 16,
+  "range": [
+    252,
+    268
+  ],
+  "repositories": [
+    {
+      "name": "AGRISAGE",
+      "full": "faroukpandor/AGRISAGE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 81,
+      "branches": [
+        {
+          "name": "ag-extension-programme-2026-10-23",
+          "sha": "50f49d6a98cfbe6a2f8c59f99c6cf503d1fb6a65",
+          "protected": false
+        },
+        {
+          "name": "arena/agrisage-production-100-cycle-20261101",
+          "sha": "1cfccf6455e1d0adcc60646c39158a827389323c",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0bf65-agrisage",
+          "sha": "98985896e57f38b8242b2745e7b3208e3d8c2c26",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0eb51-agrisage",
+          "sha": "ef41312ea369d27ce39746febe76e5d8896ca18e",
+          "protected": false
+        },
+        {
+          "name": "arena/01a041b9-agrisage",
+          "sha": "fc2961a84e3c910ac14a84aede680ac5fc858668",
+          "protected": false
+        },
+        {
+          "name": "arena/01a099db-agrisage",
+          "sha": "b1c7972e72f0e297dfea2bad4c439adb26b52510",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0707a-agrisage",
+          "sha": "5358d8ff63bb6a2df04e9f741ba838ffdd4362f2",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0993e-agrisage",
+          "sha": "6c20346206d9db0976ff44868f641793f81c0762",
+          "protected": false
+        },
+        {
+          "name": "arena/01a09719-agrisage",
+          "sha": "e4c9cf49bfebbcb3033662511f6a84eed41fab46",
+          "protected": false
+        },
+        {
+          "name": "arena/01a09761-agrisage",
+          "sha": "15783a830ee407ef76486b2c36f75dbf285905cf",
+          "protected": false
+        },
+        {
+          "name": "arena/8fa6ea57-agrisage",
+          "sha": "26fa9ccda1e6223349b17e29e80b5eb4bd19416e",
+          "protected": false
+        },
+        {
+          "name": "arena/019ffa79-agrisage",
+          "sha": "12ae0d51b2f862a4ca682129749d0cbd094bcfaf",
+          "protected": false
+        },
+        {
+          "name": "audit/animal-health-provenance-2026-10-17",
+          "sha": "588e8272fca30156feeac950b9f36cd747f2ac12",
+          "protected": false
+        },
+        {
+          "name": "chore/cloudflare-primary-ci-20261029",
+          "sha": "47e4a1dc0f8124fc3abfbd2217a69e46c07460c3",
+          "protected": false
+        },
+        {
+          "name": "chore/remove-coop-benchmark-attribution-2026-10-23",
+          "sha": "e525227bf91742d15212cd181c068d77514c248a",
+          "protected": false
+        },
+        {
+          "name": "chore/verify-cloudflare-legacy-gate-20261029",
+          "sha": "233936b57752b7906043d6f611f542f799c8a5df",
+          "protected": false
+        },
+        {
+          "name": "codex/business-priorities-2026-10-20",
+          "sha": "3c1e78615f40874c85498cef8f461fa5cc8a18d5",
+          "protected": false
+        },
+        {
+          "name": "consolidation/agricultural-market-linkage-pilot-2026-10-24",
+          "sha": "5f59a11bcc582a97f8f932d5583016385c51c9d4",
+          "protected": false
+        },
+        {
+          "name": "consolidation/farmer-pathway-privacy-impact-2026-10-24",
+          "sha": "ed0de77acc921590c2ac8f024041ee5b183643b3",
+          "protected": false
+        },
+        {
+          "name": "content/botswana-editorial-2026-11",
+          "sha": "76a905a29577f789b558c1d8ea5d35cfe8deed73",
+          "protected": false
+        },
+        {
+          "name": "demand-driven-front-door-v1",
+          "sha": "b380878bcb83e45e274adaab0ff35d4843947d43",
+          "protected": false
+        },
+        {
+          "name": "digital-asset-commercialisation-v1",
+          "sha": "9504c62c509fda7c068ad40c7a4b3b4e55cbaffd",
+          "protected": false
+        },
+        {
+          "name": "docs/abe-chili-botswana-intel-20261116",
+          "sha": "f0a1f28275e95470ceb198df497442d2807f7fd7",
+          "protected": false
+        },
+        {
+          "name": "docs/agri-opportunity-screening-gates-2026-10-17",
+          "sha": "a59229f6e54a96ad25e767c931971c721251defb",
+          "protected": false
+        },
+        {
+          "name": "docs/agri-programme-routing-2026-10-17",
+          "sha": "35d522febadeec840a7ba7d2b982e75d264baf36",
+          "protected": false
+        },
+        {
+          "name": "docs/agri-workflows-and-programmes-2026-10-17",
+          "sha": "0b59bc44d841f074080fd3cca97bee59ca5349ea",
+          "protected": false
+        },
+        {
+          "name": "docs/agrisage-ai-workflow-filter-2026-10-17",
+          "sha": "4277ede7c36b73d2dbadd3399ea769e55e41230d",
+          "protected": false
+        },
+        {
+          "name": "docs/agrivalue-encrypted-vault-status",
+          "sha": "8a5eab83258c6f9af6ef127fa6300eafcf8e68b6",
+          "protected": false
+        },
+        {
+          "name": "docs/agrivalue-handover-correction-2026-11-06",
+          "sha": "75ae993e2bc424596603f5ef7229495be6f1bd39",
+          "protected": false
+        },
+        {
+          "name": "docs/agrivalue-implementation-status",
+          "sha": "d8dab25abfaa22748a40f853f2f620183ccea194",
+          "protected": false
+        },
+        {
+          "name": "docs/botswana-agricultural-contract-intelligence",
+          "sha": "a270743f542e21b3e21b4a1eb4c68c67059d67ee",
+          "protected": false
+        },
+        {
+          "name": "docs/botswana-agricultural-feasibility",
+          "sha": "7b3f74d9cb4df61c5d790b2c5e9bade51d8f92f4",
+          "protected": false
+        },
+        {
+          "name": "docs/ditloo-herb-aggregation-pilot",
+          "sha": "7f5a2917b381b53d3d1cf8658243333ae0edac5a",
+          "protected": false
+        },
+        {
+          "name": "docs/impact-evidence-protocol-2026-10-23",
+          "sha": "e27709962b62dad42d3129a8d3d24fa12454c3ab",
+          "protected": false
+        },
+        {
+          "name": "docs/kalahari-hive-safety-welfare-20261031",
+          "sha": "9b6567b13462b9824926000deb40fa5566b789b6",
+          "protected": false
+        },
+        {
+          "name": "execution/opuntia-fodder-validation-pilot",
+          "sha": "bb2f28b777e6e8134705e224aab90548289b028d",
+          "protected": false
+        },
+        {
+          "name": "faroukpandor-patch-1",
+          "sha": "66a2d0cb4a70d787b873c20a996de96b7552aa1d",
+          "protected": false
+        },
+        {
+          "name": "feat/agriculture-opportunity-readiness",
+          "sha": "068cbc9bc6f4a8e44c022db90c45c1442d3cebb1",
+          "protected": false
+        },
+        {
+          "name": "feat/agrivalue-operations-workspace",
+          "sha": "dd9d291a9753a3e93ffdc727e9a5d12639ee5eba",
+          "protected": false
+        },
+        {
+          "name": "feat/agrivalue-sourcing-market-access",
+          "sha": "00c81b8791f7d36b511315ae8fe324b0bdf38598",
+          "protected": false
+        },
+        {
+          "name": "feat/aspiring-farmer-pathway",
+          "sha": "77da16ecb4c852be1d2686026b4788c8cfd379e3",
+          "protected": false
+        },
+        {
+          "name": "feat/aspiring-farmer-pathway-final",
+          "sha": "f160d618f5fb4f04baba71f5005199be588568d4",
+          "protected": false
+        },
+        {
+          "name": "feat/aspiring-farmer-pathway-review",
+          "sha": "49005b68a23088787726920b4a7c4c5004ecfe0b",
+          "protected": false
+        },
+        {
+          "name": "feat/faо-agris-research-discovery",
+          "sha": "019d48124517f5b5ff53ab1a4cfe8cf6a334d9f7",
+          "protected": false
+        },
+        {
+          "name": "feat/fao-agris-research-discovery",
+          "sha": "191fa888f7294bc6e6793df5c69cb11c42ac0cba",
+          "protected": false
+        },
+        {
+          "name": "feat/html-first-broiler-business-mvp-2026-10-18",
+          "sha": "08dfa9fa5462e68b0036223ddc68e28a4626ed16",
+          "protected": false
+        },
+        {
+          "name": "feat/livestock-master-record-fields",
+          "sha": "256dc41fb43b8c4c77559633ac0f527586776105",
+          "protected": false
+        },
+        {
+          "name": "feature/agri-digital-asset-revenue-engine",
+          "sha": "78ad7d4520952202294fb52e9afe3c07b5d76ed6",
+          "protected": false
+        },
+        {
+          "name": "feature/biotrade-buyer-first-2026",
+          "sha": "3e87d8e61ce3d8ce29c683e2d80a908b394d27c1",
+          "protected": false
+        },
+        {
+          "name": "feature/ceda-cattle-funding-readiness-pilot-20261103",
+          "sha": "f01c9c9913240e31549d6390cfe725329419be08",
+          "protected": false
+        },
+        {
+          "name": "feature/digital-vault-opportunity-20261029",
+          "sha": "58e4c3c116f64993f059d7f3e5a1ba1374f7ed23",
+          "protected": false
+        },
+        {
+          "name": "feature/funding-plan-financial-core",
+          "sha": "beaa9bea3f279a1f0ae8ab72bd44365214cc5618",
+          "protected": false
+        },
+        {
+          "name": "feature/poultry-flock-management-mvp",
+          "sha": "3f5d92d4fed9436dde391aea0e21bfd4cab27fa1",
+          "protected": false
+        },
+        {
+          "name": "feature/poultry-supply-watch-evidence-20261028",
+          "sha": "79338ecfe3c93abacbd0bdb548582cbaa904d4ec",
+          "protected": false
+        },
+        {
+          "name": "feature/public-farmer-rainfall-guide-2026",
+          "sha": "924982c05ffeef85ef4bc0ed9f929db9e2a1d8e3",
+          "protected": false
+        },
+        {
+          "name": "fix/academy-claims-results-20261028",
+          "sha": "4613614b3a8f67ded5138c7689b59ee7d049b528",
+          "protected": false
+        },
+        {
+          "name": "fix/agrisage-contract-doc-index-visitor-gate-2026-10-17",
+          "sha": "5297fa8f65f37cd23001a7e392912c6c1b06a9f7",
+          "protected": false
+        },
+        {
+          "name": "fix/agrisage-main-hygiene-guards-2026-10-16",
+          "sha": "4c46d530349934a8a1c3afda875f57be0ba11ce3",
+          "protected": false
+        },
+        {
+          "name": "fix/agrivalue-encrypted-local-vault",
+          "sha": "7a6eb4e2f6198ebed0ac81ff26dd2de5f6fd7b5a",
+          "protected": false
+        },
+        {
+          "name": "fix/analytics-delete-scope-honesty-2026-10-23",
+          "sha": "ee727ad4f92807d3a12a35441a6f925afb16faad",
+          "protected": false
+        },
+        {
+          "name": "fix/dev-setup",
+          "sha": "cacb7b19a503f60a943d8e18be566497042b6735",
+          "protected": false
+        },
+        {
+          "name": "fix/docs-index-cloudflare-build-2026",
+          "sha": "e261f0608dd39f2ae397d81eee1b501f8fa600cd",
+          "protected": false
+        },
+        {
+          "name": "fix/editorial-static-routing-seo-2026",
+          "sha": "d8326eb10b25aaff8ef46aac5fe74721a3a6a8ef",
+          "protected": false
+        },
+        {
+          "name": "fix/fao-agris-contract-docs-index",
+          "sha": "b8ccb297b1bcb349d4e93d62fd8d3c4a0dd02279",
+          "protected": false
+        },
+        {
+          "name": "fix/farm-record-save-status-2026-10-21",
+          "sha": "a2628c72edbfb8f0ab3452a737a43f0474b66130",
+          "protected": false
+        },
+        {
+          "name": "fix/honest-adverse-report-status-2026-10-23",
+          "sha": "59e5385da752b1dfb4e6be0909536676aee3a224",
+          "protected": false
+        },
+        {
+          "name": "fix/owner-scoped-livestock-persistence",
+          "sha": "2f3a563a87f6b008f08f00360ed04a5c4c3625b1",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "e4d03b3f71cf5b66c2b77d223a48d690bf3ec1c1",
+          "protected": false
+        },
+        {
+          "name": "research/agriculture-contract-review-2026-10-17",
+          "sha": "6cf552e46a9426e635f57bcda218d10c625a54c4",
+          "protected": false
+        },
+        {
+          "name": "research/agtech-software-opportunity-2026-11",
+          "sha": "ff23d947ab134dd74b08ca506b195a559088605b",
+          "protected": false
+        },
+        {
+          "name": "research/competitive-intelligence-2026-10",
+          "sha": "35514dc02b3387108f10195fa770a34f8377a40a",
+          "protected": false
+        },
+        {
+          "name": "research/protein-value-chain-opportunity-map",
+          "sha": "d01004a23d281c55f5239757c7053412003ce0d6",
+          "protected": false
+        },
+        {
+          "name": "safety/animal-health-claims-guardrails-2026-10-17",
+          "sha": "5b31f32039baf290904934c29c0de706a710ab37",
+          "protected": false
+        },
+        {
+          "name": "security/fail-closed-public-ai-gate-2026-10-23",
+          "sha": "cefafee4f345486efa20263555904a7808a688e9",
+          "protected": false
+        },
+        {
+          "name": "strategy/agrisage-ai-opportunity-filter-2026-10-16",
+          "sha": "1b99bf4c22d83df248698b93019a14824cf5df22",
+          "protected": false
+        },
+        {
+          "name": "strategy/buyer-led-production-traceability-2026-11",
+          "sha": "17b0f6f316dfae6060a8d707fea89ee30212cffa",
+          "protected": false
+        },
+        {
+          "name": "strategy/farm-digital-vault-revenue-2026-10",
+          "sha": "09789584b04a7f84abac8cfc75831f3408c17bf0",
+          "protected": false
+        },
+        {
+          "name": "strategy/mpatlise-competitive-2026-10",
+          "sha": "a36d3665799deed037ea5fc699c62f8d86ca7b9b",
+          "protected": false
+        },
+        {
+          "name": "strategy/40-offer-farm-vault-routing-2026-10",
+          "sha": "1a8d809eb4fd8738cbd78afa9a135eb63c7ef16c",
+          "protected": false
+        },
+        {
+          "name": "ui/visual-story-primitives-evidence-2026-10-17",
+          "sha": "5676a887b272b738ac0720871f7a034239d30ed3",
+          "protected": false
+        },
+        {
+          "name": "verify/cloudflare-free-ci-20261029",
+          "sha": "ae72f444595668f55a9ae159563ead3a0c3e745a",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "niambia-botswanaensis",
+      "full": "faroukpandor/niambia-botswanaensis",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "7600bd223ae4e974b1fc978bab4d8615c244aad1",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "EVERYTHING-CITY",
+      "full": "faroukpandor/EVERYTHING-CITY",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 3,
+      "branches": [
+        {
+          "name": "docs/agri-contracts-legal-review",
+          "sha": "a6929dfd75904e901c7e0a53e0e5861a9e40d677",
+          "protected": false
+        },
+        {
+          "name": "governance/portfolio-resilience-v1",
+          "sha": "e6518ee9050b051e37ff04d3bdda0f55cb829496",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "5d9bb23b1d2e766bd0486fc74eee0dc1c6465112",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "BlogPulse",
+      "full": "faroukpandor/BlogPulse",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "c629ba53613b49d1274827300e14be7cb4ce9bb5",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "smartfarm",
+      "full": "faroukpandor/smartfarm",
+      "default": "master",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 7,
+      "branches": [
+        {
+          "name": "ag-extension-farm-records-2026-10-23",
+          "sha": "bdceaa9451d9893018b5f8596a06b8b5c0e8da69",
+          "protected": false
+        },
+        {
+          "name": "feature/livestock-performance-calculator-20261121",
+          "sha": "2c1165bdff63c29c94a6a64b4ec4c6c8550aae86",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "f8d6eb3a73ebaddfd288daf2cf0249bf8eade257",
+          "protected": false
+        },
+        {
+          "name": "master",
+          "sha": "ee45716f0f1cd21b235937d5e76f242fd1d4e7a0",
+          "protected": false
+        },
+        {
+          "name": "research/botswana-ranch-profitability-20261121",
+          "sha": "f29ae5f0436d858eca1430cedf64c32bf07d11c0",
+          "protected": false
+        },
+        {
+          "name": "research/botswana-ranch-profitability-master-20261121",
+          "sha": "068070e4b1a33831b3565d65a295f2745ce08a01",
+          "protected": false
+        },
+        {
+          "name": "research/competitive-intelligence-2026-10",
+          "sha": "8f3da93169c39e286f8a05b95625761bb7ab7526",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Botswana-Graduate-Enterprise-Employment-Network",
+      "full": "faroukpandor/Botswana-Graduate-Enterprise-Employment-Network",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "47f1b8b36273078ce16e29004f476af84d94596e",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Continuum-Care",
+      "full": "faroukpandor/Continuum-Care",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "feat/botswana-care-seo-sop",
+          "sha": "7a2d4b4e2efc1a466e174187d458249aa6bd7a17",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "7a8771754f0eaeac9779e2e4c0a9a0b79f170144",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "AGRINEXUS",
+      "full": "faroukpandor/AGRINEXUS",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "fa39c6ff5af9d2642626ce51bafb617ef0ec27f6",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "branchipodopsis-kalaharensis",
+      "full": "faroukpandor/branchipodopsis-kalaharensis",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "42679aaa780fbb770c7969625667993fb1be385e",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "WindLease-Connect",
+      "full": "faroukpandor/WindLease-Connect",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "04eed60fe5c7d157b591294fd491e426cb2bdfb3",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "MASTERY-FORGE",
+      "full": "faroukpandor/MASTERY-FORGE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "4160616fcfa071d82aea55b163a325bde0ccf626",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "SovereignFlow",
+      "full": "faroukpandor/SovereignFlow",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "5590e6f93f6533268286200d97702fa8d8fc3cf6",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "OmniDesign-Studio",
+      "full": "faroukpandor/OmniDesign-Studio",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "2e695f89f8ba49f7ee6d5cb5a1a1f141a8dd61bb",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "metsigrid",
+      "full": "faroukpandor/metsigrid",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "d9a2788ed60020696169abd71aee9eb93472560b",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Apex",
+      "full": "faroukpandor/Apex",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "8384537d00142a6f29fe448c3087e20173dbec5f",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "BOSHU",
+      "full": "faroukpandor/BOSHU",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "31db64da58b2b3a8f119454aed85879c6ef89c94",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Acrea",
+      "full": "faroukpandor/Acrea",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "bf80c0bf856dbff8e6db639847192c4db55d387d",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}

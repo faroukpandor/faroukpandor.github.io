@@ -1,0 +1,917 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 10,
+  "range": [
+    150,
+    166
+  ],
+  "repositories": [
+    {
+      "name": "FROST-Threat-Report",
+      "full": "faroukpandor/FROST-Threat-Report",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "046afd05809d862c7db32913f46895638a431eb8",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "syringoplana-kolasai",
+      "full": "faroukpandor/syringoplana-kolasai",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "a909c74e0b387a98892c1dea7fb6a0ad1c364847",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "amphibolocypris-arida",
+      "full": "faroukpandor/amphibolocypris-arida",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "3a5bb2c8a74f842243497e19db4cbc0bee9f06a2",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Kgalagadi-Horizon",
+      "full": "faroukpandor/Kgalagadi-Horizon",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "a5db8656189f5f2c48747abecf7d307006c17f96",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "agrisphere",
+      "full": "faroukpandor/agrisphere",
+      "default": "main",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 3,
+      "branches": [
+        {
+          "name": "arena/01a076dc-agrisphere",
+          "sha": "ed8870d6e5294f31a7676dc6c0a0fd227fba7107",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "ef2589bb2da71e879130a99ffcc1d4fe2372df60",
+          "protected": false
+        },
+        {
+          "name": "research/competitive-intelligence-2026-10",
+          "sha": "3e650c42d3128b91696ba2e89b88c2ba25b3cab0",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "FAROUKPANDORCONSULTANT",
+      "full": "faroukpandor/FAROUKPANDORCONSULTANT",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 13,
+      "branches": [
+        {
+          "name": "audit/wcd-production-assurance-20261029",
+          "sha": "79805248b31426ce7b65a8d3532dbc814f3051b3",
+          "protected": false
+        },
+        {
+          "name": "codex/business-priorities-2026-10-20",
+          "sha": "57084df995a6eaf11b10dd49282d306a87631dc6",
+          "protected": false
+        },
+        {
+          "name": "docs/remote-income-and-business-support-opportunities",
+          "sha": "635ccba9c47196a27ab9cfa2cda8556a5e379852",
+          "protected": false
+        },
+        {
+          "name": "draft-david-nkwe-pilot",
+          "sha": "d6c462ff7933d33d314c87704f4fdd74ca9b67e0",
+          "protected": false
+        },
+        {
+          "name": "feat/opportunity-access-service",
+          "sha": "334bbbdf91b987647d3693cff05f532a574ffade",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "10e582583a94f33721e60209ef45507cda36e9c3",
+          "protected": false
+        },
+        {
+          "name": "research/botswana-business-support-pathways-2026-10-17",
+          "sha": "f99653aeef884f2eeb20ad4b866d0343709acd52",
+          "protected": false
+        },
+        {
+          "name": "safety/separate-business-veterinary-products",
+          "sha": "6f4670abe17c53fdc92039db93824a5b084c584d",
+          "protected": false
+        },
+        {
+          "name": "security/harden-gitignore-20261012",
+          "sha": "f3edba2a91a441f28f2ef4e070c639276f46bf90",
+          "protected": false
+        },
+        {
+          "name": "strategy/business-support-service-catalogue-2026-10-16",
+          "sha": "30fad401347f86a210f9ff727fbcacdf64493cd8",
+          "protected": false
+        },
+        {
+          "name": "strategy/tender-vault-digital-admin-2026-10",
+          "sha": "f26f8ec862ca26b45edc15367b63621687a570c0",
+          "protected": false
+        },
+        {
+          "name": "strategy/white-city-discount-profitability-2026-10",
+          "sha": "39291b4a2cc3cf1bef621042a3e0ca0ad95a9193",
+          "protected": false
+        },
+        {
+          "name": "strategy/40-tender-and-business-support-offers-2026-10",
+          "sha": "24c71bf500ed478142317cfbf90b244e8f53fec5",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "ultimate-crypto-trading-bot",
+      "full": "faroukpandor/ultimate-crypto-trading-bot",
+      "default": "main",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "bd459b39cbe34cbcc2bcd2b303bd364a49a56981",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "FASHIONFORGE",
+      "full": "faroukpandor/FASHIONFORGE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "f97dc43197b0b555e17c670820f0730294266f14",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "FROST",
+      "full": "faroukpandor/FROST",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "2d1dc26a41e86021ad4c5540e616aae265158789",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "AURA",
+      "full": "faroukpandor/AURA",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/019ff9e5-aura",
+          "sha": "8c4876c548a35ed5dba1e72e407f885a8780289a",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "31d89aa0a4c7f45a455dbaf682bec587dfa2968e",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "globalcare-platform",
+      "full": "faroukpandor/globalcare-platform",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a01505-globalcare-platform",
+          "sha": "a5d23337ec1a4fd81c0efcff3f716ec78d9ed0a0",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "d8140d252f8c66339c775e9fe1854881eb2fadb2",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "pubs",
+      "full": "faroukpandor/pubs",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a0673d-pubs",
+          "sha": "3f5ed8c90c62894e4d7d2deaf4ba1e0180cdaa11",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "b9043df5de74fe545beb00ff66c8f35974d647ab",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "tshono.com---Digital-Prosperity-Ecosystem",
+      "full": "faroukpandor/tshono.com---Digital-Prosperity-Ecosystem",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "18ca12e98a809da701f0acd1cbea992296f4375e",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "rea",
+      "full": "faroukpandor/rea",
+      "default": "main",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 100,
+      "branches": [
+        {
+          "name": "agent/javascript-vite-rollup-esbuild-adapters",
+          "sha": "16f092104ef8d361359a9cb53857e45e92be9b2b",
+          "protected": false
+        },
+        {
+          "name": "agent/process-cleanup",
+          "sha": "dc9bdb01756cb0d4f9f3a3bd2da311a094c6f51e",
+          "protected": false
+        },
+        {
+          "name": "agent/triage-integration",
+          "sha": "e67d77c8c981fa6ee8a07a4c6a607fa92e361ba1",
+          "protected": false
+        },
+        {
+          "name": "agent/unknown-commands-registry",
+          "sha": "8245dbcb7a750eca5a057dac24e60dd71384f17e",
+          "protected": false
+        },
+        {
+          "name": "archive/release-6.3.0-pr1381",
+          "sha": "6ca98eaa8287a59a4001541dbbcd6b8869daacfb",
+          "protected": false
+        },
+        {
+          "name": "chatgpt/pr-963-followup",
+          "sha": "d8288ef1c8bb06e5b35823c5c9c0186abd5d05f8",
+          "protected": false
+        },
+        {
+          "name": "chore/sync-release-5.0.0",
+          "sha": "1784ca940ae7803bab9c580ff049cd1db88c311c",
+          "protected": false
+        },
+        {
+          "name": "cleanup/replay-confinement",
+          "sha": "a2955d66074d588e877238f117700b9b68a03a3f",
+          "protected": false
+        },
+        {
+          "name": "codex/address-open-issues-2026-07-20",
+          "sha": "f823486862c6cd0c947eef0f1730e34fc0a8b286",
+          "protected": false
+        },
+        {
+          "name": "codex/ci-required-cancellation-gate",
+          "sha": "806bd81b42b887f54f0664c1644c0a14a626bdef",
+          "protected": false
+        },
+        {
+          "name": "codex/fix-intrinsic-invocation-boundaries",
+          "sha": "0a66e595bbfdd10d0c876a3c37d264382f9acbd4",
+          "protected": false
+        },
+        {
+          "name": "codex/fix-parameter-provenance-baseline",
+          "sha": "e05d3399f19f25fdf04285a02b293418256b26dc",
+          "protected": false
+        },
+        {
+          "name": "codex/fold-pr-2230-contribution",
+          "sha": "c9320992c51566921f9e7ec2531148a193a6cd57",
+          "protected": false
+        },
+        {
+          "name": "codex/installer-redesign",
+          "sha": "0992cb3cebc429ff55d6e7b2726d93c45a763a2a",
+          "protected": false
+        },
+        {
+          "name": "codex/issue-foundations",
+          "sha": "33ea37c03ca596580cefdb70c52667241216a5b2",
+          "protected": false
+        },
+        {
+          "name": "codex/review-2049-27f1b367",
+          "sha": "f1985d15fbebda65157ec1bf15991675a8334994",
+          "protected": false
+        },
+        {
+          "name": "codex/review-fixes-pr-1977",
+          "sha": "ff5af6a7cfb5b3df755979a0c2b2afc4c69e9af9",
+          "protected": false
+        },
+        {
+          "name": "codex/review-fixes-pr-2400",
+          "sha": "ca7e980d49e8f1db03c7cdd26506620e82bac768",
+          "protected": false
+        },
+        {
+          "name": "codex/review-fixes-pr-2403",
+          "sha": "25e0709b2bb44d8971362b9d283980d6ae5ac133",
+          "protected": false
+        },
+        {
+          "name": "codex/review-fixes-pr-2457",
+          "sha": "360fc5195edb705f0ea67297588a44497cf97d30",
+          "protected": false
+        },
+        {
+          "name": "codex/shared-ci-baseline-20261013",
+          "sha": "94072364c7f8410b0e86e72c912c2611572b278f",
+          "protected": false
+        },
+        {
+          "name": "codex/shared-ci-ghidra-test-groups-20261013",
+          "sha": "2f1b2bf07d2ce7ccc73c385c46e98631de75fead",
+          "protected": false
+        },
+        {
+          "name": "codex/shared-ci-jadx-json-default-20261013",
+          "sha": "9a3b4106b2ca12511d9baacf616845b16f6e0b52",
+          "protected": false
+        },
+        {
+          "name": "codex/shared-ci-java-fixture-format-20261013",
+          "sha": "b5a25fbdda19462ff8d80f4311808df6ea547910",
+          "protected": false
+        },
+        {
+          "name": "codex/test-suite-performance",
+          "sha": "36cbe31e1932797c0ef3685634948f97a4100fd9",
+          "protected": false
+        },
+        {
+          "name": "cursor/browser-cancellation-after-cleanup-1ffc",
+          "sha": "49ada44d9be13d5970e03496e47a39ee1dacf1c4",
+          "protected": false
+        },
+        {
+          "name": "cursor/cloud-agent-node-787e",
+          "sha": "5bd5d5fb46580e3cdf748793c28119eaac6bf030",
+          "protected": false
+        },
+        {
+          "name": "cursor/grok-client-cherry-pick-0b56",
+          "sha": "2f2110a8ba2e8ebef3b5559dbd38083d583fb311",
+          "protected": false
+        },
+        {
+          "name": "cursor/restore-main-checks-1ffc",
+          "sha": "d5ec547a91993dea67db87b11b8951355d611921",
+          "protected": false
+        },
+        {
+          "name": "docs/beginner-friendly-guides",
+          "sha": "c048b853f8cc5a942c449923c962db7be1c4dc2d",
+          "protected": false
+        },
+        {
+          "name": "docs/beginner-setup-guide",
+          "sha": "0ac6832aa6d2a345932c4385379f28e341d20450",
+          "protected": false
+        },
+        {
+          "name": "docs/normalized-terminal-geometry-1450",
+          "sha": "44f69e655c1a3f50bd469d0f006069a104f5ad98",
+          "protected": false
+        },
+        {
+          "name": "docs/readme-responsible-use",
+          "sha": "b6d8bb65d313ad73ab5567b68b5e56e56ac557f3",
+          "protected": false
+        },
+        {
+          "name": "experiment/codemode-bridge-20261011",
+          "sha": "e65a13f54d0138537c07b6e791c7176e0aa0fa30",
+          "protected": false
+        },
+        {
+          "name": "feat/artifact-integrity-policy",
+          "sha": "a74b11e99a427a4ff52f2593139903e893978bd9",
+          "protected": false
+        },
+        {
+          "name": "feat/dyld-shared-cache",
+          "sha": "8f947c859c08605a3ab654cc269262ff7e0070bf",
+          "protected": false
+        },
+        {
+          "name": "feat/mcp-identity-metadata",
+          "sha": "aef82abba7931f16be46c558f6fc9d96b22fe88d",
+          "protected": false
+        },
+        {
+          "name": "feat/pkg-inventory",
+          "sha": "e7946c3ad46dcc2eaa8da41e6ae62caef0da2b85",
+          "protected": false
+        },
+        {
+          "name": "feat/recover-javascript-multi-input",
+          "sha": "9ec8267bee8b109ab376346f032992d01869eee4",
+          "protected": false
+        },
+        {
+          "name": "feat/signature-posture",
+          "sha": "2e636ac58ee2cc0598c2c388aa71b8ed78f38290",
+          "protected": false
+        },
+        {
+          "name": "fix/browser-verifier-ci-hang",
+          "sha": "ee58671be4d4773c98548a7f6d8d33c8666fd578",
+          "protected": false
+        },
+        {
+          "name": "fix/ci-escape-timing",
+          "sha": "b13ed802955be032508c24d990374d3c848951c5",
+          "protected": false
+        },
+        {
+          "name": "fix/cli-operation-failure-status",
+          "sha": "b3b34bf5d4809b04bdbb0d7e1e69348a27c55474",
+          "protected": false
+        },
+        {
+          "name": "fix/docs-turkish-rust-link-20261013",
+          "sha": "f92e7e1991e8841610f0415ed79b5c58c718e415",
+          "protected": false
+        },
+        {
+          "name": "fix/electron-preload-dynamic-override",
+          "sha": "0c69564297a88a399d06195012e438b32d29a25d",
+          "protected": false
+        },
+        {
+          "name": "fix/ghidra-bridge-hashmap-import",
+          "sha": "10caef99e768d75954aa51610ca1331c1009c6f4",
+          "protected": false
+        },
+        {
+          "name": "fix/ghidra-effective-jvm-platform",
+          "sha": "739cf68e1a4b063bc2d14aad6b34f31dd85e607c",
+          "protected": false
+        },
+        {
+          "name": "fix/hopper-clean-runtime-argv",
+          "sha": "4c99912e8d1a68c0bfd34aa5c8b3999503ade8a6",
+          "protected": false
+        },
+        {
+          "name": "fix/hopper-owned-shutdown",
+          "sha": "02fe1205230d36ea2a15c367ea6f28a8709b3afe",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-1945",
+          "sha": "92fddf3176f348e509ea664db0d4a4de76bb0093",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-1968",
+          "sha": "8a8efb822677327070ef36fa187f00eafc9d0ef6",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-2050",
+          "sha": "6c5aa93140f406ded2baf8a11aaea4a2aa5b82d2",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-2053",
+          "sha": "0108085e423c1ba280000cba7c1f59b4c6d8c84d",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-2064",
+          "sha": "627c2682f1c09eecdfc2cd167ced3e8a9db0a024",
+          "protected": false
+        },
+        {
+          "name": "fix/javascript-analysis-worker-1563",
+          "sha": "10097f6ae6b5097e5bfbb4a8546143983e1066cc",
+          "protected": false
+        },
+        {
+          "name": "fix/javascript-export-keys-integration-1369",
+          "sha": "9d4dce1263dacdeb1e6e1af43291065e704dc238",
+          "protected": false
+        },
+        {
+          "name": "fix/javascript-self-referential-bundler-edges",
+          "sha": "c06444ad67309c41733271dd3bd468c22650a6f8",
+          "protected": false
+        },
+        {
+          "name": "fix/javascript-xhr-open-endpoints",
+          "sha": "b9d4d8301f7fc04f536a1b9574a5055125e229e8",
+          "protected": false
+        },
+        {
+          "name": "fix/json-validation-aborts-parse",
+          "sha": "555492dafd47576a71d0e5a1cc55666fe2ce506c",
+          "protected": false
+        },
+        {
+          "name": "fix/linux-hopper-verification-current",
+          "sha": "c0d44fe8f5d8a4b5a40f747ed5f0c530f671ec03",
+          "protected": false
+        },
+        {
+          "name": "fix/main-format-baseline-20261013",
+          "sha": "4467e846b16984b9d5708fb5f2048acf2bab9fed",
+          "protected": false
+        },
+        {
+          "name": "fix/main-maintenance-ci-20261010",
+          "sha": "11d295eeab4e18ddf1421e6d262118142f15d792",
+          "protected": false
+        },
+        {
+          "name": "fix/main-sync-2087-captured-c6503ed",
+          "sha": "75f1bf97e1e84f07130e956f93e642159a4fc1a1",
+          "protected": false
+        },
+        {
+          "name": "fix/nativeaot-pe-virtual-extent",
+          "sha": "4ff226e98eff75feb6b2f98ffed5b73571e506b6",
+          "protected": false
+        },
+        {
+          "name": "fix/pe-resources-input-selection",
+          "sha": "7aee9900da5a0e9e4c393d369d85181b61073831",
+          "protected": false
+        },
+        {
+          "name": "fix/recover-binary-session-process-effects",
+          "sha": "579ecbd032e0f0390d0569c2706b621ec05cbf12",
+          "protected": false
+        },
+        {
+          "name": "fix/setup-preserve-entry-fields",
+          "sha": "a8adc2c6b104734a65a27c9ad796e568140fdf58",
+          "protected": false
+        },
+        {
+          "name": "fix/tool-effects-negative-wording-1904-20261012",
+          "sha": "a35fa82b71aa2f0790ac9428b2d79780a77261d7",
+          "protected": false
+        },
+        {
+          "name": "fix/windows-pe-pdb-coverage-2259",
+          "sha": "ca24903f19c69999dc07c97c111b2d2942e5424e",
+          "protected": false
+        },
+        {
+          "name": "fix/1649-ghidra-duplicate-names",
+          "sha": "8005cad3741c209a6b1ca1d570692450b5bd1a8b",
+          "protected": false
+        },
+        {
+          "name": "fix/1842-electron-interop-provenance",
+          "sha": "44457d0990245c7f7e7709dbe662be04788e18c1",
+          "protected": false
+        },
+        {
+          "name": "fix/3164-compiler-input-ownership",
+          "sha": "f9bc1848696eb81af45c894dfc04778d4ca59ba6",
+          "protected": false
+        },
+        {
+          "name": "followup/pr-1544-native-ida",
+          "sha": "2b72592f8942aeb072900c9ea7d808c87aa32f5e",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "877d40408b0d9a670fa19a53440b7e75022ca14a",
+          "protected": false
+        },
+        {
+          "name": "morl/roadmap-investigation-core",
+          "sha": "87aefc7b471504f9f65bddd194979b6093a4f6d3",
+          "protected": false
+        },
+        {
+          "name": "morl/roadmap-investigation-docs",
+          "sha": "6d5ea5b19e198916b3d0fa64bbeaabc83b999d05",
+          "protected": false
+        },
+        {
+          "name": "morlvps/issue_cleanup",
+          "sha": "0f6f1600c5a91f4c009e077994adeff43be76a77",
+          "protected": false
+        },
+        {
+          "name": "perf/dylib-roots-magic-prefetch",
+          "sha": "0ee60b6e35ddb7995d8929735730e58fd6f359de",
+          "protected": false
+        },
+        {
+          "name": "perf/interface-builder-summary",
+          "sha": "95bcaa07ef5a92764153357882c34f348f829b2a",
+          "protected": false
+        },
+        {
+          "name": "perf/3130-packet-fields-20261014",
+          "sha": "c67308b8fe222f0d06250670f7357c71b6727f8d",
+          "protected": false
+        },
+        {
+          "name": "refactor/website-i18n-prep",
+          "sha": "c865e20a0bd3fe1fe3c7e56aea7c04fa8d28db08",
+          "protected": false
+        },
+        {
+          "name": "release/5.0.0",
+          "sha": "b33236ec082ae3a59421232f9067c095283c3f6d",
+          "protected": false
+        },
+        {
+          "name": "release/6.0.0",
+          "sha": "6fee42689ae6e95a0182e0d4d0f55644e73e72be",
+          "protected": false
+        },
+        {
+          "name": "release/6.1.0",
+          "sha": "ae9aaee16b9c738d761d3938a3b34fdf37e581b5",
+          "protected": false
+        },
+        {
+          "name": "release/6.2.0",
+          "sha": "a64851f2592cd353600d54864b38524705341dd1",
+          "protected": false
+        },
+        {
+          "name": "release/6.3.0",
+          "sha": "74cf9e1401fcd89482fe39c27cc898f5858e9b72",
+          "protected": false
+        },
+        {
+          "name": "release-please--branches--main--components--rea",
+          "sha": "8fea6ce9cdf2fdbe0fe60b175e797855be6e5d09",
+          "protected": false
+        },
+        {
+          "name": "release-please--branches--main--components--rea-agents",
+          "sha": "a9a9740a791b7934a52348b627d6939a9ceafab6",
+          "protected": false
+        },
+        {
+          "name": "release-please--branches--main--components--rea-agents--release-notes",
+          "sha": "0f337cb398e77d3da3feb0d2f8aad32ea2837205",
+          "protected": false
+        },
+        {
+          "name": "review/ghidra-compact-provenance-1438",
+          "sha": "30473dbcacd9dd404b8ecb65aa487caf57ab0682",
+          "protected": false
+        },
+        {
+          "name": "review/javascript-export-keys-1369",
+          "sha": "28b1e5cadc604aa6ec18cfe4fb4e4791cebbda02",
+          "protected": false
+        },
+        {
+          "name": "review/javascript-returned-target-index-1537",
+          "sha": "426aa62c1033335b8b5d236011f8368afc1ac816",
+          "protected": false
+        },
+        {
+          "name": "review/keyed-archive-selected-scope-1378",
+          "sha": "591b910e3161bf930e81591091ddfadf2ea5becb",
+          "protected": false
+        },
+        {
+          "name": "review/media-preload-attribute-1393",
+          "sha": "19a770a705e7d64a056a7838ad79d50989b2f9d5",
+          "protected": false
+        },
+        {
+          "name": "review/output-schema-validators-1527",
+          "sha": "3582a3f52cc8955f7214f218b3c2ac12a94d2d41",
+          "protected": false
+        },
+        {
+          "name": "review/pr-711-realpath-fallback-wording",
+          "sha": "c2f5fc661291216174c5dfb7357f201344290d18",
+          "protected": false
+        },
+        {
+          "name": "review/process-literal-normalization-1456",
+          "sha": "561877ad763b9705b9298f1259a33fb98aed67a4",
+          "protected": false
+        },
+        {
+          "name": "review/process-live-progress-1483",
+          "sha": "05c72e93059b0f7d1daea74dde5a2aa464cbea37",
+          "protected": false
+        },
+        {
+          "name": "review-fixes/pr-2787-routing",
+          "sha": "491a0fb0359fe8852a1a2bb3767fa7e8c02596ea",
+          "protected": false
+        },
+        {
+          "name": "test/javascript-1495-growth-ratio",
+          "sha": "b9e4b5fa4a012ca913a6e0e6be208e35be395459",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "faroukpandor",
+      "full": "faroukpandor/faroukpandor",
+      "default": "master",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 11,
+      "branches": [
+        {
+          "name": "arena/e5da17aa-faroukpandor",
+          "sha": "ff0e25df6e9e2f3d5b309749746233f14d80ebb2",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0edd2-faroukpandor",
+          "sha": "7b440927693614e15f7b07c70b8c2f994019294e",
+          "protected": false
+        },
+        {
+          "name": "arena/1eb3482f-faroukpandor",
+          "sha": "8a1fdad5b27cd0fccc1b19a54622da511f5f0540",
+          "protected": false
+        },
+        {
+          "name": "cg/updatePackages",
+          "sha": "6534435c436617562dec2f2bd02bf9f109653da1",
+          "protected": false
+        },
+        {
+          "name": "dependabot",
+          "sha": "e4b2b1e68a675f22f9ba8c5d45e778191e4394be",
+          "protected": false
+        },
+        {
+          "name": "master",
+          "sha": "821384644931949fd1eb7ba6a281324b23030d0c",
+          "protected": false
+        },
+        {
+          "name": "personal-brand/github-pages-premium-architecture",
+          "sha": "9f13b4e8bd7e34117ac957e5b4d934e071d6763b",
+          "protected": false
+        },
+        {
+          "name": "renovate/copy-webpack-plugin-10.x",
+          "sha": "999d5fab5c57e61af2a6a27db691f2085d53e0be",
+          "protected": false
+        },
+        {
+          "name": "renovate/hugo-bin-0.x",
+          "sha": "1cf510d4ca4b095de026017262d7715095e39220",
+          "protected": false
+        },
+        {
+          "name": "renovate/node-sass-7.x",
+          "sha": "44edfbb8109cd37829721a73f68ab9fcce109e56",
+          "protected": false
+        },
+        {
+          "name": "renovate/postcss-preset-env-7.x",
+          "sha": "ad3cfdc35f56cedaf5770a9801188c7463a393bd",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "high-profit-digital-real-estate",
+      "full": "faroukpandor/high-profit-digital-real-estate",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "571f97f507bd6f8251986b51cc8f43c790c82163",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "digital-botswana-hub",
+      "full": "faroukpandor/digital-botswana-hub",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a06ae1-digital-botswana-hub",
+          "sha": "c2714b9607215da0416cd70fd2a871954934329e",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "3dd43c11b2af9a34e755ea9f9636f20107db38e4",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}

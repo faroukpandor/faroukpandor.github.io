@@ -1,0 +1,300 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 2,
+  "range": [
+    16,
+    30
+  ],
+  "repositories": [
+    {
+      "name": "SENTINELSCAN",
+      "full": "faroukpandor/SENTINELSCAN",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "1167bee491ba35cf2e3ab5a0ed7da02f89dd60d7",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "YELLOW-BLUE-PROGRESSIVE-WEB-APPLICATION-3",
+      "full": "faroukpandor/YELLOW-BLUE-PROGRESSIVE-WEB-APPLICATION-3",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "d2f49099e77fed181191e434acdd91cbcc286459",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "MegaDealsMA---B2B-B2C-E-Commerce-Platform",
+      "full": "faroukpandor/MegaDealsMA---B2B-B2C-E-Commerce-Platform",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "dd7efcbf94c647fa1e74c8f7e0602271c72dbde8",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Bioatlas",
+      "full": "faroukpandor/Bioatlas",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "6915eb02e134d6fd1d352c0b0adf2db20bae5a04",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "VeloceStack",
+      "full": "faroukpandor/VeloceStack",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "fd2c3b91993c737439b8ba1df5a9cc0b27421c1b",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "OMNINEWS",
+      "full": "faroukpandor/OMNINEWS",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 3,
+      "branches": [
+        {
+          "name": "digital-asset-commercialisation-v1",
+          "sha": "00bae6cc18ffb845d9ba6f2a842e512d64fc273c",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "67b26389a31c4e0a6357d339cdcc259f68dad0ba",
+          "protected": false
+        },
+        {
+          "name": "security/remove-client-gemini-key",
+          "sha": "ce7045d764a041d1413705616521d988f6131a11",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "PlanForgeBW",
+      "full": "faroukpandor/PlanForgeBW",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 8,
+      "branches": [
+        {
+          "name": "arena/4e8d2a04-planforgebw",
+          "sha": "db660a5b7541e6467e0407f7439ff0bed5cfccb5",
+          "protected": false
+        },
+        {
+          "name": "arena/019ffbcc-planforgebw",
+          "sha": "b97b8b327abc40acb21dcfd3ed52a16180546189",
+          "protected": false
+        },
+        {
+          "name": "codex/ethical-commercial-launch-gates-20261030",
+          "sha": "223aaf85e1ed7342ac592d182e05562a8e9aae83",
+          "protected": false
+        },
+        {
+          "name": "codex/planforge-local-concept-studio-20261025",
+          "sha": "f8c655e7941fe4cf90155d293c80726cdd27edeb",
+          "protected": false
+        },
+        {
+          "name": "codex/planforge-outline-and-transfer-20261026",
+          "sha": "8375b67a808a2ced3991442bf41de6cecebd4574",
+          "protected": false
+        },
+        {
+          "name": "docs/dual-host-free-fallback-2026",
+          "sha": "f982afc30d6dd78fb36c9a3d2f71974fe4cfe88b",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "2f3ad0ae044a37fbde26ed70e3a44a4793b2fd20",
+          "protected": false
+        },
+        {
+          "name": "strategy/botswana-market-entry-2026-11-03",
+          "sha": "5cf9dca13198d659dd9bb83cccbc354286a7999a",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "HEALTHHAVEN1",
+      "full": "faroukpandor/HEALTHHAVEN1",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "cee9edd3c383ee11fcea9d2692fea4ad18a32553",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "ruflo",
+      "full": "faroukpandor/ruflo",
+      "default": "main",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "ce0274954625736979b4e196c8e1cbcbab9f676e",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "YellowBlue_wp-content_04.08.2026",
+      "full": "faroukpandor/YellowBlue_wp-content_04.08.2026",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "d444eb1e88cf599056a2b7afac0648f7c1f84f10",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "FAROUK-PANDOR",
+      "full": "faroukpandor/FAROUK-PANDOR",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "b8f2ae58c5189b7452675443601ab5866c2c6644",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Kgoro",
+      "full": "faroukpandor/Kgoro",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "6dc244213cc1f0162dc36d558ae2e30e52175bff",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "LedgerGuard",
+      "full": "faroukpandor/LedgerGuard",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "c2261b623f9bdf5975dbb8b2bc99366446166fd3",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "AGENTFORGE",
+      "full": "faroukpandor/AGENTFORGE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a0141b-agentforge",
+          "sha": "d636c9ba4da10c64e89470cc52a64dd2a93358a3",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "01e88b2cb0305e403bd0adcea09487b394c593d1",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "MORUA_JUNCTION_1",
+      "full": "faroukpandor/MORUA_JUNCTION_1",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "3d2f04feb0c4dc22284bf353f603f177262504bc",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,279 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 3,
+  "repositories": [
+    {
+      "repo": "faroukpandor/OMNINEWS",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 2,
+          "title": "docs: digital asset commercialisation doctrine",
+          "url": "https://github.com/faroukpandor/OMNINEWS/pull/2",
+          "draft": true,
+          "updated_at": "2026-10-29T03:39:06Z",
+          "head_ref": "digital-asset-commercialisation-v1",
+          "head_sha": "00bae6cc18ffb845d9ba6f2a842e512d64fc273c",
+          "base_ref": "main",
+          "base_sha": "67b26389a31c4e0a6357d339cdcc259f68dad0ba",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/AegisX-CyberShield",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 2,
+          "title": "security(P0): establish truthful-operations release gate",
+          "url": "https://github.com/faroukpandor/AegisX-CyberShield/pull/2",
+          "draft": true,
+          "updated_at": "2026-10-29T03:37:37Z",
+          "head_ref": "fix/p0-truthful-security-operations",
+          "head_sha": "ebaffdb5869beec9bfa12407842bbb8593212aab",
+          "base_ref": "main",
+          "base_sha": "9a649a9031424c9758e29578c5a92fb6cbf2a290",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/openzero",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 2,
+          "title": "Revive OpenZero with reliable offline invoicing and regional settings",
+          "url": "https://github.com/faroukpandor/openzero/pull/2",
+          "draft": true,
+          "updated_at": "2026-10-29T01:37:14Z",
+          "head_ref": "codex/openzero-revival-2026-10-29",
+          "head_sha": "ceb77191e21e446e2d99bd47722e656af043cb23",
+          "base_ref": "main",
+          "base_sha": "9fc50de494c2eb8172ce5d115fed833538869c82",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/acuity",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 1,
+          "title": "docs: Acuity branding verification and Rust migration status",
+          "url": "https://github.com/faroukpandor/acuity/pull/1",
+          "draft": true,
+          "updated_at": "2026-10-28T14:50:24Z",
+          "head_ref": "work/acuity-rust-consolidation-20261026",
+          "head_sha": "49185aedee5216df7c3c484bb350115c9f8ee1ae",
+          "base_ref": "main",
+          "base_sha": "eb4154004697aecca586336b80bb2ff04427862e",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/MORUA-JUNCTION---TEMPOLABS",
+      "pull_count": 2,
+      "pulls": [
+        {
+          "number": 2,
+          "title": "feat(rust): establish 100% Rust Morua Junction frontend foundation",
+          "url": "https://github.com/faroukpandor/MORUA-JUNCTION---TEMPOLABS/pull/2",
+          "draft": true,
+          "updated_at": "2026-10-27T07:11:27Z",
+          "head_ref": "feat/rust-only-morua-foundation",
+          "head_sha": "ea47df8c0e134e2abb1b21f595ab241c76a109bf",
+          "base_ref": "main",
+          "base_sha": "6000595d53c61e7638806ef3a0b301a6de346661",
+          "state": "open",
+          "author": "faroukpandor"
+        },
+        {
+          "number": 1,
+          "title": "fix(build): fail closed on TypeScript errors",
+          "url": "https://github.com/faroukpandor/MORUA-JUNCTION---TEMPOLABS/pull/1",
+          "draft": true,
+          "updated_at": "2026-10-26T17:09:15Z",
+          "head_ref": "fix/fail-closed-build-validation",
+          "head_sha": "9777f18c67ac4e3fe4fd440fb07fa41ce1f28f74",
+          "base_ref": "main",
+          "base_sha": "6000595d53c61e7638806ef3a0b301a6de346661",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/Mogwera",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 2,
+          "title": "feat(ui): evidence-labelled visual career journey",
+          "url": "https://github.com/faroukpandor/Mogwera/pull/2",
+          "draft": true,
+          "updated_at": "2026-10-26T16:53:21Z",
+          "head_ref": "feat/evidence-career-journey",
+          "head_sha": "be897df1fc88fae216199fefba2dcc1a15f7f779",
+          "base_ref": "main",
+          "base_sha": "7e6b5b009369af9371520859e02fd4122aa96659",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/StoryVault-Pro",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 2,
+          "title": "feat(ui): editorial trust banner and honest demo search labels",
+          "url": "https://github.com/faroukpandor/StoryVault-Pro/pull/2",
+          "draft": true,
+          "updated_at": "2026-10-26T16:36:41Z",
+          "head_ref": "feat/visual-trust-foundation",
+          "head_sha": "5de08060a03057a5e0ca75c0d351d62473bbdb8b",
+          "base_ref": "main",
+          "base_sha": "0bb0575d43f9d7a9c5c841aed981e40ab7a4090b",
+          "state": "open",
+          "author": "faroukpandor"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/agrisphere",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 1,
+          "title": "Build AgriSphere app: self-learning multi-channel agri chatbot",
+          "url": "https://github.com/faroukpandor/agrisphere/pull/1",
+          "draft": false,
+          "updated_at": "2026-10-24T05:55:23Z",
+          "head_ref": "arena/01a076dc-agrisphere",
+          "head_sha": "ed8870d6e5294f31a7676dc6c0a0fd227fba7107",
+          "base_ref": "main",
+          "base_sha": "9d5e4d0b643f3e631525d160b6c197fec303ea74",
+          "state": "open",
+          "author": "arena-ai-coding-agent[bot]"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/mowana",
+      "pull_count": 2,
+      "pulls": [
+        {
+          "number": 2,
+          "title": "v1.7.1 — Review fixes for the v1.7 competitive upgrade",
+          "url": "https://github.com/faroukpandor/mowana/pull/2",
+          "draft": false,
+          "updated_at": "2026-09-04T05:26:23Z",
+          "head_ref": "arena/01a06aa2-mowana",
+          "head_sha": "2beeb5acedce36b84c6fbd22501856ec3113bdb6",
+          "base_ref": "main",
+          "base_sha": "57ea9a07985a19de8dcc2dd1f8eb3134fd884da6",
+          "state": "open",
+          "author": "arena-ai-coding-agent[bot]"
+        },
+        {
+          "number": 1,
+          "title": "v1.7.0 — Competitive upgrade: multi-sheet spreadsheet engine, Word find/replace + headers/footers, presenter-grade slides, command palette",
+          "url": "https://github.com/faroukpandor/mowana/pull/1",
+          "draft": false,
+          "updated_at": "2026-09-04T05:17:38Z",
+          "head_ref": "arena/01a06a55-mowana",
+          "head_sha": "f220b2dbc817f8b4606393eb7f1fab9739f8475d",
+          "base_ref": "main",
+          "base_sha": "57ea9a07985a19de8dcc2dd1f8eb3134fd884da6",
+          "state": "open",
+          "author": "arena-ai-coding-agent[bot]"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/astro",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 1,
+          "title": "fix(actions): correctly parse 'false' string in z.array(z.boolean()) form inputs",
+          "url": "https://github.com/faroukpandor/astro/pull/1",
+          "draft": false,
+          "updated_at": "2026-08-30T13:29:38Z",
+          "head_ref": "arena/01a052cb-astro",
+          "head_sha": "2d342a77ce38cce97ae4ee4f3a63bc7ce60504ec",
+          "base_ref": "main",
+          "base_sha": "1c64ae304d3c008a776e98e48fd3ece8be7b1fb5",
+          "state": "open",
+          "author": "arena-ai-coding-agent[bot]"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/IAS",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 1,
+          "title": "IAS strategic documents: master v1.1, review, legal brief, financial model & pilot protocol",
+          "url": "https://github.com/faroukpandor/IAS/pull/1",
+          "draft": true,
+          "updated_at": "2026-08-30T10:21:33Z",
+          "head_ref": "arena/01a04c88-ias",
+          "head_sha": "4f1ded18a79f4fdfca210661672ac0b040f19a1f",
+          "base_ref": "main",
+          "base_sha": "ed2521776ef3e00928092006d3594804d036899f",
+          "state": "open",
+          "author": "arena-ai-coding-agent[bot]"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/text-farouk-digital-empire",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 1,
+          "title": "🦁 Farouk's Digital Empire — zero-capital passive income web app (Cloudflare Pages ready)",
+          "url": "https://github.com/faroukpandor/text-farouk-digital-empire/pull/1",
+          "draft": false,
+          "updated_at": "2026-08-19T11:24:08Z",
+          "head_ref": "arena/01a019b9-text-farouk-digital-empire",
+          "head_sha": "3819feff2d472607043850a6c708e11abd688364",
+          "base_ref": "main",
+          "base_sha": "b3c64ad2d433ed3b423aaff91c69a35e33824a80",
+          "state": "open",
+          "author": "arena-ai-coding-agent[bot]"
+        }
+      ]
+    },
+    {
+      "repo": "faroukpandor/yellow-blue-pwa",
+      "pull_count": 1,
+      "pulls": [
+        {
+          "number": 1,
+          "title": "Fix React Server Components RCE vulnerability",
+          "url": "https://github.com/faroukpandor/yellow-blue-pwa/pull/1",
+          "draft": false,
+          "updated_at": "2026-10-24T05:41:22Z",
+          "head_ref": "vercel/react-flightnextjs-rce-vulnera-ru0sll",
+          "head_sha": "357cf5b6c239d10ab56bbdaed172dfd49abe29f6",
+          "base_ref": "main",
+          "base_sha": "800c39633e271561e4483f1218621ed219c48592",
+          "state": "open",
+          "author": "vercel[bot]"
+        }
+      ]
+    }
+  ]
+}

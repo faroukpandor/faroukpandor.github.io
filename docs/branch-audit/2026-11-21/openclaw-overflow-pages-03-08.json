@@ -1,0 +1,2758 @@
+{
+  "snapshot": "2026-11-21",
+  "repository": "faroukpandor/openclaw",
+  "note": "Additional pages 3-8; repository is verified fork of openclaw/openclaw and is treated as upstream-reference branch inventory, not 643 independent founder workstreams.",
+  "pages": [
+    {
+      "page": 3,
+      "count": 100,
+      "branches": [
+        {
+          "name": "feature/btw-ephemeral-side-turns",
+          "sha": "e0541f772e84d6f11c2b7c3787feb64ebaf2e819",
+          "protected": false
+        },
+        {
+          "name": "feature/cron-ui-filter-bar",
+          "sha": "0271fe346e5e2dd7bc581ce2229c19882de38de7",
+          "protected": false
+        },
+        {
+          "name": "feature/goals-souvenir-health",
+          "sha": "f14af3a9373ea6b5e3579f8198001ab47279c38e",
+          "protected": false
+        },
+        {
+          "name": "feature/heartbeat-optimization",
+          "sha": "865e84d78b3b661bd2bc57ce759b2e27f6a89e0d",
+          "protected": false
+        },
+        {
+          "name": "feature/implement-before-tool-call-hook",
+          "sha": "0185934c6d7c72508dfc41715ecdb5a3e9b27609",
+          "protected": false
+        },
+        {
+          "name": "feature/link-understanding",
+          "sha": "6a0eafd19154a48c6d886a917d6e9366e1ea3be8",
+          "protected": false
+        },
+        {
+          "name": "feature/memory-plugin-v2",
+          "sha": "172b6e3ba2635b1b298b251ca33eefdbff8aacfb",
+          "protected": false
+        },
+        {
+          "name": "feature/multipass-extension-fast",
+          "sha": "64d414ae279578b653de6bf97a0cf3a8a6e576c7",
+          "protected": false
+        },
+        {
+          "name": "feature/ollama-provider",
+          "sha": "af05c6b4e92915160e0edd2329fbed4af9253bb3",
+          "protected": false
+        },
+        {
+          "name": "feature/onboard-custom-api",
+          "sha": "b45a1d674d5c672a6858495ca46d06471cd2e9ed",
+          "protected": false
+        },
+        {
+          "name": "feature/pluggable-web-search",
+          "sha": "4e9d290554f292787b2d10d6accb11a72d70ae20",
+          "protected": false
+        },
+        {
+          "name": "feature/quick-updates",
+          "sha": "f6e8a76aabe69f43884e26c3a473557b1227b1ad",
+          "protected": false
+        },
+        {
+          "name": "feature/response-prefix-template-variables",
+          "sha": "3f0603df54def9b624405acaadfcd6643fc4da23",
+          "protected": false
+        },
+        {
+          "name": "feature/slack-user-token",
+          "sha": "dcfde2822a3f8fefcf3dc92c3122b1a3b7339e9d",
+          "protected": false
+        },
+        {
+          "name": "feature/slash-new-personality",
+          "sha": "8bf9cfe623666552ecaab194b408046611e23040",
+          "protected": false
+        },
+        {
+          "name": "feature/telegram-videonote",
+          "sha": "f482170c4288dc3f3b5a0bc251f5c77a910684ed",
+          "protected": false
+        },
+        {
+          "name": "feature/thread-parent-binding-inheritance",
+          "sha": "e9deb81c50062e2e034eaf51b432fdae2302d376",
+          "protected": false
+        },
+        {
+          "name": "feature/whatsapp-message-debounce",
+          "sha": "1561b1c491431ae0bd507889eba64c10417468a9",
+          "protected": false
+        },
+        {
+          "name": "feature/xhigh-thinking-models",
+          "sha": "d0a79c19f9318df6db2446b98b9c0e68b3a4c173",
+          "protected": false
+        },
+        {
+          "name": "feature/1378-zalouser-extension",
+          "sha": "08f56adae0cd769206c03ed023740f2332d3865f",
+          "protected": false
+        },
+        {
+          "name": "feishu-streaming-harden",
+          "sha": "b5fb1cba2d68806d0d952d7a541562d6818d26ea",
+          "protected": false
+        },
+        {
+          "name": "feishu-support",
+          "sha": "d8a88971ba4b76761b443604dd7f0826040ebef4",
+          "protected": false
+        },
+        {
+          "name": "fix/abort-error-graceful-handling",
+          "sha": "c6db48b346f919d045e3d97ace7ee810379eadc7",
+          "protected": false
+        },
+        {
+          "name": "fix/acp-gateway-connect-order",
+          "sha": "e4939980986deb9fe34e37f8e470e457381d1e1d",
+          "protected": false
+        },
+        {
+          "name": "fix/acpx-install-hint-npm-spec",
+          "sha": "cd443d412893ec1bcc635e8804467e48e9dc8d9b",
+          "protected": false
+        },
+        {
+          "name": "fix/add-caf-audio-support",
+          "sha": "67fc11818542b8c907bc031afaa69d5d77666ccc",
+          "protected": false
+        },
+        {
+          "name": "fix/anthropic-oauth-profile-id-2",
+          "sha": "4fac5a6390899b4f8be0958f6c3b6ca709e6d67b",
+          "protected": false
+        },
+        {
+          "name": "fix/audio-text-extraction-bypass",
+          "sha": "ebde5921b99d2c3fd968ba2266076c00327849b9",
+          "protected": false
+        },
+        {
+          "name": "fix/auth-profile-cooldown-auto-expiry",
+          "sha": "f8ecfe720a6ee7fee850d9a06bed9d1ee80cbfb6",
+          "protected": false
+        },
+        {
+          "name": "fix/avatar-relative-url-validation",
+          "sha": "ddfa51ba31cc916510298c471be9c89560a46379",
+          "protected": false
+        },
+        {
+          "name": "fix/background-abort-sigkill",
+          "sha": "6c9bf8842ab7a420a98d6468fb2eb02cb1a10dd8",
+          "protected": false
+        },
+        {
+          "name": "fix/baseline-tsgo-unblock-2",
+          "sha": "66b407facb898d2d8f08fff333fe305d5d77b31b",
+          "protected": false
+        },
+        {
+          "name": "fix/bluebubbles-gc-guid-resolution",
+          "sha": "56fab1df69c87bcd4409987e6bca37f213cebec1",
+          "protected": false
+        },
+        {
+          "name": "fix/bluebubbles-message-routing",
+          "sha": "492c37a171a17cef2330e99ac3f5d7ba9d13ec92",
+          "protected": false
+        },
+        {
+          "name": "fix/bluebubbles-webhook-405-31344",
+          "sha": "0abd3cd6cccefe061f5c8aaa23e3268ad5de6096",
+          "protected": false
+        },
+        {
+          "name": "fix/browser-error-visibility",
+          "sha": "425a7a99c49b743778380988bc078e710cc6f6fb",
+          "protected": false
+        },
+        {
+          "name": "fix/browser-extra-args-schema",
+          "sha": "babb41ccc4ec7a9606534a0fdb4c901a3ea266a9",
+          "protected": false
+        },
+        {
+          "name": "fix/browser-profile-routing-4841",
+          "sha": "a76ac1384482d8a278cdd883416ff0956f990e0a",
+          "protected": false
+        },
+        {
+          "name": "fix/browser-relay-stale-session-after-navigation",
+          "sha": "aa66c9b4f2bb909e2e35fbb7f24313e98c2e24b1",
+          "protected": false
+        },
+        {
+          "name": "fix/build-errors-missing-imports",
+          "sha": "01aa7eba214cb7ff78447c98df164c418ee61599",
+          "protected": false
+        },
+        {
+          "name": "fix/bun-cron-model-override-test",
+          "sha": "c06980152bbafb4a70e1ebdabfe56c9eadcaf7b4",
+          "protected": false
+        },
+        {
+          "name": "fix/capabilities-object-format",
+          "sha": "3ab4c3a3c447925faa5e0f11ca24f3e809b283bd",
+          "protected": false
+        },
+        {
+          "name": "fix/chrome-restore-prompt",
+          "sha": "050e6467fcf034793098a8ee51dd98bf7b67b0bd",
+          "protected": false
+        },
+        {
+          "name": "fix/ci-ts2322-main",
+          "sha": "41bb48dde2af6351a61579fd0dc9965f7237fbca",
+          "protected": false
+        },
+        {
+          "name": "fix/cleanup-suspended-clawdbot-processes",
+          "sha": "c51724f39bc5952700dba31260e1815fcebdf31a",
+          "protected": false
+        },
+        {
+          "name": "fix/cli-hang-on-exit",
+          "sha": "a85f645a45a3f0caf8855e4baa950d6d766af19e",
+          "protected": false
+        },
+        {
+          "name": "fix/cli-install-version-suffix",
+          "sha": "ec9ba5b78445b5244d3fc0972c25c2a631d781ee",
+          "protected": false
+        },
+        {
+          "name": "fix/cli-launchd-enable-before-bootstrap",
+          "sha": "dfea2991c94f8afcefc1d04df0790c049f277db7",
+          "protected": false
+        },
+        {
+          "name": "fix/cli-quick-reference-system-prompt",
+          "sha": "5411a845c19a96af18167e2b93fcbb19ce1f7f6c",
+          "protected": false
+        },
+        {
+          "name": "fix/cli-subcommand-registration-lazy-loading",
+          "sha": "50faccaba8ce5f53a71e92ddf89e28ccfaf8e74f",
+          "protected": false
+        },
+        {
+          "name": "fix/codesign-ad-hoc-fallback",
+          "sha": "68ecee84d1c223795127ea3e0ca292f38048c68d",
+          "protected": false
+        },
+        {
+          "name": "fix/codesign-adhoc",
+          "sha": "2401abe17e7f704dc10707af088227c5cd614c7d",
+          "protected": false
+        },
+        {
+          "name": "fix/codex-inline-model-api-fallback",
+          "sha": "8a91af22a5fb59e6fdec7c3ebb5576cf4b7a8a64",
+          "protected": false
+        },
+        {
+          "name": "fix/compact-hooks-test-mock",
+          "sha": "ad66dc09b9fa63d900e5f1dc82c5c47dbc579aa2",
+          "protected": false
+        },
+        {
+          "name": "fix/compaction-failure-silent-reset",
+          "sha": "adbc4d093e21e3e91ef54ada62725d96a7f241e1",
+          "protected": false
+        },
+        {
+          "name": "fix/config-schema-cache-key-hash",
+          "sha": "d2d4242d5b2c388803481dec1dde56360c81c32c",
+          "protected": false
+        },
+        {
+          "name": "fix/config-title-overflow-1728",
+          "sha": "b1b9035b51ff4e5ef59736a1edd52ae0b3a74481",
+          "protected": false
+        },
+        {
+          "name": "fix/configure-auth-method-selector",
+          "sha": "5b765a60fea5dad54e9580e9dc49e8f0c0e0775b",
+          "protected": false
+        },
+        {
+          "name": "fix/connection-error-failover",
+          "sha": "262d976c7128b377cb1d032381dceecc6ce4d4de",
+          "protected": false
+        },
+        {
+          "name": "fix/console-settings-recursion",
+          "sha": "a36dc285d6ea982379dafc56fc76148b331d8bb6",
+          "protected": false
+        },
+        {
+          "name": "fix/control-ui-chat-load-freeze",
+          "sha": "4c8a6adb3ae3867db6b7bdc2348c7bb4eedb26e8",
+          "protected": false
+        },
+        {
+          "name": "fix/control-ui-model-provider-value",
+          "sha": "931c040a306dd073addfc482e8a72f77269ef211",
+          "protected": false
+        },
+        {
+          "name": "fix/control-ui-token-auth",
+          "sha": "2ce267400c3b1c6b1c7ff4ddc8d8454feda2dc1a",
+          "protected": false
+        },
+        {
+          "name": "fix/copilot-gpt53-codex-27379",
+          "sha": "b0c33e6a9b8bef2ebd154fb50ec544b2e68dc8bc",
+          "protected": false
+        },
+        {
+          "name": "fix/cron-announce-delivery",
+          "sha": "373f99c44648661d2a200b09f7c383f2299e8635",
+          "protected": false
+        },
+        {
+          "name": "fix/cron-announce-delivery-status",
+          "sha": "989ca22821112f13e4134c4fd64fc6d0530036e7",
+          "protected": false
+        },
+        {
+          "name": "fix/cron-announce-duplicate",
+          "sha": "cb7bc43c2cacf35a0ee46d83a2dbcf1a04d55b75",
+          "protected": false
+        },
+        {
+          "name": "fix/cron-announce-fallback",
+          "sha": "5f5a1569f52bb94208262851bfd693a4cea542b4",
+          "protected": false
+        },
+        {
+          "name": "fix/cron-delivery-resolve-default-to",
+          "sha": "3a88874f70aa20ba24e1c267f0136a3510257d98",
+          "protected": false
+        },
+        {
+          "name": "fix/cron-edit-preserve-delivery-on-message",
+          "sha": "1b973caf7aeaf1ec36ba19541d56c07b09a9761f",
+          "protected": false
+        },
+        {
+          "name": "fix/cron-failure-missing-features",
+          "sha": "f44c91e4152a72a0560eb14bae7d087172b062cb",
+          "protected": false
+        },
+        {
+          "name": "fix/cron-session-allowagents",
+          "sha": "6c93143c4a87bcac2195d7e970a862eff311ff02",
+          "protected": false
+        },
+        {
+          "name": "fix/cron-tool-jobid-to-id",
+          "sha": "c50b64e298fbaa5f7a11f31321b1a67f2369058d",
+          "protected": false
+        },
+        {
+          "name": "fix/cross-channel-reply-routing",
+          "sha": "93dc38885597acd65d64b957d79f4b20743fee63",
+          "protected": false
+        },
+        {
+          "name": "fix/cross-turn-dedup-cache",
+          "sha": "58c9d91dfb61e620ad11cdc9ba4a1737401e807e",
+          "protected": false
+        },
+        {
+          "name": "fix/daemon-default-node-use-system-ca-fork",
+          "sha": "25230af7cdf9a75ac87830f3f814e9258cde80b4",
+          "protected": false
+        },
+        {
+          "name": "fix/darwin-launchd-self-restart",
+          "sha": "55b65182d38676893a198551dddfb83290a0138d",
+          "protected": false
+        },
+        {
+          "name": "fix/dashboard-api-improvements",
+          "sha": "c612ba272030db778799d6ebdcbaf8e9f16ff850",
+          "protected": false
+        },
+        {
+          "name": "fix/direct-token-auth",
+          "sha": "7c9a839ff65c2ed14866b868bda7be29f9ba0c47",
+          "protected": false
+        },
+        {
+          "name": "fix/discord-application-id-precision-loss",
+          "sha": "d2961817a5c58bacd171ad1a6e7260957fd72e55",
+          "protected": false
+        },
+        {
+          "name": "fix/discord-autothread-race-condition-7508",
+          "sha": "c65a74ac738111c3c307990a2c5a7211e006b727",
+          "protected": false
+        },
+        {
+          "name": "fix/discord-delivery-target-resolution",
+          "sha": "9aebe9e65f49adaec1c0c73c61508663b256d164",
+          "protected": false
+        },
+        {
+          "name": "fix/discord-exec-resolvedpath-validation",
+          "sha": "43b55a8c3a1ee4c1ba40041de1cbd0a2bce48d0e",
+          "protected": false
+        },
+        {
+          "name": "fix/discord-forum-auto-thread",
+          "sha": "6f5c1fb402be3f43751c48d05e17f6990dbe1bb7",
+          "protected": false
+        },
+        {
+          "name": "fix/discord-forum-thread-create",
+          "sha": "750adccd73c7706e18c086dd29eab3ee867cc8b8",
+          "protected": false
+        },
+        {
+          "name": "fix/discord-forum-thread-tags",
+          "sha": "6afac0fd5f2671ab9ff3fde98dfd5a04ee3a9c7c",
+          "protected": false
+        },
+        {
+          "name": "fix/discord-guild-id-misroute",
+          "sha": "288875af45fab6096f6ce53daf5ed1a148e5d8c6",
+          "protected": false
+        },
+        {
+          "name": "fix/discord-lifecycle-connected-race",
+          "sha": "f4161458a3390b39ccf15da08e3643e48679e8b1",
+          "protected": false
+        },
+        {
+          "name": "fix/discord-log-allowlist-ignored",
+          "sha": "74d8cbb0eecde44853f2cad16be39e9b07936214",
+          "protected": false
+        },
+        {
+          "name": "fix/discord-reconnect-max-attempts",
+          "sha": "3bebc3fcb0d94fab0d7070d6261e061aad7bfa55",
+          "protected": false
+        },
+        {
+          "name": "fix/discord-thread-archive",
+          "sha": "43b799391a7f498bec799da28bbd0fddeefff20d",
+          "protected": false
+        },
+        {
+          "name": "fix/discord-thread-create-content",
+          "sha": "27a7b5a60bd71de654a5fbff9c9a6303aa0fc53d",
+          "protected": false
+        },
+        {
+          "name": "fix/discord-thread-default-public",
+          "sha": "dc6a25dca4c749e4acb5592bc734f50e1e38f0ca",
+          "protected": false
+        },
+        {
+          "name": "fix/discord-thread-starter-cache-memory-leak",
+          "sha": "bf690507bfed62f768d60f11fece8f57f931cef2",
+          "protected": false
+        },
+        {
+          "name": "fix/dockerfile-install-bun",
+          "sha": "0b5f67235378563b9ac4419c1dc1a3682a42331d",
+          "protected": false
+        },
+        {
+          "name": "fix/docs-typo-7399",
+          "sha": "484a9c00309cb2b3ff966a87d98ff4d5e6b7d25c",
+          "protected": false
+        },
+        {
+          "name": "fix/double-compaction",
+          "sha": "508791fd153ea35c340f4ed4af2b6df5b4fdef72",
+          "protected": false
+        },
+        {
+          "name": "fix/duplicate-assistant-texts",
+          "sha": "65dd73b4c369f1adab49e5216269cf7f2a6bbde2",
+          "protected": false
+        },
+        {
+          "name": "fix/elevated-ask-security",
+          "sha": "a482845031b3b4ec09c7fd08eff0e0492caa0962",
+          "protected": false
+        },
+        {
+          "name": "fix/elevated-default-off",
+          "sha": "faf046b4267388253bc2dfd255e21297ae5d1ad5",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "page": 4,
+      "count": 100,
+      "branches": [
+        {
+          "name": "fix/evaluate-esbuild-name-helper",
+          "sha": "52edef225b7feccaf54cc9f06fb20b193102e93e",
+          "protected": false
+        },
+        {
+          "name": "fix/exec-allowlist-agentid-derivation",
+          "sha": "2d583e877b60c76c231f57b67e4a880159f48c30",
+          "protected": false
+        },
+        {
+          "name": "fix/exec-approval-race-condition",
+          "sha": "9ef2cafa0424e3da33c94ed7d72da6b2b3ec7ced",
+          "protected": false
+        },
+        {
+          "name": "fix/export-section-meta",
+          "sha": "3c163c71b5c24190ba0a8876e9c2e022fdef5b97",
+          "protected": false
+        },
+        {
+          "name": "fix/extension-fast-inferable-lanes-mock-drift",
+          "sha": "15cccd6747353e6707548af133ea1c971224f62d",
+          "protected": false
+        },
+        {
+          "name": "fix/failover-cooldown-skip",
+          "sha": "a087540ef39dd22113f0bc0fdc01e004b99f5f4c",
+          "protected": false
+        },
+        {
+          "name": "fix/fallback-authprofile-provider-scope",
+          "sha": "7c57c4a72d1159ae946f50e64346a70945940341",
+          "protected": false
+        },
+        {
+          "name": "fix/fd-leaks-and-model-override",
+          "sha": "7652b6f1505e4e54f69774462c381609065cbd15",
+          "protected": false
+        },
+        {
+          "name": "fix/feishu-bitable-multi-account",
+          "sha": "3099324b64f1412d57900b342e836532a0e547ff",
+          "protected": false
+        },
+        {
+          "name": "fix/feishu-dm-reply-routing-25767",
+          "sha": "0ca44126105a6f37b927f78fccc49a5fb5986b63",
+          "protected": false
+        },
+        {
+          "name": "fix/feishu-event-level-dedup",
+          "sha": "ae1d1e7e23a7741042b417378fd56253576c44ae",
+          "protected": false
+        },
+        {
+          "name": "fix/feishu-group-policy-allowall-36312",
+          "sha": "16217e258406e1c7873e3f119935e291ffda35ea",
+          "protected": false
+        },
+        {
+          "name": "fix/feishu-media-timeout-types",
+          "sha": "973650e6a027edbc62e6a5c2a0eaa704ade2b439",
+          "protected": false
+        },
+        {
+          "name": "fix/feishu-missing-larksuite-dep",
+          "sha": "e96c0695e282f5afb68569a0fe5ea38f2bf2d09f",
+          "protected": false
+        },
+        {
+          "name": "fix/feishu-reply-mechanism",
+          "sha": "79488f3610c4f5bcd2756f266b689bc68966fca3",
+          "protected": false
+        },
+        {
+          "name": "fix/feishu-typing-indicator-cleanup",
+          "sha": "6396faa2c38f3e2955f86f3633ca14438abd326c",
+          "protected": false
+        },
+        {
+          "name": "fix/fish-shell-bash",
+          "sha": "432d1481dc47f478efffcd05a607d775f29c5ad4",
+          "protected": false
+        },
+        {
+          "name": "fix/flush-delta-before-final",
+          "sha": "1e5f556fc4d686bad605ce8fb26c2ce15590107a",
+          "protected": false
+        },
+        {
+          "name": "fix/format-parameter-and-subagent-auth",
+          "sha": "38841c71e0811cebb0dd14172b2d61ba77a2b2dc",
+          "protected": false
+        },
+        {
+          "name": "fix/gateway-connection-diagnostics",
+          "sha": "f975ebf91ba6395535c501d79858db84766139d4",
+          "protected": false
+        },
+        {
+          "name": "fix/gateway-ios-client-id",
+          "sha": "110079d99dc6e069f13885e1a1160d44a8a8b368",
+          "protected": false
+        },
+        {
+          "name": "fix/gateway-token-resolution-mode-check",
+          "sha": "c46dfc84114b954bfcf9b2c8f73e58741437bb33",
+          "protected": false
+        },
+        {
+          "name": "fix/gaxios-node-fetch-node25",
+          "sha": "df41a200a56f930daf0fcc4f555a3e9ee195c9e7",
+          "protected": false
+        },
+        {
+          "name": "fix/gemini-cli-oauth-auto-credentials",
+          "sha": "6607f865cf97223fd64f1e2cc6b6899dd6cce1a2",
+          "protected": false
+        },
+        {
+          "name": "fix/gemini-cli-oauth-linux-platform",
+          "sha": "e8e5b633bdbd6304032a3fcbcad91b2d86662a36",
+          "protected": false
+        },
+        {
+          "name": "fix/gemini-compatibility",
+          "sha": "1528a88ec35063f912cae13c8d1bccbfb91e1123",
+          "protected": false
+        },
+        {
+          "name": "fix/gemini-schema-sanitization",
+          "sha": "6f3474ae5123cb8d57f4f6b139ca90bf292fe3ac",
+          "protected": false
+        },
+        {
+          "name": "fix/gemini-session-corruption-recovery",
+          "sha": "47e141f03d69bedf4286f69c5f716eaa75735bc4",
+          "protected": false
+        },
+        {
+          "name": "fix/gemini-thought-signatures",
+          "sha": "6174bf3081e05aa298cb0ebbc31884ab77fe13be",
+          "protected": false
+        },
+        {
+          "name": "fix/ghost-reminder-13317",
+          "sha": "245fbdeecfac2bc0710972d3c01826c693efaffa",
+          "protected": false
+        },
+        {
+          "name": "fix/gitignore-dev-state",
+          "sha": "85c4eb7d261271faa36cffa36a859d218af0378e",
+          "protected": false
+        },
+        {
+          "name": "fix/google-antigravity-history",
+          "sha": "53a40871fe0a93c863fa126cca6869ad5aa8fd7a",
+          "protected": false
+        },
+        {
+          "name": "fix/grok-web-search-response-format",
+          "sha": "a20f3d6946d9cc421e80af282af40a9509a5d59f",
+          "protected": false
+        },
+        {
+          "name": "fix/heartbeat-respect-custom-prompt",
+          "sha": "e059934ecc5c9c71250f28355b6cf0ea30f987b1",
+          "protected": false
+        },
+        {
+          "name": "fix/heredoc-allowlist-bypass",
+          "sha": "a54bba6ee0c7f8d2faae07c2c9873f6d018e919b",
+          "protected": false
+        },
+        {
+          "name": "fix/imessage-echo-loop",
+          "sha": "b782ae104d9e3ccd6bc2bd5debe0304d4fd0988b",
+          "protected": false
+        },
+        {
+          "name": "fix/imessage-groupish-threads",
+          "sha": "6718032fe1c6141069b048b093d58f02cf8a64fa",
+          "protected": false
+        },
+        {
+          "name": "fix/imessage-timeout-config",
+          "sha": "e085433fd010094133dd1d320e5f5f3b3537315f",
+          "protected": false
+        },
+        {
+          "name": "fix/immediate-callback-answer",
+          "sha": "206071be69141331cb01e9a710c7522f29603adc",
+          "protected": false
+        },
+        {
+          "name": "fix/import-extensions",
+          "sha": "2519626293bfc6b81a9216bb611b6dfc36d76d6b",
+          "protected": false
+        },
+        {
+          "name": "fix/imsg-remote-attachments",
+          "sha": "1e297de73495db72e5d14e49651db4b30b20cd70",
+          "protected": false
+        },
+        {
+          "name": "fix/infer-auth-choice-from-api-key-flags",
+          "sha": "fa22b155e022d69c4b4fb0bd3f81cfb47d1b9f74",
+          "protected": false
+        },
+        {
+          "name": "fix/ios-talk-no-reply-fallback",
+          "sha": "8a43ed815e1c6678dada5101e646e4bee226a800",
+          "protected": false
+        },
+        {
+          "name": "fix/ios-talkmode-simulator",
+          "sha": "b02c47043d17999a3cb0e00c9f74b092d7e53f1e",
+          "protected": false
+        },
+        {
+          "name": "fix/ios-xcode16-signing-and-build",
+          "sha": "8a5df84e9980080ba400b57100992d807f0e5ef9",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-99-watchdog",
+          "sha": "be4435e7cf8eea2903cc33ed436f01ea66e6f3f3",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-1020-sessions-perms",
+          "sha": "1f9a96df8ebb42162a04636f2399bcc106e5e96f",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-1107-semver-prerelease-suffix",
+          "sha": "3475092e38b8d7e1527878cd3a56733e6520d432",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-1269-sanitize-tool-call-text",
+          "sha": "957605f18f1daf09d09f4fc89d3761551399a77b",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-6995-zh-cn-i18n",
+          "sha": "4027b3583e9a79cb80f3ead487d4e2b7c21ab1ec",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-7323-transcript-repair",
+          "sha": "13c316c5d049af2666e956743db8359daeb912d2",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-23433",
+          "sha": "bebfab40f0f0942c9a421233f3e6f1e57f2a5876",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-24458",
+          "sha": "4a85c93fbf70da3f78f84193b66eb540fc543410",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-25261-doctor-channel-plugin-id-mismatch",
+          "sha": "521b4804664a7fdc4616f051d0fd598c5c1676e9",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-25399",
+          "sha": "2892dbbc7bfa6159b5a62f2efdbbe84ae4a0ef84",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-27569",
+          "sha": "6e5160fe4c511a8bea4f77e36da671413b4657e5",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-28268-discord-ack-reaction-scope",
+          "sha": "6d7d8f09e94806dd611f59c33d2abbc56e7ea44b",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-30338-preserve-proxy-dispatcher",
+          "sha": "6d1c059544b2e09dfe9d2506d764317508ac7d14",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-35862-restart-config-validation",
+          "sha": "67e22fa07f35dbfc9711193db160a828a0a8ef5c",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-35881-cron-perms",
+          "sha": "eb8c7a17afc9b0b7e5e8316d451ba2411150562f",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-38706",
+          "sha": "63f82e02b84e0eb9c62f56a95f513a8d5c4c9cfe",
+          "protected": false
+        },
+        {
+          "name": "fix/issue-43909",
+          "sha": "d1e32eafd4f6463e4feac45b8910bb94c2185d33",
+          "protected": false
+        },
+        {
+          "name": "fix/kimi-coding-preserve-signatures-regression",
+          "sha": "e375489ddd334e6da01dd2f432ef12dd943a1d06",
+          "protected": false
+        },
+        {
+          "name": "fix/kimi-tool-calls-39839",
+          "sha": "c7bca64bf5154be43c98c721f658e8fae04a3797",
+          "protected": false
+        },
+        {
+          "name": "fix/launchd-restart-enable",
+          "sha": "43e649d91932a46261184d9b0bbe8eb8f10f09ce",
+          "protected": false
+        },
+        {
+          "name": "fix/launchd-supervised-detection",
+          "sha": "b48844c61a47df7988f61577134545c6115658fb",
+          "protected": false
+        },
+        {
+          "name": "fix/lfi-media-parse",
+          "sha": "1314605b3a265e2ad98d8aeba4b988a999a6c910",
+          "protected": false
+        },
+        {
+          "name": "fix/line-webhook-timing-attack",
+          "sha": "5672a25097dbd93865159b9e4c993b7e10c3f6e6",
+          "protected": false
+        },
+        {
+          "name": "fix/linux-service-path-user-dirs",
+          "sha": "375112b5b1c9e20c76f8f4299740df65c2b323a2",
+          "protected": false
+        },
+        {
+          "name": "fix/local-embedding-l2-normalization",
+          "sha": "171b133f643bf04990f1463bae7989c65d6ce528",
+          "protected": false
+        },
+        {
+          "name": "fix/localstorage-settings-scope",
+          "sha": "6061a6acefb9516256e55db6e40dc0a38f2748ba",
+          "protected": false
+        },
+        {
+          "name": "fix/logs-follow-output",
+          "sha": "a4a1d872b6b159292d00866f8db90ac1eb3570e2",
+          "protected": false
+        },
+        {
+          "name": "fix/logs-follow-spinner",
+          "sha": "b72a3674a7d6a01f30f0c3ce987bfc9946e1a3fb",
+          "protected": false
+        },
+        {
+          "name": "fix/mac-node-approvals",
+          "sha": "4997a5b93f0f8dd35a84db12e8f88fd79b6be2ad",
+          "protected": false
+        },
+        {
+          "name": "fix/mac-node-bridge-tunnel-865",
+          "sha": "747277d91420b268d9aaadfdcd0fb300a54c05ce",
+          "protected": false
+        },
+        {
+          "name": "fix/main-agent-bedrock-auth",
+          "sha": "e315c2adff54025685454d1b172a1e1fd765b8dc",
+          "protected": false
+        },
+        {
+          "name": "fix/main-checks",
+          "sha": "cecadc3bbc4276fce1cc3ce249661432a683da14",
+          "protected": false
+        },
+        {
+          "name": "fix/matrix-group-sender-identity",
+          "sha": "50e82f02fc031d77de545816cacbba30dedcb571",
+          "protected": false
+        },
+        {
+          "name": "fix/mdns-info-disclosure",
+          "sha": "15d4738fb58bd29a8af03774cbac1108f099c161",
+          "protected": false
+        },
+        {
+          "name": "fix/media-loader-roots-ssrf",
+          "sha": "dbd9b1e6bcadb729212228ca435f8536935c3d46",
+          "protected": false
+        },
+        {
+          "name": "fix/media-path-allowlist",
+          "sha": "520d2129becdb79d463341fade34d339f43ea973",
+          "protected": false
+        },
+        {
+          "name": "fix/memory-cli-hang-1121",
+          "sha": "a535be78329f95933f5c1dde414f1905449855b8",
+          "protected": false
+        },
+        {
+          "name": "fix/memory-readfile-enoent",
+          "sha": "992d3d560f4aa24dc2359ebcd2253dc275332480",
+          "protected": false
+        },
+        {
+          "name": "fix/memory-slot-none",
+          "sha": "cf5567bdbed22be09f59079d05f10225931b1a03",
+          "protected": false
+        },
+        {
+          "name": "fix/merge-config-prototype-pollution",
+          "sha": "b7553e9a7eb5e2117c4c722b0287f09f5128425e",
+          "protected": false
+        },
+        {
+          "name": "fix/message-command-plugins",
+          "sha": "c01bfcbc12fa7795284719f23b83a3a6b97f127b",
+          "protected": false
+        },
+        {
+          "name": "fix/message-truncate-reasoning-tag",
+          "sha": "4583f88626f20efedc454d893afaaf898c23523b",
+          "protected": false
+        },
+        {
+          "name": "fix/messaging-tool-think-leak",
+          "sha": "bb6ebc1eab02931611dee1551a774c3f512fc7ec",
+          "protected": false
+        },
+        {
+          "name": "fix/minimax-api-endpoint",
+          "sha": "c955b36d029eca52c09993b9b0831b94d2a110e4",
+          "protected": false
+        },
+        {
+          "name": "fix/mintlify-security-subdir-conflict",
+          "sha": "61fc093f5d11d7e8e8743c4f4a9f19195441f761",
+          "protected": false
+        },
+        {
+          "name": "fix/model-catalog-cache-poison",
+          "sha": "146ceccdf444a7fce2275b47c816f990684290f6",
+          "protected": false
+        },
+        {
+          "name": "fix/model-retry-fallback-rate-limits",
+          "sha": "8aa2c0229db3ffd3b7a795bb53dd8900b5b06a78",
+          "protected": false
+        },
+        {
+          "name": "fix/model-switch-persist-1435",
+          "sha": "8e00a2dc6fa7eaf75479baf571b842ba5c30dfc3",
+          "protected": false
+        },
+        {
+          "name": "fix/msteams-bundled-deps-root-mirror",
+          "sha": "9a5f4cc4aa86973e2470f62c3d1e3f181cb417bd",
+          "protected": false
+        },
+        {
+          "name": "fix/msteams-monitor-lifecycle",
+          "sha": "b745bc2441475cd1cf941edf0063bc49f747b8ec",
+          "protected": false
+        },
+        {
+          "name": "fix/no-reply-display-issue",
+          "sha": "ed9b955b7a477dce8791a11ee2a2a7a0f73c0f6b",
+          "protected": false
+        },
+        {
+          "name": "fix/node-daemon-run",
+          "sha": "bc56aac3bdce263c83396bd2c3d96dd9d8d20cbe",
+          "protected": false
+        },
+        {
+          "name": "fix/node-exec-notify-on-exit-20193",
+          "sha": "9c57b4785f395bb24dd4f861ece4c126b76be147",
+          "protected": false
+        },
+        {
+          "name": "fix/node-invoke-deadlock",
+          "sha": "ca26e17273d99ce104223f9be3b91d0630a260fb",
+          "protected": false
+        },
+        {
+          "name": "fix/node-invoke-timeout",
+          "sha": "51a7d41c6bf1b4da7a8fa6e11b89e391c6943bde",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "page": 5,
+      "count": 100,
+      "branches": [
+        {
+          "name": "fix/nodes-camera-ssrf",
+          "sha": "c367e11158fe16a10b2461a483a0724469debad1",
+          "protected": false
+        },
+        {
+          "name": "fix/npm-extensions-workspace",
+          "sha": "33983131bafbd5c478e943033e81f19b496c9ef7",
+          "protected": false
+        },
+        {
+          "name": "fix/oc-07-sessions-history-webhook-secret",
+          "sha": "aaaac4a9fddc08492ed1afc20d8c5b9f3ecd3225",
+          "protected": false
+        },
+        {
+          "name": "fix/oc-25-oauth-csrf-state-fabrication",
+          "sha": "e8ead09cd1d5402257e2f91a3ab00d877ed6d7c0",
+          "protected": false
+        },
+        {
+          "name": "fix/onboard-telegram-plugin-not-available-25545",
+          "sha": "fdc058e6c30956e7fdb982f90259b7c4a19761d5",
+          "protected": false
+        },
+        {
+          "name": "fix/openai-audio-capability",
+          "sha": "c130d126c6422a14be51971f3b6e9f940fe69094",
+          "protected": false
+        },
+        {
+          "name": "fix/openai-codex-implicit-provider",
+          "sha": "087fe1f72a0421f73b01abf65267d28a639673a7",
+          "protected": false
+        },
+        {
+          "name": "fix/opencode-zen-comment-accuracy",
+          "sha": "7b316893464b5ebd1df1594013a60a458ff77947",
+          "protected": false
+        },
+        {
+          "name": "fix/origin-check-non-standard-schemes",
+          "sha": "a40002f94f687009a63a9c866185cae6d682415c",
+          "protected": false
+        },
+        {
+          "name": "fix/orphaned-tool-use-pending-clear",
+          "sha": "2372b5756e1eb7fa0252b96997377efe4f8d3f1f",
+          "protected": false
+        },
+        {
+          "name": "fix/overloaded-error-handling",
+          "sha": "e8779ac32944f985dd06d2b52e50a022d6f9ef30",
+          "protected": false
+        },
+        {
+          "name": "fix/overloaded-failover-policy",
+          "sha": "f9626edc24ecd209f0eb4bebe509c11fcd3a161f",
+          "protected": false
+        },
+        {
+          "name": "fix/pairing-cli-plugin-initialization",
+          "sha": "aeed477be9090dcc49679a3136ef9e76f70873c7",
+          "protected": false
+        },
+        {
+          "name": "fix/pairing-show-actual-code",
+          "sha": "651195005aede22643b975c43e974bf464f8f0ba",
+          "protected": false
+        },
+        {
+          "name": "fix/perplexity-web-search-provider",
+          "sha": "1fa16f41605d56d1420fdfd9c78e85d16623a31e",
+          "protected": false
+        },
+        {
+          "name": "fix/plugin-duplicate-registry-crash",
+          "sha": "a3d08bb3d2de2c36cb2be7e0bd490253093e257f",
+          "protected": false
+        },
+        {
+          "name": "fix/pr-37876-format-followup",
+          "sha": "51bae75120485d305b0bac00d59a2d80280590c2",
+          "protected": false
+        },
+        {
+          "name": "fix/preserve-command-arg-casing",
+          "sha": "383bdcd77874919cc145f8c74dc9403226793116",
+          "protected": false
+        },
+        {
+          "name": "fix/prompt-failover",
+          "sha": "d1ccc1e5428acdb97c4c9bbbea1f49daa1e547c5",
+          "protected": false
+        },
+        {
+          "name": "fix/propagate-stop-reason",
+          "sha": "333c16010d458566302642a8982724d47292fd5e",
+          "protected": false
+        },
+        {
+          "name": "fix/reasoning-leak-channel-dispatch",
+          "sha": "ad11741aa5a10798f265af4872e43fb3d445b701",
+          "protected": false
+        },
+        {
+          "name": "fix/remove-google-docs-editor-showcase",
+          "sha": "885fc2bb30a27b905b0f086f95bdacffe2912218",
+          "protected": false
+        },
+        {
+          "name": "fix/respawn-detect-supervised-env",
+          "sha": "229f8b3d0487a49c9c1ad7280ac9ed24b673ee6a",
+          "protected": false
+        },
+        {
+          "name": "fix/restart-channel-routing",
+          "sha": "17f36351099f08c3f2530c4463e8d39775d31629",
+          "protected": false
+        },
+        {
+          "name": "fix/restore-reasoning-tag-check",
+          "sha": "382681178bf8b1988e6e352fbcc587fe96aef312",
+          "protected": false
+        },
+        {
+          "name": "fix/restore-subagent-announce-chain",
+          "sha": "cb1de711385413d75e5c6ec34c1cd21261c654db",
+          "protected": false
+        },
+        {
+          "name": "fix/restore-subagent-announce-v2",
+          "sha": "cb9b0a5b46acf40f50d38378c4d87f5bf3ad81cc",
+          "protected": false
+        },
+        {
+          "name": "fix/sandbox-browser-network-bridge",
+          "sha": "75e66bbaddf58c3e75e1b7fbbf4b23dae81ac949",
+          "protected": false
+        },
+        {
+          "name": "fix/sandbox-mkdirp-boundary-31438",
+          "sha": "061121f2b11abaad7370fd283599f2d8106e541f",
+          "protected": false
+        },
+        {
+          "name": "fix/sandbox-setupcommand-array-newlines",
+          "sha": "32e4558e4ff68667a9bb1681870dd74de4b9562e",
+          "protected": false
+        },
+        {
+          "name": "fix/secrets-pr-scope",
+          "sha": "d15f069d9f3989d4c28d34981d25c45337ca74a4",
+          "protected": false
+        },
+        {
+          "name": "fix/security-audit-gateway-auth",
+          "sha": "7146326c5628a9e5f33c07f54a5353a767d0891f",
+          "protected": false
+        },
+        {
+          "name": "fix/security-sanitize-env-vars",
+          "sha": "23d0555e79050e460aa9faac52e78eb17ef609b2",
+          "protected": false
+        },
+        {
+          "name": "fix/security-webhook-path-and-browser-service-fail-close",
+          "sha": "74c1a7b22a3313aabf9b5bf004ed5a576d055e21",
+          "protected": false
+        },
+        {
+          "name": "fix/session-file-absolute-path",
+          "sha": "0d0effd9d4e515639bb0835e2d7dea41eeffcfdf",
+          "protected": false
+        },
+        {
+          "name": "fix/session-lock-cleanup",
+          "sha": "50c59ac7ca806d76c749ff754e0f7e3ae244e107",
+          "protected": false
+        },
+        {
+          "name": "fix/session-memory-suppress-confirmation",
+          "sha": "21ed547bfcc37cb47e16020e323f6e5e3d81c480",
+          "protected": false
+        },
+        {
+          "name": "fix/session-reset-account-id",
+          "sha": "22947a4efc90c3f42ca18305fe0e9d6161c0213f",
+          "protected": false
+        },
+        {
+          "name": "fix/session-reset-token-counts",
+          "sha": "e2065e8d961d191e7e3e0553e8a65f3f4c29e4a9",
+          "protected": false
+        },
+        {
+          "name": "fix/settings-scroll-1743",
+          "sha": "d1ef5571b64350325a16aa7a41f44ce505f717b1",
+          "protected": false
+        },
+        {
+          "name": "fix/sidebar-scroll",
+          "sha": "00ba61028fb0f1d99cf4c315d06b938e0a4c9c01",
+          "protected": false
+        },
+        {
+          "name": "fix/signal-reaction-own-mode-uuid-match",
+          "sha": "4274ecba8dbacd28e8dfc22058ef97ef4d44e87b",
+          "protected": false
+        },
+        {
+          "name": "fix/sigusr1-orphan-recovery",
+          "sha": "745b01d7750ac823f7960db610c1faf6e4860b4e",
+          "protected": false
+        },
+        {
+          "name": "fix/slack-app-mention-dedup",
+          "sha": "8b21e8c67e7a213e1b88232bbe9be886bb2b3bdf",
+          "protected": false
+        },
+        {
+          "name": "fix/slack-dm-duplication",
+          "sha": "091dca2552676c9b58545ce775ce6ec6c3c3ec74",
+          "protected": false
+        },
+        {
+          "name": "fix/slack-download-file-scope",
+          "sha": "4ce4eab1c17213572d02f6be54045adde93c135b",
+          "protected": false
+        },
+        {
+          "name": "fix/slack-filetype-deprecation",
+          "sha": "186fdf6b0616a3080232cc5bbc213944924f3a2c",
+          "protected": false
+        },
+        {
+          "name": "fix/slack-media-changes",
+          "sha": "389d35468c7609ed8b44355dd51e9858def896ea",
+          "protected": false
+        },
+        {
+          "name": "fix/slack-media-local-roots",
+          "sha": "4be930aac1f643a1d6e38dc1ca079e673d9a39f4",
+          "protected": false
+        },
+        {
+          "name": "fix/slack-open-group-policy",
+          "sha": "b4aeebafdaf077e8fa445ca5c0ac305b4f51073d",
+          "protected": false
+        },
+        {
+          "name": "fix/slack-reserved-status-command",
+          "sha": "7e6e78555627c8e93e96d88e8c3276209d288868",
+          "protected": false
+        },
+        {
+          "name": "fix/slack-streaming-double-convert",
+          "sha": "7097148df8cdf5e710d227a7ce48e02eb896cd2f",
+          "protected": false
+        },
+        {
+          "name": "fix/slack-streaming-mobile-duplicate",
+          "sha": "b0c77a4f673c57474d46c32d5ad413fb3ae57f02",
+          "protected": false
+        },
+        {
+          "name": "fix/slack-streaming-team-id",
+          "sha": "01d3b67705987cf7cf72db947f58b2dfc879fa0f",
+          "protected": false
+        },
+        {
+          "name": "fix/slack-thread-ghost-media",
+          "sha": "1a56e16a7f2afdd6d8cbfb539f159375253c65be",
+          "protected": false
+        },
+        {
+          "name": "fix/slack-top-level-require-mention",
+          "sha": "151a551be95d76bf16a66849fb9baa2a76b4600d",
+          "protected": false
+        },
+        {
+          "name": "fix/slack-typed-message-events-31674",
+          "sha": "5efb9700b323609f6d3a8abf2a9e7e9d7e225012",
+          "protected": false
+        },
+        {
+          "name": "fix/stable-launchagent-path",
+          "sha": "9bba80a4f5b99c44f36014f71eaeeec706aba797",
+          "protected": false
+        },
+        {
+          "name": "fix/state-dir-hardcoded-paths",
+          "sha": "6ff9e4830c06bdc6a16e8b03cb7aa7f68edd6be1",
+          "protected": false
+        },
+        {
+          "name": "fix/status-json-startup-memory-probe-auth",
+          "sha": "6e5f3ee0fb841a1a16a7851fc6786e4ec9b48664",
+          "protected": false
+        },
+        {
+          "name": "fix/strip-historical-context-from-streaming",
+          "sha": "218f8fa3cc2b07c9a70dfb8e2eb2084056ea386c",
+          "protected": false
+        },
+        {
+          "name": "fix/strip-inbound-metadata-v2",
+          "sha": "3b62f4e5f93253a79dd2964df54922a0c4a67a14",
+          "protected": false
+        },
+        {
+          "name": "fix/subagent-announce-channel-routing",
+          "sha": "6e5f6a6c5a592646c04cdb576bbc3277e6bf2847",
+          "protected": false
+        },
+        {
+          "name": "fix/subagent-completion-announce-24514",
+          "sha": "8d5a4d52e97352dd4de089eefc04b027b743ca9d",
+          "protected": false
+        },
+        {
+          "name": "fix/subagent-restart-recovery",
+          "sha": "006ba42c354ddf89cab14a168c5abd76884faca2",
+          "protected": false
+        },
+        {
+          "name": "fix/subagent-skills-inheritance",
+          "sha": "2d9297a93ae3b55f2df48f9e08f5470f9661a04b",
+          "protected": false
+        },
+        {
+          "name": "fix/synology-chat-incoming-url-26185",
+          "sha": "fd61b7497197b8b9e729f963208c13581600bf67",
+          "protected": false
+        },
+        {
+          "name": "fix/synology-chat-message-delivery",
+          "sha": "013d394aa9befa292bb44918242c95165214e7b9",
+          "protected": false
+        },
+        {
+          "name": "fix/synology-chat-user-id-resolution",
+          "sha": "326a8fbf660c00b845478667b7d97b822f734bd8",
+          "protected": false
+        },
+        {
+          "name": "fix/synology-docker",
+          "sha": "6fd68c66896007af866ca71fb334ddf43ff23330",
+          "protected": false
+        },
+        {
+          "name": "fix/systemd-execstart-whitespace",
+          "sha": "860dc746391a615e30d69b8b91f02ec2957504ce",
+          "protected": false
+        },
+        {
+          "name": "fix/talk-mode-latency",
+          "sha": "e663dac3b2b2b07d4482e197d8e244311d27d9b8",
+          "protected": false
+        },
+        {
+          "name": "fix/telegram-caption-split",
+          "sha": "1cdd3f29dab336ab7bc3681892ed52d3ff8a744d",
+          "protected": false
+        },
+        {
+          "name": "fix/telegram-command-sync-throttle",
+          "sha": "0872ba2499446abcd8fd9142c470bec2540c634d",
+          "protected": false
+        },
+        {
+          "name": "fix/telegram-dm-topic-thread-key-collision",
+          "sha": "7711f52cc7193ce95e3e0313274a9ae876e08853",
+          "protected": false
+        },
+        {
+          "name": "fix/telegram-general-topic-messages",
+          "sha": "c457d8d70c878c08fe80365074671bfd3f96dc68",
+          "protected": false
+        },
+        {
+          "name": "fix/telegram-gif-animation",
+          "sha": "cc0ef4d01200539153a103604d0c0710552a262c",
+          "protected": false
+        },
+        {
+          "name": "fix/telegram-lane-orphaned-preview",
+          "sha": "28a5b16bbe6ee50cf98bae808975e4b51dfb5de2",
+          "protected": false
+        },
+        {
+          "name": "fix/telegram-md-url-preview",
+          "sha": "49d7055d12e84929453ccdb63a67df7b15b236b9",
+          "protected": false
+        },
+        {
+          "name": "fix/telegram-node22-network-stability",
+          "sha": "dc09f1a8f6181105a1a3bbf0202ec8282ab52a82",
+          "protected": false
+        },
+        {
+          "name": "fix/telegram-polling-recovery",
+          "sha": "d0694788c930d943a336b6a431d9fd04a8170129",
+          "protected": false
+        },
+        {
+          "name": "fix/telegram-preserve-original-filename",
+          "sha": "63a97de42d90a308e6a32388d634046deff64ce2",
+          "protected": false
+        },
+        {
+          "name": "fix/telegram-reply-to-first-mode",
+          "sha": "a8106f7c13ff0c0fad022cffc48df194ed485838",
+          "protected": false
+        },
+        {
+          "name": "fix/telegram-reply-to-mode-default",
+          "sha": "bb1bdf79e03b26c1a97a46de5c698a15837712fe",
+          "protected": false
+        },
+        {
+          "name": "fix/telegram-spoiler-tags",
+          "sha": "4b95b6fe3c781c92c64e3fd74148025d874447a6",
+          "protected": false
+        },
+        {
+          "name": "fix/telegram-timed-out-recovery",
+          "sha": "9c515824a3b556540bd23961568b705abd1649f6",
+          "protected": false
+        },
+        {
+          "name": "fix/telegram-topic-announcement",
+          "sha": "e9dc73a7dc981dc400aa9a99fdb9d9210ad61f66",
+          "protected": false
+        },
+        {
+          "name": "fix/test-harness-mockfn-structural",
+          "sha": "ec349c4d15880ae5dec9f61da97406cb628122db",
+          "protected": false
+        },
+        {
+          "name": "fix/tmux-send-keys-tui",
+          "sha": "4223ad02caa08376d555f14a65bc15fda1e2632c",
+          "protected": false
+        },
+        {
+          "name": "fix/token-count-after-compaction",
+          "sha": "97805e63bed4669cc1b254eb168483a6745e450e",
+          "protected": false
+        },
+        {
+          "name": "fix/tool-call-id-maxlen-40",
+          "sha": "738b3592cd1c7c266602697ca2d37cb8e04f26fd",
+          "protected": false
+        },
+        {
+          "name": "fix/tool-error-fallback",
+          "sha": "ace906539f3c03dd87c228e331807270bbc12573",
+          "protected": false
+        },
+        {
+          "name": "fix/tool-result-flush-race",
+          "sha": "c11063485a60e4669206c9a2b2411c9be8ea92fd",
+          "protected": false
+        },
+        {
+          "name": "fix/tool-typing-race-condition",
+          "sha": "7dead2530b2fbbccf33663ca8d263a3115d17d88",
+          "protected": false
+        },
+        {
+          "name": "fix/transcript-corruption-resilience",
+          "sha": "274ec379b07d8b80424915cbb081d01e80d15e19",
+          "protected": false
+        },
+        {
+          "name": "fix/transient-runner-policy",
+          "sha": "890dbf523f4d03c83bb353691b324ce403ad5a6e",
+          "protected": false
+        },
+        {
+          "name": "fix/trigger-word-mac",
+          "sha": "0fbf7282986f69764c738c983e22adda5d92143d",
+          "protected": false
+        },
+        {
+          "name": "fix/trim-tool-names-before-lookup",
+          "sha": "32e3630a89e3690fa1f64d2ee6e925fb3e01a097",
+          "protected": false
+        },
+        {
+          "name": "fix/tts-base-url-runtime-read-2816",
+          "sha": "797cc145c3e31ab85b6584850f1cb598a4bd621e",
+          "protected": false
+        },
+        {
+          "name": "fix/tui-final-tag-strip",
+          "sha": "7a51b3fdbdc47147ef90bd6f80aff8564aa17299",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "page": 6,
+      "count": 100,
+      "branches": [
+        {
+          "name": "fix/tui-metadata-and-tag-leaks",
+          "sha": "00038d364311fd7c73769e31854bbe6af6b1a584",
+          "protected": false
+        },
+        {
+          "name": "fix/tui-token-refresh",
+          "sha": "504f2b06069521a70efa4a19b518f2f0a1ae9776",
+          "protected": false
+        },
+        {
+          "name": "fix/twitch-tests",
+          "sha": "11910d49e061a1ea475c326ee99eb194486a3e6b",
+          "protected": false
+        },
+        {
+          "name": "fix/typing-keepalive-circuit-breaker",
+          "sha": "aa31f61c5839922509f17368eb191bc33bef0865",
+          "protected": false
+        },
+        {
+          "name": "fix/ui-chat-image-open-url-allowlist",
+          "sha": "ee4abeba88855e5ed24c3569f7c6341bb46e347a",
+          "protected": false
+        },
+        {
+          "name": "fix/ui-save-button-1609",
+          "sha": "fbe59ae8e045f8302f609bd4fd527bd2d9117a89",
+          "protected": false
+        },
+        {
+          "name": "fix/unhandled-fetch-rejections",
+          "sha": "9aed6ac49a419ea5d1f3ae43eb0d9b039de1fc20",
+          "protected": false
+        },
+        {
+          "name": "fix/versioned-node-binary",
+          "sha": "bb0f9eee1e33a541cf8776683f02e0b4a20e6ad2",
+          "protected": false
+        },
+        {
+          "name": "fix/voice-call-statuscallback",
+          "sha": "63ac6ccd201288061723ecbe70b00db545d569a9",
+          "protected": false
+        },
+        {
+          "name": "fix/voice-call-tts-overlap",
+          "sha": "0cbc0510198d6c3cd7d1bc04e5604ddadbe66d60",
+          "protected": false
+        },
+        {
+          "name": "fix/voice-call-verify-stale-calls",
+          "sha": "b17cc78a6b3734ec573f1122ab3da8c9afae0295",
+          "protected": false
+        },
+        {
+          "name": "fix/voice-mp3-m4a-support",
+          "sha": "d1316c8a7ff56351d9bfd0e6d700f058555602c0",
+          "protected": false
+        },
+        {
+          "name": "fix/voicecall-tailscale-path",
+          "sha": "ee2cfa5ca11421cc4c45f9b2643dc3dd5e6b4c24",
+          "protected": false
+        },
+        {
+          "name": "fix/volcengine-plan-auth-mismatch",
+          "sha": "78b0c868607b6b563aca161a86a5596b1b967399",
+          "protected": false
+        },
+        {
+          "name": "fix/webchat-inline-code-copy-paste",
+          "sha": "16e6789dd5298163c507be7e8b5788e0f45feeea",
+          "protected": false
+        },
+        {
+          "name": "fix/webchat-scroll-position",
+          "sha": "1b34446bf55bcad9a03e2734c052f6580a5e11c1",
+          "protected": false
+        },
+        {
+          "name": "fix/whatsapp-preserve-document-filename",
+          "sha": "5581a79c82579f28efa9bba66daea9cec953d5cd",
+          "protected": false
+        },
+        {
+          "name": "fix/windows-acl-locale-false-positives",
+          "sha": "11986a601f7f292ba314d57e3f691481126ee305",
+          "protected": false
+        },
+        {
+          "name": "fix/windows-fs-safe-tilde-test",
+          "sha": "36d1c836d81da9ada500352202143876aad8b42c",
+          "protected": false
+        },
+        {
+          "name": "fix/windows-gateway-startup",
+          "sha": "ee24cfb58e7b691a53e244cd39babc4cbb9a21dc",
+          "protected": false
+        },
+        {
+          "name": "fix/windows-restart-hidden-console",
+          "sha": "87116e959c5f84c710bc4220fd696bfe134c86f7",
+          "protected": false
+        },
+        {
+          "name": "fix/ws3-cron-bot-followup",
+          "sha": "2da3a1399c9855d96943e186e9cf1801b10357a4",
+          "protected": false
+        },
+        {
+          "name": "fix/xai-schema-validation-keywords",
+          "sha": "1b0728f29b31e00fd6fac31794f758f7845ef5a5",
+          "protected": false
+        },
+        {
+          "name": "fix/zalo-pairing-and-webhook",
+          "sha": "f0961d3b823db99c609f9477bc1527b709c55bc9",
+          "protected": false
+        },
+        {
+          "name": "fix/402-rate-limit-misclassified",
+          "sha": "b3b148bba13292acfb762d243ad79061fe515680",
+          "protected": false
+        },
+        {
+          "name": "fix/1056-ignore-heavy-watch-paths",
+          "sha": "e13a332ac849731f3865ec1aed0852661e427033",
+          "protected": false
+        },
+        {
+          "name": "fix/1540-openai-reasoning-transcript",
+          "sha": "3a8101a96bfd5474d23f5592a0b4e21b91be3701",
+          "protected": false
+        },
+        {
+          "name": "fix/2692-whatsapp-accountid-path-traversal",
+          "sha": "758ec033aecffc707547934fcb20abc791a4eb4d",
+          "protected": false
+        },
+        {
+          "name": "fix/3805-message-tool-sandbox-bypass",
+          "sha": "0dbe018aa954012603ce0e86c507774759fc9ff2",
+          "protected": false
+        },
+        {
+          "name": "fix/4855-control-ui-assets-global-install",
+          "sha": "1f875b48dd680a62b9062453c51710c87b50f19c",
+          "protected": false
+        },
+        {
+          "name": "fix/5266-tlon-sse-timeout",
+          "sha": "13c8b2ada5a41fb95d4507d5d742d537470c3784",
+          "protected": false
+        },
+        {
+          "name": "fix/5308-ollama-maxtokens-clamp",
+          "sha": "b49b8380a5fbc49acc94db0dda0944dec6e0ba30",
+          "protected": false
+        },
+        {
+          "name": "fix/5787-telegram-commands-limit",
+          "sha": "7ab44f0a38d9e381c0b4d771f6b7c34c88cc7181",
+          "protected": false
+        },
+        {
+          "name": "fix/6606-discord-invite-link",
+          "sha": "aa1604032b5bb2782d09f81bf7d0614d07e68111",
+          "protected": false
+        },
+        {
+          "name": "fix/6645-webchat-session-display-name",
+          "sha": "ae064643ae216b5f9c13559a25c88b168924940f",
+          "protected": false
+        },
+        {
+          "name": "fix/8736-whatsapp-dmpolicy-hierarchy",
+          "sha": "91698769b352eec729c69971f2d6c33824de8728",
+          "protected": false
+        },
+        {
+          "name": "fix/10804-cron-isolated-skills",
+          "sha": "0d6a9dc259783997064bfc0d75840ec2b5c5872b",
+          "protected": false
+        },
+        {
+          "name": "fix/13244-carbon-mock-partial",
+          "sha": "48993aebc891db3ab5e492a10c5479bf1434aba2",
+          "protected": false
+        },
+        {
+          "name": "fix/13348-form-editor-number-coerce",
+          "sha": "61feb7eb9948adaa8c42926e30f479edc1df6f48",
+          "protected": false
+        },
+        {
+          "name": "fix/15587-windows-backslash-parsing",
+          "sha": "c50183feb1b27141f4af08d15e73fc80f3d6a4b8",
+          "protected": false
+        },
+        {
+          "name": "fix/15741-openai-image-gen-timeout",
+          "sha": "a2a885450ab084c50398e03078b32a5b081a574d",
+          "protected": false
+        },
+        {
+          "name": "fix/16425-line-webhook-verification",
+          "sha": "eb32268ce116dc3ca38db29d93d0a769811df0c5",
+          "protected": false
+        },
+        {
+          "name": "fix/22276-tui-strip-inbound-metadata",
+          "sha": "135e6019f7dcc296cade595147aaa120a55a0197",
+          "protected": false
+        },
+        {
+          "name": "fix/28701-chrome-profile-startup-deadlock",
+          "sha": "bfd3feda2d46faab9d0e33cd9358e9087886dae7",
+          "protected": false
+        },
+        {
+          "name": "fix/29386-browser-act-stale-tab-retry",
+          "sha": "10152fc2dd9e980f500e25f0b64ac36eed1f825d",
+          "protected": false
+        },
+        {
+          "name": "fix/29431-browser-relay-navigate-retry",
+          "sha": "ed4fe9e945e48a470d9677d8fe57252726e77f27",
+          "protected": false
+        },
+        {
+          "name": "fix/30761-windows-workspace-root-false-positive",
+          "sha": "cda2e2adf661da75490672dd32e1844589c01d7a",
+          "protected": false
+        },
+        {
+          "name": "fix/30958-ollama-docker-baseurl",
+          "sha": "08a36875c76b9c0dfff464f572647bb0ad7ba7aa",
+          "protected": false
+        },
+        {
+          "name": "fix/31530-parallel-channel-agent-dispatch",
+          "sha": "038ae945fb36dac40b482102ab38a013e1c636e7",
+          "protected": false
+        },
+        {
+          "name": "fix/31658-save-button-unclickable",
+          "sha": "4d0dd425ba09de046d94c3b231ef403bca6367f6",
+          "protected": false
+        },
+        {
+          "name": "fix/31766-plugin-route-priority",
+          "sha": "36ba09e25dd552f149f1111833e8cd96dbb188bf",
+          "protected": false
+        },
+        {
+          "name": "fix/32153-docker-awk-upstream",
+          "sha": "7ba044c6cd0e87bf48f2a703d93fd4f4ed53dea6",
+          "protected": false
+        },
+        {
+          "name": "fix/35209-control-ui-version-dev",
+          "sha": "b75a625fbf61103b91e3b404ca1b26a07755b869",
+          "protected": false
+        },
+        {
+          "name": "fix/35254-tui-routing",
+          "sha": "8393d995d5770dabe4e9b2d84d13688309f3088b",
+          "protected": false
+        },
+        {
+          "name": "fix-7149-discord-dm-reactions",
+          "sha": "6ef00b93064f20d5f8af361856b7313cd009eadd",
+          "protected": false
+        },
+        {
+          "name": "fix-15819-venice-streaming",
+          "sha": "1cfc7d2455229ba9a3373780ece7fc299f80ab4b",
+          "protected": false
+        },
+        {
+          "name": "fix-29101-twilio-inbound-greeting",
+          "sha": "b8f32cea65b70b8972432e85f13bd4d1303d6e1e",
+          "protected": false
+        },
+        {
+          "name": "fix-agent-error-format-9170321437686182807",
+          "sha": "c215108c7d81e9410aee5fcf403928aaaae9746a",
+          "protected": false
+        },
+        {
+          "name": "fix-cron-timeout-cancel",
+          "sha": "37b23dd6b4d0f348995e915d088c8e8d31191cc3",
+          "protected": false
+        },
+        {
+          "name": "fix-matrix-allowfrom",
+          "sha": "2552d4f497d23b43475249e4c81237086d800ec1",
+          "protected": false
+        },
+        {
+          "name": "fix-matrix-bugs",
+          "sha": "5b24bf7ac125329cf8fc695b53e0fa2f145d0375",
+          "protected": false
+        },
+        {
+          "name": "fix-message-path-parameter",
+          "sha": "9cf4fc3867a708c13a9a5fed4f10e827e71bafa2",
+          "protected": false
+        },
+        {
+          "name": "fix-models-command",
+          "sha": "d0ee03bd206342490262aed1775d107b077870b8",
+          "protected": false
+        },
+        {
+          "name": "fix-oom-completion",
+          "sha": "7f66492e262770f71d50cea9712ce258a607d6c5",
+          "protected": false
+        },
+        {
+          "name": "fix-sandbox-docker-error-handling-5148992180898723672",
+          "sha": "3dee99fe73d1fb24361337d01eb47e98dad3e50f",
+          "protected": false
+        },
+        {
+          "name": "fix-slack-thread-root-file-context",
+          "sha": "43bd219f1de3399851fb3fcdadc10838e9ad34ca",
+          "protected": false
+        },
+        {
+          "name": "fix-webchat-gateway-url",
+          "sha": "99e0cff34aadd84ba4cff6380096218338b0e698",
+          "protected": false
+        },
+        {
+          "name": "gateway/node-pending-work-primitives",
+          "sha": "f2c544f05725e106321e6d00698b85762184c4b4",
+          "protected": false
+        },
+        {
+          "name": "gog-calendar-colors",
+          "sha": "eb1de642dbebef0c8e7107876ee175302f1952b9",
+          "protected": false
+        },
+        {
+          "name": "imlukef/onboarding-ux-improvements",
+          "sha": "5f2f9a05a3732af7aeea845d44db10924b656494",
+          "protected": false
+        },
+        {
+          "name": "imlukef/pr-14458",
+          "sha": "a69a5a0d59bd9ea5295dad9918bae0518ad74015",
+          "protected": false
+        },
+        {
+          "name": "improve-anthropic-token-hints",
+          "sha": "4429b758132cd8750c69a561beb140463c0a6aeb",
+          "protected": false
+        },
+        {
+          "name": "improve-skill-descriptions",
+          "sha": "92102b9bb67e634b327b364016b61ea2239cbc45",
+          "protected": false
+        },
+        {
+          "name": "integrate/pr-361-anthropic-oauth-email-profile",
+          "sha": "4fac5a6390899b4f8be0958f6c3b6ca709e6d67b",
+          "protected": false
+        },
+        {
+          "name": "investigate/dup-messages",
+          "sha": "d1e399ab70ac50418e15e0900d91670234247619",
+          "protected": false
+        },
+        {
+          "name": "ios/settings-local-ip",
+          "sha": "b01cb4195021d71241b7a2ba189f10fa8a574a59",
+          "protected": false
+        },
+        {
+          "name": "ios-device-info-helper-v2",
+          "sha": "9a95caf740407bf5fd003265413f7d44d05220a0",
+          "protected": false
+        },
+        {
+          "name": "issue-17774/usage-time-offsets",
+          "sha": "a672de26a2917cfd5207aac9545b6c741cffcee3",
+          "protected": false
+        },
+        {
+          "name": "issue-38291-output-normalization",
+          "sha": "d992e21a6f47f48635c6b4eee659bbf6e1c8685d",
+          "protected": false
+        },
+        {
+          "name": "issue-38384-runtime-hardening",
+          "sha": "6d466c26f15fce6c8719448016ca71babdbc05d0",
+          "protected": false
+        },
+        {
+          "name": "jarvis/telegram-media-error-notify",
+          "sha": "d8504f532183e9f5d340f9bc81958b6038df2e03",
+          "protected": false
+        },
+        {
+          "name": "jverdi/gmailwatcher-survive-restarts",
+          "sha": "fdf49a38b420532c72e19df95a52805b1a0e9a1e",
+          "protected": false
+        },
+        {
+          "name": "jverdi/hooks-gmail-skipack",
+          "sha": "7dcedca323ece91608642dbedbe546b9ded24ec1",
+          "protected": false
+        },
+        {
+          "name": "landpr/1576",
+          "sha": "618efd8a710c5688c84221cd2063a4122c04ef45",
+          "protected": false
+        },
+        {
+          "name": "line-plugin",
+          "sha": "43c2c9b69773b9b18ab3f965b089106f529298b7",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "25011bdb1ed11763fac0cfc29ae6bc0a94dc5c4b",
+          "protected": false
+        },
+        {
+          "name": "mariano/doctor-cron-fix-contract",
+          "sha": "011e9df2084e8654a46fba248a42b786c3b9c684",
+          "protected": false
+        },
+        {
+          "name": "matrix-with-e2ee-support",
+          "sha": "04b92925e04235e5b6710cf45be2b48c2b9224b4",
+          "protected": false
+        },
+        {
+          "name": "menu-context-hosted",
+          "sha": "12d9a13af06cb4ad96c5537c1af14b419b5e17bd",
+          "protected": false
+        },
+        {
+          "name": "mkt/discord-presence",
+          "sha": "648b6d0f91c96dce333d1543c1d323aae0f918f4",
+          "protected": false
+        },
+        {
+          "name": "mmusson/fix-whatsapp-440-nonretryable-25591",
+          "sha": "4a85396a28a85b4e875914f52d754d8aa649c9aa",
+          "protected": false
+        },
+        {
+          "name": "napetrov/sessions-spawn-attachments",
+          "sha": "cdab56654050011fc6ea7b5577808f27927ff2be",
+          "protected": false
+        },
+        {
+          "name": "negarestani-b1cb7157",
+          "sha": "68a0db6fb4c6d116b674e89135fe8b148b9e18f5",
+          "protected": false
+        },
+        {
+          "name": "ollama-models-return-corrupted-response",
+          "sha": "fa5728817f9a579dfbea69c3bd80eb972eb286a7",
+          "protected": false
+        },
+        {
+          "name": "openrouter-models-sync",
+          "sha": "35b6ae39848fb3f6150bec9b14da09de3b4eab2a",
+          "protected": false
+        },
+        {
+          "name": "packager-runtime-build",
+          "sha": "4c2bce3254500f49132aba0764d527192b85f686",
+          "protected": false
+        },
+        {
+          "name": "patch-1",
+          "sha": "300d2c9339fcbca070ebc4538c0e878354b161a1",
+          "protected": false
+        },
+        {
+          "name": "patch-2",
+          "sha": "fc4e1a434fec379590930055184413dd859156bc",
+          "protected": false
+        },
+        {
+          "name": "pi-unfuckery",
+          "sha": "19fe3b2fe16b90f0213d26fb31070306c97d53bf",
+          "protected": false
+        },
+        {
+          "name": "plugin-cli-commands-fix-2173",
+          "sha": "1a0e5f168f4a17e00d591413d42e7a9a091f9021",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "page": 7,
+      "count": 100,
+      "branches": [
+        {
+          "name": "plugins/exclusive-slots",
+          "sha": "156a43e29b8249c292716f5af49b1999622a9611",
+          "protected": false
+        },
+        {
+          "name": "pr/chat-scroll",
+          "sha": "d4e30d559bd8e623b1b33d299d07c33f1d9ed2ef",
+          "protected": false
+        },
+        {
+          "name": "pr/chat-session-url",
+          "sha": "a6d02d58086679c1feff1464ea0665d165cc4697",
+          "protected": false
+        },
+        {
+          "name": "pr/chat-thinking-tool",
+          "sha": "492946e0f1e6247bf9f3225d7ffc366260626fa2",
+          "protected": false
+        },
+        {
+          "name": "pr/remove-bash-tool",
+          "sha": "c2b783a0ac3694dae580d0009d26d06c5dbdda21",
+          "protected": false
+        },
+        {
+          "name": "pr/sessions-labels",
+          "sha": "99546ca3d97d9ace5ba413d7218f18841e53c9ab",
+          "protected": false
+        },
+        {
+          "name": "pr/talk-mode-taskhint",
+          "sha": "e7fa532bc63bb7a6511c15de8105118568b7289a",
+          "protected": false
+        },
+        {
+          "name": "pr/windows-argv-fix",
+          "sha": "f2795754e9a659c7ab9bc4eec6c211d247257287",
+          "protected": false
+        },
+        {
+          "name": "pr17",
+          "sha": "4a35bcec21c37237ad57e7d89b7941c67a9198ed",
+          "protected": false
+        },
+        {
+          "name": "pr15280-mergefix",
+          "sha": "d5def704e2f8a6e98aa4e2475a6b24e416be6a8b",
+          "protected": false
+        },
+        {
+          "name": "pr/16761",
+          "sha": "f32590ec432aeada4302977de917ac4b6ca1f680",
+          "protected": false
+        },
+        {
+          "name": "pr/35080",
+          "sha": "5e922098b410217b1d3a98355259c862020da1f8",
+          "protected": false
+        },
+        {
+          "name": "pr-10-sandbox-exec-fail-closed",
+          "sha": "67f6e3bfd483d5e929bc49d0d52811d213c6f7d8",
+          "protected": false
+        },
+        {
+          "name": "pr-18-security-audit-coverage-upgrades",
+          "sha": "57624dcd0b3c55b07c995a24c103b68dac7c388f",
+          "protected": false
+        },
+        {
+          "name": "pr-566",
+          "sha": "7a5e3662a323c07fb3977e28910dcb65e7db6ade",
+          "protected": false
+        },
+        {
+          "name": "pr-3160-updated",
+          "sha": "b90992ba6a69a6430ef089c6052cb134911d3ffa",
+          "protected": false
+        },
+        {
+          "name": "pr-11705",
+          "sha": "668c8f76f3be1f667f756b90dcb4dd81d294c5be",
+          "protected": false
+        },
+        {
+          "name": "pr-18304",
+          "sha": "a8b29d5df753df09d6369135fdfaeed525f266a4",
+          "protected": false
+        },
+        {
+          "name": "pr-18555",
+          "sha": "80883cd3166f65e23a8b8f5d949b7e8325519a8a",
+          "protected": false
+        },
+        {
+          "name": "pr-20704-prep",
+          "sha": "4ceb4ada8941fdaacaaf2feb1f26ec0aac789cb0",
+          "protected": false
+        },
+        {
+          "name": "pr-24921",
+          "sha": "d6d469c6a70ed030b960a17e40aac9662fb9996e",
+          "protected": false
+        },
+        {
+          "name": "pr-38533-prep",
+          "sha": "75960a8af17f7c0f1af80fbc6ff111d10a513208",
+          "protected": false
+        },
+        {
+          "name": "qwen-portal-oauth",
+          "sha": "fc4514815530450529311acbb3c021720692d2bd",
+          "protected": false
+        },
+        {
+          "name": "rdev/finally-fix-antigravity-claude",
+          "sha": "36292d3fbb5b93118f065b008b984f8bbf9f8856",
+          "protected": false
+        },
+        {
+          "name": "refactor/fetch-wrapper-idempotent",
+          "sha": "6931f0fb50016dfcb3b3a3c5a402984ebc65884c",
+          "protected": false
+        },
+        {
+          "name": "refactor/gateway-test-monkeypatching",
+          "sha": "2f6842fdf4d926756de325b3419204d9c241ba61",
+          "protected": false
+        },
+        {
+          "name": "refactor/inbound-media-type-defaults",
+          "sha": "fe514213b653554fbd6494f4a62802f8b30e2858",
+          "protected": false
+        },
+        {
+          "name": "refactor/manifest-registry-realpath-cache",
+          "sha": "4b138ae442319638360711cc9986458add671288",
+          "protected": false
+        },
+        {
+          "name": "refactor/reply-threading-explicit-tags-clean2",
+          "sha": "bf406c1633f6a19d62ba7e4bdf08d827cb5caf09",
+          "protected": false
+        },
+        {
+          "name": "refactor/tool-policy-plugin-state",
+          "sha": "188aff1b8bafda2838a7c31b0de27d2204bf21d3",
+          "protected": false
+        },
+        {
+          "name": "refresh/mattermost-slash-16515",
+          "sha": "83439f0bdcdacb18aeddf6f3610744df78ce1f6a",
+          "protected": false
+        },
+        {
+          "name": "reminder-improvement",
+          "sha": "f2de7aa10881b358c74cf464792523975fe33286",
+          "protected": false
+        },
+        {
+          "name": "reminders",
+          "sha": "1e42399b9c2b2e7b530265a4b36769a720e0f778",
+          "protected": false
+        },
+        {
+          "name": "replace/pr-42212-clean",
+          "sha": "3154b524bec41eed203896f0b9de6761bea8d605",
+          "protected": false
+        },
+        {
+          "name": "revert/pr-18443",
+          "sha": "d03339a9f6c0f0b25b2d6ad2bf5704be279c2401",
+          "protected": false
+        },
+        {
+          "name": "review/pr-49436-security",
+          "sha": "0dda3e66b5959e9f28ec21ae46771c9185fee0b5",
+          "protected": false
+        },
+        {
+          "name": "rpc-refactor",
+          "sha": "cc235fc3125ccf985fe283c06d780347531a3f35",
+          "protected": false
+        },
+        {
+          "name": "santiagomed/xurl-skill",
+          "sha": "e0e55306c9685cdb048ac7955674a9d47b88d4dc",
+          "protected": false
+        },
+        {
+          "name": "sebslight/browser-snapshot-defaults",
+          "sha": "caf9dec89cf8b5f50d381c6467a3de17456fde13",
+          "protected": false
+        },
+        {
+          "name": "security/council-recommendations",
+          "sha": "09ab5a9b31cf7923f9ca03756f4394e2224e124b",
+          "protected": false
+        },
+        {
+          "name": "security/gateway-exposure-check",
+          "sha": "3c08f8631c4e9b2feec7e818b2a218c0b876e028",
+          "protected": false
+        },
+        {
+          "name": "shadow/discord-vc-activity",
+          "sha": "c34ed8c8bf6d30d2c190b3f4f8bd8cc0301bc0b5",
+          "protected": false
+        },
+        {
+          "name": "shadow/mac-scrolling-fix",
+          "sha": "af8ab49f1346c1c85e91d65b3b9181b1906ea7c3",
+          "protected": false
+        },
+        {
+          "name": "split/gateway-cli-pairing",
+          "sha": "8d4b640499d49a3a8db3cd87d41206e018b08172",
+          "protected": false
+        },
+        {
+          "name": "stack/ios-sec-01-keychain-migrations",
+          "sha": "12302928627ce3b0ac8abf92c27cb5d339bbb9db",
+          "protected": false
+        },
+        {
+          "name": "stack/ios-sec-05-docs",
+          "sha": "69c551ac485670b44135e674b6732cbc199e3705",
+          "protected": false
+        },
+        {
+          "name": "tak/heartbeat-empty-file-policy-compat",
+          "sha": "a775d39e6484aeb3d900a74965cc755495abdadd",
+          "protected": false
+        },
+        {
+          "name": "task-compaction-identifier-policy",
+          "sha": "3269e1ad7e6166d8299d08cc069e6e231d5e9e6e",
+          "protected": false
+        },
+        {
+          "name": "task-onboard-tools-profile-picker",
+          "sha": "0c5d9fb1958c21803df32bb5f3733b087b517dbb",
+          "protected": false
+        },
+        {
+          "name": "temp/pr-4984",
+          "sha": "e6fe0b662d97e82a02d98301a6bb9e8cd5194507",
+          "protected": false
+        },
+        {
+          "name": "temp/pr-5335",
+          "sha": "049e813831c19f9af7fa50b399cecc0f72ea21c0",
+          "protected": false
+        },
+        {
+          "name": "temp/pr-12091",
+          "sha": "9b2d3704ca7915e27a51d938f4235a0043ce3de3",
+          "protected": false
+        },
+        {
+          "name": "temp/pr-12795-followup-unrelated",
+          "sha": "432c58a76a0ea1380262fceb5a60027bb0b4d620",
+          "protected": false
+        },
+        {
+          "name": "temp/rebase-14786",
+          "sha": "6046639da2a34565554255820094b41c860d1bc1",
+          "protected": false
+        },
+        {
+          "name": "test/doctor-launchctl-env-overrides",
+          "sha": "41896a3d14f6f57dfd79631d81bbaff391e156a7",
+          "protected": false
+        },
+        {
+          "name": "test-permissions-check-quotentiroler",
+          "sha": "679bb087db6f7ac59215171c213db55a3472aaad",
+          "protected": false
+        },
+        {
+          "name": "tlon-package-migration",
+          "sha": "89c59c50d5d57772116ebe66423686ad486a39a1",
+          "protected": false
+        },
+        {
+          "name": "tmp-30439b",
+          "sha": "b1a6dbd2e9b556d9eb4f6a83b59e5d27cbb2b463",
+          "protected": false
+        },
+        {
+          "name": "tts-inbound-audio-only",
+          "sha": "32d370e92e969592db56d0abbf1630d657ecd57d",
+          "protected": false
+        },
+        {
+          "name": "tuyenhx/zalouser-fixes-and-group-history",
+          "sha": "40f6f14bea3741b7fae6210c7d04ded510ccf312",
+          "protected": false
+        },
+        {
+          "name": "ui/chat-facelift",
+          "sha": "0b51136826e78f85aebe18c57f76a507b691e570",
+          "protected": false
+        },
+        {
+          "name": "ui/dashboard-clean",
+          "sha": "22b87e4346c17a534abaccd9ab2e6fa3009dd4f2",
+          "protected": false
+        },
+        {
+          "name": "ui/dashboard-v2",
+          "sha": "22dcd444152cb64a1e535ddc27f85b8c9cfa1a7d",
+          "protected": false
+        },
+        {
+          "name": "ui/dashboard-v2.1",
+          "sha": "aab43448ef13d6fbea3621f199b613a1dc570183",
+          "protected": false
+        },
+        {
+          "name": "ui/dashboard-v2.1.3",
+          "sha": "fabd5ad5e140d56f9e269c6155b9b01e53c15e44",
+          "protected": false
+        },
+        {
+          "name": "ui/quick-fixes",
+          "sha": "5ce79d3f237f8d615eaab73f25f7aa9b2604e0ab",
+          "protected": false
+        },
+        {
+          "name": "ui/touch-ups",
+          "sha": "e9b7ccbd6e875a570fd4468d8930aea8c8c15c55",
+          "protected": false
+        },
+        {
+          "name": "ui-build-default-to-relative-path",
+          "sha": "d148c7136814eb95b1917e09665dbfed529cc0d5",
+          "protected": false
+        },
+        {
+          "name": "update/contributing",
+          "sha": "51f0e967b145469c0c8cde4bd4a9dcc2203397d0",
+          "protected": false
+        },
+        {
+          "name": "val/twitch-boundary-rollout-1",
+          "sha": "d1fe30b35f82bb96e444a1e787e1ec8b80271542",
+          "protected": false
+        },
+        {
+          "name": "val/twitch-boundary-tests",
+          "sha": "82f1e3334c22c46c31006b43deb63284491c9b4d",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/add-gpt-5-4-support",
+          "sha": "b8fe23a55f53a94ff831035d5c2aa710efbb305d",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/after-tool-call-sessionkey-main",
+          "sha": "4bb498341596a577dfd9b969caa8b82308bd3c5e",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/anthropic-service-tier-followup",
+          "sha": "14952ace58e8752e8ee18612fc8a9c4ca91798b6",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/browser-cdp-bridge-wsl2",
+          "sha": "e329757f02f7c7e688c98ee38192b93279457b33",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/browser-docker-mcp-smoke",
+          "sha": "7e6dfddaf8928cb730332077dacadde99f5c1ef2",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/bundle-mcp-tools-in-pi",
+          "sha": "b1b48f1ac84901c76504f07bbe7ffb8e8e4e5842",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/changelog-28434-liuy",
+          "sha": "1ced0a8111fe1318cf21a8d6e59e099ea6441f8e",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/changelog-missing-pr-entries-20260306",
+          "sha": "1eee903473751da8aeb92556c9ea108e8f1d0a06",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/changelog-unreleased-2026-3-8",
+          "sha": "5074b6b6f46918fd7a499efb13bfd3ad030facbb",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/claude-marketplace-sync",
+          "sha": "aa130315b1ec3f5a3fd6773752d010b73017b336",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/cohere-provider-onboarding",
+          "sha": "a75e799cbbda71eaa0a00a6525ef78d682417d03",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/config-log-spam-dedupe",
+          "sha": "81c6e1ed92df0cb4e23aaca6355d5df9222f1a23",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/deadcode-pass-1",
+          "sha": "d056f96b35efe9a51d7af82a37d27ae101a0048e",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/deadcode-pass-2",
+          "sha": "00e8dfc55adb78a8d3504767776f3c86b27018e6",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/deadcode-pass-3",
+          "sha": "1d757318fb478a569dd97a940b5d5327841ebf5d",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/docker-cache-layer-fixes",
+          "sha": "06649f468dd23b21e1b48051ee2de55331e8eba0",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/docs-review-fixes",
+          "sha": "78a0ffefff4c3aff76c036de0bfa34f73cd678cb",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/external-content-metadata-sanitize",
+          "sha": "d1e4ee03ff6f33d81627f65e60e67aa51c988c43",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/fix-10927-external-marker-ids",
+          "sha": "eead399ec45ea0e3de51045f447011142fcbe97a",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/fix-browser-cdp-range-types",
+          "sha": "a60b552a2b73ccb6ead0186085e9a5b255928e1e",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/fix-browser-cdp-range-types-fallback",
+          "sha": "0b058d4d85f7431d1132e3fd5cdeebeea3ee9457",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/fix-feishu-plugin-install",
+          "sha": "405833eb95712b53cbb35f9207e8a9b2c924819a",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/fix-ghsa-7h7g-pairing-token-exposure",
+          "sha": "0aa1c69a79fd2d9ef2cc045a1c8acb5177443c98",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/fix-ghsa-xwx2-ws-preauth-payload",
+          "sha": "03bc003d8c96ec14a3c2339d5a0f4a50d4eae394",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/fix-grok-tool-call-parsing",
+          "sha": "001121ee7aac4df1d6aff0500334eadb9306606e",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/fix-hook-system-events-routing",
+          "sha": "913a1f61f77b28d3cbb2adf1d1259b837ff97a7c",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/fix-hooks-prototype-path-protection",
+          "sha": "270a4f5b595dfca36a0792b1d8a3dd4cd2b68e15",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/fix-media-roots-36185-30170",
+          "sha": "56b5340a72dd797e6fd7bf8427c9d65b288753ca",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/fix-test-runner-memory",
+          "sha": "7508444289419093467f4c266aeef49193f564d7",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "page": 8,
+      "count": 43,
+      "branches": [
+        {
+          "name": "vincentkoc-code/fix-test-type-errors",
+          "sha": "61daccbd0ff390981691bb2b3f3febd2b6294fda",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/fix-webchat-origin-routing-guard",
+          "sha": "d6d21b3ab1e8e0c0170fd066aacc787baf11ca0a",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/gateway-reset-hook-parity",
+          "sha": "5d4771e91e8660cb62d874cff792a20a75d1f9e7",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/ghsa-pf4r-media-trust",
+          "sha": "f810978206a234973e1cbdcacbcbc2f0634cfe14",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/gpt-5-4-registry-gap-followup",
+          "sha": "d815c8eac62ffe9ea825a97302b7b72a37bc674c",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/hooks-surface-ownership-rfc",
+          "sha": "84075f02bd0c8c95ecfd4a63c025f31a1feef37c",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/internal-hook-reply-surfaces",
+          "sha": "ef9b3adbbd4b3b521a52303d2e6bd0c7a694eae6",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/main-history-rewrite-20260313",
+          "sha": "e3b5e39c83a622c8abe2e6b4a173547bab526be2",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/mattermost-interaction-hmac-binding",
+          "sha": "6b7c73a4422fc60493500e8b43eb73bcc889ab10",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/mistral-onboard-audio-rework",
+          "sha": "c94cd269d06c934b98ead07a263aec5907794e58",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/omit-peer-plugin-install",
+          "sha": "c94d926ef43316054a1ba1b23371a546eed9b0c2",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/otel-diagnostics-surface-docs",
+          "sha": "16fda2d1ce43c6c90395036693cbafb14d26ecd4",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/phase1-capabilities-cli-docs",
+          "sha": "3c4716f6577a2f0b16a54070980b3a9d9ccfd579",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/phase1-capabilities-runtime",
+          "sha": "b833df87045869f78b506fb036f6e94d2871934f",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/pr20302-fix-history-findings",
+          "sha": "a56f3c6b425338b2d930eb6dbcb2d8fb6ceb8016",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/pr28001-followup",
+          "sha": "ec3a672e6eac04e3c19546a989fcba8b3d4a9cb6",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/pr-19130-dashscope-role-compat",
+          "sha": "d34b511c2d0b7479aebf668461b5d3e135867f5b",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/pr-28623-fixes",
+          "sha": "73b15b18c41de721061b61eae286a9b2acc2d315",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/pr-41500-route-fix",
+          "sha": "b511810f69d8e8ebbe8aad85029d4902f4408eab",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/pr-acp-allow-agents",
+          "sha": "050c22668a458eba48462cdf8adfea7aceeac51d",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/pr-device-pair-node-setup-code",
+          "sha": "db3f25ae7509e77bb3df470cece06f0ba66e514e",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/pr-skill-tool-policy",
+          "sha": "b71d5609d98acc7ed6c1902de4951aefd368a657",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/pr-synology-webhook-path-collision",
+          "sha": "2bc62c67e7860d731248d4d79e2a26ba821b389f",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/pr-trusted-proxy-scope-regression",
+          "sha": "7a20de3fdf22cb6f45fb6669724a5ab32b764f05",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/quick-22345-ci-fmt",
+          "sha": "60e8e0d3ee2f557e363c97cd1bde8e781c9947a3",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/rpi-fast-route-5871",
+          "sha": "cf3c4ee37b2a8e78db12eaf6ad146cc41de5539b",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/security-hardening-auth-timeouts",
+          "sha": "9761a71a5a985cf8890f3787e26868b3315b40f8",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/session-path-credit-rollup",
+          "sha": "1e9228d002557d875d15deb1929089c930703bae",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/session-path-rollup-proper",
+          "sha": "b5511ee89522f71c1ceb95e1904aa195695c67de",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/slack-block-kit-interactions",
+          "sha": "458c813873cbbb22068282736de6fc53fca03fe7",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/slack-plugin-interactive-dedupe",
+          "sha": "bec437faf830d8a05e159d8d051f1cd323606b6e",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/stop-command-normalize-multilingual",
+          "sha": "679d7c0c80273893aad9f9784a7a8738f8f90e06",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/subagent-threadid-propagation",
+          "sha": "ec409c37a67ff09ece953a4a7b300b1611295562",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/telegram-fast-native-callback",
+          "sha": "f1687cd44b801e3846b1c20e052b6280a8eb3a7a",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/telegram-plugin-command-thread-hook-session",
+          "sha": "99de26761df6dc86db277aa6194b3f110d142636",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/unpaired-response-modes",
+          "sha": "1587b4279a3be1ce7ff63821f25d8dae78b38da2",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/wsl2-systemd-hardening",
+          "sha": "8293292c5d08ee8dd95cd3f0525ca80790d37b4f",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/5871-startup-refactor",
+          "sha": "0054bac90b30e5846952e2808b24ba82adc4af29",
+          "protected": false
+        },
+        {
+          "name": "vincentkoc-code/33958-operator-policy",
+          "sha": "9205017f6bc167c8ac18acb00408d188831d4447",
+          "protected": false
+        },
+        {
+          "name": "vitest-config",
+          "sha": "b25d012e013dee34cb882de6697776abf8d90408",
+          "protected": false
+        },
+        {
+          "name": "vk/revert_last_clean",
+          "sha": "5fc43ff0ecd8a20407d36260ea67688cd08956c2",
+          "protected": false
+        },
+        {
+          "name": "widearea-bonjour",
+          "sha": "e9502768afc3ed8190571bcd05696c0dde76b065",
+          "protected": false
+        },
+        {
+          "name": "wip/contacts-search-plugin",
+          "sha": "3b924af44cdace56e3a255f74faea95cdf226983",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}
