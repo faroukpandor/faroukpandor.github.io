@@ -1,0 +1,2 @@
+customer_order_ref,supplier_order_ref,opportunity_id,order_date,customer_amount_due,customer_amount_received,customer_balance,supplier_amount_due,supplier_amount_paid,supplier_balance,deposit_percentage,deposit_date,balance_due_trigger,currency,fx_rate,payment_method,transaction_charges,refund_variation_status,outstanding_obligations
+ORD-CUS-YYYY-NNNN,ORD-SUP-YYYY-NNNN,OPP-YYYY-NNNN,,0,0,0,0,0,0,50,,On arrival after inspection,BWP,1,,0,None,Track deferred 50% supplier balance

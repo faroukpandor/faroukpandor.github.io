@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "verified_on": "2026-10-31",
+  "description": "Public portfolio routing only. Not ownership evidence or customer ERP readiness.",
+  "entries": [
+    {
+      "id": "mokoro-dge",
+      "label": "MOKORO Digital Growth Engine",
+      "public_url": "https://mokoro-dge.pages.dev/",
+      "hosting": "Cloudflare Pages",
+      "deployment_status": "production-succeeded",
+      "customer_erp_ready": false,
+      "identity_ready": false,
+      "source_privacy": "private"
+    },
+    {
+      "id": "agrisage",
+      "label": "AgriSage360",
+      "public_url": "https://agrisage.pages.dev/",
+      "hosting": "Cloudflare Pages",
+      "deployment_status": "production-succeeded",
+      "customer_erp_ready": false,
+      "identity_ready": false,
+      "source_privacy": "private"
+    },
+    {
+      "id": "everythingcity",
+      "label": "EverythingCity",
+      "public_url": "https://everythingcity.pages.dev/",
+      "hosting": "Cloudflare Pages",
+      "deployment_status": "production-succeeded",
+      "customer_erp_ready": false,
+      "identity_ready": false,
+      "source_privacy": "private"
+    }
+  ],
+  "exclusions": [
+    {
+      "label": "Farouk Pandor Consultant",
+      "reason": "No verified customer-facing production URL in this audit."
+    },
+    {
+      "label": "AnimalSphere / AnimalHealth",
+      "reason": "Private research component; no authorised public source destination."
+    },
+    {
+      "label": "MOKORO Enterprise OS",
+      "reason": "Internal operator tool; do not expose private /os links to customers."
+    }
+  ],
+  "evidence_note": "Based on Cloudflare Pages canonical deployment status as queried 2026-10-31; availability, customer claims, protection and legal ownership are not implied."
+}

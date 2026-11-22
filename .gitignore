@@ -101,4 +101,15 @@ documents/personal/*.docx
 documents/personal/*.pdf
 documents/personal/*.txt
 documents/personal/*.jpg
+documents/personal/*.jpeg
 documents/personal/*.png
+documents/personal/*.csv
+documents/personal/*.xlsx
+documents/personal/*.xls
+documents/personal/*.json
+documents/personal/*.zip
+
+# Staged static deploy directory and backup artifacts
+_site/
+*.bak
+*.orig

@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://faroukpandor.github.io/templates/SCHEMAS/africa-opportunity-ledger.schema.json",
+  "title": "Africa Opportunity Ledger Record",
+  "type": "object",
+  "required": [
+    "opportunity_id", "country", "REC", "city_or_region", "sector", "problem",
+    "customer_segment", "customer", "source_signal", "evidence_ids", "supplier_provider",
+    "commercial_mode", "currency", "supplier_cost", "logistics_cost", "duties_taxes_fees",
+    "coordination_cost", "target_price", "expected_contribution", "compliance_status",
+    "status", "responsible_asset", "next_action", "review_due"
+  ],
+  "properties": {
+    "opportunity_id": { "type": "string", "minLength": 1 },
+    "country": { "type": "string", "minLength": 2 },
+    "REC": { "type": "string" },
+    "city_or_region": { "type": "string" },
+    "sector": { "type": "string" },
+    "problem": { "type": "string" },
+    "customer_segment": { "type": "string" },
+    "customer": { "type": "string" },
+    "source_signal": { "type": "string" },
+    "evidence_ids": { "type": "array", "items": { "type": "string" } },
+    "supplier_provider": { "type": "string" },
+    "commercial_mode": { "type": "string" },
+    "currency": { "type": "string" },
+    "supplier_cost": { "type": "number", "minimum": 0 },
+    "logistics_cost": { "type": "number", "minimum": 0 },
+    "duties_taxes_fees": { "type": "number", "minimum": 0 },
+    "coordination_cost": { "type": "number", "minimum": 0 },
+    "target_price": { "type": "number", "minimum": 0 },
+    "expected_contribution": { "type": "number" },
+    "compliance_status": { "type": "string" },
+    "status": {
+      "enum": [
+        "NEW", "QUALIFYING", "SOURCING", "QUOTED", "CUSTOMER-COMMITTED",
+        "PROCUREMENT", "IN-FULFILMENT", "DELIVERED", "RECONCILIATION", "CLOSED",
+        "DECLINED", "LOST", "ON-HOLD", "CANCELLED"
+      ]
+    },
+    "responsible_asset": { "type": "string" },
+    "next_action": { "type": "string" },
+    "review_due": { "type": "string" }
+  }
+}

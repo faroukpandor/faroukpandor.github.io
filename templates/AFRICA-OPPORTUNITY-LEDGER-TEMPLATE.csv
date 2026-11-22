@@ -1,0 +1,2 @@
+opportunity_id,country,REC,city_or_region,sector,problem,customer_segment,customer,source_signal,evidence_ids,supplier_provider,commercial_mode,currency,supplier_cost,logistics_cost,duties_taxes_fees,coordination_cost,target_price,expected_contribution,compliance_status,status,responsible_asset,next_action,review_due
+OPP-YYYY-NNNN,Botswana,SADC,,,,,,,,,BWP,0,0,0,0,0,0,Not started,NEW,,,

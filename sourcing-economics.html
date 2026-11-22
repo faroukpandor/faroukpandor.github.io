@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Offline-first Botswana landed economics, working-capital obligation calculator and deterministic GH-68 demand qualification router.">
+<meta name="author" content="Farouk Pandor">
+<meta name="robots" content="index,follow">
+<meta name="referrer" content="strict-origin-when-cross-origin">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; font-src 'self'; connect-src 'self'; object-src 'none'; base-uri 'self'; form-action 'self' mailto:">
+<meta name="theme-color" content="#f7f6f2">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2064%2064'%3E%3Crect%20width='64'%20height='64'%20rx='10'%20fill='%23263b31'/%3E%3Ctext%20x='32'%20y='45'%20font-family='Georgia,serif'%20font-size='32'%20fill='%23e9dfcc'%20text-anchor='middle'%3EFP%3C/text%3E%3C/svg%3E">
+<link rel="canonical" href="https://faroukpandor.github.io/sourcing-economics.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Farouk Pandor">
+<meta property="og:title" content="Landed Economics &amp; Demand Routing Workbench — Farouk Pandor">
+<meta property="og:description" content="Botswana import/sourcing landed-cost and working-capital calculator paired with deterministic GH-68 demand triage.">
+<meta property="og:url" content="https://faroukpandor.github.io/sourcing-economics.html">
+<meta property="og:image" content="https://faroukpandor.github.io/assets/img/og-cover.jpg">
+<meta property="og:image:alt" content="Forest-green circle with gold orbit rings on a warm paper background">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://faroukpandor.github.io/assets/img/og-cover.jpg">
+<title>Sourcing Economics &amp; Demand Router — Farouk Pandor</title>
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="site-header">
+  <div class="wrap nav">
+    <a class="brand" href="./" aria-label="Farouk Pandor home"><span class="brand-mark">FP</span><span>FAROUK PANDOR</span></a>
+    <nav aria-label="Main navigation">
+      <a href="./">Home</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="portfolio-map.html">Portfolio Map</a>
+      <a href="professional-record.html">Professional Record</a>
+      <a href="website-health-check.html">Health Check</a>
+      <a class="nav-cta" href="./#enquire">Enquire <span aria-hidden="true">↗</span></a>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="hero compact wrap">
+    <div class="eyebrow">OPERATIONAL WORKBENCH · OFFLINE-FIRST · ZERO AI API DEPENDENCY</div>
+    <h1>Botswana landed economics &amp; demand triage.</h1>
+    <p class="lead">Browser-local tools implementing the <a href="portfolio-map.html">routing rules</a> and Botswana landed-cost controls so supplier prices are never mistaken for profit margins and deferred supplier balances stay visible.</p>
+    <div class="alert-banner">
+      <strong>BURS &amp; Statistics Botswana evidence rule:</strong> SACU imports generally attract 0% customs duty and 12% VAT, while non-SACU imports attract applicable tariff rates plus 12% VAT on CIF customs value. Exact duty rates remain product-specific and must be verified on BURS eTariff before issuing a customer quote. Unverified items remain strictly <code>ESTIMATE</code>.
+    </div>
+  </section>
+
+  <section class="section wrap" id="landed-economics">
+    <div class="kicker">01 — BOTSWANA LANDED ECONOMICS &amp; WORKING CAPITAL</div>
+    <h2>Calculate true landed cost before quoting.</h2>
+    <div class="action-row no-print">
+      <button class="button secondary small" type="button" id="btn-load-example">Load Synthetic 50/50 Import Example</button>
+      <button class="button small" type="button" id="btn-dl-quote-md">Download Quote Worksheet (.md)</button>
+      <button class="button ghost small" type="button" id="btn-dl-quote-json">Download Economics JSON</button>
+    </div>
+
+    <div class="cards split-grid-wide">
+      <form class="intake-form" id="landed-form">
+        <label>Opportunity ID<input id="le-opp" value="OPP-2026-0001"></label>
+        <label>Product / Service &amp; Specification<input id="le-prod" placeholder="e.g. Packaging cartons — 5-ply corrugated"></label>
+        <label>Origin Scope (BURS general helper)<select id="le-origin"><option value="SACU">SACU (0% general customs duty + 12% VAT)</option><option value="NON_SACU">Outside SACU (customs tariff % + 12% VAT)</option><option value="LOCAL">Domestic Botswana supply (no import duty)</option></select></label>
+        <label>Quantity<input id="le-qty" type="number" min="1" step="any" value="100"></label>
+        <label>Supplier Currency<input id="le-cur" value="ZAR"></label>
+        <label>FX Rate (1 supplier unit → BWP)<input id="le-fx" type="number" min="0.0001" step="any" value="0.76"></label>
+        <label>Supplier Unit Cost (in supplier currency)<input id="le-unit-cost" type="number" min="0" step="any" value="0"></label>
+        <label>Freight (in supplier currency)<input id="le-freight" type="number" min="0" step="any" value="0"></label>
+        <label>Insurance &amp; Packaging (in supplier currency)<input id="le-insurance" type="number" min="0" step="any" value="0"></label>
+        <label>Customs Duty Rate % (outside SACU only)<input id="le-duty-pct" type="number" min="0" step="any" value="0"></label>
+        <label>Import VAT Rate %<input id="le-vat-pct" type="number" min="0" step="any" value="12"></label>
+        <label>Clearing, Local Transport &amp; Permits (BWP)<input id="le-clearing" type="number" min="0" step="any" value="0"></label>
+        <label>Payment Fees, Coordination &amp; Contingency (BWP)<input id="le-coord" type="number" min="0" step="any" value="0"></label>
+        <label>Proposed Customer Total Price (BWP)<input id="le-price" type="number" min="0" step="any" value="0"></label>
+        <label>Supplier Deposit % (e.g. 50 for 50/50 terms)<input id="le-sup-dep" type="number" min="0" max="100" step="any" value="100"></label>
+        <label>Customer Deposit %<input id="le-cust-dep" type="number" min="0" max="100" step="any" value="50"></label>
+        <label>Evidence Reference (pro-forma, tariff link, freight quote)<input id="le-evid" placeholder="e.g. Pro-forma #123 + BURS eTariff check"></label>
+        <label class="consent-row"><input id="le-verified" type="checkbox"><span>All material costs above are verified against written supplier/clearing/tariff evidence.</span></label>
+      </form>
+
+      <div>
+        <div class="kpi-grid kpi-stack">
+          <article class="kpi-card"><span class="kpi-id">STATUS GATE</span><strong id="out-status">ESTIMATE</strong><h3>Cost verification level</h3><p id="out-warnings">Enter unit costs and evidence reference to evaluate.</p></article>
+          <article class="kpi-card"><span class="kpi-id">TOTAL LANDED COST</span><strong id="out-total">BWP 0.00</strong><h3 id="out-unit">Unit landed cost: BWP 0.00</h3><p id="out-cif">CIF basis: BWP 0.00 · Customs + VAT: BWP 0.00</p></article>
+          <article class="kpi-card"><span class="kpi-id">GROSS CONTRIBUTION</span><strong id="out-contrib">BWP 0.00</strong><h3 id="out-margin">0.00% on price</h3><p id="out-wc">Peak upfront working capital: BWP 0.00 · Deferred supplier obligation: BWP 0.00</p></article>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section pale" id="demand-router">
+    <div class="wrap">
+      <div class="kicker">02 — GH-68 DETERMINISTIC DEMAND QUALIFICATION &amp; ROUTING</div>
+      <h2>Human-first classification rubric &amp; 12-field handoff.</h2>
+      <p>Implements <code>DEMAND-ROUTING-TAXONOMY.md</code> and <code>DEMAND-TO-ENTERPRISE-ROUTING-CONTRACT.md</code> cleanly without an AI API. Load a downloaded <code>portable-opportunity-intake.json</code> or enter details below.</p>
+      <div class="local-inspector no-print mb-20">
+        <label>Import downloaded homepage intake JSON: <input id="rt-file" type="file" accept=".json"></label>
+      </div>
+      <div class="cards split-grid-even">
+        <form class="intake-form" id="router-form">
+          <label>Customer-facing category<select id="rt-cat">
+            <option>Buy or source something</option>
+            <option>Service or specialist</option>
+            <option>Business help</option>
+            <option>Agricultural help</option>
+            <option>Research or information</option>
+            <option>Idea or opportunity</option>
+            <option>Something else</option>
+          </select></label>
+          <label>Requirement / problem summary<textarea id="rt-req" rows="3" placeholder="Describe the concrete need, quantity or goal…"></textarea></label>
+          <label>Location / geography<input id="rt-loc" placeholder="e.g. Gaborone, Botswana"></label>
+          <label>Timing / urgency<input id="rt-time" placeholder="e.g. This month"></label>
+          <label class="consent-row"><input id="rt-client" type="checkbox"><span>Client or employer owned asset (requires written authorisation).</span></label>
+          <label class="consent-row"><input id="rt-reg" type="checkbox"><span>Regulated or licensed specialty (legal, medical, veterinary, structural engineering).</span></label>
+          <button class="button primary small" type="button" id="btn-dl-handoff">Download 12-Field Handoff JSON</button>
+        </form>
+        <div class="local-inspector mt-0" aria-live="polite">
+          <div id="rt-output"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer>
+  <div class="wrap footer-inner">
+    <a class="brand footer-brand" href="./"><span class="brand-mark">FP</span><span>FAROUK PANDOR</span></a>
+    <span>Independent business support · Botswana</span>
+    <div>
+      <a href="professional-record.html">Professional record</a>
+      <a href="portfolio.html">Portfolio</a>
+      <a href="portfolio-map.html">Portfolio map</a>
+      <a href="website-health-check.html">Health checklist</a>
+      <a href="sourcing-economics.html" aria-current="page">Sourcing &amp; routing</a>
+      <a href="portfolio-control.html">Control dashboard</a>
+      <a href="privacy.html">Privacy &amp; disclosures</a>
+      <a href="mailto:faroukpandor@gmail.com">Contact</a>
+    </div>
+  </div>
+  <div class="wrap footer-note">
+    <span>© Farouk Pandor</span>
+    <span>Clear needs. Honest evidence. Practical action.</span>
+  </div>
+</footer>
+<script type="module" src="assets/js/sourcing-workbench.mjs"></script>
+</body>
+</html>

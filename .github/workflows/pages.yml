@@ -18,9 +18,34 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - name: Run automated unit & site-integrity tests
+        run: npm test
+      - name: Check public portfolio, inventory, security audit & dashboard sync
+        run: npm run verify
+      - name: Assemble clean public _site artifact (exclude docs, raw snapshots, documents and tests)
+        run: |
+          rm -rf _site
+          mkdir -p _site/data/next-actions _site/data/market-signals
+          cp *.html robots.txt sitemap.xml _site/
+          cp -R assets _site/
+          cp data/public-projects.json \
+             data/repository-inventory.json \
+             data/portfolio-opportunity-register.json \
+             data/portfolio-opportunity-register.csv \
+             data/portfolio-dashboard-summary.json \
+             _site/data/
+          cp data/next-actions/NEXT-ACTION-QUEUE.json \
+             data/next-actions/NEXT-ACTION-QUEUE.csv \
+             _site/data/next-actions/
+          cp data/market-signals/SIGNAL-DIGEST.json \
+             data/market-signals/SIGNAL-DIGEST.md \
+             _site/data/market-signals/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
-          path: .
+          path: _site
       - id: deployment
         uses: actions/deploy-pages@v4

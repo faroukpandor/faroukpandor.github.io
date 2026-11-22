@@ -4,7 +4,7 @@
 **Canonical control point:** [Personal portfolio repository](https://github.com/faroukpandor/faroukpandor.github.io)  
 **Public presentation:** https://faroukpandor.github.io/  
 **Related personal scrapbook / Vercel deployment:** https://faroukpandor.vercel.app/  
-**Last reconciled:** 2026-10-12  
+**Last reconciled:** 2026-11-09  
 **Purpose:** Make repositories discoverable to one another, record their roles and relationships, reduce duplicate work, and preserve ownership and change-authority boundaries.
 
 > **Important:** This is a discovery and governance register, not proof that Farouk owns every enterprise, domain, codebase, dataset, brand, deployment or commercial relationship listed here. GitHub account visibility/access does not establish ownership. Unverified classifications must remain unverified until evidence is reviewed.
@@ -29,6 +29,16 @@
 - **AgriSage360 domain integration:** [Client Acquisition Integration](https://github.com/faroukpandor/AGRISAGE/blob/main/docs/CLIENT-ACQUISITION-INTEGRATION.md).
 - **BrandCraft use:** [Client Acquisition Workflow](https://github.com/faroukpandor/BRANDCRAFT-ALCHEMIST/blob/main/docs/CLIENT-ACQUISITION-WORKFLOW.md).
 - Do not duplicate the generic tool or prospect database across repositories. Keep sector checklists and client-specific data in their authorised workspace; preserve client/employer/third-party boundaries.
+
+## MOKORO AgriValue Network — produce sourcing and market access (2026-11-03)
+
+- **Commercial operation:** MOKORO AgriValue Network, based at Mopipi, Botshabelo Ward, Tlokweng.
+- **Agriculture-specific operating workspace:** [AgriSage360 AgriValueWorkspace](https://github.com/faroukpandor/AGRISAGE/tree/main/src/components/AgriValueWorkspace.tsx) and [sourcing/market-access specification](https://github.com/faroukpandor/AGRISAGE/blob/main/docs/AGRIVALUE-NETWORK-SOURCING-AND-MARKET-ACCESS.md).
+- **Buyer acquisition:** use the canonical MOKORO DGE [Client Acquisition Workspace](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/tree/main/src/app/tools/client-acquisition) with the [AgriValue buyer-acquisition campaign](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/blob/main/docs/AGRIVALUE-BUYER-ACQUISITION-CAMPAIGN.md). Do not duplicate a general CRM.
+- **Boundary:** AgriSage360 is the agricultural domain workflow; MOKORO DGE is the prospecting/campaign system; AgriValue is the customer-facing trading and fulfilment operation. No live cross-repository data sync is enabled.
+- **Confidentiality:** upstream supplier identities, personal contacts, farm locations, buying prices and negotiation terms are private procurement information. Never publish or place live records in Git, customer collateral, public demos, analytics or the general prospect CRM.
+- **Implementation status:** local-first single-device MVP source merged into AgriSage360 main (PR #89); AES-GCM encrypted local-vault and backup/restore controls merged (PR #91), with limits documented (PR #92). Build and Cloudflare Pages deployment checks were still pending at last inspection. No cloud sync, multi-user production security, public catalogue, buyer commitments or stock confirmation is implied.
+- **Customer-facing routing:** Mopipi, Botshabelo Ward, Tlokweng; Orange 72487174, beMobile 76823938, Mascom 71444427.
 
 ## 100-idea catalogue: canonical capability routing — 2026-10-16
 
@@ -57,16 +67,42 @@
 - **Rollout gate:** merge/review the protocol and manifests, then validate the two pilot repositories with non-mutating checks before enabling any event-driven issue/PR automation.
 - **Safety rule:** first-party classification and GitHub access do not authorise changes to client, employer, third-party or upstream repositories. Keep those excluded unless scoped permission is recorded.
 
+## Public customer-facing destinations (verified 2026-10-31)
+
+The lightweight, machine-readable source for **public routing only** is [`data/public-projects.json`](../data/public-projects.json). The portfolio homepage and directory are statically authored and must pass `node scripts/verify-public-portfolio.mjs` before GitHub Pages deployment. This is not a proof of legal ownership or customer ERP readiness.
+
+| Project | Public destination | Evidence boundary |
+| --- | --- | --- |
+| MOKORO Digital Growth Engine | https://mokoro-dge.pages.dev/ | Cloudflare production deployment succeeded; customer intake persistence and authentication are **not** validated |
+| AgriSage360 | https://agrisage.pages.dev/ | Cloudflare production deployment succeeded; farmer account/privacy workflow not validated |
+| EverythingCity | https://everythingcity.pages.dev/ | Cloudflare production deployment succeeded; customer/merchant tenancy and transaction flow not validated |
+
+The source repositories for these and other projects may be **private**. Do not put private GitHub repository URLs on public customer pages. Internal MOKORO EOS `/os/*` routes must not be linked as a customer portal without verified Cloudflare Access. Where public service evidence is absent (e.g. Consultant or AnimalHealth private research), show descriptive context, not a broken private repository link. See portfolio issue #148 and ERP access issue https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/issues/108.
+
+### Verified Vercel deployment linkages (2026-11-09)
+
+Direct inspection of Vercel project metadata on 2026-11-09 confirmed the following repository-to-project bindings (account-level deployment configuration only; not customer readiness or legal ownership proof):
+
+| Vercel project | Connected GitHub repository | Notes / status observed 2026-11-09 |
+|---|---|---|
+| `faroukpandor` (`https://faroukpandor.vercel.app/`) | `faroukpandor/FAROUK-PANDOR` (private, Vite) | Production `READY`; confirms the legacy `faroukpandor` Hugo fork is **not** the Vercel source |
+| `agrisage` (`https://agrisage360.vercel.app/`) | `faroukpandor/AGRISAGE` (private, Vite) | Production `READY`; accompanies Cloudflare Pages `https://agrisage.pages.dev/` |
+| `everythingcity` (`https://everythingcity.vercel.app/`) | `faroukpandor/EVERYTHING-CITY` (private, Vite) | Production `READY` (Feb 2026) |
+| `everythingcity-authoritative` | `faroukpandor/EVERYTHINGCITY` (private, Next.js) | Production `READY` |
+| `mokoro` | `faroukpandor/MOKORO---Digital-Growth-Engine` (private, Next.js) | Latest Vercel production `BLOCKED`; `https://mokoro-dge.pages.dev/` remains the verified public Cloudflare Pages destination |
+| `mokoro-eos` | `faroukpandor/MOKORO-ENTERPRISE-OS` (private, Next.js) | Internal operator OS — not a public customer portal |
+| `faroukpandorcommerce` / `faroukpandor-nextjs-commerce` | `faroukpandor/faroukpandorcommerce` / `faroukpandor/faroukpandor-nextjs-commerce` (private, Next.js) | `ERROR` / no deployments; not promoted publicly |
+
 ## Canonical architecture
 
-- **Personal identity and routing:** [faroukpandor.github.io](https://github.com/faroukpandor/faroukpandor.github.io) and the separately deployed [faroukpandor.vercel.app](https://faroukpandor.vercel.app/). Their source/deployment relationship must be verified independently; do not assume the Vercel site deploys from the legacy [faroukpandor](https://github.com/faroukpandor/faroukpandor) Hugo starter.
+- **Personal identity and routing:** [faroukpandor.github.io](https://github.com/faroukpandor/faroukpandor.github.io) and the separately deployed [faroukpandor.vercel.app](https://faroukpandor.vercel.app/) (verified on 2026-11-09 to deploy from private repository `faroukpandor/FAROUK-PANDOR` via Vercel project `faroukpandor`, not the legacy [faroukpandor](https://github.com/faroukpandor/faroukpandor) Hugo starter fork).
 - **Group governance:** [MOKORO-ENTERPRISE-OS](https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS). Group policies and portfolio decisions live here; it is not a dumping ground for product code.
 - **Digital delivery and commercial implementation:** [MOKORO---Digital-Growth-Engine](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine).
 - **Agriculture and animal-health domain assets:** [AGRISAGE](https://github.com/faroukpandor/AGRISAGE), [AnimalHealth](https://github.com/faroukpandor/AnimalHealth), [NEXUS-ONEHEALTH](https://github.com/faroukpandor/NEXUS-ONEHEALTH), and related agriculture projects. Keep their responsibilities and data licensing distinct until reconciled.
 - **Discovery and commerce:** [EVERYTHINGCITY](https://github.com/faroukpandor/EVERYTHINGCITY) and [EVERYTHING-CITY](https://github.com/faroukpandor/EVERYTHING-CITY) are separate repositories until a deliberate, evidence-based canonical decision is recorded; do not merge or delete by name similarity.
 - **Research, opportunity intelligence and publishing:** [OpenEarn-Global](https://github.com/faroukpandor/OpenEarn-Global), [OMNINEWS](https://github.com/faroukpandor/OMNINEWS), [NexusStream---Open-Content-Directory](https://github.com/faroukpandor/NexusStream---Open-Content-Directory).
 - **Personal professional services:** [FAROUKPANDORCONSULTANT](https://github.com/faroukpandor/FAROUKPANDORCONSULTANT).
-- **Portfolio register and ownership controls:** this file plus [Portfolio Asset Ledger](PORTFOLIO-ASSET-LEDGER.md) and [Ownership Status Register](OWNERSHIP-STATUS-REGISTER.md), where available.
+- **Portfolio register and ownership controls:** this file plus [Portfolio Asset Ledger](PORTFOLIO-ASSET-LEDGER.md) and the [Ownership Status Register](OWNERSHIP-STATUS-REGISTER.md) (created 2026-11-02 from the read-only [repository inventory catalogue](../data/repository-inventory.json)).
 
 ## Relationship rules for every repository
 
@@ -84,65 +120,67 @@
 
 This inventory covers repositories returned by the current GitHub account listing and supplements it with known control repositories below. Classification is deliberately conservative; repository name and visibility are not evidence of ownership or maturity.
 
+**2026-11-09 reconciliation pass (issue #148):** GitHub fork/archived flags were verified for all 42 visible public account repositories (35 are forks of third-party upstream software), adding newly created public repo `OpenCast` and Vercel-confirmed private repo `FAROUK-PANDOR` (bringing the catalogued total to 116). Rows for repositories this pass could not read (HTTP 403) remain registry-declared and unverified — safe failure, no ownership inference. Machine-readable catalogue: [data/repository-inventory.json](../data/repository-inventory.json); classification register: [OWNERSHIP-STATUS-REGISTER.md](OWNERSHIP-STATUS-REGISTER.md); regenerate/reconcile with `node scripts/repository-inventory.mjs generate|reconcile`.
+
 | Repository | Visibility | Initial classification / action |
 |---|---|---|
 | [AnimalHealth](https://github.com/faroukpandor/AnimalHealth) | private | PERSONAL PROJECT CANDIDATE — confirm canonical status and lifecycle |
-| [disease_diagnosis_with_Machine-Learning](https://github.com/faroukpandor/disease_diagnosis_with_Machine-Learning) | public | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [smartfarm](https://github.com/faroukpandor/smartfarm) | public | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [medical-center](https://github.com/faroukpandor/medical-center) | public | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [mall123](https://github.com/faroukpandor/mall123) | public | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
+| [disease_diagnosis_with_Machine-Learning](https://github.com/faroukpandor/disease_diagnosis_with_Machine-Learning) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
+| [smartfarm](https://github.com/faroukpandor/smartfarm) | public | UNVERIFIED — account-held non-fork verified 2026-11-02; classify purpose, canonical destination and change authority |
+| [medical-center](https://github.com/faroukpandor/medical-center) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
+| [mall123](https://github.com/faroukpandor/mall123) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
 | [astro](https://github.com/faroukpandor/astro) | private | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
 | [Publii](https://github.com/faroukpandor/Publii) | private | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
-| [assemble](https://github.com/faroukpandor/assemble) | public | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
+| [assemble](https://github.com/faroukpandor/assemble) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
 | [MQL5](https://github.com/faroukpandor/MQL5) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
 | [QuantGenie](https://github.com/faroukpandor/QuantGenie) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
 | [health-haven-medical-centre](https://github.com/faroukpandor/health-haven-medical-centre) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
 | [FAROUKPANDOR-astro-platform-starter](https://github.com/faroukpandor/FAROUKPANDOR-astro-platform-starter) | private | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
-| [rocket-rust-hello-world](https://github.com/faroukpandor/rocket-rust-hello-world) | public | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
-| [Clean-Coder-AI](https://github.com/faroukpandor/Clean-Coder-AI) | public | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
-| [wifite2](https://github.com/faroukpandor/wifite2) | public | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
-| [pwa-starter](https://github.com/faroukpandor/pwa-starter) | public | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
-| [pages-cms](https://github.com/faroukpandor/pages-cms) | public | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
+| [rocket-rust-hello-world](https://github.com/faroukpandor/rocket-rust-hello-world) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
+| [Clean-Coder-AI](https://github.com/faroukpandor/Clean-Coder-AI) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
+| [wifite2](https://github.com/faroukpandor/wifite2) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
+| [pwa-starter](https://github.com/faroukpandor/pwa-starter) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
+| [pages-cms](https://github.com/faroukpandor/pages-cms) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
 | [HEALTHHAVEN](https://github.com/faroukpandor/HEALTHHAVEN) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
 | [HEALTHHAVEN1](https://github.com/faroukpandor/HEALTHHAVEN1) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
 | [digital-botswana-hub](https://github.com/faroukpandor/digital-botswana-hub) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [awesome-github-pages-portfolios](https://github.com/faroukpandor/awesome-github-pages-portfolios) | public | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
-| [awesome-agriculture](https://github.com/faroukpandor/awesome-agriculture) | public | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
+| [awesome-github-pages-portfolios](https://github.com/faroukpandor/awesome-github-pages-portfolios) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
+| [awesome-agriculture](https://github.com/faroukpandor/awesome-agriculture) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
 | [awesome-quant](https://github.com/faroukpandor/awesome-quant) | private | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
 | [moruajunction1](https://github.com/faroukpandor/moruajunction1) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [moruajunction](https://github.com/faroukpandor/moruajunction) | public | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [faroukpandor](https://github.com/faroukpandor/faroukpandor) | public | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
+| [moruajunction](https://github.com/faroukpandor/moruajunction) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
+| [faroukpandor](https://github.com/faroukpandor/faroukpandor) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
 | [bolt-slidev-hydroponic-mushroom-production](https://github.com/faroukpandor/bolt-slidev-hydroponic-mushroom-production) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
 | [health-haven-tcs](https://github.com/faroukpandor/health-haven-tcs) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [bolt.diy](https://github.com/faroukpandor/bolt.diy) | public | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
-| [opensourcepos](https://github.com/faroukpandor/opensourcepos) | public | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
-| [equifix-tina-cloud-starter](https://github.com/faroukpandor/equifix-tina-cloud-starter) | public | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
+| [bolt.diy](https://github.com/faroukpandor/bolt.diy) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
+| [opensourcepos](https://github.com/faroukpandor/opensourcepos) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
+| [equifix-tina-cloud-starter](https://github.com/faroukpandor/equifix-tina-cloud-starter) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
 | [faroukpandor-nextjs-commerce](https://github.com/faroukpandor/faroukpandor-nextjs-commerce) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [Farouk-s-Store-by-ZoroDesign](https://github.com/faroukpandor/Farouk-s-Store-by-ZoroDesign) | public | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [odoo](https://github.com/faroukpandor/odoo) | public | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
+| [Farouk-s-Store-by-ZoroDesign](https://github.com/faroukpandor/Farouk-s-Store-by-ZoroDesign) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
+| [odoo](https://github.com/faroukpandor/odoo) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
 | [nextjs-commerce-cpm](https://github.com/faroukpandor/nextjs-commerce-cpm) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [next-on-pages](https://github.com/faroukpandor/next-on-pages) | public | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
+| [next-on-pages](https://github.com/faroukpandor/next-on-pages) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
 | [MORUA-JUNCTION---TEMPOLABS](https://github.com/faroukpandor/MORUA-JUNCTION---TEMPOLABS) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
 | [GlobalEstate](https://github.com/faroukpandor/GlobalEstate) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
 | [UnityMail](https://github.com/faroukpandor/UnityMail) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
 | [innovatepwa](https://github.com/faroukpandor/innovatepwa) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [BlackViperScript](https://github.com/faroukpandor/BlackViperScript) | public | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [tsafi](https://github.com/faroukpandor/tsafi) | public | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [ghost-farouk](https://github.com/faroukpandor/ghost-farouk) | public | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [ultimate-crypto-trading-bot](https://github.com/faroukpandor/ultimate-crypto-trading-bot) | public | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
+| [BlackViperScript](https://github.com/faroukpandor/BlackViperScript) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
+| [tsafi](https://github.com/faroukpandor/tsafi) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
+| [ghost-farouk](https://github.com/faroukpandor/ghost-farouk) | public | UNVERIFIED — account-held non-fork verified 2026-11-02; classify purpose, canonical destination and change authority |
+| [ultimate-crypto-trading-bot](https://github.com/faroukpandor/ultimate-crypto-trading-bot) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
 | [skillswap](https://github.com/faroukpandor/skillswap) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
 | [health-hive-spark](https://github.com/faroukpandor/health-hive-spark) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
 | [tiny-unicorn-hum](https://github.com/faroukpandor/tiny-unicorn-hum) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
 | [faroukpandorcommerce](https://github.com/faroukpandor/faroukpandorcommerce) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [tradingview-mcp](https://github.com/faroukpandor/tradingview-mcp) | public | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [bollinger-band-screener](https://github.com/faroukpandor/bollinger-band-screener) | public | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [awesome-n8n-templates](https://github.com/faroukpandor/awesome-n8n-templates) | public | UPSTREAM / TEMPLATE / REFERENCE — verify fork and license before edits |
+| [tradingview-mcp](https://github.com/faroukpandor/tradingview-mcp) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
+| [bollinger-band-screener](https://github.com/faroukpandor/bollinger-band-screener) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
+| [awesome-n8n-templates](https://github.com/faroukpandor/awesome-n8n-templates) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02; third-party upstream software, verify licence before edits |
 | [EVERYTHINGCITY](https://github.com/faroukpandor/EVERYTHINGCITY) | private | PERSONAL PROJECT CANDIDATE — confirm canonical status and lifecycle |
 | [MORUA_JUNCTION_1](https://github.com/faroukpandor/MORUA_JUNCTION_1) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
 | [nexusforge-vision](https://github.com/faroukpandor/nexusforge-vision) | private | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
 | [AI-Powered-Personal-Command-Center](https://github.com/faroukpandor/AI-Powered-Personal-Command-Center) | private | PERSONAL PROJECT CANDIDATE — confirm canonical status and lifecycle |
-| [cloudflare1](https://github.com/faroukpandor/cloudflare1) | public | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
-| [agrisphere](https://github.com/faroukpandor/agrisphere) | public | UNVERIFIED — classify ownership, purpose, canonical destination and change authority |
+| [cloudflare1](https://github.com/faroukpandor/cloudflare1) | public | UNVERIFIED — account-held non-fork verified 2026-11-02; classify purpose, canonical destination and change authority |
+| [agrisphere](https://github.com/faroukpandor/agrisphere) | public | UNVERIFIED — account-held non-fork verified 2026-11-02; classify purpose, canonical destination and change authority |
 | [AGRISAGE](https://github.com/faroukpandor/AGRISAGE) | private | PERSONAL PROJECT CANDIDATE — confirm canonical status and lifecycle |
 | [yellow-blue-pwa](https://github.com/faroukpandor/yellow-blue-pwa) | private | CLIENT / THIRD-PARTY BOUNDARY — do not modify without explicit authorization |
 | [yellowblue-pwa](https://github.com/faroukpandor/yellowblue-pwa) | private | CLIENT / THIRD-PARTY BOUNDARY — do not modify without explicit authorization |
@@ -190,14 +228,29 @@ This inventory covers repositories returned by the current GitHub account listin
 | [MOKORO-ENTERPRISE-OS](https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS) | known control | PERSONAL / GROUP GOVERNANCE — MOKORO group governance and operating layer |
 | [PipTick](https://github.com/faroukpandor/PipTick) | known control | REQUIRES REVIEW — Brand/content/research project; repository identity and ownership require reconciliation |
 
+| [binance-trade-bot](https://github.com/faroukpandor/binance-trade-bot) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02 (registered in this pass); third-party upstream software, verify licence before edits |
+| [ClawWork](https://github.com/faroukpandor/ClawWork) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02 (registered in this pass); third-party upstream software, verify licence before edits |
+| [hummingbot](https://github.com/faroukpandor/hummingbot) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02 (registered in this pass); third-party upstream software, verify licence before edits |
+| [jenetics](https://github.com/faroukpandor/jenetics) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02 (registered in this pass); third-party upstream software, verify licence before edits |
+| [openclaw](https://github.com/faroukpandor/openclaw) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02 (registered in this pass); third-party upstream software, verify licence before edits |
+| [pentagi](https://github.com/faroukpandor/pentagi) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02 (registered in this pass); third-party upstream software, verify licence before edits |
+| [pinokio](https://github.com/faroukpandor/pinokio) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02 (registered in this pass); third-party upstream software, verify licence before edits |
+| [python-binance](https://github.com/faroukpandor/python-binance) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02 (registered in this pass); third-party upstream software, verify licence before edits |
+| [rea](https://github.com/faroukpandor/rea) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02 (registered in this pass); third-party upstream software, verify licence before edits |
+| [ruflo](https://github.com/faroukpandor/ruflo) | public | UPSTREAM / TEMPLATE / REFERENCE — GitHub fork flag verified 2026-11-02 (registered in this pass); third-party upstream software, verify licence before edits |
+| [Rust-Ecosystem-](https://github.com/faroukpandor/Rust-Ecosystem-) | public | UNVERIFIED — account-held non-fork verified 2026-11-02 (registered in this pass); classify purpose, canonical destination and change authority |
+| [OpenCast](https://github.com/faroukpandor/OpenCast) | public | UNVERIFIED — account-held non-fork verified 2026-11-09 (Streaming Intel Hub prototype); classify canonical role, API boundaries and change authority |
+| [FAROUK-PANDOR](https://github.com/faroukpandor/FAROUK-PANDOR) | private | PERSONAL PROJECT CANDIDATE — Vercel project `faroukpandor` (`faroukpandor.vercel.app`) GitHub source verified 2026-11-09; private source remains inaccessible to public listing token |
 ## Reconciliation queue
 
-- [ ] Verify which GitHub repository is connected to the Vercel project `faroukpandor.vercel.app` in Vercel → Project → Settings → Git. Until confirmed, do not alter a guessed source repository.
+- [x] Verify which GitHub repository is connected to the Vercel project `faroukpandor.vercel.app` in Vercel → Project → Settings → Git (`faroukpandor/FAROUK-PANDOR`, Vite — verified 2026-11-09; legacy `faroukpandor` Hugo fork ruled out).
 - [ ] Reconcile repository inventory beyond the account-list response, including repositories under organizations/other accounts and newly created repos.
 - [ ] Review all rows marked UNVERIFIED, including ownership, fork/upstream, enterprise, canonical role, deployment, security, lifecycle and next action.
 - [ ] Review duplicate families (e.g. `EVERYTHINGCITY` / `EVERYTHING-CITY`, multiple YellowBlue repos, multiple command-centre repos) without deleting or merging until evidence and change authority are confirmed.
 - [ ] Add local relationship pointers to each confirmed personal-owned active repository; leave client/third-party and upstream repositories untouched until authorized.
-- [ ] Verify published sites and replace inaccurate or unverified links with confirmed deployment URLs.
+- [x] Verify published sites and replace inaccurate or unverified links with confirmed deployment URLs (public routing pinned via `data/public-projects.json` + `scripts/verify-public-portfolio.mjs`; ongoing link/UX audit verified across all public pages).
+
+**2026-11-09 pass progress:** fork/upstream review completed for all 42 public rows (35 verified forks, 7 non-forks); `OpenCast` and `FAROUK-PANDOR` registered in the inventory above; Vercel project linkages verified for `faroukpandor.vercel.app`, `agrisage`, `everythingcity`, `everythingcity-authoritative`, `mokoro`, and `mokoro-eos`; duplicate families documented in [OWNERSHIP-STATUS-REGISTER.md](OWNERSHIP-STATUS-REGISTER.md) with canonical ownership PENDING-EVIDENCE (nothing merged, deleted or repurposed). Remaining: organisation/other-account inventory and private-row inspection (public listing token receives HTTP 403 for private repos — safe failure). Reproduce with `node scripts/repository-inventory.mjs reconcile`.
 
 ## Related control documents
 
@@ -228,3 +281,14 @@ Do not duplicate the general-purpose application across repositories. Share the 
 - **Content readiness:** [FAROUKPANDORCONSULTANT FAQ/SOP preparation](https://github.com/faroukpandor/FAROUKPANDORCONSULTANT/blob/strategy/business-support-service-catalogue-2026-10-16/docs/CUSTOMER-FAQ-KNOWLEDGE-PREPARATION-FOR-CHATBOTS-2026-10-16.md).
 
 The owner cites prior chatbot work associated with yellowblue.co.bw. YellowBlue remains a client; this does not authorise public case-study claims, reuse of private assets, or changes to the client site. All linked work remains proposed until reviewed and accepted.
+
+
+## Global Bio-Organizational Intelligence Framework (GBOIF) — 2026-11-07
+
+- **Foundational scope and governance:** [Global Bio-Organizational Intelligence Framework](./GLOBAL-BIO-ORGANIZATIONAL-INTELLIGENCE-FRAMEWORK.md) — global biodiversity, including cellular life, microbes, fungi, plants, animals, viruses, prions, viroids, mobile genetic elements, microbiomes, ecosystems, domesticated and engineered biological systems.
+- **Agricultural domain interface:** [AgriSage360 Global Bio-Intelligence Interface](https://github.com/faroukpandor/AGRISAGE/blob/main/docs/GLOBAL-BIO-INTELLIGENCE-AGRI-INTERFACE.md) — AgriSage360 consumes validated agricultural/livestock knowledge; it is not the global taxonomy master.
+- **Existing regional organism dossiers:** Botswana species repositories (including [Botswanoncus ellisi](https://github.com/faroukpandor/botswanoncus-ellisi), [Tritogenia talana](https://github.com/faroukpandor/tritogenia-talana), [Branchipodopsis kalaharensis](https://github.com/faroukpandor/branchipodopsis-kalaharensis), [Amphibolocypris arida](https://github.com/faroukpandor/amphibolocypris-arida), [Syringoplana kolasai](https://github.com/faroukpandor/syringoplana-kolasai) and [Niambia botswanaensis](https://github.com/faroukpandor/niambia-botswanaensis)) remain regional, organism-specific evidence dossiers. Do not imply global coverage or duplicate their records.
+- **One Health relationship:** [NEXUS-ONEHEALTH](https://github.com/faroukpandor/NEXUS-ONEHEALTH) is a potential human–animal–environment interface; its canonical role, source provenance and implementation maturity require review before integration.
+- **Current state:** scope and routing documented; no global master repository, taxonomic database, ingestion pipeline, public deployment or automated cross-repository sync has been created.
+- **Next gate:** perform read-only inventory of relevant repositories and data sources, confirm ownership/licences and define a pilot data model before creating a dedicated master repository or modifying individual organism dossiers.
+- **Scientific and ethical controls:** distinguish cellular organisms from acellular agents and genetic elements; preserve source provenance and uncertainty; protect sensitive localities; observe biosafety, access and benefit-sharing requirements. No commercial, collection or research permissions are inferred from public records.
