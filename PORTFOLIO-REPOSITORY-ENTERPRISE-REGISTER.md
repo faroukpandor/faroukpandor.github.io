@@ -35,6 +35,16 @@ No fork should be detached merely because it is accessible. First verify provena
 6. Client repositories remain client-controlled. Access or contribution does not turn client IP into Farouk-owned IP.
 7. Forks require provenance review before detachment.
 
+## Commercial opportunity portfolio — 22 November 2026
+
+The founder-level commercial opportunity map is documented in [COMMERCIAL-OPPORTUNITY-PORTFOLIO-MAP-2026-11-22.md](./docs/COMMERCIAL-OPPORTUNITY-PORTFOLIO-MAP-2026-11-22.md). Supporting documentation is proposed through these reviewable pull requests:
+
+- [MOKORO DGE #147 — Commercial Opportunity Portfolio & Validation Strategy](https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/147)
+- [AGRISAGE #101 — AgriValue Commercial Intelligence & Buyer-Led Validation](https://github.com/faroukpandor/AGRISAGE/pull/101)
+- [EVERYTHINGCITY #56 — Supplier & Procurement Intelligence](https://github.com/faroukpandor/EVERYTHINGCITY/pull/56)
+
+These are documentation proposals, not merged or deployed changes. The commercial priority is supplier discovery + procurement brokerage + quotation workflow, with AgriValue as a specialised agricultural vertical. Validate a real buyer requirement and a fulfilable supplier route before building additional software. Preserve all existing enterprise boundaries, free-first constraints, data confidentiality and approval gates.
+
 ## Minimum evidence register
 For every important repository record: GitHub owner; authenticated access level; fork status/upstream; original author/provenance; licence; major dependencies; deployment URL/account; domain owner; data ownership; client/third-party obligations; canonical enterprise; lifecycle status; commercial purpose; next action.
 
