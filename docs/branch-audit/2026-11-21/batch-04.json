@@ -1,0 +1,702 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 4,
+  "range": [
+    48,
+    64
+  ],
+  "repositories": [
+    {
+      "name": "BIOORGANISMS-CHAT-with-Maps-Live",
+      "full": "faroukpandor/BIOORGANISMS-CHAT-with-Maps-Live",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "873815ef850d159c146bc5a93efe40438e5f180c",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "binance-trade-bot",
+      "full": "faroukpandor/binance-trade-bot",
+      "default": "master",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a0f649-binance-trade-bot",
+          "sha": "f7053224ff6c2a39b4da7900bc2874fede732928",
+          "protected": false
+        },
+        {
+          "name": "master",
+          "sha": "c17d363a08abdff88e07f3b2398305d78337cdaa",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "AI-Powered-Personal-Command-Center",
+      "full": "faroukpandor/AI-Powered-Personal-Command-Center",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "cursor/build-an-ai-command-center-c772",
+          "sha": "b48712a73bb4cf7badc5f7aaa84601433616c1e5",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "766d43b29305c64eeebd69b2020323ee0f158803",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "NEXUSFLOW-RPG",
+      "full": "faroukpandor/NEXUSFLOW-RPG",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "f759e5cfd8f36cf3ea495a7bf62cc8108913a1dc",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "jenetics",
+      "full": "faroukpandor/jenetics",
+      "default": "master",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 9,
+      "branches": [
+        {
+          "name": "issues/JENETICS-302-time_series",
+          "sha": "15cbceccb00fb5a2b4de75f790e54b7cb858591e",
+          "protected": false
+        },
+        {
+          "name": "issues/JENETICS-582-high_level_optimizer",
+          "sha": "320261803f25895fb1d1e005b35984f5e6d4d2cd",
+          "protected": false
+        },
+        {
+          "name": "issues/JENETICS-613-nsga3",
+          "sha": "b6a615bef84ed6d5fe19147d84713854a9f965bc",
+          "protected": false
+        },
+        {
+          "name": "issues/JENETICS-623-experiment_api",
+          "sha": "86afabdca68a55e806c7edfbe2d320e9f87af5c3",
+          "protected": false
+        },
+        {
+          "name": "issues/JENETICS-777-elo_fitness_function",
+          "sha": "a4d2a77b1a44ad9f22ee05d83cd1c62ee81a97e7",
+          "protected": false
+        },
+        {
+          "name": "issues/JENETICS-817-Meta_optimization",
+          "sha": "fbd43c0b62361a3b9d0c32f93424beae9f22b467",
+          "protected": false
+        },
+        {
+          "name": "issues/JENETICS-860-Codec_objects_for_genetic_operations",
+          "sha": "1bdfbcfab35508f13875efc5ef7a086ac3c58733",
+          "protected": false
+        },
+        {
+          "name": "master",
+          "sha": "dcc878b2104008f7e967c83954b0ac9734d61c56",
+          "protected": false
+        },
+        {
+          "name": "releases/r9.2.0",
+          "sha": "847c4ab42b4ff7a3d2d652c74e6f5bfcc7bca662",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "YB17.12.2025",
+      "full": "faroukpandor/YB17.12.2025",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "efda97a203eb839a15246900e34eba064a1fa4a1",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "SUNCLYCLECRM",
+      "full": "faroukpandor/SUNCLYCLECRM",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "2b282b505e80dcc614c2ce156491b2bc0f9ee4f5",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Aurora-PKM",
+      "full": "faroukpandor/Aurora-PKM",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "3a848ffe744b5e056666f037678c18197a8dde64",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "services",
+      "full": "faroukpandor/services",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "fba925b716964f2b741fe9f41f8d6bbcfe139465",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "ConnectAfrica",
+      "full": "faroukpandor/ConnectAfrica",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 4,
+      "branches": [
+        {
+          "name": "docs/reflect-pwa-delivery",
+          "sha": "ab6d754a37c62248d7c1d5b03b72344b572623a2",
+          "protected": false
+        },
+        {
+          "name": "feature/mobile-pwa-demo",
+          "sha": "c676cda28944f5e8245815e0fc77b3871a4c0b6b",
+          "protected": false
+        },
+        {
+          "name": "foundation/project-charter",
+          "sha": "3357f468ae8df8aaa34fe2de73ac6ec263555fb3",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "54ac2c59add4bad1035406f4814c64a80ae7cb5e",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Chronosync",
+      "full": "faroukpandor/Chronosync",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a060d2-chronosync",
+          "sha": "29d4743087aacb678633f20625312f441899b131",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "49eb51c94f21f4f6f69c1e7499862238d6307790",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "National-Agri-Integration-Framework",
+      "full": "faroukpandor/National-Agri-Integration-Framework",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a00a80-national-agri-integration-fram",
+          "sha": "498385afdd53594c63577d018d88cde91f33ae80",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "eb6daaaf38b9b64e036213eb9b25f17242ff8ba4",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "fpcc",
+      "full": "faroukpandor/fpcc",
+      "default": "master",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 23,
+      "branches": [
+        {
+          "name": "arena/a12246f7-fpcc",
+          "sha": "8c35f04fc763440b9b76b1058e6641b4ccff84d1",
+          "protected": false
+        },
+        {
+          "name": "arena/b8cfb3c8-fpcc",
+          "sha": "61af236744bccfb5dd7b6e3ba71599afc01650de",
+          "protected": false
+        },
+        {
+          "name": "arena/f39c4bee-publii",
+          "sha": "6444b3da2e58c48d7ee80c6504be64cd566c0f32",
+          "protected": false
+        },
+        {
+          "name": "arena/fpcc-free-release-20261031",
+          "sha": "831d8e9e6f47537cf32c6a3e37b300525e53cda3",
+          "protected": false
+        },
+        {
+          "name": "arena/01a05324-publii",
+          "sha": "23137eda5d9f828b20992bb8b1f494e2ef784d3d",
+          "protected": false
+        },
+        {
+          "name": "arena/5e87c991-fpcc",
+          "sha": "e8f03ed709d0219c4447d301d40eef1b5232dc44",
+          "protected": false
+        },
+        {
+          "name": "chore/fpcc-repository-identity-20261101",
+          "sha": "3232bacc049fe4b9dc93dfce49d0203aafcbfe37",
+          "protected": false
+        },
+        {
+          "name": "chore/reconcile-post-rename-20261101",
+          "sha": "7b3afb7c69af74f6e752e1bf7b66784b8b22ffa9",
+          "protected": false
+        },
+        {
+          "name": "ci/validate-prs",
+          "sha": "13020c83b61be1df6fe0875bdf7456ad4e467085",
+          "protected": false
+        },
+        {
+          "name": "docs/family-legacy-support-2026-11-07",
+          "sha": "b1a45fbbb7be35a741fb7f09c089dd4e4e99392d",
+          "protected": false
+        },
+        {
+          "name": "docs/handover-cold-start-2026-11-06",
+          "sha": "eb8f96017ab0fc4445eecab137dbd9b41642aaa0",
+          "protected": false
+        },
+        {
+          "name": "feat/ai-editorial-studio-mvp",
+          "sha": "1c9a0e216aca22ade871db2916dee9cfdc51d45b",
+          "protected": false
+        },
+        {
+          "name": "feat/digital-operations-ai-publishing",
+          "sha": "62aabc3aa712dd60576d205bb4e1038f1408fab7",
+          "protected": false
+        },
+        {
+          "name": "feat/fpcc-ecosystem-switcher-2026-10-24",
+          "sha": "610086387172aff302a30e939e44a8b36d38ec2b",
+          "protected": false
+        },
+        {
+          "name": "feat/mopipi-laundry-sustainable-operations-20261101",
+          "sha": "458c817972d04ea2993280bc277bf46a9d4354be",
+          "protected": false
+        },
+        {
+          "name": "feat/physical-world-twin-project-charter-20261101",
+          "sha": "47350b911a1295dd1d9e0cfa3128af887758f20a",
+          "protected": false
+        },
+        {
+          "name": "feat/project-portfolio-evidence-records",
+          "sha": "61bc91abca2ee7b9e35d6880cadd6e16db7abfa4",
+          "protected": false
+        },
+        {
+          "name": "feature/itc-opportunity-intelligence-pipeline",
+          "sha": "069dfb8c1dd5e8a0fb6ba24b144f0f36afa5a436",
+          "protected": false
+        },
+        {
+          "name": "master",
+          "sha": "def682c5a022d3f5553d1d1fc916cb1b5bb5d1a6",
+          "protected": false
+        },
+        {
+          "name": "portfolio-ecosystem-design-system-2026-10-24",
+          "sha": "d5bb1300453c1f7d81026f230c2976fd3ba58dd3",
+          "protected": false
+        },
+        {
+          "name": "research/competitive-ux-focus-cards-2026-10-24",
+          "sha": "cf336c8421b78b671a5af3af0f72fdaf241455e7",
+          "protected": false
+        },
+        {
+          "name": "research/free-software-opportunity-2026-11",
+          "sha": "5ca4783968594b2155018cceb866b74c160166c9",
+          "protected": false
+        },
+        {
+          "name": "strategy/commercial-priorities-2026-11-04",
+          "sha": "0aa669f0c7b30aa4dee99580bdd55e35ac207fe2",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "WCD",
+      "full": "faroukpandor/WCD",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 40,
+      "branches": [
+        {
+          "name": "arena/a4d4a74c-wcd",
+          "sha": "7be696c2eceece7ab7692aafabbb039e8c09c056",
+          "protected": false
+        },
+        {
+          "name": "arena/a5af6448-wcd",
+          "sha": "5dbf10409a1c30ee1013d4d51665aa0430b0f9dd",
+          "protected": false
+        },
+        {
+          "name": "arena/a7f6facd-wcd",
+          "sha": "b8e16d3261474dde88bdbfbf01fff71f322226ab",
+          "protected": false
+        },
+        {
+          "name": "arena/ab38e2dc-wcd",
+          "sha": "53a170a1541c73af14f86f9327ac56cc129aab9f",
+          "protected": false
+        },
+        {
+          "name": "arena/bbfb6ad3-wcd",
+          "sha": "5e830a48cf3962ce7173395ac6b1f728cf5387ed",
+          "protected": false
+        },
+        {
+          "name": "arena/c2a88206-wcd",
+          "sha": "c48ff4c56c174f8fe71a9e59b7d26933c9d96f80",
+          "protected": false
+        },
+        {
+          "name": "arena/da54e159-wcd",
+          "sha": "fc1c48cdd10961075294254153cca20c144e0a24",
+          "protected": false
+        },
+        {
+          "name": "arena/f7cfc6e5-wcd",
+          "sha": "5b38137e1ce37cb09fe5ee835ec18b0894f80b81",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0d297-wcd",
+          "sha": "777552fc2a874990b6ec9f97a611a6b3ee6ad447",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0d385-wcd",
+          "sha": "5dcb3879b043bc939efa5d7a4fbe1c1e4f2e82de",
+          "protected": false
+        },
+        {
+          "name": "arena/01a03244-wcd",
+          "sha": "2ad6a9fee34fe1b17664ecf986f40a12e2d2fe3a",
+          "protected": false
+        },
+        {
+          "name": "arena/5aea8736-wcd",
+          "sha": "0feedd09ce7d143bfc18295709f7c61c084e59d0",
+          "protected": false
+        },
+        {
+          "name": "arena/7b2bc1a2-wcd",
+          "sha": "ce4527fd1ef90e4af5b18573700ed6c6382db217",
+          "protected": false
+        },
+        {
+          "name": "arena/54cb0b68-wcd",
+          "sha": "5e313d305b3f6072b1ef08b34dd41a26b540a55f",
+          "protected": false
+        },
+        {
+          "name": "arena/61a8dd37-wcd",
+          "sha": "79c26e404b26c7faf949147593269b2a0b7db01b",
+          "protected": false
+        },
+        {
+          "name": "arena/5275795a-wcd",
+          "sha": "f789f9534ed96d946fc86a642361879498a04fe4",
+          "protected": false
+        },
+        {
+          "name": "audit/wcd-production-assurance-20261029",
+          "sha": "2b64e85aa157bdc8a4e20367d46855686fa75773",
+          "protected": false
+        },
+        {
+          "name": "automation/wcd-continuous-assurance-20261029",
+          "sha": "9cde866fc5ea1b7b463d5ad2c0218c0b79189e54",
+          "protected": false
+        },
+        {
+          "name": "catalog/vendor-neutral-products",
+          "sha": "ef8c820b45a74f814840fb1b1ef59267780dbb6d",
+          "protected": false
+        },
+        {
+          "name": "ci/cloudflare-workers-builds-20261029",
+          "sha": "2fcca55e118a44568497b2f3484a7d58c809e73b",
+          "protected": false
+        },
+        {
+          "name": "compliance/content-gap-register",
+          "sha": "82539ff658ae151bc5e100f920de8f0b4c92e1d5",
+          "protected": false
+        },
+        {
+          "name": "docs/agent-line-of-trade-2026-10-26",
+          "sha": "25334ed92aafb14f38ae65e00d988837cd3c5743",
+          "protected": false
+        },
+        {
+          "name": "docs/dual-host-free-fallback-2026",
+          "sha": "d0ed3bfe009f99975dc348848152600dd2bf83e2",
+          "protected": false
+        },
+        {
+          "name": "docs/wcd-green-manufacturing-20261101",
+          "sha": "0626bdde85269541d2e9c92057eb0af67a60a222",
+          "protected": false
+        },
+        {
+          "name": "docs/wcd-green-manufacturing-clean-20261101",
+          "sha": "5111850ec0d5be9e9a7493d01541ff3f71e75c2c",
+          "protected": false
+        },
+        {
+          "name": "feat/b2b-enquiry-specification-20261031",
+          "sha": "80135f1d5c7216feea8514a3eb7eb331298c9057",
+          "protected": false
+        },
+        {
+          "name": "feat/public-merchandise-presence-2026-10-27",
+          "sha": "ee2b6b43a7c806e362c24bd42e2ee0ca75a8c0ce",
+          "protected": false
+        },
+        {
+          "name": "feat/sadc-capital-markets-radar",
+          "sha": "64fa97a41cd0488c923c7486a85343b03ebc5763",
+          "protected": false
+        },
+        {
+          "name": "finance/sales-total-reconciliation",
+          "sha": "82ab4ab737f90e2f99fc0b9d69d5f0db135c5b0d",
+          "protected": false
+        },
+        {
+          "name": "fix/offline-queue-unsupported-api-20261029",
+          "sha": "c9c6aaa2526c51f2af93f3b7929550015dfcece9",
+          "protected": false
+        },
+        {
+          "name": "fix/pos-vat-reconciliation-current-main",
+          "sha": "a3586a6120a03d7eb4df7c3eff1373e733e459a7",
+          "protected": false
+        },
+        {
+          "name": "fix/pwa-public-documents-2026-10-27",
+          "sha": "02648a2d025a8ab003e15ed19fbe06e256aa7712",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "e32f3bb5f6daaa50f69c56534681aed712ec51cb",
+          "protected": false
+        },
+        {
+          "name": "research/campaign-proposals-20261031",
+          "sha": "becd3601d974d0fb0b23fe219f3e12adf5a0db9f",
+          "protected": false
+        },
+        {
+          "name": "security/critical-controls-regression-tests",
+          "sha": "dc1dfe164f7a14e23baf26cb7f3da20354775781",
+          "protected": false
+        },
+        {
+          "name": "security/firestore-role-revocation-tests",
+          "sha": "d4e753c4090d71de073a799260654e390b68287b",
+          "protected": false
+        },
+        {
+          "name": "verify/cloudflare-free-ci-20261029",
+          "sha": "9e33297878d878c14c7f18ace8b0207092e62dcb",
+          "protected": false
+        },
+        {
+          "name": "verify-auth-tests",
+          "sha": "b3d7e3641fd95a96ccb1b3072cacc4d4da5bac94",
+          "protected": false
+        },
+        {
+          "name": "verify-auth-tests-pr",
+          "sha": "11223edc854fc63172fc89924a47f5d5fb0ab077",
+          "protected": false
+        },
+        {
+          "name": "work/erp-readiness-ci-docs-20261029",
+          "sha": "26e2daab2eb5d438a5c0accf5edb683dd3b49eb3",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "next-on-pages",
+      "full": "faroukpandor/next-on-pages",
+      "default": "main",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 9,
+      "branches": [
+        {
+          "name": "1422",
+          "sha": "bc60685e09f85280133118c619b07869b130b205",
+          "protected": false
+        },
+        {
+          "name": "aux-semaphore",
+          "sha": "e4ca5a6b1b265f12c708565da08e3f7a567bb4ad",
+          "protected": false
+        },
+        {
+          "name": "dependabot/npm_and_yarn/pages-e2e/fixtures/app14.0.0/nanoid-3.3.8",
+          "sha": "dab99c2c1904258a75bb690281688ca7e5676c2e",
+          "protected": false
+        },
+        {
+          "name": "dependabot/npm_and_yarn/pages-e2e/fixtures/app14.0.0/next-14.2.21",
+          "sha": "71c7f09836ee538b11173da2b272005db1e062ad",
+          "protected": false
+        },
+        {
+          "name": "dependabot/npm_and_yarn/pages-e2e/fixtures/pages12.3.0/next-14.2.15",
+          "sha": "830ab4d2de14956e6426044ba7f9e72c1faa1e1e",
+          "protected": false
+        },
+        {
+          "name": "hrushikeshdeshpande-updating-semgrep-yml",
+          "sha": "8063b77414cc50ead8e46a4ccbd4e54b4a119007",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "2cd4c3c704a00e6b693229f1f14102abc6318d11",
+          "protected": false
+        },
+        {
+          "name": "proper-useContext-fix-1",
+          "sha": "4c469bcd1e500219c9dd20cddda55ef688c77316",
+          "protected": false
+        },
+        {
+          "name": "suppress-process-env",
+          "sha": "efb9ddbd2d4161d670f25822c7f2f87037d5aa13",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Aura-Native---Autonomous-Ad-Ecosystem",
+      "full": "faroukpandor/Aura-Native---Autonomous-Ad-Ecosystem",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "7306086a74f7218ff0addecf495953f7e070ee77",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Digital-Real-Estate-Cross-Platform-Suite",
+      "full": "faroukpandor/Digital-Real-Estate-Cross-Platform-Suite",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "4afa32f4bea366174d6fe92a319496b05b62d6c8",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}

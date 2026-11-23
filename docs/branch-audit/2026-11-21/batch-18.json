@@ -1,0 +1,89 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 18,
+  "range": [
+    286,
+    289
+  ],
+  "repositories": [
+    {
+      "name": "nextjs-ai-chatbot",
+      "full": "faroukpandor/nextjs-ai-chatbot",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "14061a57e7de9f932d72f433fcf72c460d6e121e",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "THE-ENGINE",
+      "full": "faroukpandor/THE-ENGINE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "0c8102cf49a6168294b6e6dfa2f9d455e5c0621c",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "PULA",
+      "full": "faroukpandor/PULA",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a0f763-pula",
+          "sha": "24b7da9c48fc1582805bbf2d0ecc273c71984ebf",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "1e01e5c296d07ba6da8884f9e52d40b0a468cccb",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "headmaster",
+      "full": "faroukpandor/headmaster",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 3,
+      "branches": [
+        {
+          "name": "arena/fec17bde-headmaster",
+          "sha": "5cccd5bfdcc8a13a37ba59ed9cb3798ec20c70c9",
+          "protected": false
+        },
+        {
+          "name": "arena/1db69baf-headmaster",
+          "sha": "34deec0c10c109d81d935d2bfda4dd5e80e070ce",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "e85bcd9b683eeb2773d1ce1049eae89131000e77",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}

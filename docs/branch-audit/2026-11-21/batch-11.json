@@ -1,0 +1,397 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 11,
+  "range": [
+    167,
+    183
+  ],
+  "repositories": [
+    {
+      "name": "NOVA-OS",
+      "full": "faroukpandor/NOVA-OS",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "bbdfbb1194878c142a5db3e79880ddd4a526dc7f",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "QuantGenie",
+      "full": "faroukpandor/QuantGenie",
+      "default": "master",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 3,
+      "branches": [
+        {
+          "name": "arena/01a051d5-quantgenie",
+          "sha": "d531bd0e98db8a55f1742cf4354e77d2846e7201",
+          "protected": false
+        },
+        {
+          "name": "feature/decision-reliability-placebo-v1",
+          "sha": "b80eab9e97bcc2e4e387a6a6536d3e2dcfabd852",
+          "protected": false
+        },
+        {
+          "name": "master",
+          "sha": "cb676f94e766d59f7f08e8e70109a4e681ebf9eb",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "tsafi",
+      "full": "faroukpandor/tsafi",
+      "default": "main",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "b23167277416083e8e552069c3ddd61fa7ab93d5",
+          "protected": false
+        },
+        {
+          "name": "staging",
+          "sha": "428f83f6f35ed99114d9c3870ab3b4cd0f93ac65",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "jevtoo",
+      "full": "faroukpandor/jevtoo",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "4557e205230550bf18b9bd14ff6cd963b2fec6c2",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Global-Health-Companion",
+      "full": "faroukpandor/Global-Health-Companion",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "2cd5a19500fee15ba9c28f7abfa906955c4b9227",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "OmniBio",
+      "full": "faroukpandor/OmniBio",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "02454d2fe176cd43b05f37fa5d3f51e00eb3a843",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "awesome-real-estate",
+      "full": "faroukpandor/awesome-real-estate",
+      "default": "master",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 3,
+      "branches": [
+        {
+          "name": "add-comprehensive-real-estate-resources",
+          "sha": "c2e4b0ffdf5ac6b7ee6c821a81f60e2887361997",
+          "protected": false
+        },
+        {
+          "name": "arena/01a00040-awesome-real-estate",
+          "sha": "c9ddc06a3ee683c792d1a93a20d56f1055c31975",
+          "protected": false
+        },
+        {
+          "name": "master",
+          "sha": "0ee6895bfa537933dfdb617f81fff0a53431329d",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "mopipi-salon",
+      "full": "faroukpandor/mopipi-salon",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "0509a78b10f1506d8fb75bd2ed43439f17572d64",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "acuity",
+      "full": "faroukpandor/acuity",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 3,
+      "branches": [
+        {
+          "name": "docs/portfolio-handover-refresh-20261101",
+          "sha": "e8750d25a6ce450ff80c36849f818ad287537148",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "cfb2d639ef9b57e61102c103675cc071e393dfb7",
+          "protected": false
+        },
+        {
+          "name": "work/acuity-rust-consolidation-20261026",
+          "sha": "49185aedee5216df7c3c484bb350115c9f8ee1ae",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "FAROUKPANDOR-AXIOM",
+      "full": "faroukpandor/FAROUKPANDOR-AXIOM",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 7,
+      "branches": [
+        {
+          "name": "automation/portfolio-priority-triage-20261025",
+          "sha": "e65e18d6b2bb888ff7e64b4ae60d879c2bad1735",
+          "protected": false
+        },
+        {
+          "name": "automation/prospect-register-20261024",
+          "sha": "3495f1f0105978263076c798695d98a57f9c7907",
+          "protected": false
+        },
+        {
+          "name": "docs/portable-cloudflare-handoff-20261030",
+          "sha": "f04f8ce17c863cbbf6ee983115402ded4702f132",
+          "protected": false
+        },
+        {
+          "name": "feat/portable-engineering-ops-100-cycles-20261101",
+          "sha": "819ab65698a95ac7356335b88a65ed43bd579bd6",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "18b6bcad1d7cadc53ad4a5c5c426324b71b61636",
+          "protected": false
+        },
+        {
+          "name": "plan/cloudflare-verification-matrix-20261029",
+          "sha": "0707b961924b02e215d41f06c4f0690b636c0571",
+          "protected": false
+        },
+        {
+          "name": "test/prospect-unverified-regression-20261025",
+          "sha": "93ffca40de531baa49dc906c91373b35d9f35518",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "identity-concept",
+      "full": "faroukpandor/identity-concept",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 10,
+      "branches": [
+        {
+          "name": "chore/catalogue-refresh-20261104",
+          "sha": "24226232a84a74aa1a7d1a4847047a7696d62a51",
+          "protected": false
+        },
+        {
+          "name": "codex/vendor-catalogue-admin-20261028",
+          "sha": "b4277162f6d7c52ba549351870d14eb1694701c5",
+          "protected": false
+        },
+        {
+          "name": "feat/brand-catalogue-ux-20261104",
+          "sha": "c39b44a1ccd6828f8d4128d34847f6eb6b616ae0",
+          "protected": false
+        },
+        {
+          "name": "feat/brand-offline-cms-erp-20261104",
+          "sha": "86a4c37cc4140091d9f18eaf969a278cbdbf51e1",
+          "protected": false
+        },
+        {
+          "name": "feat/identity-brand-catalogue-refresh-20261104",
+          "sha": "eae48e792e2d145e459c384aa0420a33c22e4001",
+          "protected": false
+        },
+        {
+          "name": "feat/logo-integration-20261104",
+          "sha": "38586b9f3cfb7b450cf99d1c5f831036f5eddd08",
+          "protected": false
+        },
+        {
+          "name": "feature/white-label-commerce-private-procurement",
+          "sha": "1c2d29c6e80b401152706ac4824ed84784ac51c7",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "2f2726c6beb94106597a9f45fc3d6d8b0c505902",
+          "protected": false
+        },
+        {
+          "name": "research/campaign-proposals-20261031",
+          "sha": "611acb1874058eaaf63687d0c9a6fba07e5516d4",
+          "protected": false
+        },
+        {
+          "name": "test/static-prelaunch-checks-20261028",
+          "sha": "d94102c2703e7aea707fee75b66ef2f05f8f83cb",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "TypeForge-Ultra",
+      "full": "faroukpandor/TypeForge-Ultra",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "125488d1468a45483de0f763c028f0d116dac0cb",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Sovereign-Manufacturing-Operating-System",
+      "full": "faroukpandor/Sovereign-Manufacturing-Operating-System",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "5431b1ab2421bc196b3e050e6793a00b40211393",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "medical-center",
+      "full": "faroukpandor/medical-center",
+      "default": "master",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "master",
+          "sha": "46ef9ec9fc2ed8d6fb09a5958640d8d98b7152ff",
+          "protected": false
+        },
+        {
+          "name": "preview",
+          "sha": "46ef9ec9fc2ed8d6fb09a5958640d8d98b7152ff",
+          "protected": true
+        }
+      ]
+    },
+    {
+      "name": "mall123",
+      "full": "faroukpandor/mall123",
+      "default": "main",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "3b50690ba207e53628e254135eaadfd9c1bc22e9",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "awesome-github-pages-portfolios",
+      "full": "faroukpandor/awesome-github-pages-portfolios",
+      "default": "master",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "master",
+          "sha": "5d11cffe5933af9d3c2c5c19c619e4b083011856",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "pinokio",
+      "full": "faroukpandor/pinokio",
+      "default": "main",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "4b3c80bfd4a7de4be115c457dbf3200c3ae5da13",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}

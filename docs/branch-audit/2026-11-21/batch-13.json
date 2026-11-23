@@ -1,0 +1,697 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 13,
+  "range": [
+    201,
+    217
+  ],
+  "repositories": [
+    {
+      "name": "AI-Personal-Command-Center",
+      "full": "faroukpandor/AI-Personal-Command-Center",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "6cacd1e5d59d87c92d4f2c6dddac8d0f4d4b6494",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "health-haven-tcs",
+      "full": "faroukpandor/health-haven-tcs",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a07ef1-health-haven-tcs",
+          "sha": "2db136cb07a714da14225e0d00c2c8b3d8dd2472",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "8e80c7e10ec5a605eba8bdae57a9f1d8920bf0e2",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Baratani-Indigenous-Resource-Research-Development",
+      "full": "faroukpandor/Baratani-Indigenous-Resource-Research-Development",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "0c1fb698980f685f486720308315f6672414adbe",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "nextjs-commerce-cpm",
+      "full": "faroukpandor/nextjs-commerce-cpm",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "6baa6846d11412dc6024f6c643843abe89cea135",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "BLUE-CARBON-DISTRIBUTION",
+      "full": "faroukpandor/BLUE-CARBON-DISTRIBUTION",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "8db55ba69f4bbdf9c8b64fd244a8310343fec345",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "text-farouk-digital-empire",
+      "full": "faroukpandor/text-farouk-digital-empire",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a019b9-text-farouk-digital-empire",
+          "sha": "3819feff2d472607043850a6c708e11abd688364",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "b3c64ad2d433ed3b423aaff91c69a35e33824a80",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "RESEARCH-EXCHANGE",
+      "full": "faroukpandor/RESEARCH-EXCHANGE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 24,
+      "branches": [
+        {
+          "name": "ag-extension-evidence-protocol-2026-10-23",
+          "sha": "ea8cece899c84ced937ec159e4ec6945fd8718b1",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0a0d4-research-exchange",
+          "sha": "7d55594d2cc9fccbb539150e17d0d9ecf32fdac6",
+          "protected": false
+        },
+        {
+          "name": "commercial/physical-ai-buyer-proposal-template-v0-1",
+          "sha": "2762c3a6dc642e259d7cdc3137d78715596a8c30",
+          "protected": false
+        },
+        {
+          "name": "commercial/physical-ai-contact-routes-v0-2",
+          "sha": "4547430aed169179070362f12f1b1f1482196a59",
+          "protected": false
+        },
+        {
+          "name": "commercial/physical-ai-discovery-system-v0-1",
+          "sha": "e174a9d9eb712fb865cecaca34baa2c98eb9e1c3",
+          "protected": false
+        },
+        {
+          "name": "commercial/physical-ai-monetisation-and-network-v0-1",
+          "sha": "a748c41acee19e90da281243418b55cfaf21ccf7",
+          "protected": false
+        },
+        {
+          "name": "commercial/physical-ai-outreach-crm-v0-1",
+          "sha": "8fea1aa207849eaa29d921cbdedcb4d44322f366",
+          "protected": false
+        },
+        {
+          "name": "commercial/physical-ai-pilot-intake-v0-1",
+          "sha": "83d1ea2fdc8a53747423b307a7a50b4ad6109f73",
+          "protected": false
+        },
+        {
+          "name": "commercial/physical-ai-pilot-offer-v0-1",
+          "sha": "0ceb9f3dfdb10420303716a13eb49878675270d0",
+          "protected": false
+        },
+        {
+          "name": "commercial/physical-ai-pilot-simulation-v0-1",
+          "sha": "453eeb70d73011bf729c2a93ca4d9745171bf8fb",
+          "protected": false
+        },
+        {
+          "name": "docs/botswana-agricultural-contract-intelligence",
+          "sha": "2788d2915024a95a1a406e853403f4a2df56e731",
+          "protected": false
+        },
+        {
+          "name": "docs/remote-paid-opportunity-screening",
+          "sha": "2b36a128cd744fe568c6556b8be047d404704db8",
+          "protected": false
+        },
+        {
+          "name": "governance/portfolio-resilience-v1",
+          "sha": "a67de3936eb49b57caf85668aedcc33844742df1",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "2148d286758ffb8464944abaaec7288d0a60470b",
+          "protected": false
+        },
+        {
+          "name": "operations/physical-ai-contributor-network-v0-1",
+          "sha": "e3386b074428ff3965af08820a3eb112867da0e7",
+          "protected": false
+        },
+        {
+          "name": "operations/physical-ai-pilot-calculator-v0-1",
+          "sha": "618f271fb3523234fcb93c5c42e2958d20c1b418",
+          "protected": false
+        },
+        {
+          "name": "operations/physical-ai-pilot-data-schema-v0-1",
+          "sha": "4f4d18d218323d88479bc6f64c92fa0d2b9b6479",
+          "protected": false
+        },
+        {
+          "name": "operations/physical-ai-pilot-readiness-v0-1",
+          "sha": "55aeffbc082bad411aa3a5a785f848ac132b85ff",
+          "protected": false
+        },
+        {
+          "name": "opportunity/physical-ai-data-v0-1",
+          "sha": "2e0e34a0085b25fe6f824ffbefd5ba0146b99c8e",
+          "protected": false
+        },
+        {
+          "name": "research/competitive-intelligence-2026-10",
+          "sha": "388036903520ac04db8daf52c39574865b7bd1be",
+          "protected": false
+        },
+        {
+          "name": "research/physical-ai-buyer-dossiers-v0-1",
+          "sha": "815b91645fb36a32417e80f961304e80085c29f2",
+          "protected": false
+        },
+        {
+          "name": "research/physical-ai-buyer-targets-v0-1",
+          "sha": "24489ae2b1c36609d43b000bdc1316e40306034b",
+          "protected": false
+        },
+        {
+          "name": "research/physical-ai-global-market-map-v0-1",
+          "sha": "8779b2fe2ed4ba49ed01c1a317160271318d5eae",
+          "protected": false
+        },
+        {
+          "name": "research/physical-ai-target-accounts-v0-1",
+          "sha": "814012ef08050621e2e86eb8b94906c4454d7c1a",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "SOVEREIGN",
+      "full": "faroukpandor/SOVEREIGN",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "97aab270f5eaaa25af031695958faf440599a6e3",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "greenscapes",
+      "full": "faroukpandor/greenscapes",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "arena/01a0c12d-greenscapes",
+          "sha": "7d4f4169864f0299a2e4d484f75c1d822966ccd6",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "4db8397e96fb34ab94f65d73048be0768170942f",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Mogwera",
+      "full": "faroukpandor/Mogwera",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "feat/evidence-career-journey",
+          "sha": "be897df1fc88fae216199fefba2dcc1a15f7f779",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "7e6b5b009369af9371520859e02fd4122aa96659",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "AnimalHealth",
+      "full": "faroukpandor/AnimalHealth",
+      "default": "master",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 10,
+      "branches": [
+        {
+          "name": "BotswanaAnimalHealth",
+          "sha": "b8bebed1102884c9c2d48835020aef4e8c3f8fea",
+          "protected": false
+        },
+        {
+          "name": "ag-extension-livestock-referrals-2026-10-23",
+          "sha": "514ba21fb23f0a83b2212b540d12a1e58323eb33",
+          "protected": false
+        },
+        {
+          "name": "content/ranching-for-profit-botswana-20261121",
+          "sha": "b1150db04b7b90b5ff9c96704cc75828bd52ecc6",
+          "protected": false
+        },
+        {
+          "name": "ethical-innovation-for-global-impact-6da9f",
+          "sha": "9fc65f09a8d833fa3a9a51c2d7019f7fcc081ac0",
+          "protected": false
+        },
+        {
+          "name": "feature/animal-health-research-data-assets",
+          "sha": "0768a17c273901dd6d4b66b6d4f4c06e832036db",
+          "protected": false
+        },
+        {
+          "name": "fix/livestock-pages-record-navigation",
+          "sha": "b522bde7a0f1bdfd5bd4c20b2299f4de0303fc16",
+          "protected": false
+        },
+        {
+          "name": "livestock-botswana-market-research-upgrade",
+          "sha": "862e729725db70e8109e5ecb636dcd57c742af14",
+          "protected": false
+        },
+        {
+          "name": "livestock-botswana-static-site",
+          "sha": "99b7445c548909f7236b8580a79a9e1e30d12fa8",
+          "protected": false
+        },
+        {
+          "name": "master",
+          "sha": "db281d436f8ba7d2f93fc4b14f3241742deaf7c0",
+          "protected": false
+        },
+        {
+          "name": "research/competitive-intelligence-2026-10",
+          "sha": "76dc40eb45cc946e1d7262eec87371d207aeddea",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "-global-opportunity-atlas",
+      "full": "faroukpandor/-global-opportunity-atlas",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "ee35e03a47bc66dbb5eb704a5e36841dea2b0b3f",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "FOUNDRYFREE---MOCKUP-POD",
+      "full": "faroukpandor/FOUNDRYFREE---MOCKUP-POD",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "d6c0bf7c8cd7a632d18e8a8d6a3bee852c3727ac",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "yellowblue-pwa",
+      "full": "faroukpandor/yellowblue-pwa",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "9530a4837dba5c3f923f16b0272c58fb042ed794",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "hummingbot",
+      "full": "faroukpandor/hummingbot",
+      "default": "master",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 48,
+      "branches": [
+        {
+          "name": "Update-setup.py-to0616",
+          "sha": "b6eb0eee7ef1751abdc695f17593a459cdaeeeb7",
+          "protected": false
+        },
+        {
+          "name": "claude/ci-test-timeout-diagnostics",
+          "sha": "b98f48ede0b680cd15f21b840bf7416e45453c0c",
+          "protected": false
+        },
+        {
+          "name": "claude/fix-ci-pipeline-uUywE",
+          "sha": "39997e820961f42881c53d94219bda76d233149c",
+          "protected": false
+        },
+        {
+          "name": "claude/hbot-cli-integration-jajfiq",
+          "sha": "171c94a0237efc6cee15cf13121f588891387eb3",
+          "protected": false
+        },
+        {
+          "name": "claude/pin-aiohttp-lt-3.14",
+          "sha": "e3802705f48c1da6c2f0fc3b9e519d600e20bc27",
+          "protected": false
+        },
+        {
+          "name": "development",
+          "sha": "1067844ce5be0f01ff14710a7e1112ccca40f2d0",
+          "protected": false
+        },
+        {
+          "name": "docs/update-docker",
+          "sha": "e6d90ae6d720c9ff93527a4d94f407d34a68000a",
+          "protected": false
+        },
+        {
+          "name": "feat/connector-specific-params",
+          "sha": "ef52d9f296f01a6d09554002f97c3680aa24c026",
+          "protected": false
+        },
+        {
+          "name": "feat/embedded-fastapi",
+          "sha": "cfc885b70d589b55f6b4fc84411050f2fdd94f9d",
+          "protected": false
+        },
+        {
+          "name": "feat/gateway-2.7",
+          "sha": "e8e8a094e8caec79693140122cffe9e9b000e961",
+          "protected": false
+        },
+        {
+          "name": "feat/gateway-2.8",
+          "sha": "5ba80ce90d6f92732eacf87f8cd9979770cbf5e6",
+          "protected": false
+        },
+        {
+          "name": "feat/gateway-core-2.5",
+          "sha": "64c4fbc39cbc5e0dc0608f25b452a68f3139c454",
+          "protected": false
+        },
+        {
+          "name": "feat/hbot-cli-upgrades",
+          "sha": "d00ab16346c5291dffc5db84d74aaa05e77a3a4a",
+          "protected": false
+        },
+        {
+          "name": "feat/hbot-mcp",
+          "sha": "2502fcc86ddfd580e04af0d132a394a813bf8787",
+          "protected": false
+        },
+        {
+          "name": "feat/hedge-wallet-balance",
+          "sha": "725792a264094802d7f2e0fd3df09d56b966b683",
+          "protected": false
+        },
+        {
+          "name": "feat/lp-close-retry-ownership",
+          "sha": "79e6fe2204659743ab43480a5389682d46b0d2b9",
+          "protected": false
+        },
+        {
+          "name": "feat/lp-simple-position-manager",
+          "sha": "123763cb7048ae8b6b79f54f526f22911e68ae5b",
+          "protected": false
+        },
+        {
+          "name": "feat/mcp_experiment",
+          "sha": "eb1cd3f6a85220b031acc67eaa3f8310230ace5b",
+          "protected": false
+        },
+        {
+          "name": "feat/polymarket-event-connector",
+          "sha": "1a75eca57d10214defe730f08eeb21cdcd2fe2ab",
+          "protected": false
+        },
+        {
+          "name": "feat/solana-gateway-changes",
+          "sha": "ad7c955e29890b592f25469fac503b8ca62a5889",
+          "protected": false
+        },
+        {
+          "name": "feat/v2-arbitrage-script",
+          "sha": "06d711d978336192b98b18edaf281c9abe00339d",
+          "protected": false
+        },
+        {
+          "name": "feat/xrpl-13-jul-improvements",
+          "sha": "362e5db456d67ab6a421d3e23aaf2f7b4426b8c0",
+          "protected": false
+        },
+        {
+          "name": "feat/xrpl-connector-full-python",
+          "sha": "8af432d4db9763f6da7c99144ba3ed06162601ec",
+          "protected": false
+        },
+        {
+          "name": "feature/gateway-network-connectors",
+          "sha": "6caff7d6dcd0e6b102469b83d1b0eb79b20efc91",
+          "protected": false
+        },
+        {
+          "name": "feature/swap-executor",
+          "sha": "ad6126ebb7238cba0107f8a53416146b635aefe1",
+          "protected": false
+        },
+        {
+          "name": "fix/add-gas-vars-amm-arb",
+          "sha": "486f6aba642eeebf91f5dc9d90237a1dc78afc67",
+          "protected": false
+        },
+        {
+          "name": "fix/backtesting_trade_cost",
+          "sha": "07424a0fb53605d292242f948845a405847a9e55",
+          "protected": false
+        },
+        {
+          "name": "fix/backtesting-executor-ledger",
+          "sha": "fd67e17ae5d36918fdd51d0cb8d671fb473343bb",
+          "protected": false
+        },
+        {
+          "name": "fix/eth-rate-amm-arb",
+          "sha": "28eab5a8f1f317f358f93f8cc07fd49a0a0673a1",
+          "protected": false
+        },
+        {
+          "name": "fix/gateway-2.2",
+          "sha": "fd0cb4b0ed2d6dc1c41eb47e7db3d1d7fb968113",
+          "protected": false
+        },
+        {
+          "name": "fix/gateway-base-executor-compatibility",
+          "sha": "21909e53139bb3c6da268d92404105f0d6b6cbda",
+          "protected": false
+        },
+        {
+          "name": "fix/gateway-executor-robustness",
+          "sha": "9e825c87b2c804c67e77f2cce8445e061eb22c68",
+          "protected": false
+        },
+        {
+          "name": "fix/gateway-swap-improvements",
+          "sha": "7266c320155e3a11e309a66eae22509a89c3953c",
+          "protected": false
+        },
+        {
+          "name": "fix/osmosis-amm-lp",
+          "sha": "d3e8c585380440d9f3b3c48bd2c03adb4f9ce1fe",
+          "protected": false
+        },
+        {
+          "name": "fix/simplify-evm-amm-2",
+          "sha": "be6e43c46a8d02cccd8f4b9c9979391d3ee65aba",
+          "protected": false
+        },
+        {
+          "name": "fix/ssl-hostname-verification-v2.10",
+          "sha": "430c848055f45d388d239db6d6aaa0d19ea3a5c0",
+          "protected": false
+        },
+        {
+          "name": "fix/trade_fills_leak",
+          "sha": "a466b3087b342a63114dbed1ec95cdfba4c22ab9",
+          "protected": false
+        },
+        {
+          "name": "fix/xrpl-custom-market-balances",
+          "sha": "4361c1cbb9e0b2544d958d63633c60b3c393bebd",
+          "protected": false
+        },
+        {
+          "name": "fixed-rate-conversion",
+          "sha": "b3284ace575d82ff1ac2f8f36653547bc5409f5c",
+          "protected": false
+        },
+        {
+          "name": "hummingbot-cli",
+          "sha": "1f34e1fbc55c73e8c96c077cfd0e72b9cdac59f9",
+          "protected": false
+        },
+        {
+          "name": "master",
+          "sha": "2bfaccc48dd49e71a5b6d9b3011808e127dd00cd",
+          "protected": false
+        },
+        {
+          "name": "no-injective",
+          "sha": "d2070d880f8c3c9af266369a0d5f7007babe08ea",
+          "protected": false
+        },
+        {
+          "name": "remove_complex_markets_script",
+          "sha": "4dc8f50634db9627e0b3394c03af8799f1d42f25",
+          "protected": false
+        },
+        {
+          "name": "revert-6189-feat/pmm_shifted_mid_dynamic_spreads",
+          "sha": "bf7fe84c0fdf04f12eb1b5cd1c69ce51966f2a98",
+          "protected": false
+        },
+        {
+          "name": "staging",
+          "sha": "ab45fbb1153161ce2f080a13b9fac779ec3a2baf",
+          "protected": false
+        },
+        {
+          "name": "test/combined-8338-8348-8356-8362-8389-8391",
+          "sha": "e455a379a48d52bdba53fbe36036fe74183e2433",
+          "protected": false
+        },
+        {
+          "name": "test/settings-comments",
+          "sha": "dc321bf39e38d7c094b68110186c11a017c6f352",
+          "protected": false
+        },
+        {
+          "name": "update-bug_report-template",
+          "sha": "676aefbcb3d23c7abf5e5293e85a4b57f3720bf0",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "bollinger-band-screener",
+      "full": "faroukpandor/bollinger-band-screener",
+      "default": "master",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "master",
+          "sha": "898f1241ec370a0b6d54ba00a99cea58957b4ffd",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Architekt",
+      "full": "faroukpandor/Architekt",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "5b9ea926ee34932b722478d06b5e6529807f24e8",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}

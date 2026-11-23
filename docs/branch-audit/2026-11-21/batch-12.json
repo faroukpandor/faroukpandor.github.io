@@ -1,0 +1,357 @@
+{
+  "snapshot": "2026-11-21",
+  "batch": 12,
+  "range": [
+    184,
+    200
+  ],
+  "repositories": [
+    {
+      "name": "OmniShop-Central",
+      "full": "faroukpandor/OmniShop-Central",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "15034ddc5fa946fcb5095ab25c0c7a80939f2dce",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "SKILLS-SWAP",
+      "full": "faroukpandor/SKILLS-SWAP",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "15c5faee9010da33402201fee79a895f166dd027",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "MEMORY-OS",
+      "full": "faroukpandor/MEMORY-OS",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "13032d716b23b68e1fa6bb7debf8bc4433a0fae8",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "ROUTINE",
+      "full": "faroukpandor/ROUTINE",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "081201353dbb98ea8b827a94656c6699fb7631f7",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Jong-Finance",
+      "full": "faroukpandor/Jong-Finance",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "68c7427b7becbbb30994dd745b52bf905f32c3c2",
+          "protected": false
+        },
+        {
+          "name": "v0/faroukpandor-6911-eabb08eb",
+          "sha": "271054f8ede3e76883f65145b99da99466b5161a",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "OpenCourse",
+      "full": "faroukpandor/OpenCourse",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "b303c6b479f7e7f2ef367afd969128a56b59e917",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "ZENTRA",
+      "full": "faroukpandor/ZENTRA",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "a7fc632a0fd6da6c221c6176925deb8b998d61e5",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "GlobalEstate",
+      "full": "faroukpandor/GlobalEstate",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 4,
+      "branches": [
+        {
+          "name": "arena/a639703f-globalestate",
+          "sha": "9e81d8f9619e166cc107036ae751b59a3506450d",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "b05fcf29a33d266d659395f1c70ffc7e0476d9c8",
+          "protected": false
+        },
+        {
+          "name": "safety/label-demo-data-remove-fake-actions",
+          "sha": "d259fe66ffaea996ab9f09e61da7be592e9eabe5",
+          "protected": false
+        },
+        {
+          "name": "work/property-gis-review-workbench",
+          "sha": "88947203ce14699a4cf287b6d044ed4cb6ed4926",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "PulsePay",
+      "full": "faroukpandor/PulsePay",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "e27aedec4ce1677ced9d7e47c057a24939ce45cb",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "pandor-digital-foundation",
+      "full": "faroukpandor/pandor-digital-foundation",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "5d20d6b7d60ec14e31a80171c4be7d5b03c9b190",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "OMNIHEALTH",
+      "full": "faroukpandor/OMNIHEALTH",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "244e06cffa739c97e29f2b12e1a9a9198cd5f3a4",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "Antigravity-Whiteboard-Pro",
+      "full": "faroukpandor/Antigravity-Whiteboard-Pro",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "933dd2fa55e76e161768c7ab290b954196fa2291",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "ClawWork",
+      "full": "faroukpandor/ClawWork",
+      "default": "main",
+      "visibility": "public",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "codex/boxlite-sync-explicit",
+          "sha": "98574bf6112c323ad2e24f0faf283587cd6a8505",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "9c73ac05fdb0bffdb23febdd971eb70f44dd46eb",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "faroukpandorstore",
+      "full": "faroukpandor/faroukpandorstore",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 2,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "7321d3b8c81bf437526f59b4d51d2b4909f481ea",
+          "protected": false
+        },
+        {
+          "name": "v0/whitecitydiscountstore-3770-a532e9f1",
+          "sha": "7321d3b8c81bf437526f59b4d51d2b4909f481ea",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "GK-DESIGNS",
+      "full": "faroukpandor/GK-DESIGNS",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 8,
+      "branches": [
+        {
+          "name": "arena/01a00f50-gk-designs",
+          "sha": "b01e75a89b95569928a44f8ff372759a1c336d92",
+          "protected": false
+        },
+        {
+          "name": "arena/01a013c4-gk-designs",
+          "sha": "d246d81d11601b8ff8ac7b8ebf85b673b6653449",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0198c-gk-designs",
+          "sha": "27bc7649ad29dfea7d2bcb49cfeb1cd67caf7a32",
+          "protected": false
+        },
+        {
+          "name": "arena/01a0234a-gk-designs",
+          "sha": "ede404a2fae0eb8df283605eebedfbb9d24bd5d3",
+          "protected": false
+        },
+        {
+          "name": "docs/kalahari-hive-safety-welfare-20261031",
+          "sha": "66e2dd10fc416c5cc55bf179aa90a1742509a4f8",
+          "protected": false
+        },
+        {
+          "name": "fix/site-trust-accessibility-20261031",
+          "sha": "272482163e411bc14163965c03f301d39cba4c1c",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "13ef60dab287aaf4e09bb03f725c31c28733d4d6",
+          "protected": false
+        },
+        {
+          "name": "review/privacy-brief-endpoint-2026-11-20",
+          "sha": "9c2da72c282b85dc2f03b3eec4aca17a30754ebd",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "online-income",
+      "full": "faroukpandor/online-income",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 1,
+      "branches": [
+        {
+          "name": "main",
+          "sha": "da62656fec698720b84476476f1fbca73341bd51",
+          "protected": false
+        }
+      ]
+    },
+    {
+      "name": "MOKORO-ENTEPRISE-OS",
+      "full": "faroukpandor/MOKORO-ENTEPRISE-OS",
+      "default": "main",
+      "visibility": "private",
+      "archived": false,
+      "owner": "faroukpandor",
+      "branch_count": 3,
+      "branches": [
+        {
+          "name": "arena/bf01fa85-mokoro-enteprise-os",
+          "sha": "532e40eac87b22030a4ea5b4fcd33df7f4c5d945",
+          "protected": false
+        },
+        {
+          "name": "arena/f4bd39f6-mokoro-enteprise-os",
+          "sha": "1ce146bf835fd3acd7d8d610461f5fef8a7f0499",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "0b4f004613876f7ab9f24625d572bcd5f0fd1f44",
+          "protected": false
+        }
+      ]
+    }
+  ]
+}

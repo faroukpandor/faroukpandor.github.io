@@ -1,0 +1,1856 @@
+{
+  "snapshot": "2026-11-21",
+  "query": "is:pr is:open user:faroukpandor",
+  "total_count": 182,
+  "returned": 182,
+  "pull_requests": [
+    {
+      "repo": "faroukpandor/MOKORO-ENTERPRISE-OS",
+      "number": 129,
+      "title": "governance: add consultancy capability and quality readiness standard",
+      "url": "https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/pull/129",
+      "updated_at": "2026-11-21T02:44:38Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO-ENTERPRISE-OS/pulls/129"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 144,
+      "title": "research: expand MOKORO business advisory competitive intelligence",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/144",
+      "updated_at": "2026-11-21T02:43:34Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/144"
+    },
+    {
+      "repo": "faroukpandor/AnimalHealth",
+      "number": 10,
+      "title": "Content: Botswana Ranching for Profit educational draft",
+      "url": "https://github.com/faroukpandor/AnimalHealth/pull/10",
+      "updated_at": "2026-11-21T02:40:24Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AnimalHealth/pulls/10"
+    },
+    {
+      "repo": "faroukpandor/smartfarm",
+      "number": 5,
+      "title": "Research: Botswana ranch profitability evidence and livestock content programme",
+      "url": "https://github.com/faroukpandor/smartfarm/pull/5",
+      "updated_at": "2026-11-21T02:37:33Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/smartfarm/pulls/5"
+    },
+    {
+      "repo": "faroukpandor/smartfarm",
+      "number": 4,
+      "title": "Feature: local-first livestock breeding and weaning performance calculator",
+      "url": "https://github.com/faroukpandor/smartfarm/pull/4",
+      "updated_at": "2026-11-21T02:41:21Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/smartfarm/pulls/4"
+    },
+    {
+      "repo": "faroukpandor/GK-DESIGNS",
+      "number": 5,
+      "title": "Review: privacy, brief form and endpoint hardening",
+      "url": "https://github.com/faroukpandor/GK-DESIGNS/pull/5",
+      "updated_at": "2026-11-21T02:51:56Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/GK-DESIGNS/pulls/5"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 99,
+      "title": "Harvest wave 1 from the August branch, and bring main back to green (OS-104, OS-159–OS-163)",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/99",
+      "updated_at": "2026-11-20T01:44:38Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/99"
+    },
+    {
+      "repo": "faroukpandor/Timbuktu-Forensics",
+      "number": 15,
+      "title": "Referral pipeline: the instrument nobody built, and why it is the competitive axis",
+      "url": "https://github.com/faroukpandor/Timbuktu-Forensics/pull/15",
+      "updated_at": "2026-11-19T10:02:43Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/Timbuktu-Forensics/pulls/15"
+    },
+    {
+      "repo": "faroukpandor/faroukpandor.github.io",
+      "number": 161,
+      "title": "docs: add 19 Nov portfolio audit handover addendum",
+      "url": "https://github.com/faroukpandor/faroukpandor.github.io/pull/161",
+      "updated_at": "2026-11-21T02:52:26Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/faroukpandor.github.io/pulls/161"
+    },
+    {
+      "repo": "faroukpandor/Protein-Intelligence-and-Sustainable-Food-Systems",
+      "number": 1,
+      "title": "Establish portfolio integration and protein opportunity framework",
+      "url": "https://github.com/faroukpandor/Protein-Intelligence-and-Sustainable-Food-Systems/pull/1",
+      "updated_at": "2026-11-19T07:21:02Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/Protein-Intelligence-and-Sustainable-Food-Systems/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 98,
+      "title": "Add protein value-chain research and portfolio integration brief",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/98",
+      "updated_at": "2026-11-19T07:15:10Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/98"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 57,
+      "title": "[DRAFT] Security: add server-side admin session primitives",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/57",
+      "updated_at": "2026-11-18T21:23:20Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/57"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 56,
+      "title": "[DRAFT] Security: isolate Cloudflare Pages Preview storage",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/56",
+      "updated_at": "2026-11-17T14:31:31Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/56"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 55,
+      "title": "Security: reconcile admin session migration against current main",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/55",
+      "updated_at": "2026-11-17T13:42:05Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/55"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 54,
+      "title": "[DRAFT] Security: resolve vulnerable grpc-js on current main",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/54",
+      "updated_at": "2026-11-17T14:31:33Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/54"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 143,
+      "title": "feat(affiliate): add encrypted owner-managed affiliate vault",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/143",
+      "updated_at": "2026-11-17T08:17:58Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/143"
+    },
+    {
+      "repo": "faroukpandor/-mmve-os-sme-toolkit",
+      "number": 1,
+      "title": "Build SME governance, research, and operations toolkit",
+      "url": "https://github.com/faroukpandor/-mmve-os-sme-toolkit/pull/1",
+      "updated_at": "2026-11-17T12:49:23Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/-mmve-os-sme-toolkit/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/OpenEarn-Global",
+      "number": 10,
+      "title": "Apply country-aware trust and evidence improvements",
+      "url": "https://github.com/faroukpandor/OpenEarn-Global/pull/10",
+      "updated_at": "2026-11-17T07:02:12Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/OpenEarn-Global/pulls/10"
+    },
+    {
+      "repo": "faroukpandor/Nurture",
+      "number": 39,
+      "title": "chore(deps-dev): bump the vite-react-tooling group across 1 directory with 4 updates",
+      "url": "https://github.com/faroukpandor/Nurture/pull/39",
+      "updated_at": "2026-11-17T04:46:45Z",
+      "draft": false,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ],
+      "head": "https://api.github.com/repos/faroukpandor/Nurture/pulls/39"
+    },
+    {
+      "repo": "faroukpandor/Nurture",
+      "number": 38,
+      "title": "chore(deps-dev): bump jsdom from 30.1.3 to 31.0.1",
+      "url": "https://github.com/faroukpandor/Nurture/pull/38",
+      "updated_at": "2026-11-17T04:46:26Z",
+      "draft": false,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ],
+      "head": "https://api.github.com/repos/faroukpandor/Nurture/pulls/38"
+    },
+    {
+      "repo": "faroukpandor/Nurture",
+      "number": 37,
+      "title": "chore(deps): bump lucide-react from 1.68.0 to 1.72.0",
+      "url": "https://github.com/faroukpandor/Nurture/pull/37",
+      "updated_at": "2026-11-17T04:46:01Z",
+      "draft": false,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ],
+      "head": "https://api.github.com/repos/faroukpandor/Nurture/pulls/37"
+    },
+    {
+      "repo": "faroukpandor/Nurture",
+      "number": 36,
+      "title": "chore(deps-dev): bump oxlint from 1.91.0 to 1.93.0",
+      "url": "https://github.com/faroukpandor/Nurture/pull/36",
+      "updated_at": "2026-11-17T04:45:35Z",
+      "draft": false,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ],
+      "head": "https://api.github.com/repos/faroukpandor/Nurture/pulls/36"
+    },
+    {
+      "repo": "faroukpandor/faroukpandor.github.io",
+      "number": 160,
+      "title": "Generate missing code: signal fetcher, PR gate, LICENSE, router & digest fixes",
+      "url": "https://github.com/faroukpandor/faroukpandor.github.io/pull/160",
+      "updated_at": "2026-11-17T04:54:06Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/faroukpandor.github.io/pulls/160"
+    },
+    {
+      "repo": "faroukpandor/EVERYTHINGCITY",
+      "number": 55,
+      "title": "Document sourcing status and auger pricing research",
+      "url": "https://github.com/faroukpandor/EVERYTHINGCITY/pull/55",
+      "updated_at": "2026-11-17T02:56:57Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/EVERYTHINGCITY/pulls/55"
+    },
+    {
+      "repo": "faroukpandor/MOKORO-ENTERPRISE-OS",
+      "number": 128,
+      "title": "docs: record chatbot market position and governance boundaries",
+      "url": "https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/pull/128",
+      "updated_at": "2026-11-16T09:36:45Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO-ENTERPRISE-OS/pulls/128"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 138,
+      "title": "docs: add Botswana ABE chili buyer qualification and handover",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/138",
+      "updated_at": "2026-11-16T07:52:22Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/138"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 97,
+      "title": "docs: add Botswana ABE chili competitive intelligence and validation gates",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/97",
+      "updated_at": "2026-11-16T07:56:38Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/97"
+    },
+    {
+      "repo": "faroukpandor/health-haven-medical-centre",
+      "number": 14,
+      "title": "Security: remove unused dependencies and validate regenerated Rust lockfile",
+      "url": "https://github.com/faroukpandor/health-haven-medical-centre/pull/14",
+      "updated_at": "2026-11-16T07:35:07Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/health-haven-medical-centre/pulls/14"
+    },
+    {
+      "repo": "faroukpandor/MOKORO-ENTERPRISE-OS",
+      "number": 127,
+      "title": "Add sovereign AI data-routing governance",
+      "url": "https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/pull/127",
+      "updated_at": "2026-11-16T07:30:42Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO-ENTERPRISE-OS/pulls/127"
+    },
+    {
+      "repo": "faroukpandor/faroukpandor.github.io",
+      "number": 159,
+      "title": "Publish Sovereign AI Stack research for Botswana and SADC",
+      "url": "https://github.com/faroukpandor/faroukpandor.github.io/pull/159",
+      "updated_at": "2026-11-16T07:31:08Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/faroukpandor.github.io/pulls/159"
+    },
+    {
+      "repo": "faroukpandor/Sovereign-Forensic-OS-tool-The-Supply-Chain-Provenance-Audit-SCPA-",
+      "number": 7,
+      "title": "Add SADC Sovereign AI Stack guide and local setup SOP",
+      "url": "https://github.com/faroukpandor/Sovereign-Forensic-OS-tool-The-Supply-Chain-Provenance-Audit-SCPA-/pull/7",
+      "updated_at": "2026-11-16T07:45:06Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/Sovereign-Forensic-OS-tool-The-Supply-Chain-Provenance-Audit-SCPA-/pulls/7"
+    },
+    {
+      "repo": "faroukpandor/Kalahari-Sandwich",
+      "number": 5,
+      "title": "Make the CLI demo and revenue projection tell the truth",
+      "url": "https://github.com/faroukpandor/Kalahari-Sandwich/pull/5",
+      "updated_at": "2026-11-16T05:16:04Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/Kalahari-Sandwich/pulls/5"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 53,
+      "title": "ERP reconciliation foundation — isolated policy helpers",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/53",
+      "updated_at": "2026-11-16T04:16:09Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/53"
+    },
+    {
+      "repo": "faroukpandor/MOKORO-ENTERPRISE-OS",
+      "number": 126,
+      "title": "Document database provider inventory and free-tier resilience",
+      "url": "https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/pull/126",
+      "updated_at": "2026-11-16T02:21:29Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO-ENTERPRISE-OS/pulls/126"
+    },
+    {
+      "repo": "faroukpandor/BW-IMPORT-SHOP",
+      "number": 12,
+      "title": "Add Seedfarm nursery supplier catalogue and provisional retail pricing",
+      "url": "https://github.com/faroukpandor/BW-IMPORT-SHOP/pull/12",
+      "updated_at": "2026-11-16T01:53:30Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/BW-IMPORT-SHOP/pulls/12"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 52,
+      "title": "[DRAFT] Upgrade static chatbot with Claude-artifact safety and knowledge harvest",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/52",
+      "updated_at": "2026-11-17T14:23:57Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/52"
+    },
+    {
+      "repo": "faroukpandor/fpcc",
+      "number": 22,
+      "title": "Phase 2 sync/auth + reporting layer + graphite-amber visual system",
+      "url": "https://github.com/faroukpandor/fpcc/pull/22",
+      "updated_at": "2026-11-17T03:04:47Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/fpcc/pulls/22"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 50,
+      "title": "docs(marketing): add internal reusable marketing toolkit — M1",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/50",
+      "updated_at": "2026-11-16T17:08:19Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/50"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 49,
+      "title": "docs: add evidence-based Yellow Blue recovery backlog",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/49",
+      "updated_at": "2026-11-17T12:35:45Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/49"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 136,
+      "title": "research: expand Botswana chatbot market and add evidence-gated sector scoring",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/136",
+      "updated_at": "2026-11-16T09:36:08Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/136"
+    },
+    {
+      "repo": "faroukpandor/MOKORO-ENTERPRISE-OS",
+      "number": 125,
+      "title": "chore(deps): bump the production-dependencies group across 1 directory with 2 updates",
+      "url": "https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/pull/125",
+      "updated_at": "2026-11-14T05:04:57Z",
+      "draft": false,
+      "labels": [
+        "security"
+      ],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO-ENTERPRISE-OS/pulls/125"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 48,
+      "title": "Add isolated synthetic D1 vs Neon ERP POC scaffold",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/48",
+      "updated_at": "2026-11-16T17:22:17Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/48"
+    },
+    {
+      "repo": "faroukpandor/GlobalEstate",
+      "number": 4,
+      "title": "feat: add private property GIS review workbench",
+      "url": "https://github.com/faroukpandor/GlobalEstate/pull/4",
+      "updated_at": "2026-11-12T02:33:18Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/GlobalEstate/pulls/4"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 135,
+      "title": "docs: add controlled Xhana farm buyer acquisition pilot",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/135",
+      "updated_at": "2026-11-12T02:15:24Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/135"
+    },
+    {
+      "repo": "faroukpandor/PANDOR-ESTATES",
+      "number": 56,
+      "title": "docs: add controlled Xhana integrated farm pilot brief",
+      "url": "https://github.com/faroukpandor/PANDOR-ESTATES/pull/56",
+      "updated_at": "2026-11-12T02:33:16Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/PANDOR-ESTATES/pulls/56"
+    },
+    {
+      "repo": "faroukpandor/WCD",
+      "number": 41,
+      "title": "feat(clients): give the client portal a real write path",
+      "url": "https://github.com/faroukpandor/WCD/pull/41",
+      "updated_at": "2026-11-11T05:41:36Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/WCD/pulls/41"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 123,
+      "title": "docs: establish EvidenceReady Botswana discovery and architecture baseline",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/123",
+      "updated_at": "2026-11-08T21:14:58Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/123"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 122,
+      "title": "security: refresh baseline against patched main and correct CodeQL permissions",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/122",
+      "updated_at": "2026-11-09T05:47:31Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/122"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 118,
+      "title": "Build EverythingCity opportunity exchange and Botshabelo–Tlokweng market launch plan",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/118",
+      "updated_at": "2026-11-10T04:17:51Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/118"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 117,
+      "title": "Add Botswana indigenous bio-ingredients opportunity register",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/117",
+      "updated_at": "2026-11-08T09:19:11Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/117"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 47,
+      "title": "Build(deps-dev): bump zod from 4.3.6 to 4.6.7",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/47",
+      "updated_at": "2026-11-14T23:09:53Z",
+      "draft": false,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/47"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 46,
+      "title": "Build(deps-dev): bump vite and vite-plugin-pwa",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/46",
+      "updated_at": "2026-11-17T13:38:18Z",
+      "draft": false,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/46"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 45,
+      "title": "Build(deps-dev): bump serialize-javascript from 7.1.0 to 7.1.4",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/45",
+      "updated_at": "2026-11-14T23:09:51Z",
+      "draft": false,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/45"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 44,
+      "title": "Build(deps-dev): bump fast-uri from 3.1.7 to 3.1.9",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/44",
+      "updated_at": "2026-11-14T23:09:48Z",
+      "draft": false,
+      "labels": [
+        "dependencies",
+        "javascript"
+      ],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/44"
+    },
+    {
+      "repo": "faroukpandor/MOKORO-ENTERPRISE-OS",
+      "number": 124,
+      "title": "chore(deps-dev): bump the development-dependencies group across 1 directory with 3 updates",
+      "url": "https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/pull/124",
+      "updated_at": "2026-11-14T05:05:38Z",
+      "draft": false,
+      "labels": [
+        "security"
+      ],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO-ENTERPRISE-OS/pulls/124"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 43,
+      "title": "Audit live website and existing customer-service chatbot",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/43",
+      "updated_at": "2026-11-14T23:10:04Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/43"
+    },
+    {
+      "repo": "faroukpandor/WCD",
+      "number": 40,
+      "title": "docs: record the PR #39 merge, its authorisation, and what it did not deploy",
+      "url": "https://github.com/faroukpandor/WCD/pull/40",
+      "updated_at": "2026-11-06T18:24:05Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/WCD/pulls/40"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 40,
+      "title": "docs: add Yellow Blue Cargo root handover pointer",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/40",
+      "updated_at": "2026-11-15T19:18:38Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/40"
+    },
+    {
+      "repo": "faroukpandor/EVERYTHINGCITY",
+      "number": 54,
+      "title": "docs: add EverythingCity cold-start handover",
+      "url": "https://github.com/faroukpandor/EVERYTHINGCITY/pull/54",
+      "updated_at": "2026-11-06T05:59:47Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/EVERYTHINGCITY/pulls/54"
+    },
+    {
+      "repo": "faroukpandor/piptick",
+      "number": 12,
+      "title": "docs: add PIPTICK cold-start handover",
+      "url": "https://github.com/faroukpandor/piptick/pull/12",
+      "updated_at": "2026-11-06T05:54:48Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/piptick/pulls/12"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 94,
+      "title": "docs: prevent duplicate AgriValue implementation and refresh handover",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/94",
+      "updated_at": "2026-11-06T05:58:23Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/94"
+    },
+    {
+      "repo": "faroukpandor/Sovereign-Forensic-OS-tool-The-Supply-Chain-Provenance-Audit-SCPA-",
+      "number": 5,
+      "title": "Security hardening: neutral executive positioning and assurance controls",
+      "url": "https://github.com/faroukpandor/Sovereign-Forensic-OS-tool-The-Supply-Chain-Provenance-Audit-SCPA-/pull/5",
+      "updated_at": "2026-11-05T05:53:22Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/Sovereign-Forensic-OS-tool-The-Supply-Chain-Provenance-Audit-SCPA-/pulls/5"
+    },
+    {
+      "repo": "faroukpandor/WCD",
+      "number": 38,
+      "title": "Reorganise WCD source archive and add licensed-scope ERP data",
+      "url": "https://github.com/faroukpandor/WCD/pull/38",
+      "updated_at": "2026-11-20T01:24:27Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/WCD/pulls/38"
+    },
+    {
+      "repo": "faroukpandor/identity-concept",
+      "number": 7,
+      "title": "Build white-label ecommerce and private supplier procurement",
+      "url": "https://github.com/faroukpandor/identity-concept/pull/7",
+      "updated_at": "2026-11-04T08:23:27Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/identity-concept/pulls/7"
+    },
+    {
+      "repo": "faroukpandor/EVERYTHINGCITY",
+      "number": 53,
+      "title": "feat: add evidence-led RaiDrive review to digital toolkit",
+      "url": "https://github.com/faroukpandor/EVERYTHINGCITY/pull/53",
+      "updated_at": "2026-11-04T06:02:54Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/EVERYTHINGCITY/pulls/53"
+    },
+    {
+      "repo": "faroukpandor/identity-concept",
+      "number": 4,
+      "title": "Refresh supplier catalogue with current 2026 product listings",
+      "url": "https://github.com/faroukpandor/identity-concept/pull/4",
+      "updated_at": "2026-11-04T04:46:58Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/identity-concept/pulls/4"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 87,
+      "title": "Product requirements: buyer-led production, traceability and certification readiness",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/87",
+      "updated_at": "2026-11-03T10:26:07Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/87"
+    },
+    {
+      "repo": "faroukpandor/AGRISOLUTIONS",
+      "number": 16,
+      "title": "Operations: Botswana organic transition and buyer-led grower programme",
+      "url": "https://github.com/faroukpandor/AGRISOLUTIONS/pull/16",
+      "updated_at": "2026-11-03T10:21:16Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISOLUTIONS/pulls/16"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 109,
+      "title": "Service line: MOKORO Agri enterprise growth and global trade",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/109",
+      "updated_at": "2026-11-08T09:16:10Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/109"
+    },
+    {
+      "repo": "faroukpandor/MOKORO-ENTERPRISE-OS",
+      "number": 116,
+      "title": "Strategy: MOKORO Agri orchestration, organic assurance and global trade",
+      "url": "https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/pull/116",
+      "updated_at": "2026-11-03T10:23:01Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO-ENTERPRISE-OS/pulls/116"
+    },
+    {
+      "repo": "faroukpandor/PlanForgeBW",
+      "number": 7,
+      "title": "Add Botswana competitive strategy and validation roadmap",
+      "url": "https://github.com/faroukpandor/PlanForgeBW/pull/7",
+      "updated_at": "2026-11-03T08:52:18Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/PlanForgeBW/pulls/7"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 85,
+      "title": "Add public CEDA cattle funding-readiness pilot",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/85",
+      "updated_at": "2026-11-03T08:03:56Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/85"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 39,
+      "title": "Security: reconcile baseline and add isolated preview verification gate",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/39",
+      "updated_at": "2026-11-17T12:34:50Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/39"
+    },
+    {
+      "repo": "faroukpandor/PipTick-Ethos",
+      "number": 2,
+      "title": "Document canonical PIPTICK Gold research integration boundary",
+      "url": "https://github.com/faroukpandor/PipTick-Ethos/pull/2",
+      "updated_at": "2026-11-02T17:47:30Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/PipTick-Ethos/pulls/2"
+    },
+    {
+      "repo": "faroukpandor/piptick",
+      "number": 11,
+      "title": "Add reusable XAUUSD ORB/FVG research signal core",
+      "url": "https://github.com/faroukpandor/piptick/pull/11",
+      "updated_at": "2026-11-02T17:47:52Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/piptick/pulls/11"
+    },
+    {
+      "repo": "faroukpandor/EVERYTHINGCITY",
+      "number": 50,
+      "title": "Sourcing sweep 2026-11-02 — vendor image identification + Yiwu RFQs via Yellow Blue lane",
+      "url": "https://github.com/faroukpandor/EVERYTHINGCITY/pull/50",
+      "updated_at": "2026-11-02T13:45:11Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/EVERYTHINGCITY/pulls/50"
+    },
+    {
+      "repo": "faroukpandor/EVERYTHINGCITY",
+      "number": 49,
+      "title": "Align EverythingCity SEO positioning and growth controls",
+      "url": "https://github.com/faroukpandor/EVERYTHINGCITY/pull/49",
+      "updated_at": "2026-11-02T12:30:04Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/EVERYTHINGCITY/pulls/49"
+    },
+    {
+      "repo": "faroukpandor/fpcc",
+      "number": 18,
+      "title": "Add portfolio-wide ITC opportunity intelligence pipeline",
+      "url": "https://github.com/faroukpandor/fpcc/pull/18",
+      "updated_at": "2026-11-02T11:11:03Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/fpcc/pulls/18"
+    },
+    {
+      "repo": "faroukpandor/EVERYTHINGCITY",
+      "number": 48,
+      "title": "feat: import & private-label sourcing shelf + partner distribution programme",
+      "url": "https://github.com/faroukpandor/EVERYTHINGCITY/pull/48",
+      "updated_at": "2026-11-20T08:14:35Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/EVERYTHINGCITY/pulls/48"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 102,
+      "title": "MOKORO AdGrowth: Botswana + global competitive intelligence and growth operating model",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/102",
+      "updated_at": "2026-11-08T09:15:49Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/102"
+    },
+    {
+      "repo": "faroukpandor/health-haven-medical-centre",
+      "number": 13,
+      "title": "Strategy: expand Health Haven to universal biological health and remote telehealth",
+      "url": "https://github.com/faroukpandor/health-haven-medical-centre/pull/13",
+      "updated_at": "2026-11-02T02:44:23Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/health-haven-medical-centre/pulls/13"
+    },
+    {
+      "repo": "faroukpandor/fpcc",
+      "number": 16,
+      "title": "Add pending tasks, Goodhope progress and prioritised research packs",
+      "url": "https://github.com/faroukpandor/fpcc/pull/16",
+      "updated_at": "2026-11-02T03:23:38Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/fpcc/pulls/16"
+    },
+    {
+      "repo": "faroukpandor/WCD",
+      "number": 33,
+      "title": "docs: WCD green manufacturing and sustainability ERP plan",
+      "url": "https://github.com/faroukpandor/WCD/pull/33",
+      "updated_at": "2026-11-01T17:41:52Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/WCD/pulls/33"
+    },
+    {
+      "repo": "faroukpandor/piptick",
+      "number": 10,
+      "title": "PIPTICK: add paper risk ledger foundation",
+      "url": "https://github.com/faroukpandor/piptick/pull/10",
+      "updated_at": "2026-11-01T15:55:24Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/piptick/pulls/10"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 82,
+      "title": "Add broiler flock management MVP",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/82",
+      "updated_at": "2026-11-01T15:16:59Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/82"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 81,
+      "title": "Research: AgTech free-software opportunity handover",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/81",
+      "updated_at": "2026-11-01T09:34:27Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/81"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 80,
+      "title": "docs: establish 100-cycle evidence-led production hardening programme",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/80",
+      "updated_at": "2026-11-01T07:57:38Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/80"
+    },
+    {
+      "repo": "faroukpandor/fpcc",
+      "number": 14,
+      "title": "Build local-first AI Editorial Studio MVP",
+      "url": "https://github.com/faroukpandor/fpcc/pull/14",
+      "updated_at": "2026-11-01T04:33:01Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/fpcc/pulls/14"
+    },
+    {
+      "repo": "faroukpandor/BRANDCRAFT-ALCHEMIST",
+      "number": 5,
+      "title": "Research: cross-enterprise campaign-to-merchandise intelligence",
+      "url": "https://github.com/faroukpandor/BRANDCRAFT-ALCHEMIST/pull/5",
+      "updated_at": "2026-10-31T16:18:14Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/BRANDCRAFT-ALCHEMIST/pulls/5"
+    },
+    {
+      "repo": "faroukpandor/identity-concept",
+      "number": 2,
+      "title": "Review: promotional merchandise and tourism campaigns",
+      "url": "https://github.com/faroukpandor/identity-concept/pull/2",
+      "updated_at": "2026-10-31T16:17:26Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/identity-concept/pulls/2"
+    },
+    {
+      "repo": "faroukpandor/WCD",
+      "number": 29,
+      "title": "Review: 2027 school-uniform and corporate apparel campaigns",
+      "url": "https://github.com/faroukpandor/WCD/pull/29",
+      "updated_at": "2026-10-31T16:17:13Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/WCD/pulls/29"
+    },
+    {
+      "repo": "faroukpandor/Sartorial",
+      "number": 2,
+      "title": "feat: T-Junction original-art print-on-demand storefront (24 designs)",
+      "url": "https://github.com/faroukpandor/Sartorial/pull/2",
+      "updated_at": "2026-10-31T16:06:05Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/Sartorial/pulls/2"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 78,
+      "title": "fix: protect public guides and align sitemap/robots",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/78",
+      "updated_at": "2026-10-31T14:55:22Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/78"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 75,
+      "title": "Document KALAHARI HIVE five-model safety-first development programme",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/75",
+      "updated_at": "2026-10-31T06:25:13Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/75"
+    },
+    {
+      "repo": "faroukpandor/GK-DESIGNS",
+      "number": 4,
+      "title": "Document KALAHARI HIVE five-model safety-first development programme",
+      "url": "https://github.com/faroukpandor/GK-DESIGNS/pull/4",
+      "updated_at": "2026-11-20T05:16:48Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/GK-DESIGNS/pulls/4"
+    },
+    {
+      "repo": "faroukpandor/GK-DESIGNS",
+      "number": 3,
+      "title": "Improve GK Designs enquiry clarity, privacy wording and deployment docs",
+      "url": "https://github.com/faroukpandor/GK-DESIGNS/pull/3",
+      "updated_at": "2026-10-31T05:35:12Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/GK-DESIGNS/pulls/3"
+    },
+    {
+      "repo": "faroukpandor/AEGIS",
+      "number": 1,
+      "title": "Add AEGIS PhoneGuard Android thermal and battery diagnostics",
+      "url": "https://github.com/faroukpandor/AEGIS/pull/1",
+      "updated_at": "2026-10-30T20:40:57Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AEGIS/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 94,
+      "title": "SEO: remove unverified business schema fields",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/94",
+      "updated_at": "2026-11-08T09:16:02Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/94"
+    },
+    {
+      "repo": "faroukpandor/PlanForgeBW",
+      "number": 5,
+      "title": "Add Botswana-wide plan discovery and professional adaptation workflow",
+      "url": "https://github.com/faroukpandor/PlanForgeBW/pull/5",
+      "updated_at": "2026-10-31T15:42:00Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/PlanForgeBW/pulls/5"
+    },
+    {
+      "repo": "faroukpandor/FAROUKPANDOR-AXIOM",
+      "number": 15,
+      "title": "docs: preserve Cloudflare Pages portfolio for agent-independent operation",
+      "url": "https://github.com/faroukpandor/FAROUKPANDOR-AXIOM/pull/15",
+      "updated_at": "2026-10-30T19:05:39Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/FAROUKPANDOR-AXIOM/pulls/15"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 92,
+      "title": "Bala: curriculum catalogue with transparent content-readiness status",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/92",
+      "updated_at": "2026-11-08T09:16:05Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/92"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 89,
+      "title": "Add Botswana-wide local SEO prospecting and outreach starter",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/89",
+      "updated_at": "2026-11-08T09:15:52Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/89"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 87,
+      "title": "ci: expand free Cloudflare preview gates without touching production",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/87",
+      "updated_at": "2026-11-08T09:10:26Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/87"
+    },
+    {
+      "repo": "faroukpandor/EVERYTHINGCITY",
+      "number": 41,
+      "title": "docs: stage full Cloudflare preview verification before replacing Actions",
+      "url": "https://github.com/faroukpandor/EVERYTHINGCITY/pull/41",
+      "updated_at": "2026-10-31T15:04:43Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/EVERYTHINGCITY/pulls/41"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 73,
+      "title": "ci: move automatic preview verification to free Cloudflare Pages",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/73",
+      "updated_at": "2026-10-29T15:31:48Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/73"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 72,
+      "title": "Fix dangling documentation index entry and verify Cloudflare preview gate",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/72",
+      "updated_at": "2026-10-29T15:55:13Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/72"
+    },
+    {
+      "repo": "faroukpandor/PROMOQUOTE",
+      "number": 5,
+      "title": "Security: prevent Gemini API key injection into client bundle",
+      "url": "https://github.com/faroukpandor/PROMOQUOTE/pull/5",
+      "updated_at": "2026-10-30T15:21:56Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/PROMOQUOTE/pulls/5"
+    },
+    {
+      "repo": "faroukpandor/FAROUKPANDOR-AXIOM",
+      "number": 14,
+      "title": "Plan portfolio-wide free CI migration without disrupting Vercel or client production",
+      "url": "https://github.com/faroukpandor/FAROUKPANDOR-AXIOM/pull/14",
+      "updated_at": "2026-10-29T11:58:55Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/FAROUKPANDOR-AXIOM/pulls/14"
+    },
+    {
+      "repo": "faroukpandor/WCD",
+      "number": 27,
+      "title": "ci: prepare Cloudflare Workers Builds GitHub check gate",
+      "url": "https://github.com/faroukpandor/WCD/pull/27",
+      "updated_at": "2026-10-29T09:52:14Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/WCD/pulls/27"
+    },
+    {
+      "repo": "faroukpandor/WCD",
+      "number": 26,
+      "title": "fix(offline): stop retrying unsupported API responses",
+      "url": "https://github.com/faroukpandor/WCD/pull/26",
+      "updated_at": "2026-10-29T09:25:54Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/WCD/pulls/26"
+    },
+    {
+      "repo": "faroukpandor/WCD",
+      "number": 25,
+      "title": "docs: ERP release readiness and CI evidence",
+      "url": "https://github.com/faroukpandor/WCD/pull/25",
+      "updated_at": "2026-10-29T09:26:00Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/WCD/pulls/25"
+    },
+    {
+      "repo": "faroukpandor/EVERYTHINGCITY",
+      "number": 40,
+      "title": "feat: consent-gated service-provider matching foundation",
+      "url": "https://github.com/faroukpandor/EVERYTHINGCITY/pull/40",
+      "updated_at": "2026-10-29T13:52:45Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/EVERYTHINGCITY/pulls/40"
+    },
+    {
+      "repo": "faroukpandor/QuantGenie",
+      "number": 1,
+      "title": "Research: temporal placebo calibration diagnostic",
+      "url": "https://github.com/faroukpandor/QuantGenie/pull/1",
+      "updated_at": "2026-10-29T08:13:29Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/QuantGenie/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/NexusStream---Open-Content-Directory",
+      "number": 1,
+      "title": "docs: digital asset commercialisation doctrine",
+      "url": "https://github.com/faroukpandor/NexusStream---Open-Content-Directory/pull/1",
+      "updated_at": "2026-10-29T03:39:09Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/NexusStream---Open-Content-Directory/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/BW-IMPORT-SHOP",
+      "number": 10,
+      "title": "docs: digital asset commercialisation doctrine",
+      "url": "https://github.com/faroukpandor/BW-IMPORT-SHOP/pull/10",
+      "updated_at": "2026-10-29T03:39:07Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/BW-IMPORT-SHOP/pulls/10"
+    },
+    {
+      "repo": "faroukpandor/OMNINEWS",
+      "number": 2,
+      "title": "docs: digital asset commercialisation doctrine",
+      "url": "https://github.com/faroukpandor/OMNINEWS/pull/2",
+      "updated_at": "2026-10-29T03:39:06Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/OMNINEWS/pulls/2"
+    },
+    {
+      "repo": "faroukpandor/AGRISOLUTIONS",
+      "number": 14,
+      "title": "docs: digital asset commercialisation doctrine",
+      "url": "https://github.com/faroukpandor/AGRISOLUTIONS/pull/14",
+      "updated_at": "2026-10-29T03:38:59Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISOLUTIONS/pulls/14"
+    },
+    {
+      "repo": "faroukpandor/MOKORO-ENTERPRISE-OS",
+      "number": 97,
+      "title": "docs: digital asset commercialisation doctrine",
+      "url": "https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/pull/97",
+      "updated_at": "2026-10-29T03:38:57Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO-ENTERPRISE-OS/pulls/97"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 83,
+      "title": "docs: digital asset commercialisation doctrine",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/83",
+      "updated_at": "2026-11-08T09:16:48Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/83"
+    },
+    {
+      "repo": "faroukpandor/EVERYTHINGCITY",
+      "number": 37,
+      "title": "docs: digital asset commercialisation doctrine",
+      "url": "https://github.com/faroukpandor/EVERYTHINGCITY/pull/37",
+      "updated_at": "2026-10-29T03:38:49Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/EVERYTHINGCITY/pulls/37"
+    },
+    {
+      "repo": "faroukpandor/PANDOR-ESTATES",
+      "number": 53,
+      "title": "Digital Vault: scoped revenue opportunity and safe rollout",
+      "url": "https://github.com/faroukpandor/PANDOR-ESTATES/pull/53",
+      "updated_at": "2026-10-29T03:38:30Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/PANDOR-ESTATES/pulls/53"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 69,
+      "title": "Digital Vault: scoped revenue opportunity and safe rollout",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/69",
+      "updated_at": "2026-10-29T13:55:15Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/69"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 82,
+      "title": "Digital Vault: scoped revenue opportunity and safe rollout",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/82",
+      "updated_at": "2026-11-08T09:16:53Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/82"
+    },
+    {
+      "repo": "faroukpandor/MOKORO-ENTERPRISE-OS",
+      "number": 96,
+      "title": "Digital Vault: scoped revenue opportunity and safe rollout",
+      "url": "https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/pull/96",
+      "updated_at": "2026-10-29T03:38:24Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO-ENTERPRISE-OS/pulls/96"
+    },
+    {
+      "repo": "faroukpandor/AegisX-CyberShield",
+      "number": 2,
+      "title": "security(P0): establish truthful-operations release gate",
+      "url": "https://github.com/faroukpandor/AegisX-CyberShield/pull/2",
+      "updated_at": "2026-10-29T03:37:37Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AegisX-CyberShield/pulls/2"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 35,
+      "title": "Security: prevent Cloudflare preview APIs from mutating shared production storage",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/35",
+      "updated_at": "2026-11-16T02:20:49Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/35"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 68,
+      "title": "Verify Cloudflare free preview CI before production enforcement",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/68",
+      "updated_at": "2026-10-29T01:51:26Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/68"
+    },
+    {
+      "repo": "faroukpandor/WCD",
+      "number": 23,
+      "title": "Document Cloudflare free CI rollout and preview verification",
+      "url": "https://github.com/faroukpandor/WCD/pull/23",
+      "updated_at": "2026-10-29T09:26:15Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/WCD/pulls/23"
+    },
+    {
+      "repo": "faroukpandor/openzero",
+      "number": 2,
+      "title": "Revive OpenZero with reliable offline invoicing and regional settings",
+      "url": "https://github.com/faroukpandor/openzero/pull/2",
+      "updated_at": "2026-10-29T01:37:14Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/openzero/pulls/2"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 67,
+      "title": "WIP: Funding plan financials and international funding screening",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/67",
+      "updated_at": "2026-10-29T01:35:33Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/67"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 66,
+      "title": "Draft: evidence-first Botswana Poultry Supply Watch pilot",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/66",
+      "updated_at": "2026-10-28T12:37:55Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/66"
+    },
+    {
+      "repo": "faroukpandor/PANDOR-ESTATES",
+      "number": 50,
+      "title": "feat: unify Pandor Estates + Africa Realty, add source-led Studios pilot (draft)",
+      "url": "https://github.com/faroukpandor/PANDOR-ESTATES/pull/50",
+      "updated_at": "2026-10-28T13:01:25Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/PANDOR-ESTATES/pulls/50"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 64,
+      "title": "fix(academy): remove unverified qualification claims and preserve quiz results",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/64",
+      "updated_at": "2026-10-28T10:43:14Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/64"
+    },
+    {
+      "repo": "faroukpandor/BRANDCRAFT-ALCHEMIST",
+      "number": 4,
+      "title": "Add BrandCraft lettering comparison and digitising briefs",
+      "url": "https://github.com/faroukpandor/BRANDCRAFT-ALCHEMIST/pull/4",
+      "updated_at": "2026-10-28T08:22:24Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/BRANDCRAFT-ALCHEMIST/pulls/4"
+    },
+    {
+      "repo": "faroukpandor/identity-concept",
+      "number": 1,
+      "title": "test: protect static client-review and RFQ prelaunch boundaries",
+      "url": "https://github.com/faroukpandor/identity-concept/pull/1",
+      "updated_at": "2026-10-28T05:26:17Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/identity-concept/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/EVERYTHINGCITY",
+      "number": 35,
+      "title": "feat: free buyer enquiry pipeline and on-site shopping assistant",
+      "url": "https://github.com/faroukpandor/EVERYTHINGCITY/pull/35",
+      "updated_at": "2026-10-30T04:21:40Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/EVERYTHINGCITY/pulls/35"
+    },
+    {
+      "repo": "faroukpandor/PROMOQUOTE",
+      "number": 2,
+      "title": "Clean up Vite dependency declaration and typecheck script",
+      "url": "https://github.com/faroukpandor/PROMOQUOTE/pull/2",
+      "updated_at": "2026-10-28T03:13:52Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/PROMOQUOTE/pulls/2"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 80,
+      "title": "feat: add Botswana Local SEO and email-safe website recovery",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/80",
+      "updated_at": "2026-11-08T09:16:08Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/80"
+    },
+    {
+      "repo": "faroukpandor/Kalahari-Sandwich",
+      "number": 2,
+      "title": "v2.0.0: rebuild as a tested ordering platform; remove unverified claims",
+      "url": "https://github.com/faroukpandor/Kalahari-Sandwich/pull/2",
+      "updated_at": "2026-10-27T10:22:46Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/Kalahari-Sandwich/pulls/2"
+    },
+    {
+      "repo": "faroukpandor/AGRISOLUTIONS",
+      "number": 11,
+      "title": "Define BioTrade field sourcing and collection operating playbook",
+      "url": "https://github.com/faroukpandor/AGRISOLUTIONS/pull/11",
+      "updated_at": "2026-10-27T09:11:01Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISOLUTIONS/pulls/11"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 63,
+      "title": "feat(biotrade): buyer-qualification module, private worksheet, tests and commercial gates",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/63",
+      "updated_at": "2026-10-27T09:40:54Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/63"
+    },
+    {
+      "repo": "faroukpandor/EVERYTHINGCITY",
+      "number": 34,
+      "title": "Research: TwentyFour, promotional rivals and Botswana-made product sourcing",
+      "url": "https://github.com/faroukpandor/EVERYTHINGCITY/pull/34",
+      "updated_at": "2026-10-27T09:55:20Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/EVERYTHINGCITY/pulls/34"
+    },
+    {
+      "repo": "faroukpandor/EVERYTHINGCITY",
+      "number": 33,
+      "title": "docs: gate Jigsimur and regulated wellness products before listing",
+      "url": "https://github.com/faroukpandor/EVERYTHINGCITY/pull/33",
+      "updated_at": "2026-10-27T06:29:39Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/EVERYTHINGCITY/pulls/33"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 62,
+      "title": "feat: evidence-first agricultural buyer–producer matching foundation",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/62",
+      "updated_at": "2026-10-27T06:24:36Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/62"
+    },
+    {
+      "repo": "faroukpandor/piptick",
+      "number": 8,
+      "title": "docs: signal accountability and MQL/Pine/Deriv interoperability contract",
+      "url": "https://github.com/faroukpandor/piptick/pull/8",
+      "updated_at": "2026-10-27T04:50:39Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/piptick/pulls/8"
+    },
+    {
+      "repo": "faroukpandor/acuity",
+      "number": 1,
+      "title": "docs: Acuity branding verification and Rust migration status",
+      "url": "https://github.com/faroukpandor/acuity/pull/1",
+      "updated_at": "2026-10-28T14:50:24Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/acuity/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/MORUA-JUNCTION---TEMPOLABS",
+      "number": 2,
+      "title": "feat(rust): establish 100% Rust Morua Junction frontend foundation",
+      "url": "https://github.com/faroukpandor/MORUA-JUNCTION---TEMPOLABS/pull/2",
+      "updated_at": "2026-10-27T07:11:27Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MORUA-JUNCTION---TEMPOLABS/pulls/2"
+    },
+    {
+      "repo": "faroukpandor/MORUA-JUNCTION---TEMPOLABS",
+      "number": 1,
+      "title": "fix(build): fail closed on TypeScript errors",
+      "url": "https://github.com/faroukpandor/MORUA-JUNCTION---TEMPOLABS/pull/1",
+      "updated_at": "2026-10-26T17:09:15Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MORUA-JUNCTION---TEMPOLABS/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/Mogwera",
+      "number": 2,
+      "title": "feat(ui): evidence-labelled visual career journey",
+      "url": "https://github.com/faroukpandor/Mogwera/pull/2",
+      "updated_at": "2026-10-26T16:53:21Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/Mogwera/pulls/2"
+    },
+    {
+      "repo": "faroukpandor/Nurture",
+      "number": 29,
+      "title": "feat(ui): accessible evidence-based visual learning journey",
+      "url": "https://github.com/faroukpandor/Nurture/pull/29",
+      "updated_at": "2026-10-26T16:39:43Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/Nurture/pulls/29"
+    },
+    {
+      "repo": "faroukpandor/StoryVault-Pro",
+      "number": 2,
+      "title": "feat(ui): editorial trust banner and honest demo search labels",
+      "url": "https://github.com/faroukpandor/StoryVault-Pro/pull/2",
+      "updated_at": "2026-10-26T16:36:41Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/StoryVault-Pro/pulls/2"
+    },
+    {
+      "repo": "faroukpandor/MOKORO-ENTERPRISE-OS",
+      "number": 89,
+      "title": "feat(ui): Gamma × Napkin-inspired visual portfolio explorer",
+      "url": "https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/pull/89",
+      "updated_at": "2026-10-26T16:51:09Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO-ENTERPRISE-OS/pulls/89"
+    },
+    {
+      "repo": "faroukpandor/WCD",
+      "number": 14,
+      "title": "Document White City Discount agent line of trade and website expansion requirements",
+      "url": "https://github.com/faroukpandor/WCD/pull/14",
+      "updated_at": "2026-10-26T13:38:55Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/WCD/pulls/14"
+    },
+    {
+      "repo": "faroukpandor/AGRISOLUTIONS",
+      "number": 10,
+      "title": "Document Botswana buyer-led market access and poultry grower terms",
+      "url": "https://github.com/faroukpandor/AGRISOLUTIONS/pull/10",
+      "updated_at": "2026-10-26T13:19:28Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISOLUTIONS/pulls/10"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 75,
+      "title": "Research Botswana HTTPS offer and focused digital marketing pilot",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/75",
+      "updated_at": "2026-11-08T09:17:36Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/75"
+    },
+    {
+      "repo": "faroukpandor/MOKORO-ENTERPRISE-OS",
+      "number": 87,
+      "title": "feat: manage affiliate links and market research in the private OS",
+      "url": "https://github.com/faroukpandor/MOKORO-ENTERPRISE-OS/pull/87",
+      "updated_at": "2026-10-25T21:15:54Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO-ENTERPRISE-OS/pulls/87"
+    },
+    {
+      "repo": "faroukpandor/PROMOQUOTE",
+      "number": 1,
+      "title": "fix(P0): repair blank production page and remove browser-side API key injection",
+      "url": "https://github.com/faroukpandor/PROMOQUOTE/pull/1",
+      "updated_at": "2026-10-28T03:40:05Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/PROMOQUOTE/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/YELLOW-BLUE-CARGO",
+      "number": 32,
+      "title": "Security: admin session implementation gates and dependency map",
+      "url": "https://github.com/faroukpandor/YELLOW-BLUE-CARGO/pull/32",
+      "updated_at": "2026-11-14T23:22:11Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/YELLOW-BLUE-CARGO/pulls/32"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 58,
+      "title": "Connect participation intake to protected storage and add contract tests",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/58",
+      "updated_at": "2026-11-08T09:15:56Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/58"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 57,
+      "title": "Add simple participation intake prototype with honest reward boundaries",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/57",
+      "updated_at": "2026-11-08T09:17:02Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/57"
+    },
+    {
+      "repo": "faroukpandor/health-haven-medical-centre",
+      "number": 10,
+      "title": "Strategy: define Health Haven all-in-one health ERP platform",
+      "url": "https://github.com/faroukpandor/health-haven-medical-centre/pull/10",
+      "updated_at": "2026-10-24T05:55:34Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/health-haven-medical-centre/pulls/10"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 41,
+      "title": "Draft: agricultural sourcing and market-linkage pilot",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/41",
+      "updated_at": "2026-10-20T20:38:51Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/41"
+    },
+    {
+      "repo": "faroukpandor/WCD",
+      "number": 11,
+      "title": "feat: add Botswana/SADC Capital Markets Radar schema",
+      "url": "https://github.com/faroukpandor/WCD/pull/11",
+      "updated_at": "2026-10-19T19:40:30Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/WCD/pulls/11"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 37,
+      "title": "Add 40-offer catalogue farm-service routing",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/37",
+      "updated_at": "2026-10-18T16:47:36Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/37"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 46,
+      "title": "Expand digital infrastructure catalogue to 40 offers",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/46",
+      "updated_at": "2026-11-08T09:17:33Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/46"
+    },
+    {
+      "repo": "faroukpandor/AGRISAGE",
+      "number": 36,
+      "title": "Add Farm Digital Vault opportunity and validation plan",
+      "url": "https://github.com/faroukpandor/AGRISAGE/pull/36",
+      "updated_at": "2026-10-18T16:33:39Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AGRISAGE/pulls/36"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 45,
+      "title": "Add Digital Infrastructure & Asset Management revenue strategy",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/45",
+      "updated_at": "2026-11-08T09:17:30Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/45"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 43,
+      "title": "Research: Botswana licensed hawker value pilot",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/43",
+      "updated_at": "2026-11-09T22:37:44Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/43"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 41,
+      "title": "Docs: add controlled Botswana sales sprint plan",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/41",
+      "updated_at": "2026-11-08T09:17:43Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/41"
+    },
+    {
+      "repo": "faroukpandor/MOKORO---Digital-Growth-Engine",
+      "number": 37,
+      "title": "Draft: define lead-response workflow service validation pilot",
+      "url": "https://github.com/faroukpandor/MOKORO---Digital-Growth-Engine/pull/37",
+      "updated_at": "2026-11-08T09:17:58Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/MOKORO---Digital-Growth-Engine/pulls/37"
+    },
+    {
+      "repo": "faroukpandor/WCD",
+      "number": 1,
+      "title": "Verified ERP core: IFRS accounting, uniform catalogue, PDF invoicing, and four correctness fixes",
+      "url": "https://github.com/faroukpandor/WCD/pull/1",
+      "updated_at": "2026-10-24T05:55:44Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/WCD/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/agrisphere",
+      "number": 1,
+      "title": "Build AgriSphere app: self-learning multi-channel agri chatbot",
+      "url": "https://github.com/faroukpandor/agrisphere/pull/1",
+      "updated_at": "2026-10-24T05:55:23Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/agrisphere/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/BRANDCRAFT-ALCHEMIST",
+      "number": 2,
+      "title": "Make BrandCraft truly AI-powered & deployable on free Vercel/Netlify/Cloudflare",
+      "url": "https://github.com/faroukpandor/BRANDCRAFT-ALCHEMIST/pull/2",
+      "updated_at": "2026-10-24T05:55:19Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/BRANDCRAFT-ALCHEMIST/pulls/2"
+    },
+    {
+      "repo": "faroukpandor/mowana",
+      "number": 2,
+      "title": "v1.7.1 — Review fixes for the v1.7 competitive upgrade",
+      "url": "https://github.com/faroukpandor/mowana/pull/2",
+      "updated_at": "2026-09-04T05:26:23Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/mowana/pulls/2"
+    },
+    {
+      "repo": "faroukpandor/mowana",
+      "number": 1,
+      "title": "v1.7.0 — Competitive upgrade: multi-sheet spreadsheet engine, Word find/replace + headers/footers, presenter-grade slides, command palette",
+      "url": "https://github.com/faroukpandor/mowana/pull/1",
+      "updated_at": "2026-09-04T05:17:38Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/mowana/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/astro",
+      "number": 1,
+      "title": "fix(actions): correctly parse 'false' string in z.array(z.boolean()) form inputs",
+      "url": "https://github.com/faroukpandor/astro/pull/1",
+      "updated_at": "2026-08-30T13:29:38Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/astro/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/IAS",
+      "number": 1,
+      "title": "IAS strategic documents: master v1.1, review, legal brief, financial model & pilot protocol",
+      "url": "https://github.com/faroukpandor/IAS/pull/1",
+      "updated_at": "2026-08-30T10:21:33Z",
+      "draft": true,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/IAS/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/GK-DESIGNS",
+      "number": 2,
+      "title": "Ship current GK Designs site onto main",
+      "url": "https://github.com/faroukpandor/GK-DESIGNS/pull/2",
+      "updated_at": "2026-11-20T05:29:11Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/GK-DESIGNS/pulls/2"
+    },
+    {
+      "repo": "faroukpandor/text-farouk-digital-empire",
+      "number": 1,
+      "title": "🦁 Farouk's Digital Empire — zero-capital passive income web app (Cloudflare Pages ready)",
+      "url": "https://github.com/faroukpandor/text-farouk-digital-empire/pull/1",
+      "updated_at": "2026-08-19T11:24:08Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/text-farouk-digital-empire/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/BRANDCRAFT-ALCHEMIST",
+      "number": 1,
+      "title": "BrandCraft: VTracer vectoriser, researched pricing, mockup studio, business accounts + Cloudflare deploy",
+      "url": "https://github.com/faroukpandor/BRANDCRAFT-ALCHEMIST/pull/1",
+      "updated_at": "2026-10-24T05:55:15Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/BRANDCRAFT-ALCHEMIST/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/yellow-blue-pwa",
+      "number": 1,
+      "title": "Fix React Server Components RCE vulnerability",
+      "url": "https://github.com/faroukpandor/yellow-blue-pwa/pull/1",
+      "updated_at": "2026-10-24T05:41:22Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/yellow-blue-pwa/pulls/1"
+    },
+    {
+      "repo": "faroukpandor/AnimalHealth",
+      "number": 1,
+      "title": "Botswana animal health",
+      "url": "https://github.com/faroukpandor/AnimalHealth/pull/1",
+      "updated_at": "2026-10-21T12:15:27Z",
+      "draft": false,
+      "labels": [],
+      "head": "https://api.github.com/repos/faroukpandor/AnimalHealth/pulls/1"
+    }
+  ]
+}
