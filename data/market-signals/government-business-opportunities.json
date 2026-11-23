@@ -1,6 +1,6 @@
 {
   "source": "https://www.gov.bw/doing-business/identified-possible-business-opportunities",
   "status": "ERROR",
-  "attempted_utc": "2026-11-16T13:44:28.925787+00:00",
-  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1000)>"
+  "attempted_utc": "2026-11-23T16:05:46.112838+00:00",
+  "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1081)>"
 }
