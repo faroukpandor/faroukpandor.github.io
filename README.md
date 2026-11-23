@@ -26,6 +26,7 @@ The long-term competitor-benchmark and app-build roadmap is maintained in [docs/
 - `sourcing-economics.html` — Offline-first Botswana landed economics & working-capital calculator (`assets/js/landed-economics.mjs`) and deterministic `GH-68` demand qualification router (`assets/js/demand-router.mjs`).
 - `portfolio-control.html` — Stage 1 static portfolio control dashboard, one-next-action ageing queue, market-signal health and read-only repository catalogue (generated via `npm run generate`).
 - `privacy.html` — Privacy notice, zero-tracking status, ownership boundaries and disclosure rules.
+- `affiliate-disclosure.html` — Standalone commercial and editorial disclosure, including current placement status and standards for future affiliate/referral links.
 - `404.html` — Branded not-found page (`noindex,follow`, intentionally excluded from `sitemap.xml`) that routes visitors back to a working page instead of the default GitHub Pages error screen.
 
 ## Verification, schemas and operator CLI
