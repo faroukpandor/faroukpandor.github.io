@@ -12,6 +12,7 @@ const allPages = [
   'sourcing-economics.html',
   'portfolio-control.html',
   'privacy.html',
+  'affiliate-disclosure.html',
   '404.html',
 ];
 const manifest = JSON.parse(readFileSync(new URL('../data/public-projects.json', import.meta.url), 'utf8'));
